@@ -22,7 +22,6 @@ url_poster: ""
 url_source: ""
 math: true
 highlight: true
-[header]
 image: ""
 caption: ""
 ---
