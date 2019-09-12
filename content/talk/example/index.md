@@ -1,6 +1,7 @@
+---
 title: You keep using the model. I do not think it means what you think it means.
 event: Center for Quantitative Methods Seminar
-event_url: https://example.org
+event_url: []
 
 location: Rotterdam, the Netherlands
 address: []
@@ -11,7 +12,7 @@ abstract: []
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
 date: "2019-09-11T12:00:00Z"
-date_end: "2019-09-11T13:00:00Z"
+#date_end: "2019-09-11T13:00:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
@@ -21,7 +22,7 @@ authors: []
 tags: []
 
 # Is this a featured talk? (true/false)
-featured: false
+featured: true
 
 image: []
 
