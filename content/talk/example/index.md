@@ -1,5 +1,5 @@
 ---
-abstract: Two examples of models that don't always give us the estimate we think it's giving us: 1) Logistic regression with specific designs and 2) conditional estimators
+abstract: Two examples of models that don't always give us the estimate we think it's giving us. 1) Logistic regression with specific designs and 2) conditional estimators.
 all_day: false
 authors: []
 date: "2019-09-11T12:00:00Z"
@@ -9,11 +9,12 @@ event_url: []
 featured: false
 image: []
 links: []
-location: Center for Quantitative Methods
+location: "Center for Quantitative Methods"
 math: true
+project: []
 publishDate: "2017-01-01T00:00:00Z"
 slides: example
-summary: An example talk using Academic's Markdown slides feature.
+summary: []
 tags: []
 title: You keep using the model. I do not think it means what you think it means.
 url_code: ""
