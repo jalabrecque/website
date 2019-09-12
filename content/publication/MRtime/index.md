@@ -18,7 +18,7 @@ tags:
 title: Interpretation and Potential Biases of Mendelian Randomization Estimates With Time-Varying Exposures
 url_code: ""
 url_dataset: ""
-url_pdf: ""
+url_pdf: "files/Labrecque_MRtime.pdf"
 url_poster: ""
 url_project: ""
 url_slides: "https://github.com/jalabrecque/MR_interpretation/blob/master/Labrecque_talk_SER2018.pdf"
