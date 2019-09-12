@@ -1,21 +1,21 @@
 ---
-abstract: Two examples of models that don't estimate what we expect they're estimating. 
+abstract: "Two examples of models that don't estimate what we expect they're estimating."
 all_day: false
 authors: []
 date: "2019-09-11T12:00:00Z"
 date_end: "2019-09-11T13:00:00Z"
-event: Seminar
+event: "Seminar"
 event_url: []
 featured: false
 image: []
 links: []
-location: Center for Quantitative Methods
+location: "Center for Quantitative Methods"
 math: true
 publishDate: "2017-01-01T00:00:00Z"
 slides: example
-summary: An example talk using Academic's Markdown slides feature.
+summary: []
 tags: []
-title: You keep using that model. I do not think it means what you think it means.
+title: "You keep using that model. I do not think it means what you think it means."
 url_code: ""
 url_pdf: ""
 url_slides: ""
