@@ -1,32 +1,21 @@
 ---
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac
-  convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac
-  faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien
-  eu, pulvinar tempor diam.
+abstract: Two examples of models that don't always give us the estimate we think it's giving us: 1) Logistic regression with specific designs and 2) conditional estimators
 all_day: false
 authors: []
-date: "2030-06-01T13:00:00Z"
-date_end: "2030-06-01T15:00:00Z"
-event: Academic Theme Conference
-event_url: https://example.org
+date: "2019-09-11T12:00:00Z"
+date_end: "2019-09-11T13:00:00Z"
+event: Seminar
+event_url: []
 featured: false
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
-  focal_point: Right
-links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/georgecushen
-location: London, United Kingdom
+image: []
+links: []
+location: Center for Quantitative Methods
 math: true
-projects:
-- internal-project
 publishDate: "2017-01-01T00:00:00Z"
 slides: example
 summary: An example talk using Academic's Markdown slides feature.
 tags: []
-title: Example Talk
+title: You keep using the model. I do not think it means what you think it means.
 url_code: ""
 url_pdf: ""
 url_slides: ""
