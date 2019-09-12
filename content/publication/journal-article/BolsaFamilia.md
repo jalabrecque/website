@@ -14,7 +14,7 @@ date: "2018-08-01T00:00:00Z"
 doi: "10.1016/j.socscimed.2018.05.040"
 featured: true
 projects: []
-publication: '*Social Science & Medicine*'
+publication: '*Social Science &amp Medicine*'
 publication_short: ""
 publication_types:
 - "2"
