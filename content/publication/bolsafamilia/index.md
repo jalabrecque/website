@@ -25,20 +25,10 @@ tags:
 title: Effect of a conditional cash transfer program on length-for-age and weight-for-age in Brazilian infants at 24 months using doubly-robust, targeted estimation
 url_code: ""
 url_dataset: ""
-url_pdf: ""
+url_pdf: "files/Labrecque_Bolsa_Familia.pdf"
 url_poster: ""
 url_project: ""
-url_slides: "https://github.com/jalabrecque/MR_interpretation/blob/master/Labrecque_talk_SER2018.pdf"
+url_slides: ""
 url_source: ""
 url_video: ""
 ---
-
-{{% alert note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /alert %}}
-
-{{% alert note %}}
-Click the *Slides* button above to demo Academic's Markdown slides feature.
-{{% /alert %}}
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
