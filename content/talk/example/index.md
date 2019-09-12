@@ -1,6 +1,6 @@
 ---
-title: Example Talk
-event: Academic Theme Conference
+title: You keep using that model. I do not think it means what you think it means.
+event: Center for Quantitative Methods, Erasmus MC
 event_url: https://example.org
 
 location: Source Themes HQ
