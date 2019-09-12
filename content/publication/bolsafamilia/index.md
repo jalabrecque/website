@@ -14,12 +14,12 @@ date: "2018-08-01T00:00:00Z"
 doi: "10.1016/j.socscimed.2018.05.040"
 featured: true
 projects: []
-publication: '*Social Science &amp Medicine*'
+publication: '*Social Science & Medicine*'
 publication_short: ""
 publication_types:
 - "2"
 publishDate: "2018-08-01T00:00:00Z"
-summary: A precise defintion of the type of lifetime effect that is estimated by Mendelian randomization and when it isn't possible to estimate this effect.
+summary: Evaluation of the effect of Bolsa Familia on child health.
 tags:
 - Source Themes
 title: Effect of a conditional cash transfer program on length-for-age and weight-for-age in Brazilian infants at 24 months using doubly-robust, targeted estimation
