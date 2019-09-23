@@ -21,7 +21,7 @@ url_dataset: ""
 url_pdf: "files/Burgess_MRbinary.pdf"
 url_poster: ""
 url_project: ""
-url_slides: "https://github.com/jalabrecque/MR_interpretation/blob/master/Labrecque_talk_SER2018.pdf"
+url_slides: ""
 url_source: ""
 url_video: ""
 ---
