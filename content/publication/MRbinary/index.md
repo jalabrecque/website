@@ -4,7 +4,7 @@ authors:
 - Stephen Burgess
 - admin
 date: "2018-07-23"
-doi: "s10654-018-0424-6"
+doi: "10.1007/s10654-018-0424-6"
 featured: true
 projects: []
 publication: '*European Journal of Epidemiology*'
