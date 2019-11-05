@@ -1,12 +1,10 @@
 ---
-layout: post
 title: "Don't look for reasons not to adjust for a confounder"
 diagram: true
-math: true
 image:
   placement: 1
   preview_only: true
-date: 2019-11-05T05:13:14-05:00
+date: 2019-11-05
 published: true
 ---
 
