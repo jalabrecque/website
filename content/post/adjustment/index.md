@@ -6,7 +6,7 @@ math: true
 image:
   placement: 1
   preview_only: true
-date: 2019-11-05T21:13:14-05:00
+date: 2019-11-05T05:13:14-05:00
 published: true
 ---
 
