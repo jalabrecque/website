@@ -39,7 +39,7 @@ Deciding what to adjust for is not a straightforward process. It requires subjec
 
 Another case when people's intuition leads them astray is with really strong confounders. In the causal graph below we're interested in the effect of A on Y but we're not sure whether to adjust for C. On the graph it's clear that you should but if you're thinking about this problem from a purely substantive standpoint, there might be a temptation to say, "C is really correlated with A and it causes all these other things that are strongly correlated with A (D,M). If I adjust for C I'll be adjusting away the effect of A." 
 
-<img src="unnamed-chunk-1-1.png" style="display: block; margin: auto;" />
+<img src="featured.png" style="display: block; margin: auto;" />
 
 Here the intuition is pointing in exactly the wrong direction. C is a really strong confounder and must be adjusted for. Because it's such a strong confounder, it makes sense that the relationship gets smaller when you adjust for it. In fact, if C is _really_ strongly related to A, it's possible that after adjusting for C, there's little variation leftover in A meaning you have little precision and, possibly, a positivity violation. The latter two aren't reasons you shouldn't adjust for C, they're reasons that you question isn't answerable with the data you have.
 
