@@ -4,7 +4,7 @@ authors:
 - Jon Huang
 - admin
 date: "2019-07-01"
-doi: "10.1007/s10654-018-0424-6"
+doi: "10.1016/S2589-7500(19)30059-7"
 featured: true
 projects: []
 publication: '*The Lancet Digital Health*'
@@ -12,10 +12,10 @@ publication_short: ""
 publication_types:
 - "2"
 publishDate: "2019-07-01"
-summary: How to think about and perform Mendelian randomization analyses with binary exposures.
+summary: Causal discovery using GWAs and PheWAS.
 tags:
 - Source Themes
-title: "Mendelian randomization with a binary exposure variable: interpretation and presentation of causal estimates"
+title: "From GWAS to PheWAS: the search for causality in big data"
 url_code: ""
 url_dataset: ""
 url_pdf: "files/Huang_GWAStoPHEWAS.pdf"
