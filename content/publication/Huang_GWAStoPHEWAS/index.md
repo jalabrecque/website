@@ -1,5 +1,5 @@
 ---
-abstract: "Causal investigations in genetics have evolved from agnostic discovery in genome-wide association studies (GWAS) to functional annotation and instrumental variable-informed inference (ie, mendelian randomisation). In the past decade, big data resources, such as the UK Biobank, have prompted a return to broader discovery through phenome-wide association studies (PheWAS). The work by Elina Hypponen and colleagues in The Lancet Digital Health, joins a small body of studies, using polygenic risk scores to search for causal effects of an intermediate phenotype such as body-mass index (BMI) on many outcomes, thereby applying mendelian randomisation across the phenome."
+abstract: ""
 authors:
 - Jon Y Huang
 - admin
