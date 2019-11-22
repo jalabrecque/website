@@ -15,13 +15,13 @@ publishDate: "2019-07-01T00:00:00Z"
 summary: A precise defintion of the type of lifetime effect that is estimated by Mendelian randomization and when it isn't possible to estimate this effect.
 tags:
 - Source Themes
-title: From GWAS to PheWAS: the search for causality in big data
+title: From GWAS to PheWAS the search for causality in big data
 url_code: ""
 url_dataset: ""
 url_pdf: "files/Huang_GWAStoPHEWAS.pdf"
 url_poster: ""
 url_project: ""
-url_slides: "https://github.com/jalabrecque/MR_interpretation/blob/master/Labrecque_talk_SER2018.pdf"
+url_slides: ""
 url_source: ""
 url_video: ""
 ---
