@@ -7,7 +7,7 @@ date: "2019-07-23"
 doi: "10.1007/s10654-018-0424-6"
 featured: true
 projects: []
-publication: '*European Journal of Epidemiology*'
+publication: '*The Lancet Digital Health*'
 publication_short: ""
 publication_types:
 - "2"
