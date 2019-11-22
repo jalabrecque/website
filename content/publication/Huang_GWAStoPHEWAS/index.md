@@ -15,7 +15,7 @@ publishDate: "2019-07-23"
 summary: How to think about and perform Mendelian randomization analyses with binary exposures.
 tags:
 - Source Themes
-title: "Mendelian randomization with a binary exposure variable: interpretation and presentation of causal estimates"
+title: "From GWAS to PheWAS: the search for causality in big data"
 url_code: ""
 url_dataset: ""
 url_pdf: "files/Huang_GWAStoPHEWAS.pdf"
