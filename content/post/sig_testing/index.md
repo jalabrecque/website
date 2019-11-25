@@ -1,5 +1,5 @@
 ---
-title: "NHST: the answer to the question no one asked"
+title: "NHST: the answer to a question no one asked"
 image:
   placement: 1
 date: 2019-11-25
