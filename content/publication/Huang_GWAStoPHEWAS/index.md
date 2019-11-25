@@ -18,7 +18,7 @@ tags:
 title: "From GWAS to PheWAS: the search for causality in big data"
 url_code: ""
 url_dataset: ""
-url_pdf: "files/Huang_GWAStoPHEWAS.pdf"
+url_pdf: ""
 url_poster: ""
 url_project: ""
 url_slides: ""

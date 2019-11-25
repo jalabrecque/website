@@ -18,7 +18,7 @@ tags:
 title: "Mendelian randomization with a binary exposure variable: interpretation and presentation of causal estimates"
 url_code: ""
 url_dataset: ""
-url_pdf: "files/Burgess_MRbinary.pdf"
+url_pdf: ""
 url_poster: ""
 url_project: ""
 url_slides: ""
