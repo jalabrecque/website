@@ -36,9 +36,11 @@ published: true
 
 The null hypothesis significance testing (NHST) debate continues to churn on. There was a [recent seminar](https://www.niss.org/news/digging-deeper-radical-reasoned-p-value-alternatives-offered-experts-niss-webinar) where Jim Berger, Sander Greenland and Robert Matthews all talked about how to move beyond NHST. I have never been a big user of NHST given that I trained in McGill University's epidemiology department where, and I'm not kidding, you could here a quiet gasp from the audience whenever invited speakers performed a NHST where simple estimation would have sufficed.
 
-Now I'm at Erasmus MC where there is a different attitude toward NHST and it has really forced me to dig deeper into what I think about NHST. I'm now having difficulty thinking about situations where you would want to use a significance test.
+Now I'm at Erasmus MC where there is a much more tolerant attitude toward NHST and it has really forced me to dig deeper into what I think about NHST. But instead of pushing me toward some middle groudn, I'm now having difficulty finding any situations where you would care about the result of a significance test.
 
-If you're doing causal inference in epidemiology, you're probably doing it for one of two reasons: etiology or policy-making. If you're doing etiology, you have no yes or no decision to make at the end of your study so estimation seems much more natural. A NHST binarizes continuous evidence which is seems unnecessary for etiology.
+If you're doing causal inference in epidemiology, you're probably doing it for one of two reasons: *etiology* or *decision-making*. 
+
+If you're doing etiology, you have no yes/no decision to make at the end of your study so estimation seems much more natural. One might argue that a journal has a binary decision to make about whether to publish your study or you might have a binary decision about whether to continue with this line of research. For the journal, hopefully other considerations about the quality of an article will be much more important and that a high-quality study finding 0.051 will be preferred over a poor-quality study finding 0.049. The same logic applies with whether to continue on the same research line.
 
 If you're estimating causal effects for decision-making, any decision will have many additional costs and benefits which should be factored into the decision. The only thing statistical significance factors in is random error. Therefore, the NHST gives us a yes/no answer to a question nobody asked: what treatment should I take if I want my outcome to be higher, _all else being equal_. People want to know, which treatment would maximize the difference between benefits and costs because all else is never equal.
 
