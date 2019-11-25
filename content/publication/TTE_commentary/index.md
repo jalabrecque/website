@@ -13,9 +13,7 @@ publication_types:
 - "2"
 publishDate: "2017-08-02"
 summary: Commantary on how to use target trial emulation for teaching and possible future additional uses.
-tags:
-- Source Themes
-title: Target trial emulation: teaching epidemiology and beyond
+title: "Target trial emulation: teaching epidemiology and beyond"
 url_code: ""
 url_dataset: ""
 url_pdf: "files/Labrecque_TTE.pdf"
