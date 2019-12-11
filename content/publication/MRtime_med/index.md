@@ -17,7 +17,7 @@ publishDate: "2019-01-01T00:00:00Z"
 summary: How do mediation models work with time-varying variables in Mendelian randomization studies. 
 tags:
 - Source Themes
-title: Mendelian randomization with multiple exposures--the importance of thinking about time
+title: Mendelian randomization with multiple exposures-the importance of thinking about time
 url_code: "https://github.com/jalabrecque/MR_multiple_exposures"
 url_dataset: ""
 url_pdf: "files/Labrecque_MR_mediation.pdf"
