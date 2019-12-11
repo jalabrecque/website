@@ -6,7 +6,7 @@ authors:
 - admin
 - Sonja A. Swanson
 date: "2019-12-04"
-doi: "10.1093/aje/kwy204"
+doi: "10.1093/ije/dyz234"
 featured: true
 projects: []
 publication: '*International Journal of Epidemiology*'
