@@ -13,7 +13,7 @@ There were various issues but the main issue was that they did not incorporate t
 
 To their credit, Bendavid et al turned around and obtained more data on the specificity of the test giving them a much more precise estimate of the test specificity. Their study was, once again, informative.
 
-But then [\@wfithian](https://twitter.com/wfithian) steps in and [demonstrates that the there is important heterogeneity in the data pooled to get the more precise estimate](https://twitter.com/wfithian/status/1256308404194144256). When this heterogeneity is accounted for, the study returns to being largely uninformative. 
+But then [wfithian](https://twitter.com/wfithian) steps in and [demonstrates that the there is important heterogeneity in the data pooled to get the more precise estimate](https://twitter.com/wfithian/status/1256308404194144256). When this heterogeneity is accounted for, the study returns to being largely uninformative. 
 
 Ok. I covered the story quickly to get to my point. On one level this is very nice example of self-correcting science where publich peer review played an important role. I'm an advocate for peer review in any form or forum and think that public peer review (e.g. on social media) can play an important role in science.
 
