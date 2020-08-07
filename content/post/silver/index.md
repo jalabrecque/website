@@ -1,10 +1,8 @@
 ---
-​---
 layout: post
 title: "Nate Silver, confusion between prediction and causation"
 date: 2020-09-07
 published: true
-​---
 ---
 
 
