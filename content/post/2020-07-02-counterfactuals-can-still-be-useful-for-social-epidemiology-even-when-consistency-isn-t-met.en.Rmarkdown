@@ -1,0 +1,45 @@
+---
+title: Counterfactuals can still be useful for social epidemiology, even when consistency
+  isn't met
+author: JA Labrecque
+date: '2020-07-02'
+slug: counterfactuals-can-still-be-useful-for-social-epidemiology-even-when-consistency-isn-t-met
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-07-02T09:01:27+02:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+draft: true
+---
+
+Recently there was a [series of commentaries in the American Journal of Epidemiology](https://academic.oup.com/aje/issue/189/3) discussing the usefulness of the counterfactual framework in epidemiology. Some feel that it is the path we must follow in order to ask well-posed questions that will have maximum impact. Others feel that counterfactuals severely restrict the types of questions we can ask, some of which are important questions that we'd be doing society a disservice not to answer. Over the past few years, I started off in the latter group, was convinced to join the former group but now feel that there are some extra caveats I'd like to add to that position. 
+
+## The consistency assumption is violated, so what?
+
+Basically, this discussion is about the consistency assumption which is the assumption that ties what we observe to counterfactuals that we can't observe. It allows us to say:
+
+$$ (Y^{A=a}|A=a) = (Y|A=a)$$
+where $Y$ is an outcome, $A$ an exposure and $Y^a$ a possibly counterfactual value of $Y$ that we would observe if $A$ were set to $a$. Because we can observe $Y|A=a$, we all agree on what is meant by it. If I gave a dataset to a group of people and asked them to tell me what the risk of dementia is in people with an undergraduate university degree or higher, they'd probably all give me the same number.
+
+But if I ask, tell me the risk of dementia if everyone had an undergradute degree or more, would we all agree? Even if we were all god-like creatures that could manipulate education, we might not end up with the same value of $P(Dementia^{undergradute})$. There are too many ways to give people an undergraduate degree. You could make university free and compulsory. You could make it compulsory 
+
+Consistency requires us to be specific about what we mean by each counterfactual state in our study. "Aspirin" vs "no aspirin" wouldn't satisfy consistency because well-meaning people can have totally different ideas of what those counterfactual states are. Taking one aspirin or one a day for 10 years? What about people who only take aspirin when they're hungover?
+
+Exchangeability does not hold in any causal study, yet we do not say that these studies should not exist. We say that they should be interpreted with caution in the context of what we know about how exchangeability might be violated.
+
+
+## Asking the question in a different way
+
+If we want to know the causal effect of income, we can start by 
+
+
+ 
+
+## Identifying related, useful questions
