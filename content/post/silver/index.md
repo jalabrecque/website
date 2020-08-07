@@ -1,7 +1,5 @@
 ---
 title: "Nate Silver, confusion between prediction and causation"
-image:
-  placement: 1
 date: 2020-09-07
 header-includes:
 - \usepackage{tikz}
