@@ -31,7 +31,7 @@ output:
     keep_tex: yes
 bibliography: /Users/jeremylabrecque/epidemiology/zotero/zotero.bib
 csl: ije.csl
-published: false
+published: true
 ---
 
 
