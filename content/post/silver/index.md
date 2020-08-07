@@ -1,5 +1,5 @@
 ---
-title: "Nate Silver, a swing and a miss strike two"
+title: "Nate Silver: confusion between prediction and causation"
 image:
   placement: 1
 date: 2020-09-07
@@ -30,7 +30,6 @@ output:
   pdf_document:
     keep_tex: yes
 bibliography: /Users/jeremylabrecque/epidemiology/zotero/zotero.bib
-csl: ije.csl
 published: true
 ---
 
