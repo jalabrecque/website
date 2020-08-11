@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Redeployment of methodologists"
-date: 2020-08-11T9:00am
+date: 2020-08-11T09:13:14-05:00
 published: true
 ---
 
