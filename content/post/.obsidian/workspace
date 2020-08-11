@@ -1,0 +1,78 @@
+{
+  "main": {
+    "id": "afd95d734cbceade",
+    "type": "split",
+    "children": [
+      {
+        "id": "c24c541c0b782b51",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c751b4514eab1a8b",
+    "type": "split",
+    "children": [
+      {
+        "id": "95cad19165db961b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d4213aceabb4f96d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "407d253b28680a70",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d81557b97d20c603",
+    "type": "split",
+    "children": [
+      {
+        "id": "563b244319887763",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f2285c5adbf1c59e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "silver/2020-08-07-silver.md",
+    "seroprevalence/2020-05-04-seroprevalence.md",
+    "marginal-vs-conditional/index.md",
+    "adjustment/index.md",
+    "template/index.md"
+  ]
+}
