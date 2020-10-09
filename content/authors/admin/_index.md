@@ -10,9 +10,6 @@ education:
   - course: MSc in Epidemiology
     institution: McGill University
     year: 2012
-  - course: BSc in Environmental Science
-    institution: McGill University  
-    year: 2002
 email: ""
 interests:
 - Causal inference
