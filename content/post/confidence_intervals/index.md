@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Put the horse before the cart"
+date: 2020-10-08T01:13:14-05:00
 bibliography: /Users/jeremylabrecque/epidemiology/zotero/zotero.bib
 csl: ije.csl
 published: true
