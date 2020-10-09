@@ -1,10 +1,6 @@
 ---
 title: "Put the horse before the cart"
-diagram: true
 math: true
-image:
-  placement: 1
-  preview_only: true
 date: 2020-10-08T01:13:14-05:00
 header-includes:
 - \usepackage{tikz}
@@ -30,8 +26,6 @@ output:
   html_document:
     df_print: paged
     keep_md: TRUE
-  pdf_document:
-    keep_tex: yes
 bibliography: /Users/jeremylabrecque/epidemiology/zotero/zotero.bib
 csl: ije.csl
 published: true
