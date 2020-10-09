@@ -26,6 +26,8 @@ output:
   html_document:
     df_print: paged
     keep_md: TRUE
+  pdf_document:
+    keep_tex: yes
 bibliography: /Users/jeremylabrecque/epidemiology/zotero/zotero.bib
 csl: ije.csl
 published: true
