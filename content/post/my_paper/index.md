@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Let's get rid of saying 'my paper'"
-date: 2020-08-11T01:13:14-05:00
+date: 2020-12-05T01:13:14-05:00
 published: true
 ---
 
