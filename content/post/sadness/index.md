@@ -16,7 +16,7 @@ After spending so much time thinking and reading about research methods, I've le
 - Throwing a mediator into a model to target the direct effect
 - Rejecting proposed instruments because they are still significantly associated with the outcome after adjusting for the exposure
 
-And I want to emphasize that I don't think the blame lays only with the people who are making these mistakes. We need much better education in epidemiologic methods and we need much more collaboration with methodologists.
+And I want to emphasize that I don't think the blame lays only with the people who are making these mistakes. We need much better education in epidemiologic methods and we need much more [collaboration with methodologists](https://www.jeremylabrecque.org/post/improving_methods/).
 
 
 
