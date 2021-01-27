@@ -18,6 +18,10 @@ After spending so much time thinking and reading about research methods, I've le
 
 And I want to emphasize that I don't think the blame lays only with the people who are making these mistakes. We need much better education in epidemiologic methods and we need much more [collaboration with methodologists](https://www.jeremylabrecque.org/post/improving_methods/).
 
+Editing this post to add reference to this paper, [Cynical Epidemiology](https://academic.oup.com/ije/article-abstract/49/5/1507/5864441) which makes this point: 
+
+![](cynical.png)
+
 
 
 
