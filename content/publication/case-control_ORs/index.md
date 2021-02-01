@@ -20,7 +20,7 @@ tags:
 title: Do Case-Control Studies Always Estimate Odds Ratios?
 url_code: ""
 url_dataset: ""
-url_pdf: ""
+url_pdf: "files/Labrecque_CC_OR.pdf"
 url_poster: ""
 url_project: ""
 url_slides: ""
