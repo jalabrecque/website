@@ -8,8 +8,11 @@
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "confidence_intervals/index.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -36,7 +39,9 @@
             "type": "leaf",
             "state": {
               "type": "search",
-              "state": {}
+              "state": {
+                "query": ""
+              }
             }
           }
         ]
@@ -58,21 +63,24 @@
             "type": "leaf",
             "state": {
               "type": "backlink",
-              "state": {}
+              "state": {
+                "file": "confidence_intervals/index.md"
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "lastOpenFiles": [
+    "confidence_intervals/index.md",
+    "adjustment/index.md",
+    "author-soup/2019-07-25-authorship.md",
     "silver/2020-08-07-silver.md",
     "seroprevalence/2020-05-04-seroprevalence.md",
     "marginal-vs-conditional/index.md",
-    "adjustment/index.md",
     "template/index.md"
   ]
 }
