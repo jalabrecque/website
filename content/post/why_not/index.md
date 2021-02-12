@@ -2,7 +2,7 @@
 layout: post
 title: "If it doesn't hurt"
 date: 2021-02-12T01:13:14-05:00
-published: false
+published: true
 ---
 
 I've been thinking about the disconnect between how statisticians and methodologists often beg people to not unnecessarily categorize continuous variables and then turn around and tell them to dichotomize evidence produced on a continuous scale (p-values or test statistics) into significant and not significant). If we have no reason to impose a dichotomy on the world (as is the case with most studies in epidemiology), why not leave measures of evidence in their continuous state? Especially when misinterpreting significance tests can lead people to make incorrect inferences or bad decisions.
