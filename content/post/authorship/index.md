@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Declining authorship"
-date: 2020-02-15T01:13:14-05:00
+date: 2021-02-15T01:13:14-05:00
 published: true
 ---
 
