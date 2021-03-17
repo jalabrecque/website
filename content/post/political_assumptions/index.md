@@ -1,0 +1,20 @@
+---
+layout: post
+title: "On the political affiliations of causal assumptions"
+date: 2021-03-17T01:13:14-05:00
+published: true
+---
+
+The year is 2021. But we're on a different branch of the quantum wave function. On this branch, the _randomistas_ have won and only the results from double-blinded randomized trials are allowed to be interpreted causally. Once the importance of the exchangeability assumption was recognized, any research where exchangeability was not plausible was abandoned.  This severely limited the questions that can be asked--for example, many social policies could not be studied because they could be adequately blinded. Some rogue researchers manage to get their hands on observational data and try to publish instrumental variable studies or even, _gasp_, adjusting for measured confounders. But these researchers either publish these studies under pseudonyms or quietly omit these papers from their CVs in fear of being chastised by their peers.
+
+Unhappy with the situation, a small team of tenured researchers voice what many have been thinking: the exchangeability assumption is politically conservative! This assumption, which we never believe to hold perfectly in observational research, is prohibiting us from studying important phenomena that would allow us to change the world for the better! They argue that for true progress to be had, we cannot allow exchangeability to limit the questions that we can ask, and we must abandon causal inference as currently practiced.
+
+***
+
+Back on this branch of the quantum wave function, we're living a similar situation except that we have focused on the consistency assumption instead of the exchangeability assumption. On this branch we've learned to work with the exchangeability assumption. We recognize that causal inference is stronger from well-conducted randomized trials but that there are many important questions that we require answers to where we can't run RCTs. We've learned to use evidence from observational studies, interpreted cautiously using subject matter knowledge, preferably using sensitivity analyses to quantify, to some extent, the expected bias. If someone called the exchangeability conservative on this branch, they'd quickly be ignored.
+
+But people are concerned about the consistency assumption on this branch. They're worried, like their rogue colleagues on the other branch, that a causal assumption is limiting the types of questions researchers can ask and having important social consequences. And rightfully so. We should heed this warning and ensure that we learn to live with the consistency assumption, not simply reject any research where the intervention is not well-defined. I see a lot of research on the causal effects of education and, while in almost all cases, I think the actual estimate is too difficult to interpret because education is not well-defined, I still think the research is useful. But we should recognize opportunities to study these important questions in contexts where the interventions are well-defined (maybe a change in a policy related to education) and use that research learn as much as we can. The same way might be more confident about the results of a RCT than in the results of an observational study of the same question, we can recognize that we can inform ourselves in cases where the consistency assumption does not hold (though I will admit that this will be difficult in some cases). Also, we should be making use of evidence from other sources than counterfactual causal inference as suggested by researchers worrying about the consequences of the consistency assumption. 
+
+All this to say that it's not the assumptions themselves that are either liberal or conservative. How could they be? Instead it's how we respond to them that can be conservative. We should make our best effort to answer important questions with all the tools at our disposal, even when the tools can't give us perfect evidence. Also, I do agree that we aren't at our best on the "asking questions" side of things and need to be better.
+
+
