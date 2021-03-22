@@ -5,7 +5,7 @@ authors:
 - admin
 date: "2019-07-01"
 doi: "10.1016/S2589-7500(19)30059-7"
-featured: true
+featured: false
 projects: []
 publication: '*The Lancet Digital Health*'
 publication_short: ""
