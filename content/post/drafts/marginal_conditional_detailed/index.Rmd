@@ -47,7 +47,7 @@ Marginal and conditional are two terms that often cause a lot of confusion in th
 
 "Conditional effects" can be used in two ways. It would be nice if we could be clearer when speaking and writing to which of these we are referring to. 
 
-#### 1) Effects within a stratum
+#### 1) Effects within one stratum
 
 The first is the effect within a subgroup: 
 
@@ -62,7 +62,7 @@ Conditional effects also refer to the type of estimation used to obtain the esti
 
 $$ E[Y^{A=1}-Y^{A=0}|Sex] $$
 
-This is the effect of $A$ on $Y$ while holding $sex$ constant. Conditional estimators are easy to use but require extra assumptions to estimate average causal effects (ACE). This is because the ACE is _by its nature_ a marginal quantity. Conditional estimators attempt to estimate this marginal quantity by holding the covariates constant. But the covariates are not constant in the data set and when there are interactions between variables, the conditional estimator can be biased with respect to the ACE.[@Shrier2019;@Greenland1994]
+This is the effect of $A$ on $Y$ while holding $Sex$ constant. Conditional estimators are easy to use but require extra assumptions to estimate average causal effects (ACE). This is because the ACE is _by its nature_ a marginal quantity. Conditional estimators attempt to estimate this marginal quantity by holding the covariates constant. But the covariates are not constant in the data set and when there are interactions between variables, the conditional estimator can be biased with respect to the ACE.[@Shrier2019;@Greenland1994]
 
 Therefore, conditional estimators are only valid estimators of the ACE when the effect of the $A$ on $Y$ is homogeneous, the variance of the residuals when regressing the exposure on covariates is the same within all strata of covariates or there is no correlation between the heterogeneity of the effect of $A$ on $Y$ and the variance of the previously-mentioned residuals. The reasons for this can be found in Angrist and Krueger (1999).[@angrist1999]
 
@@ -78,18 +78,22 @@ I've seen some use marginal effects to mean "unadjusted". I think it might be mo
 
 Particularly when working with non-linear models or interactions, you're stuck with a problem: there's no one estimate to report because your effect estimates depend on the strata you're in. What to do? What economists and people who use Stata love to do is standardize effects. There are different ways to do this as nicely explained by Muller and MacLehose.[@muller2014] I think most often the effects are standardized to the covariates distribution of the sample. For a binary exposure this is equivalent to taking the difference between the predicted average outcome when setting the exposure to 1 and when setting the exposure to 0.
 
-To further confuse things, marginal effects at the means is also a thing. Basically, this is effect in the population when setting all covariates to their mean value. It feels a bit like a conditional effect in the sense of an effect within a stratum but here we're setting everyone's covaraites to the mean, not just looks within the stratum of people with mean values. 
+To further confuse things, marginal effects at the means is also a thing. Basically, this is effect in the population when setting all covariates to their mean value. It feels a bit like a conditional effect in the sense of an effect within a stratum but here we're setting everyone's covariates to the mean, not just looking within the stratum of people with mean values. 
 
 #### 3) Marginal causal effects
 
-Have I mentioned average causal effects are marginal in nature? The average causal effects is the same as the marginal causal effects and is the average causal effect in the population. This might sound a lot like marginally standardized effects but there's an important difference: interactions. Marginal standardization is done with an outcome model meaning you have to model the outcome correctly. If you're missing interactions between exposure and covariates or even between covariates, marginal standardization will not estimate an average causal effect.
+Have I mentioned average causal effects are marginal in nature? The average causal effects is the same as the marginal causal effects and is the average causal effect in the population. This might sound a lot like marginally standardized effects but there's an important difference: interactions. Marginal standardization is done with an outcome model meaning you have to model the outcome correctly. You can, of course, include interactions in your outome model but if you're missing interactions between exposure and covariates or even between covariates, marginal standardization will not estimate an average causal effect.
 
 There is, however, another way. You can use inverse probability of treatment weighting to balance covariates across levels of exposure. By balancing covariates rather than holding them constant, you make 
 
 
 ## Combinations
 
-Once you understand the concepts of conditional and marginal effects, you can see that you can estimate effects that are both. You can condition on some variables and average across other. You could use IPTW, for example, to estimate the marginal effect of an exposure solely within women. Then you would have the marginal causal effect of the exposure conditional on being a woman. 
+Once you understand the concepts of conditional and marginal effects, you can see that you can estimate effects that are both. You can condition on some variables and average across other. You could use IPTW, for example, to estimate the marginal effect of an exposure solely within women. Then you would have the marginal causal effect of the exposure conditional on being a woman.
+
+## The end?
+
+Hopefully this brings someone some clarity about all this. Let me know if it hasn't.
 
 
 
