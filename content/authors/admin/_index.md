@@ -13,7 +13,10 @@ education:
 email: ""
 interests:
 - Causal inference
-- Social and genetic epidemiology
+- Health inequalities
+- Medical decision making
+- Social epidemiology
+- Genetic epidemiology
 - Instrumental variable analysis
 name: Jeremy A. Labrecque
 organizations:
