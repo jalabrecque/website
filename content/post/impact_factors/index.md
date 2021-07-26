@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to value research"
-date: 2021-07-26 T01:13:14-05:00
+date: 2021-07-26T01:13:14-05:00
 published: true
 ---
 
