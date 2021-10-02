@@ -1,4 +1,4 @@
-\---
+---
 
 title: An example title
 
@@ -26,7 +26,7 @@ header:
 
  image: ""
 
-\---
+---
 
 
 
