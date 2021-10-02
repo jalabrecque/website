@@ -51,9 +51,9 @@ Marginal and conditional are two terms that often cause a lot of confusion in th
 
 The first is the effect within a subgroup: 
 
-$$ E[Y^{A=1}-Y^{A=0}|Sex=women] $$
+$$ E[Y^{A=1}-Y^{A=0}|Sex=F] $$
 
-The above estimand is a conditional effect in that it is the effect of $A$ on $Y$ only with in those with $Sex=women$. So, conditional on being a woman, this is the causal effect.
+The above estimand is a conditional effect in that it is the effect of $A$ on $Y$ only within those with $Sex=F$. So, conditional on being a woman, this is the causal effect.
 
 
 #### 2) Effect estimates from conditional estimators
@@ -76,7 +76,7 @@ I've seen some use marginal effects to mean "unadjusted". I think it might be mo
 
 #### 2) Marginally standardized effects
 
-Particularly when working with non-linear models or interactions, you're stuck with a problem: there's no one estimate to report because your effect estimates depend on the strata you're in. What to do? What economists and people who use Stata love to do is standardize effects. There are different ways to do this as nicely explained by Muller and MacLehose.[@muller2014] I think most often the effects are standardized to the covariates distribution of the sample. For a binary exposure this is equivalent to taking the difference between the predicted average outcome when setting the exposure to 1 and when setting the exposure to 0.
+Particularly when working with non-linear models or interactions, you're stuck with a problem: there's no one estimate to report because your effect estimates depend on the strata you're in. What to do? What economists and people who use Stata love to do is standardize effects. There are different ways to do this as nicely explained by Muller and MacLehose.[@muller2014] I think most often the effects are standardized to the covariate distribution of the sample. For a binary exposure this is equivalent to taking the difference between the predicted average outcome when setting the exposure to 1 and when setting the exposure to 0.
 
 To further confuse things, marginal effects at the means is also a thing. Basically, this is effect in the population when setting all covariates to their mean value. It feels a bit like a conditional effect in the sense of an effect within a stratum but here we're setting everyone's covariates to the mean, not just looking within the stratum of people with mean values. 
 
