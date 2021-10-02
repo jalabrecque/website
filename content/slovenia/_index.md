@@ -35,3 +35,13 @@ We woke up to this view from our AirBnB:
 
 ![](2_view.jpg)
 
+We were staying in the tiny village of Koprivnik v Bohinju on the Pokljuka Plateau. [Wikipedia says it has about 214 inhabitants.](https://en.wikipedia.org/wiki/Koprivnik_v_Bohinju) Everyone we met there was super nice and almost everyone spoke really good English (just like everyone else we met in Slovenia). The [Juliana Trail](https://www.bohinj.si/en/experiences/juliana-trail/) goes right through town and we saw a couple confused hikers.
+
+### Slap Savica
+
+"Slap" is Slovenian for "waterfall". The main road to get out of Koprivnik to the rest of civilization was under construction so we had to take other roads. To get to Slap Savica we had to drive through Podjelje:
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m33!1m12!1m3!1d44106.79679925479!2d13.872091954520183!3d46.296434454481535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m18!3e0!4m5!1s0x477a92866fed8b2d%3A0x2cfd99a8cb283685!2sKoprivnik%20v%20Bohinju%2049%2C%20Bohinjska%20Bistrica%2C%20Slovenia!3m2!1d46.3106894!2d13.984584199999999!4m5!1s0x477a8d730e80febb%3A0x90704a0221e0954e!2sPodjelje%2C%20Srednja%20vas%20v%20Bohinju%2C%20Slovenia!3m2!1d46.3132008!2d13.9599631!4m4!1s0x0%3A0xf9bb79cb82026c0e!3m2!1d46.278959699999994!2d13.829460099999999!5e0!3m2!1sen!2snl!4v1633209609420!5m2!1sen!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+The roads were one lane and full of hairpin turns with no guard rails. It didn't take too long to get reasonably comfortable driving along these roads but what I can't believe is that they use them in winter with snow and ice. 
+
