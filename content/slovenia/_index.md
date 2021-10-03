@@ -8,7 +8,7 @@ output:
     keep_md: true
 ---
 
-## Day 1: Leaving Rotterdam
+# Day 1: Leaving Rotterdam
 
 Rough trajectory of our Day 1 drive: 
 
@@ -18,7 +18,7 @@ Our plan was to drive through five countries on our first day: the Netherlands, 
 
 ![](0_window.jpg)
 
-## Day 2: Arriving in Slovenia
+# Day 2: Arriving in Slovenia
 
 Longer drive on Day 2: 
 
@@ -29,7 +29,7 @@ We got to see Lake Constance along the way:
 ![](1_Constance.jpg)
 You have to buy special vignettes to stick to your windshield in both Austria and Slovenia which makes sense because a lot of people drive through those countries, using the roads, without spending much money there. So the vignettes are a way to get people to pay into the roads. It rained on our drive through Austria but there were a lot of cool tunnels including one that was over 7km long. It was also cool that at one point the traffic stopped and everyone in the left lane pulled over onto the left shoulder and everyone in the right lane pulled over onto the right shoulder. This way emergency vehicles can easily get through. On the trip back we saw a massive crash on the other side of the highway where the emergency vehicles were flying up the highway this way (there was a also a helicopter that landed on the highway).
 
-## Day 3: Slap Savica
+# Day 3: Slap Savica
 
 We woke up to this view from our AirBnB:
 
@@ -44,4 +44,6 @@ We were staying in the tiny village of Koprivnik v Bohinju on the Pokljuka Plate
 <iframe src="https://www.google.com/maps/embed?pb=!1m34!1m12!1m3!1d11024.754976120203!2d13.961149640061882!3d46.30608891591702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m19!3e0!4m5!1s0x477a92866fed8b2d%3A0x2cfd99a8cb283685!2sKoprivnik%20v%20Bohinju%2049%2C%20Bohinjska%20Bistrica%2C%20Slovenia!3m2!1d46.3106894!2d13.984584199999999!4m5!1s0x477a8d730e80febb%3A0x90704a0221e0954e!2sPodjelje%2C%20Srednja%20vas%20v%20Bohinju%2C%20Slovenia!3m2!1d46.3132008!2d13.9599631!4m5!1s0x477a92a18ba7e427%3A0x4ae9c34a320193ed!2sJereka%2C%20Slovenia!3m2!1d46.296589399999995!2d13.9615218!5e0!3m2!1sen!2snl!4v1633253200572!5m2!1sen!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
 Narrow, one-lane roads with two way traffic. If you met someone coming the other way, one of you had to find a place to pull over to allow the other through. Worst still, hairpin turns where, on one side, the shoulder went almost straight down into the valley where often there were cattle grazing or sometimes people working. It didn't take too long to get reasonably comfortable driving along these roads but what I can't believe is that they use them in winter with snow and ice. 
+
+On our first full day in Slovenia, the clouds 
 
