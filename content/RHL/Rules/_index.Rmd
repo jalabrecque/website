@@ -9,26 +9,28 @@ output:
 ---
 
 
-# RULES
+## RULES
 
 
 
 ### Team Composition
 
-Weekly active roster of:
-- 6 forwards
-- 3 defensemen
-- 1 goalie
+Weekly active roster of:    
 
-Non-active:
-- 4 bench players
+- 6 forwards     
+- 3 defensemen     
+- 1 goalie     
+
+Non-active:      
+
+- 4 bench players     
 - 5 Farm Team players (Farm Team description below)
 
 ### Scoring
 
-Goals = 1 point
-Assists = 1 point
-Wins = 2 points
+Goals = 1 point       
+Assists = 1 point       
+Wins = 2 points     
 Shutouts = 2 points
 
 ### Roster Change Timelines
