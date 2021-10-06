@@ -56,3 +56,8 @@ Then we had a typical Slovenian lunch (Bohinj trout and klobasa) on the shores o
 \vspace{10mm}
 
 ![](2_bohinj_shore.jpg)
+
+Then I actually watched hockey on TV ([HK Olimpija](https://www.hkolimpija.si/) vs [Moser Medical Graz99ers](https://www.99ers.at/welcome-landing-page/)) while drinking a [Laško](http://www.lasko.eu/en/):
+
+![](2_hockey.jpg)
+
