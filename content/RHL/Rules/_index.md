@@ -56,7 +56,7 @@ Farm players are NOT eligible to play in your Active Roster
 Players eligible for the Farm Team obtained by trade during the season CAN be assigned to a team’s Farm Team, even if they have been part of another team’s Active Roster.
 An Updated list of Farm Teams maintained in the Google Document tabs
 
-###Draft
+### Draft
 
 Active Rosters and Farm Teams are filled in the same Draft
 Every draft will consist of 19 rounds (to fill 14 Active Roster and 5 Farm Team spots)
@@ -66,20 +66,20 @@ Traded Draft Picks in the Kept Players range will be re-distributed according to
      - In the above example, if the team had traded it’s 14th pick in a deal for a 2nd round pick, the team would have it’s 6 selections in the first 5 rounds (1, 2, 2, 3, 4, 5). The 6th round pick would go to the other team instead of the 14th.
 
 Draft order:
-     1st – Winner of Sucker’s Delight (non-playoff team matchup)
-     2nd – Loser of Sucker’s Delight (non-playoff team matchup)
-     3rd – 5th Place Matchup Winner
-     4th – 5th Place Matchup Loser
-     5th – 3rd Place Matchup Winner
-     6th – 3rd Place Matchup Loser
-     7th – Rigged Cup runner-up
-     8th – Rigged Cup winner
+
+1. Winner of Sucker’s Delight (non-playoff team matchup)     
+2. Loser of Sucker’s Delight (non-playoff team matchup)     
+3. 5th Place Matchup Winner     
+5. 3rd Place Matchup Winner           
+6. 3rd Place Matchup Loser            
+7. Rigged Cup runner-up           
+8. Rigged Cup winner
 
 Updated Farm Team lists must be submitted immediately after the draft.
      - If you do not have 5 eligible Farm Team players immediately after the draft, you must drop a player and pick up a player through Waivers/Free Agency to submit a legal roster.
 New players to the Yahoo Players List can only be acquired via the draft. College players and others signing contracts at the end of the season are not eligible to be picked up via Waivers/Free Agency.
 
-Keeping Players
+### Keeping Players
 
 Number of available Keeper Years are:
      - 10 in the first season
@@ -90,7 +90,7 @@ Every consecutive year a player is kept increases his Keeper Year cost.
 Farm Team players do NOT count towards the Keeper Year Limit  when kept
 You do not have to keep all your Farm Team players
 
-Playoffs
+### Playoffs
 
 The top 6 regular season teams make the playoffs
 Playoffs take place over 3 weeks, ending the week before the end of the NHL’s regular season
@@ -98,7 +98,7 @@ Top 2 regular season teams get a Round 1 bye
 Semi-final (Round 2) matchups are re-seeded
 Rigged Cup (Championships) and Sucker’s Delight (2 non-playoff teams) take place during the same week
 
-Trades
+### Trades
 
 Trades DO NOT reset Keeper Years
 Trade deadline will be the last Wednesday of the league’s regular season
@@ -106,13 +106,13 @@ Off-season trades are allowed - trading will re-open after Rigged Cup has been a
 There will be another trading hiatus between submission of Keeper Lists and the Draft
 Equal number of picks from each team have to be included in a trade
 
-Injured Reserve
+### Injured Reserve
 
 There are 4 IR+ spots you can use
 You CANNOT put Farm Team players in IR spots
 Injured players CANNOT be picked up directly to an IR+ spot
 
-Penalties
+### Penalties
 
 Failure to follow any of the rules above (setting incorrect keepers, failure to submit farm team, etc.) will result in losing a draft pick.
 For a first infraction you lose a 4th round pick. For each additional infraction that pick moves up a round. So after 4 infractions you'd lose your first round pick.
