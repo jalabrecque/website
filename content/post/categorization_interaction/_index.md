@@ -1,6 +1,6 @@
 ---
 title: "How categorizing variables can induce interactions where there are none"
-date: 2021-10-10
+date: 2021-10-10T01:13:14-05:00
 math: true
 header-includes:
 - \usepackage{tikz}
@@ -34,7 +34,7 @@ published: true
 
 I saw a talk where the speaker found that a continuous biomarker was not related to the outcome but if you interacted it with disease status, which was a binary variable created by taking a specific quantile of a continuous variable. That reminded me of a paper by Thoresen [Spurious interaction as a result of categorization](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-019-0667-2). 
 
-So I tried to replicate the results of the speaker but without an interaction. First I generated two variables $biomarker$ and $disease\\_cont$ that are continuous and correlated by their common ancestor $u$. I binarize variable $disease_\\cont$ at the 75th percentile. Then I make an outcome that is only a function of continuous disease status and not a function of the biomarker. 
+So I tried to replicate the results of the speaker but without an interaction. First I generated two variables $biomarker$ and $disease$\_$cont$ that are continuous and correlated by their common ancestor $u$. I binarize variable $disease$\_$cont$ at the 75th percentile. Then I make an outcome that is only a function of continuous disease status and not a function of the biomarker. 
 
 
 ```r
@@ -55,10 +55,10 @@ If we regress the outcome on the biomarker, continuous disease status and an int
 
 ```
 ##                        Estimate Std. Error t value Pr(>|t|)
-## (Intercept)               -0.01          0   -2.16     0.03
-## biomarker                 -0.01          0   -2.06     0.04
-## disease_cont               1.00          0  390.24     0.00
-## biomarker:disease_cont     0.00          0    0.54     0.59
+## (Intercept)               -0.01          0   -1.74     0.08
+## biomarker                  0.00          0    0.79     0.43
+## disease_cont               1.00          0  386.96     0.00
+## biomarker:disease_cont     0.00          0    1.08     0.28
 ```
 
 But if we do the same with the binary disease variable we find entirely different results: 
@@ -69,10 +69,10 @@ But if we do the same with the binary disease variable we find entirely differen
 
 ```
 ##                       Estimate Std. Error t value Pr(>|t|)
-## (Intercept)              -0.52       0.00 -103.89        0
-## biomarker                 0.30       0.00   80.34        0
-## disease_bin               2.19       0.01  190.39        0
-## biomarker:disease_bin    -0.15       0.01  -19.51        0
+## (Intercept)              -0.51       0.00 -102.06        0
+## biomarker                 0.30       0.00   82.29        0
+## disease_bin               2.16       0.01  188.78        0
+## biomarker:disease_bin    -0.15       0.01  -19.47        0
 ```
 
 Now, not only do we find strong evidence of an interaction, we also find strong evidence that the biomarker is related to the outcome which we know it is not! In the paper mentioned above they explained why this comes about.
