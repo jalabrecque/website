@@ -34,7 +34,7 @@ published: true
 
 I saw a talk where the speaker found that a continuous biomarker was not related to the outcome but if you interacted it with disease status, which was a binary variable created by taking a specific quantile of a continuous variable. That reminded me of a paper by Thoresen [Spurious interaction as a result of categorization](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-019-0667-2). 
 
-So I tried to replicate the results of the speaker but without an interaction. First I generated two variables $biomarker$ and $disease\\_cont$ that are continuous and correlated by their common ancestor $u$. I binarize variable $disease_\\cont$ at the 75th percentile. Then I make an outcome that is only a function of continuous disease status and not a function of the biomarker. 
+So I tried to replicate the results of the speaker but without an interaction. First I generated two variables $biomarker$ and $disease\_cont$ that are continuous and correlated by their common ancestor $u$. I binarize variable $disease\_cont$ at the 75th percentile. Then I make an outcome that is only a function of continuous disease status and not a function of the biomarker. 
 
 ```{r}
 n <- 1e5
