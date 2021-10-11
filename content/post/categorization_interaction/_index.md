@@ -1,6 +1,6 @@
 ---
 title: "How categorizing variables can induce interactions where there are none"
-date: 2021-11-102T21:13:14-05:00
+date: 2021-10-112T21:13:14-05:00
 math: true
 header-includes:
 - \usepackage{tikz}
@@ -55,10 +55,10 @@ If we regress the outcome on the biomarker, continuous disease status and an int
 
 ```
 ##                        Estimate Std. Error t value Pr(>|t|)
-## (Intercept)                   0          0   -0.37     0.71
-## biomarker                     0          0    1.66     0.10
-## disease_cont                  1          0  388.43     0.00
-## biomarker:disease_cont        0          0    0.27     0.79
+## (Intercept)                   0          0    0.43     0.67
+## biomarker                     0          0    1.28     0.20
+## disease_cont                  1          0  387.31     0.00
+## biomarker:disease_cont        0          0   -0.92     0.36
 ```
 
 But if we do the same with the binary disease variable we find entirely different results: 
@@ -69,10 +69,10 @@ But if we do the same with the binary disease variable we find entirely differen
 
 ```
 ##                       Estimate Std. Error t value Pr(>|t|)
-## (Intercept)              -0.51       0.01 -101.30        0
-## biomarker                 0.31       0.00   83.93        0
-## disease_bin               2.18       0.01  189.76        0
-## biomarker:disease_bin    -0.15       0.01  -20.23        0
+## (Intercept)              -0.51       0.01 -101.02        0
+## biomarker                 0.31       0.00   82.86        0
+## disease_bin               2.18       0.01  188.65        0
+## biomarker:disease_bin    -0.16       0.01  -20.40        0
 ```
 
 Now, not only do we find strong evidence of an interaction, we also find strong evidence that the biomarker is related to the outcome which we know it is not! In the paper mentioned above they explained why this comes about.
