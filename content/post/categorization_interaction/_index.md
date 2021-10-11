@@ -1,6 +1,6 @@
 ---
 title: "How categorizing variables can induce interactions where there are none"
-date: 2021-10-10T01:13:14-05:00
+date: 2021-10-10
 math: true
 header-includes:
 - \usepackage{tikz}
