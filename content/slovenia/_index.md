@@ -32,4 +32,4 @@ You have to buy special vignettes to stick to your windshield in both Austria an
 We took no pictures on our arrival in Slovenia because it dark, pouring rain and I was exhausted.
 
 ### Other days
-[Day 3: Slap Savica](https://www.jeremylabrecque.org/slovenia_day3/)
+[Day 3: Slap Savica](https://www.jeremylabrecque.org/slovenia/day3)
