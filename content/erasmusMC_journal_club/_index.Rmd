@@ -27,3 +27,13 @@ It's also a great place to sharpen your "thinking on your feet" and scientific c
 Lastly, journal club can expose you to new topics. I discovered the topic, method and datas et that I used in PhD at the social epidemiology journal club at McGill (in different sessions) so you never know what you're going to come away with when you attend. 
 
 Let me know if you have any ideas for the journal club. Looking forward to future meetings!
+
+## Why is journal club important?
+
+After my undergrad I was accepted to a 6-month internship in Brazil. I spoke absolutely no Portuguese and Duolingo had not yet been invented. But because no one spoke English in my environment, I picked up the ability to speak easily in Portuguese in 3 months.
+
+Switch to the present day and despite have been in the Netherlands for more than four years now and my Dutch still pretty bad despite completing two Dutch courses and finishing the Duolingo course multiple times. I can have basic conversations but it's hard for me to converse about anything beyond the weather.
+
+Why this difference? Because in Brazil I was forced to speak and listen every day. I was _using_ Portuguese, not just learning it. For Dutch, I learned almost everything I need to know to be able to converse but I haven't used what I learned because everyone speaks English here so I'm never forced to use it! This makes all the difference in the world.
+
+Learning new concepts in epidemiology or on any topic works the same way. You can learn concepts in class and even get great grades in the classes. But if you don't use what you learn, you don't develop the same kind of expertise. Taking classes is the first step of the learning process but using that knowledge as much as possible is what will make it much easier for you to use these concepts in daily practice and make you an expert.
