@@ -11,6 +11,8 @@ output:
 **Next session:** November 26, 2021 at 1pm       
 **Paper to be discussed:** ["A Systematic Review of Studies Eliciting Willingness-to-Pay per Quality-Adjusted Life Year: Does It Justify CE Threshold?"](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0122760)
 
+![](nimdet.jpg)
+   
    
 [**Journal Club Schedule**](https://docs.google.com/spreadsheets/d/1V4NI7XW-L874ncL33oUEN-IkWQMEIXjLf1JBtF-cGqQ/edit?usp=sharing)   
 [**Sign-up to present at Journal Club**](https://docs.google.com/forms/d/e/1FAIpQLScjzMfl2dQ_TY1BtRYJ45LCD50VLgIrw6Vk_8rBmtfo0IxnSQ/viewform?usp=sf_link)      
