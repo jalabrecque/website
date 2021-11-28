@@ -15,7 +15,8 @@ output:
 
 ## Next session
 **Date:** December 10, 2021 at 1pm       
-**Paper to be discussed:** ["Is the scientific paper a fraud?"](http://www.brown.uk.com/teaching/HEST5001/medawar.pdf)
+**Paper to be discussed:** ["Is the scientific paper a fraud?"](http://www.brown.uk.com/teaching/HEST5001/medawar.pdf)    
+\tiny *Feel free to e-mail me if you are external to our department and would like to attend.
 
 ![](paper_screenshot.png)
 </br>
