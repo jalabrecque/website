@@ -1,7 +1,6 @@
 ---
 title: "Erasmus MC Journal Club"
 summary: Here we describe how to add a page to your site.
-date: "November 24, 2021"
 output:
   html_document:
     keep_md: yes
