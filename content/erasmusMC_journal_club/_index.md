@@ -5,17 +5,41 @@ date: "November 24, 2021"
 output:
   html_document:
     keep_md: yes
+    toc: true
+    toc_float: true
 
 ---
 
-**Next session:** December 10, 2021 at 1pm       
+## Next session
+**Date:** December 10, 2021 at 1pm       
 **Paper to be discussed:** ["Is the scientific paper a fraud?"](http://www.brown.uk.com/teaching/HEST5001/medawar.pdf)
 
 ![](paper_screenshot.png)
+</br>
+</br>
+</br>
+</br>
+
+
+
+## Fall 2021 Schedule
+
+|Date|Reference|Paper|
+|:--- |:--- |:---------- |
+|November 26|Nimdet et al 2015|[A Systematic Review of Studies Eliciting Willingness-to-Pay per Quality-Adjusted Life Year: Does It Justify CE Threshold?](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0122760)|
+|November 12|Haber et al 2021|[Causal and Associational Language in Observational Health Research\: A systematic evaluation](https://www.medrxiv.org/content/10.1101/2021.08.25.21262631v4.full.pdf)|
+|October 29|Greenland 2021|[Dealing With the Inevitable Deficiencies of Bias Analysis-and All Analyses](https://pubmed.ncbi.nlm.nih.gov/33778862/)|
+|October 15|MacLehose et al 2021|[The Importance of Making Assumptions in Bias Analysis](https://pubmed.ncbi.nlm.nih.gov/34224472/)|
+|October 1| | CANCELLED |
+|September 17| | CANCELLED |
+|September 3| | Epidemiology X |
    
    
-[**Journal Club Schedule**](https://docs.google.com/spreadsheets/d/1V4NI7XW-L874ncL33oUEN-IkWQMEIXjLf1JBtF-cGqQ/edit?usp=sharing)   
-[**Sign-up to present at Journal Club**](https://docs.google.com/forms/d/e/1FAIpQLScjzMfl2dQ_TY1BtRYJ45LCD50VLgIrw6Vk_8rBmtfo0IxnSQ/viewform?usp=sf_link)      
+     
+## Sign-up for the Winter 2022 Schedule   
+ 
+[**Sign-up to present at Journal Club**](https://docs.google.com/forms/d/e/1FAIpQLScjzMfl2dQ_TY1BtRYJ45LCD50VLgIrw6Vk_8rBmtfo0IxnSQ/viewform?usp=sf_link)   
+
 
 
 ## The idea behind journal club
@@ -30,7 +54,7 @@ Lastly, journal club can expose you to new topics. I discovered the topic, metho
 
 Let me know if you have any ideas for the journal club. Looking forward to future meetings!
 
-## Why is journal club important?
+## Journal club helps you use concepts you use in class
 
 After my undergrad I was accepted to a 6-month internship in Brazil. I spoke absolutely no Portuguese and Duolingo had not yet been invented. But because no one spoke English in my environment, I picked up the ability to speak easily in Portuguese in 3 months.
 
