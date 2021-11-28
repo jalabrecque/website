@@ -18,7 +18,7 @@ output:
 </br>
 </br>
 </br>
-</br>
+
 
 
 
@@ -34,13 +34,17 @@ output:
 |September 17| | CANCELLED |
 |September 3| | Epidemiology X |
    
-   
+</br>
+</br>
+</br>
      
 ## Sign-up for the Winter 2022 Schedule   
  
 [**Sign-up to present at Journal Club**](https://docs.google.com/forms/d/e/1FAIpQLScjzMfl2dQ_TY1BtRYJ45LCD50VLgIrw6Vk_8rBmtfo0IxnSQ/viewform?usp=sf_link)   
 
-
+</br>
+</br>
+</br>
 
 ## The idea behind journal club
 
@@ -53,6 +57,11 @@ It's also a great place to sharpen your "thinking on your feet" and scientific c
 Lastly, journal club can expose you to new topics. I discovered the topic, method and datas et that I used in PhD at the social epidemiology journal club at McGill (in different sessions) so you never know what you're going to come away with when you attend. 
 
 Let me know if you have any ideas for the journal club. Looking forward to future meetings!
+
+</br>
+</br>
+</br>
+
 
 ## Journal club helps you use concepts you use in class
 
