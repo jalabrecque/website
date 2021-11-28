@@ -3,7 +3,7 @@ title: "Erasmus MC Journal Club"
 summary: Here we describe how to add a page to your site.
 output:
   html_document:
-    keep_md: yes
+    keep_md: false
     toc: true
     toc_float: true
     css: style.css
