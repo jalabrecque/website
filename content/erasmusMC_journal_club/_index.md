@@ -5,14 +5,13 @@ date: "November 24, 2021"
 output:
   html_document:
     keep_md: yes
-    toc: true
 
 ---
 
-**Next session:** November 26, 2021 at 1pm       
-**Paper to be discussed:** ["A Systematic Review of Studies Eliciting Willingness-to-Pay per Quality-Adjusted Life Year: Does It Justify CE Threshold?"](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0122760)
+**Next session:** December 10, 2021 at 1pm       
+**Paper to be discussed:** ["Is the scientific paper a fraud?"](http://www.brown.uk.com/teaching/HEST5001/medawar.pdf)
 
-![](nimdet.jpg)
+![](paper_screenshot.png)
    
    
 [**Journal Club Schedule**](https://docs.google.com/spreadsheets/d/1V4NI7XW-L874ncL33oUEN-IkWQMEIXjLf1JBtF-cGqQ/edit?usp=sharing)   
