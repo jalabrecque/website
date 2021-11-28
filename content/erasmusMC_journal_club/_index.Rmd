@@ -6,8 +6,12 @@ output:
     keep_md: yes
     toc: true
     toc_float: true
+    css: style.css
 
 ---
+
+</br>
+</br>
 
 ## Next session
 **Date:** December 10, 2021 at 1pm       
