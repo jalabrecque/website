@@ -1,11 +1,12 @@
 ---
-title: Erasmus MC Journal Club
+title: "Erasmus MC Journal Club"
 summary: Here we describe how to add a page to your site.
 date: "November 24, 2021"
-
 output:
   html_document:
-    keep_md: true
+    keep_md: yes
+    toc: true
+
 ---
 
 **Next session:** November 26, 2021 at 1pm       
