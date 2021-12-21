@@ -14,8 +14,8 @@ output:
 </br>
 
 ## Next session
-**Date:** December 10, 2021 at 1pm       
-**Paper to be discussed:** ["Is the scientific paper a fraud?"](http://www.brown.uk.com/teaching/HEST5001/medawar.pdf)    
+**Date:** January 21, 2022 at 1pm       
+**Paper to be discussed:** ["Spurious Correlation and the Fallacy of the Ratio Standard Revisited"](https://www.jstor.org/stable/2983064?seq=1#metadata_info_tab_contents)    
 
 
 ![](paper_screenshot.png)
@@ -26,17 +26,22 @@ output:
 
 
 
-## Fall 2021 Schedule
+## Winter 2022 Schedule
 
 |Date|Reference|Paper|
 |:--- |:--- |:---------- |
-|November 26|Nimdet et al 2015|[A Systematic Review of Studies Eliciting Willingness-to-Pay per Quality-Adjusted Life Year: Does It Justify CE Threshold?](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0122760)|
-|November 12|Haber et al 2021|[Causal and Associational Language in Observational Health Research\: A systematic evaluation](https://www.medrxiv.org/content/10.1101/2021.08.25.21262631v4.full.pdf)|
-|October 29|Greenland 2021|[Dealing With the Inevitable Deficiencies of Bias Analysis-and All Analyses](https://pubmed.ncbi.nlm.nih.gov/33778862/)|
-|October 15|MacLehose et al 2021|[The Importance of Making Assumptions in Bias Analysis](https://pubmed.ncbi.nlm.nih.gov/34224472/)|
-|October 1| | CANCELLED |
-|September 17| | CANCELLED |
-|September 3| | Epidemiology X |
+|January 21|Kronmal 1993|["Spurious Correlation and the Fallacy of the Ratio Standard Revisited"](https://www.jstor.org/stable/2983064?seq=1#metadata_info_tab_contents)|
+|February 4|||
+|February 18|||
+|March 4|||
+|March 18|||
+|April 1|||
+|April 15|||
+|April 29|||
+|May 13|||
+|May 27|||
+
+[Previous sessions](https://www.jeremylabrecque.org/journal_club/previous_sessions)
    
 </br>
 </br>
