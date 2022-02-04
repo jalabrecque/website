@@ -22,7 +22,7 @@ name: Jeremy A. Labrecque
 organizations:
 - name: Erasmus MC
   url: ""
-role: Postdoctoral fellow in epidemiology and causal inference
+role: Epidemiology and causal inference
 social:
 - icon: envelope
   icon_pack: fas
@@ -42,4 +42,4 @@ user_groups:
 - Visitors
 ---
 
-I'm a postdoctoral fellow in the Causal Inference Group at Erasmus MC. Causal inference, as a field, has come a long way over the past couple decades. But a lot of this additional insight and new methods have yet to make it into common use. There is [a lot of work to be done](https://www.jeremylabrecque.org/post/improving_methods/) so research in general can benefit fully from what we know about causal inference. This is what I do. I want people using Mendelian randomization to fully understand the causal assumptions behind their analyses and what causal interpretation MR estimates have. I want to bring causal inference into medical decision making to help make better decision with imperfect data. And hopefully all of this will help improve the health of those who need it most and reduce health inequalities that plague society.
+I'm leader of the Causal Inference Group at Erasmus MC. Causal inference, as a field, has come a long way over the past couple decades. But a lot of this additional insight and new methods have yet to make it into common use. There is [a lot of work to be done](https://www.jeremylabrecque.org/post/improving_methods/) so research in general can benefit fully from what we know about causal inference. This is what I do. I want people using Mendelian randomization to fully understand the causal assumptions behind their analyses and what causal interpretation MR estimates have. I want to bring causal inference into medical decision making to help make better decision with imperfect data. And hopefully all of this will help improve the health of those who need it most and reduce health inequalities that plague society.
