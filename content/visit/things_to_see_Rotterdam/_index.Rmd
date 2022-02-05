@@ -15,6 +15,16 @@ output:
 library(fontawesome)
 ```
 
+### The Cubes Houses
+[Google Maps](https://goo.gl/maps/YKyFf1G1M7JrMozL9)
+`r fa("bus-alt", fill = "steelblue")` 31min   
+`r fa("biking", fill = "steelblue")` 25min
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Cube_houses_%28Rotterdam%29_IMG_5090.jpg/640px-Cube_houses_%28Rotterdam%29_IMG_5090.jpg)
+
+<br>
+<br>
+
 ### Kinderdijk
 `r fa("biking", fill = "steelblue")` [13.5km (52min)](https://goo.gl/maps/jaLZ4SNSwod7T5MS6)          
 `r fa("bus-alt", fill = "steelblue")` [1hr 8min](https://goo.gl/maps/ARvnCN2Ep9wUirhf7)     
@@ -36,6 +46,9 @@ A UNESCO World Heritage site, Kinderdijk is a collection of old windmills which 
 
 Okay, it's only 20m above sea level but you still get a nice view. You can see The Hague and Delft from the top as well as downtown Rotterdam. You can also get a good feel for how many greenhouses there are in the area. Definitely worth doing this once while visiting. 
 
+<br>
+<br>
+
 ### Outdoor Valley/Hoge Bergse Bos
 `r fa("biking", fill = "steelblue")` [4.3km (13min)](https://goo.gl/maps/9QVDVy5jGfByVvKA6)      
 `r fa("walking", fill = "steelblue")` [3.3km (40min)](https://goo.gl/maps/A5psZ6C6xQizaEL38) 
@@ -46,6 +59,7 @@ Okay, it's only 20m above sea level but you still get a nice view. You can see T
 A ton of activities here. You can rent canoes and paddle around. You can rock climb. You can play frisbee golf. Or you can just walk around. And you can fish, of course. You can fish anywhere. 
 
 <br>
+<br>
 
 ### Lage Bergse Bos
 
@@ -55,6 +69,7 @@ A ton of activities here. You can rent canoes and paddle around. You can rock cl
 
 A nice park close by where you can run into cattle in the middle of the woods. There are two restaurants in the middle of the woods. Familierestaurant Bergsche Plas is good for Dutch pancakes and has a nice view over a small lake. Actually both places in the park have nice views over a small lake. There's also a horseback writing center in the north of the park. 
 
+<br>
 <br>
 
 ### Oudehaven (The Old Port)
