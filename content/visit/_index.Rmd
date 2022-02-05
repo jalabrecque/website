@@ -4,9 +4,6 @@ summary: Here we describe how to add a page to your site.
 output:
   html_document:
     keep_md: false
-    toc: true
-    toc_float: true
-    toc_depth: 3
     css: style.css
 
 ---
