@@ -33,6 +33,14 @@ There are bike paths EVERYWHERE. Here's a [map of the bike path network](https:/
 
 <b> You can bring your bike on the train or the metro.</b> There are designated cars where you can bring your bike, usually at the front and end of the train or metro. They will have a picture of the bike on the door. Note that you can't bring a bike on the train or metro during rush hour. So not between 6h30 and 9h or between 16h and 18h30 on weekdays.
 
+</br>
+
+### Kralingse Park
+[Google Maps](https://goo.gl/maps/B71zQRpqa2eiXR3N8)      
+`r fa("biking", fill = "steelblue")` Round trip: 40min
+
+Really nice to bike around this park and wander around. There are a couple of places to grab a beer or a coffee as well. A nice place at sunset is [De Schone Lei](https://www.deschonelei.nl/menu).
+
 
 </br>
 

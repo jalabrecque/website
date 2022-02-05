@@ -31,3 +31,11 @@ A food hall/brewery, it's a great place to have a bite to ear and have a beer. I
 [Link](https://www.hop-in.nl/)
 
 Winkel means store in Dutch so you can't drink here. But it has a great beer selection and a super nice owner who can lead you what you're looking for. This is exclusively where I buy beer in Rotterdam.
+
+
+### Kaapse Maria
+[Google Maps](https://goo.gl/maps/sx1r7zfSv2H2n1Hn6)
+`r fa("biking", fill = "steelblue")` 26min        
+`r fa("bus-alt", fill = "steelblue")` 34min        
+
+Really great selection of beers. Great snacks and food. A little fancy but not too expensive.   

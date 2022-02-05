@@ -18,19 +18,51 @@ library(fontawesome)
 
 
 ### Rijksmuseum (Amsterdam)
-`r fa("bus-alt", fill = "steelblue")` [1hr 40min](https://goo.gl/maps/XjQjdMQHdRPKTnGZA)      
-`r fa("car-side", fill = "steelblue")` [1hr 8min](https://goo.gl/maps/dxvUht9Cf29zR1Lw8)     
+
+[Google Maps](https://goo.gl/maps/8tiqChJ5KSMBUZX66)       
+`r fa("bus-alt", fill = "steelblue")` 1hr 40min     
+`r fa("car-side", fill = "steelblue")` 1hr 8min    
 [Link](https://www.rijksmuseum.nl/nl)
 
 [![](The-Night-Watch-SS-Alexander-Tolstykh-1.jpeg)](https://lonelyplanetwpnews.imgix.net/2018/10/The-Night-Watch-SS-Alexander-Tolstykh-1.jpg)
 
-The most famous museum in the Netherlands. Home of many paintings you will actually recognize most notably by Rembrandt and Vermeer. But there's an antigue gun collection and armor and you could spend days here. 
+The most famous museum in the Netherlands and it is huge and has a wild variety of different objects and paintings. Home of many paintings you will actually recognize most notably by Rembrandt and Vermeer. But there's an antique gun collection and armor and you could spend days here. Right next to the Van Gogh Museum so it's good to combine the two.
 
+<br>
+
+### Van Gogh Museum (Amsterdam)
+
+[Google Maps](https://goo.gl/maps/TSN1438wuYgJ4xLN9)       
+`r fa("bus-alt", fill = "steelblue")` 1hr 40min     
+`r fa("car-side", fill = "steelblue")` 1hr 8min   
+[Link](https://www.vangoghmuseum.nl/nl)
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/WLANL_-_Pachango_-_Korenveld_met_kraaien%2C_Vincent_van_Gogh_%281890%29.jpg/2560px-WLANL_-_Pachango_-_Korenveld_met_kraaien%2C_Vincent_van_Gogh_%281890%29.jpg)
+
+A museum entirely devoted to Van Gogh. Very cool.
+
+<br>
 
 ### Mauritshuis (The Hague)
-`r fa("bus-alt", fill = "steelblue")` [1hr 16min](https://goo.gl/maps/j1EDCHMuixoxp25y7)      
-`r fa("car-side", fill = "steelblue")` [31min](https://goo.gl/maps/9QKDk6BfsGBXBVjt6)    
+
+[Google Maps](https://goo.gl/maps/2jDkZQKdcgFjKyKi8)       
+`r fa("bus-alt", fill = "steelblue")` 1hr 16min     
+`r fa("car-side", fill = "steelblue")` 31min  
 [Link](https://www.mauritshuis.nl/en/)
 
 [![](0785_repro.jpeg)](https://www.mauritshuis.nl/media/zyxlp4ne/0785_repro.jpg?center=0.60572336177729136,0.52808112324492984&mode=crop&width=3840&rnd=132760174832670000&quality=70)
+
+<br>
+
+### Kröller Müller Museum (Hoge Veluwe)
+
+[Google Maps](https://goo.gl/maps/fkcDKkq71dP6wJP3A)       
+`r fa("bus-alt", fill = "steelblue")` 3hr         
+`r fa("car-side", fill = "steelblue")` 1hr 15min    
+[Link](https://krollermuller.nl/)
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Vincent_van_Gogh_-_The_potato_eaters_-_Google_Art_Project.jpg/1920px-Vincent_van_Gogh_-_The_potato_eaters_-_Google_Art_Project.jpg)
+
+A museum with painting by a lot of famous painters right in the middle of the beautiful national park. The museum itself is modern and has a lot of windows so it makes you feel like you're right in the forest (which you are).
+
 
