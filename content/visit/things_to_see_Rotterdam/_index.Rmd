@@ -16,11 +16,25 @@ library(fontawesome)
 ```
 
 ### The Cubes Houses
-[Google Maps](https://goo.gl/maps/YKyFf1G1M7JrMozL9)
+[Google Maps](https://goo.gl/maps/YKyFf1G1M7JrMozL9)      
 `r fa("bus-alt", fill = "steelblue")` 31min   
 `r fa("biking", fill = "steelblue")` 25min
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Cube_houses_%28Rotterdam%29_IMG_5090.jpg/640px-Cube_houses_%28Rotterdam%29_IMG_5090.jpg)
+
+<br>
+<br>
+
+
+### Euromast
+[Google Maps](https://goo.gl/maps/uF5ZDBYYSA8kUgPg6)     
+`r fa("bus-alt", fill = "steelblue")` 46min      
+`r fa("biking", fill = "steelblue")` 33min     
+[Link](https://euromast.nl/)
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Euromast_%2820109134810%29.jpg/640px-Euromast_%2820109134810%29.jpg)
+
+It's kind of like the CN Tower of Rotterdam but not as tall. But you still get fantastic view of the whole city. Well worth doing while you're here.
 
 <br>
 <br>
@@ -65,7 +79,9 @@ A ton of activities here. You can rent canoes and paddle around. You can rock cl
 
 [Google Maps](https://goo.gl/maps/bpMkrszq4hu15qHb7)       
 `r fa("biking", fill = "steelblue")` 7min         
-`r fa("walking", fill = "steelblue")` 23min     
+`r fa("walking", fill = "steelblue")` 23min   
+
+[![](lage.jpeg)](https://www.boswachtersblog.nl/zuid-holland/wp-content/uploads/sites/17/2019/02/12975-Zonsondergang-Lage-Bergse-Bos.jpg)
 
 A nice park close by where you can run into cattle in the middle of the woods. There are two restaurants in the middle of the woods. Familierestaurant Bergsche Plas is good for Dutch pancakes and has a nice view over a small lake. Actually both places in the park have nice views over a small lake. There's also a horseback writing center in the north of the park. 
 
