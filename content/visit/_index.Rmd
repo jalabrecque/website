@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Welcome to Theeroos and the Netherlands"
 summary: Here we describe how to add a page to your site.
 output:
   html_document:
@@ -15,10 +15,7 @@ output:
 library(fontawesome)
 ```
 
-</br>
-</br>
 
-## Welcome to Theeroos and the Netherlands
 
 ![](theeroos.jpg)
 
