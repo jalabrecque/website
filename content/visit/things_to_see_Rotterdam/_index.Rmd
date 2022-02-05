@@ -21,6 +21,7 @@ library(fontawesome)
 `r fa("biking", fill = "steelblue")` 25min
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Cube_houses_%28Rotterdam%29_IMG_5090.jpg/640px-Cube_houses_%28Rotterdam%29_IMG_5090.jpg)
+
 A wonder of 1970's technology. I think I heard theywere long considered an eyesore but they were spruced up and now they're a major tourist attraction here in Rotterdam. You can kind of walk through them which is pretty cool. Leads you straight to the Old Port.
 
 
