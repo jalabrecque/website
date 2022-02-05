@@ -15,16 +15,42 @@ output:
 library(fontawesome)
 ```
 
-### The Cubes Houses
+### The Cube Houses
 [Google Maps](https://goo.gl/maps/YKyFf1G1M7JrMozL9)      
 `r fa("bus-alt", fill = "steelblue")` 31min   
 `r fa("biking", fill = "steelblue")` 25min
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Cube_houses_%28Rotterdam%29_IMG_5090.jpg/640px-Cube_houses_%28Rotterdam%29_IMG_5090.jpg)
+A wonder of 1970's technology. I think I heard theywere long considered an eyesore but they were spruced up and now they're a major tourist attraction here in Rotterdam. You can kind of walk through them which is pretty cool. Leads you straight to the Old Port.
+
 
 <br>
 <br>
 
+
+### Markthal
+[Google Maps](https://goo.gl/maps/XEwiCxPag8AeSKxq6)
+`r fa("bus-alt", fill = "steelblue")` 31min      
+`r fa("biking", fill = "steelblue")` 25min     
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Markthal_Rotterdam_bij_avond.jpg/640px-Markthal_Rotterdam_bij_avond.jpg)
+
+Right next to the Cube Houses and the Old Port, it's a huge indoor market where you can get many types of food. A bit more upscale but worth seeing. We often bring people here to eat the raw herring!
+
+<br>
+<br>
+
+### Oudehaven (The Old Port)
+[Google Maps](https://goo.gl/maps/x7rLX41v2rdxg5RP8)      
+`r fa("bus-alt", fill = "steelblue")` 31min   
+`r fa("biking", fill = "steelblue")` 25min
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Rotterdam%2C_het_Witte_Huis_RM334003%2C_de_Willemsbrug_en_de_Oude_Haven_foto5_2015-08-01_20.51.jpg/1920px-Rotterdam%2C_het_Witte_Huis_RM334003%2C_de_Willemsbrug_en_de_Oude_Haven_foto5_2015-08-01_20.51.jpg)
+
+One of the must see sites in Rotterdam. It's a small little port but cute and you can sit next to water with a beer or coffee. Witte Huis is a good place for a beer.
+
+<br>
+<br>
 
 ### Euromast
 [Google Maps](https://goo.gl/maps/uF5ZDBYYSA8kUgPg6)     
@@ -85,15 +111,5 @@ A ton of activities here. You can rent canoes and paddle around. You can rock cl
 
 A nice park close by where you can run into cattle in the middle of the woods. There are two restaurants in the middle of the woods. Familierestaurant Bergsche Plas is good for Dutch pancakes and has a nice view over a small lake. Actually both places in the park have nice views over a small lake. There's also a horseback writing center in the north of the park. 
 
-<br>
-<br>
 
-### Oudehaven (The Old Port)
-[Google Maps](https://goo.gl/maps/x7rLX41v2rdxg5RP8)      
-`r fa("bus-alt", fill = "steelblue")` 31min   
-`r fa("biking", fill = "steelblue")` 25min
-
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Rotterdam%2C_het_Witte_Huis_RM334003%2C_de_Willemsbrug_en_de_Oude_Haven_foto5_2015-08-01_20.51.jpg/1920px-Rotterdam%2C_het_Witte_Huis_RM334003%2C_de_Willemsbrug_en_de_Oude_Haven_foto5_2015-08-01_20.51.jpg)
-
-One of the must see sites in Rotterdam. It's a small little port but cute and you can sit next to water with a beer or coffee. Witte Huis is a good place for a beer.
 

@@ -32,10 +32,34 @@ A food hall/brewery, it's a great place to have a bite to ear and have a beer. I
 
 Winkel means store in Dutch so you can't drink here. But it has a great beer selection and a super nice owner who can lead you what you're looking for. This is exclusively where I buy beer in Rotterdam.
 
+<br>
+<br>
 
 ### Kaapse Maria
 [Google Maps](https://goo.gl/maps/sx1r7zfSv2H2n1Hn6)
 `r fa("biking", fill = "steelblue")` 26min        
 `r fa("bus-alt", fill = "steelblue")` 34min        
 
-Really great selection of beers. Great snacks and food. A little fancy but not too expensive.   
+Really great selection of beers. Great snacks and food. A little fancy but not too expensive.
+
+<br>
+<br>
+
+### Brewpub Reijngoud
+[Google Maps](https://goo.gl/maps/rZPzkBwqarKzqp958)    
+`r fa("biking", fill = "steelblue")` 23min        
+`r fa("bus-alt", fill = "steelblue")` 40min 
+[Link](https://brewpubreijngoud.nl/)
+
+Built into the underpass of an old raised train track. Great selection of beer and in a cool neighbourhood.
+
+<br>
+<br>
+
+### Mooie Boules
+[Google Maps](https://goo.gl/maps/61EYvYXg7VCFm9w5A)    
+`r fa("biking", fill = "steelblue")` 23min        
+`r fa("bus-alt", fill = "steelblue")` 40min 
+[Link](https://mooieboules.nl/rotterdam/)
+
+Indoor bocce ball courts (pétanque), kareoke room, board games, mini food hall. A great place to spend a couple hours having some beers and having fun.
