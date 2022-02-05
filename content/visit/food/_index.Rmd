@@ -1,0 +1,29 @@
+---
+title: "Food"
+summary: Here we describe how to add a page to your site.
+output:
+  html_document:
+    keep_md: false
+    toc: true
+    toc_float: true
+    toc_depth: 3
+    css: style.css
+
+---
+
+```{r load_packages, message=FALSE, warning=FALSE, include=FALSE} 
+library(fontawesome)
+```
+
+
+### Justmed (Dutch/Turkish)
+`r fa("biking", fill = "steelblue")` [600m (3min)](https://goo.gl/maps/Zms8PygkkwSBoHHM8)      
+`r fa("walking", fill = "steelblue")` [600m (7min)](https://goo.gl/maps/ZoHveRA9LXMkszbz6) 
+
+Great place to get a kapsalon. 
+
+### Broodje Willem  (Belgian)
+`r fa("biking", fill = "steelblue")` [1.2m (5min)](https://goo.gl/maps/a4nravdixDZDaSxYA)      
+`r fa("walking", fill = "steelblue")` [1.1km (14min)](https://goo.gl/maps/xRfvdzpMtYEXUpySA) 
+
+Once you've tried kapsalon, the Dutch version of poutine, you have to try stoofvlees, the Belgian version of poutine. 

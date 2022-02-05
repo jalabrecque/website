@@ -1,0 +1,57 @@
+---
+title: "Biking in the Netherlands"
+summary: Here we describe how to add a page to your site.
+output:
+  html_document:
+    keep_md: false
+    toc: true
+    toc_float: true
+    toc_depth: 3
+    css: style.css
+
+---
+
+```{r load_packages, message=FALSE, warning=FALSE, include=FALSE} 
+library(fontawesome)
+```
+
+
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Rotterdam_Fietspad_Westzeedijk.jpg/440px-Rotterdam_Fietspad_Westzeedijk.jpg)
+
+There are bike paths EVERYWHERE. Here's a [map of the bike path network](https://www.route.nl/routeplanner) but I'll save you a click because if you want to go anywhere in the Netherlands, you can bike there on a bike path. Sometimes I'm biking in a super rural place and I'm like, "why is there even a bike path here?" A couple things you need to know to bike here.
+
+<b>Signal when you turn.</b> In Canada most people don't signal but here most people do. It avoids confusion when coming up to an intersection. All you do is hold out your arm on the side you intend to turn. Easy peasy. 
+
+<b>You need front and back bike lights at night.</b> Sometimes I forget my lights and it can be dangerous when you're biking in a place where there's less lighting. And the most dangerous part is other bikes not seeing you.
+
+<b>Bells!</b> The inner Montrealer in me still finds it irritating but people use bells all the time if they want to pass you and you're in the way. It's not meant to be aggressive. It's also a legel requirement that all bikes have a working bell.
+
+![](http://cyclingchristchurch.co.nz/wp-content/uploads/2015/06/Zwolle%20(42)-1024x687.jpg)
+
+<b>Know when you have the right of way.</b> And that's not too complicated because as a cyclist in the Netherlands you mostly always have the right of way. You have to stop for emergency vehicles, public transit and pedestrians at crosswalks. Triangles on the pavement pointing at you also indicate when you don't have right of way. They indicate that you must yield to other cyclists, drivers and pedestrians. So in the photo above, someone coming into the roundabout from the right would have to let other cyclists pass before entering the roundabout, whereas the cyclist in the roundabout has the right of way. It's not as hard as it sounds.  
+
+<b> You can bring your bike on the train or the metro.</b> There are designated cars where you can bring your bike, usually at the front and end of the train or metro. They will have a picture of the bike on the door. Note that you can't bring a bike on the train or metro during rush hour. So not between 6h30 and 9h or between 16h and 18h30 on weekdays.
+
+
+</br>
+
+### To the A12 along the Rotte River
+`r fa("biking", fill = "steelblue")` [Round trip: 22km (1hr 5min)](https://goo.gl/maps/LYzfb65GpwdM5rTKA)
+
+I have probable done this ride over two hundred times. Really nice and relaxing along the river basically all the way. Some parts are open to traffic but there is very little of it. There are like five different places you can have a typical Dutch snack or a drink along if you want to take a little break (you actually have to bike through the terasse of one restaurant, watch out for the waiters and waitresses!). A lot of places where you can go off the path a little to explore. 
+
+</br>
+
+
+### To the source of the Rotte River
+`r fa("biking", fill = "steelblue")` [Round trip: 26.5km (1hr 21min)](https://goo.gl/maps/HM8KwyHGK8rytbUx9)
+
+I still haven't done this ride 
+
+### To the Scheveningen and the North Sea
+`r fa("biking", fill = "steelblue")` [One way: 30.9km (1hr 44min)](https://goo.gl/maps/RYZW4ZQ8RT8BQX5CA)
+
+[![](Scheveningen-scaled.jpeg)](https://wnl-static.s3.amazonaws.com/uploads/2020/08/Scheveningen-scaled.jpg)
+
+I love being able to bike to the ocean. And Scheveningen is a bustling beach with tons to see. If you still have energy you can bike back but if you had a Belgian tripel bier and your legs have turned to stone, you can hop on the metro with your bike back home. 

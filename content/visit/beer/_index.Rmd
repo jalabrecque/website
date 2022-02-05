@@ -1,0 +1,33 @@
+---
+title: "Beer"
+summary: Here we describe how to add a page to your site.
+output:
+  html_document:
+    keep_md: false
+    toc: true
+    toc_float: true
+    toc_depth: 3
+    css: style.css
+
+---
+
+```{r load_packages, message=FALSE, warning=FALSE, include=FALSE} 
+library(fontawesome)
+```
+
+
+### Fenix Food Factory/Kaapse Brouwers
+`r fa("bus-alt", fill = "steelblue")` [49min](https://goo.gl/maps/6Jrm9z2PuvsUvYs6A)      
+`r fa("walking", fill = "steelblue")` [33min](https://goo.gl/maps/TZL1Wyu3qfXKA3Wu5)    
+[Link](https://www.fenixfoodfactory.nl/)
+
+![](https://www.leuketip.fr/images/db/573747f3e4b0f91bcfa857a0/original.jpg)
+A food hall/brewery, it's a great place to have a bite to ear and have a beer. It's right on the water too so you get a view of the city. The beer selection is fantastic and there's a wide variety of delicious food to choose from. We have spent a lot of time at Fenix and it's one of the places we like most in Rotterdam.
+     
+### Hop-In Bierwinkel
+`r fa("biking", fill = "steelblue")` [5.7km (19min)](https://goo.gl/maps/4frPYVA48eNzp1hn6)      
+`r fa("bus-alt", fill = "steelblue")` [43min](https://goo.gl/maps/HRhE4ZinX2N7JXFk9)    
+`r fa("car-side", fill = "steelblue")` [11min](https://goo.gl/maps/iM2JzaBrEV2KL3yX7)    
+[Link](https://www.hop-in.nl/)
+
+Winkel means store in Dutch so you can't drink here. But it has a great beer selection and a super nice owner who can lead you what you're looking for. This is exclusively where I buy beer in Rotterdam.
