@@ -18,7 +18,7 @@ output:
 **Paper to be discussed:** ["Dynamical Modeling as a Tool for Inferring Causation"](https://academic.oup.com/aje/article-abstract/191/1/1/6358337)    
 
 
-![](paper_screenshot.png)
+[![](paper_screenshot.png)](https://academic.oup.com/aje/article-abstract/191/1/1/6358337)
 </br>
 </br>
 </br>
