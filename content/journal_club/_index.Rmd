@@ -14,11 +14,11 @@ output:
 </br>
 
 ## Next session
-**Date:** February 18, 2022 at 1pm       
-**Paper to be discussed:** ["Dynamical Modeling as a Tool for Inferring Causation"](https://academic.oup.com/aje/article-abstract/191/1/1/6358337)    
+**Date:** March 4, 2022 at 1pm       
+**Paper to be discussed:** ["Inverse probability weighting to handle attrition in cohort studies: some guidance and a call for caution"](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-022-01533-9)    
 
 
-[![](paper_screenshot.png)](https://academic.oup.com/aje/article-abstract/191/1/1/6358337)
+[![](paper_screenshot.png)](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-022-01533-9)
 </br>
 </br>
 </br>
@@ -33,7 +33,7 @@ output:
 |January 21|Kronmal 1993|[Spurious Correlation and the Fallacy of the Ratio Standard Revisited](https://www.jstor.org/stable/2983064?seq=1#metadata_info_tab_contents)|
 |February 4| Van Calster et al 2021|[Methodology over metrics: current scientific standards are a disservice to patients and society](https://www.jclinepi.com/article/S0895-4356(21)00170-0/fulltext)|
 |February 18| Ackley et al 2022|[Dynamical Modeling as a Tool for Inferring Causation](https://academic.oup.com/aje/article-abstract/191/1/1/6358337)|
-|March 4|||
+|March 4|Medden et al 2022|[Inverse probability weighting to handle attrition in cohort studies: some guidance and a call for caution](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-022-01533-9)|
 |March 18|||
 |April 1|||
 |April 15|||
