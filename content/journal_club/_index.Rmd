@@ -14,11 +14,12 @@ output:
 </br>
 
 ## Next session
-**Date:** March 4, 2022 at 1pm       
-**Paper to be discussed:** ["Inverse probability weighting to handle attrition in cohort studies: some guidance and a call for caution"](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-022-01533-9)    
+**Date:** March 18, 2022 at 1pm (sign up below to receive a link to the meeting)      
+**Paper to be discussed:** Epidemiology X: bring your own questions and we try and answer them together. Feel free to bring your questions to the session or you can [submit questions anonymously here](https://docs.google.com/forms/d/1ucUZqXOBgfI19HZcHWBfuvs7eh50j0LaSuAaMuFAnUc).
 
 
-[![](paper_screenshot.png)](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-022-01533-9)
+
+![](paper_screenshot.png)
 </br>
 </br>
 </br>
@@ -34,7 +35,7 @@ output:
 |February 4| Van Calster et al 2021|[Methodology over metrics: current scientific standards are a disservice to patients and society](https://www.jclinepi.com/article/S0895-4356(21)00170-0/fulltext)|
 |February 18| Ackley et al 2022|[Dynamical Modeling as a Tool for Inferring Causation](https://academic.oup.com/aje/article-abstract/191/1/1/6358337)|
 |March 4|Medden et al 2022|[Inverse probability weighting to handle attrition in cohort studies: some guidance and a call for caution](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-022-01533-9)|
-|March 18|||
+|March 18|Epidemiology X||
 |April 1|||
 |April 15|||
 |April 29|||
