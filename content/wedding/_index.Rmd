@@ -1,0 +1,16 @@
+---
+title: "Maca & Jeremy's wedding registry"
+summary: Here we describe how to add a page to your site.
+output:
+  html_document:
+    keep_md: false
+    toc: true
+    toc_float: true
+    css: style.css
+
+---
+
+</br>
+</br>
+
+<iframe src="https://docs.google.com/document/d/e/2PACX-1vSUNT7ogIDQaMDIciz4vw3uT7QMtZ7m1VnjKRQ_GEdVTpRKdYXFGQVuJR7etDnJY7PZlB33OUCriYN0/pub?embedded=true"></iframe>

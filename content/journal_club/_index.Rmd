@@ -14,12 +14,12 @@ output:
 </br>
 
 ## Next session
-**Date:** March 18, 2022 at 1pm (CET) (sign up below to receive a link to the meeting)      
-**Paper to be discussed:** Epidemiology X: bring your own questions and we try and answer them together. Feel free to bring your questions to the session or you can [submit questions anonymously here](https://docs.google.com/forms/d/1ucUZqXOBgfI19HZcHWBfuvs7eh50j0LaSuAaMuFAnUc).
+**Date:** April 1, 2022 at 1pm (CET) (sign up below to receive a link to the meeting)      
+**Paper to be discussed:** Jim Smit will be presenting an ongoing systematic review on causal inference methods to study the ICU
 
 
 
-![](paper_screenshot.png)
+<!-- ![](paper_screenshot.png) -->
 </br>
 </br>
 </br>
@@ -36,7 +36,7 @@ output:
 |February 18| Ackley et al 2022|[Dynamical Modeling as a Tool for Inferring Causation](https://academic.oup.com/aje/article-abstract/191/1/1/6358337)|
 |March 4|Medden et al 2022|[Inverse probability weighting to handle attrition in cohort studies: some guidance and a call for caution](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-022-01533-9)|
 |March 18|Epidemiology X||
-|April 1|||
+|April 1| Jim Smit | Causal Infernece and the ICU|
 |April 15|||
 |April 29|||
 |May 13|||
@@ -84,7 +84,7 @@ Let me know if you have any ideas for the journal club. Looking forward to futur
 </br>
 
 
-## Journal club helps you use concepts you use in class
+## Journal club helps you use concepts you learn in class
 
 After my undergrad I was accepted to a 6-month internship in Brazil. I spoke absolutely no Portuguese and Duolingo had not yet been invented. But because no one spoke English in my environment, I picked up the ability to speak easily in Portuguese in 3 months.
 
