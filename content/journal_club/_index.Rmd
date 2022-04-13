@@ -14,8 +14,8 @@ output:
 </br>
 
 ## Next session
-**Date:** April 1, 2022 at 1pm (CET) (sign up below to receive a link to the meeting)      
-**Paper to be discussed:** Jim Smit will be presenting an ongoing systematic review on causal inference methods to study the ICU
+**Date:** April 15, 2022 at 13h (CET) (sign up below to receive a link to the meeting)      
+**Paper to be discussed:** [CV of failure](https://www.uni-goettingen.de/de/document/download/bed2706fd34e29822004dbe29cd00bb5.pdf/Johannes_Haushofer_CV_of_Failures[1].pdf)
 
 
 
@@ -37,7 +37,7 @@ output:
 |March 4|Medden et al 2022|[Inverse probability weighting to handle attrition in cohort studies: some guidance and a call for caution](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-022-01533-9)|
 |March 18|Epidemiology X||
 |April 1| Jim Smit | Causal Infernece and the ICU|
-|April 15|||
+|April 15| Haushofer|[CV of failure](https://www.uni-goettingen.de/de/document/download/bed2706fd34e29822004dbe29cd00bb5.pdf/Johannes_Haushofer_CV_of_Failures[1].pdf) |
 |April 29|||
 |May 13|||
 |May 27|||
