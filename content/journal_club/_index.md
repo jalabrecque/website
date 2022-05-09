@@ -14,15 +14,12 @@ output:
 </br>
 
 ## Next session
-**Date:** May, 2022 at 13h (CET) (sign up below to receive a link to the meeting)      
-**Paper to be discussed:** [Can Cross-Sectional Studies Contribute to Causal Inference? It Depends](https://academic.oup.com/aje/advance-article-abstract/doi/10.1093/aje/kwac037/6539984)
-
-</br>
-</br>
-</br>
+**Date:** April 15, 2022 at 13h (CET) (sign up below to receive a link to the meeting)      
+**Paper to be discussed:** [CV of failure](https://www.uni-goettingen.de/de/document/download/bed2706fd34e29822004dbe29cd00bb5.pdf/Johannes_Haushofer_CV_of_Failures[1].pdf)
 
 
-[![](paper_screenshot.png)](https://academic.oup.com/aje/advance-article-abstract/doi/10.1093/aje/kwac037/6539984)
+
+<!-- ![](paper_screenshot.png) -->
 </br>
 </br>
 </br>
@@ -41,7 +38,7 @@ output:
 |March 18|Epidemiology X||
 |April 1| Jim Smit | Causal Infernece and the ICU|
 |April 15| Haushofer|[CV of failure](https://www.uni-goettingen.de/de/document/download/bed2706fd34e29822004dbe29cd00bb5.pdf/Johannes_Haushofer_CV_of_Failures[1].pdf) |
-|April 29| Savitz and Wellenius 2022|[Can Cross-Sectional Studies Contribute to Causal Inference? It Depends](https://academic.oup.com/aje/advance-article-abstract/doi/10.1093/aje/kwac037/6539984)|
+|April 29| NA | NA |
 |May 13|||
 |May 27|||
 
