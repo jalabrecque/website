@@ -1,0 +1,35 @@
+---
+title: "Readings for topics in epidemiology"
+summary: Here we describe how to add a page to your site.
+output:
+  html_document:
+    keep_md: false
+    toc: true
+    toc_float: true
+    css: style.css
+
+---
+
+</br>
+</br>
+
+
+
+## Cross sectional studies
+
+- David A Savitz, Gregory A Wellenius, [Can Cross-Sectional Studies Contribute to Causal Inference? It Depends](https://academic.oup.com/aje/advance-article-abstract/doi/10.1093/aje/kwac037/6539984), American Journal of Epidemiology, 2022.      
+
+  **Summary:** Argues that cross-sectional studies are not necessarily all bad. Presents three important considerations when interpreting/conducting cross-sectional studies but doesn't really go into any detail about how to interpret numerical estimates of such studies. 
+  
+- Hudson JI, Pope HG Jr, Glynn RJ. [The cross-sectional cohort study: an underutilized design](https://pubmed.ncbi.nlm.nih.gov/15824552/), Epidemiology, 2005  
+
+
+
+
+
+
+## Bias analysis
+
+- Greenland S. [Invited Commentary: Dealing With the Inevitable Deficiencies of Bias Analysis—and All Analyses](https://academic.oup.com/aje/article/190/8/1617/6189732), American Journal of Epidemiology, 2021
+
+- MacLehose RF, Ahern TP, Lash TL, Poole C, Greenland S. [The Importance of Making Assumptions in Bias Analysis](https://journals.lww.com/epidem/Fulltext/2021/09000/The_Importance_of_Making_Assumptions_in_Bias.1.aspx), Epidemiology, 2021
