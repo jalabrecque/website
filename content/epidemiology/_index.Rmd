@@ -33,3 +33,19 @@ output:
 - Greenland S. [Invited Commentary: Dealing With the Inevitable Deficiencies of Bias Analysis—and All Analyses](https://academic.oup.com/aje/article/190/8/1617/6189732), American Journal of Epidemiology, 2021
 
 - MacLehose RF, Ahern TP, Lash TL, Poole C, Greenland S. [The Importance of Making Assumptions in Bias Analysis](https://journals.lww.com/epidem/Fulltext/2021/09000/The_Importance_of_Making_Assumptions_in_Bias.1.aspx), Epidemiology, 2021
+
+
+## Video/audio
+
+- [Judea Pearl on the Mindscape podcast](https://www.preposterousuniverse.com/podcast/2022/05/09/196-judea-pearl-on-cause-and-effect/)
+
+- [Online Causal Inference Seminar](https://www.youtube.com/channel/UCiiOj5GSES6uw21kfXnxj3A/videos)
+
+- [Jamie Robins: Causal Inference without randomized experiments: How do we know we are right?](https://www.youtube.com/watch?v=Joma9vbstsA) 
+
+
+## Books
+
+- _Causal Inference: What If_ by Hernan and Robins. [Website](https://www.youtube.com/channel/UCiiOj5GSES6uw21kfXnxj3A/videos)
+
+- _The Effect_ by Nick Huntington-Klein [Website](https://theeffectbook.net/)
