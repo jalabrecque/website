@@ -13,7 +13,9 @@ output:
 </br>
 </br>
 
+## General causal inference
 
+- Pearl J. [The Foundations of Causal Inference](https://ftp.cs.ucla.edu/pub/stat_ser/r355-reprint.pdf). 2010.
 
 ## Cross sectional studies
 
