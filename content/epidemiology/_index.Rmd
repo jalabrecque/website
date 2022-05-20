@@ -51,3 +51,7 @@ output:
 - _Causal Inference: What If_ by Hernan and Robins. [Website](https://www.youtube.com/channel/UCiiOj5GSES6uw21kfXnxj3A/videos)
 
 - _The Effect_ by Nick Huntington-Klein [Website](https://theeffectbook.net/)
+
+## Hypothesis testing/p-values
+
+Berner, D., & Amrhein, V. (2022). [Why and how we should join the shift from significance testing to estimation.](https://doi.org/10.1111/jeb.14009) Journal of Evolutionary Biology, 00, 1– 11.
