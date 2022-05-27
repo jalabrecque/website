@@ -17,6 +17,10 @@ output:
 
 - Pearl J. [The Foundations of Causal Inference](https://ftp.cs.ucla.edu/pub/stat_ser/r355-reprint.pdf). 2010.
 
+- Lundberg I, Johnson R, Stewart BM. [What Is Your Estimand? Defining the Target Quantity Connects Statistical Evidence to Theory.](https://journals.sagepub.com/doi/10.1177/00031224211004187) American Sociological Review. 2021;86(3):532-565.
+
+  >"We make only one point in this article. Every quantitative study must be able to answer the question: what is your estimand?"
+
 ## Cross sectional studies
 
 - David A Savitz, Gregory A Wellenius, [Can Cross-Sectional Studies Contribute to Causal Inference? It Depends](https://academic.oup.com/aje/advance-article-abstract/doi/10.1093/aje/kwac037/6539984), American Journal of Epidemiology, 2022.      
@@ -26,7 +30,9 @@ output:
 - Hudson JI, Pope HG Jr, Glynn RJ. [The cross-sectional cohort study: an underutilized design](https://pubmed.ncbi.nlm.nih.gov/15824552/), Epidemiology, 2005  
 
 
+## G methods
 
+Ashley I Naimi, PhD, Stephen R Cole, PhD, Edward H Kennedy, PhD, [An introduction to g methods](https://academic.oup.com/ije/article/46/2/756/2760169), International Journal of Epidemiology, 46(2), 2017, 756–762
 
 
 
@@ -54,4 +60,4 @@ output:
 
 ## Hypothesis testing/p-values
 
-Berner, D., & Amrhein, V. (2022). [Why and how we should join the shift from significance testing to estimation.](https://doi.org/10.1111/jeb.14009) Journal of Evolutionary Biology, 00, 1– 11.
+- Berner, D., & Amrhein, V. (2022). [Why and how we should join the shift from significance testing to estimation.](https://doi.org/10.1111/jeb.14009) Journal of Evolutionary Biology, 00, 1– 11.
