@@ -21,6 +21,12 @@ output:
 
   >"We make only one point in this article. Every quantitative study must be able to answer the question: what is your estimand?"
 
+- Hernán, Miguel A. "[The C-word: scientific euphemisms do not improve causal inference from observational data.](https://ajph.aphapublications.org/doi/10.2105/AJPH.2018.304392)" American journal of public health 108.5 (2018): 616-619.
+  
+## General epidemiology 
+
+- Stang, A., Standl, F. & Poole, C. A twenty-first century perspective on concepts of modern epidemiology in Ignaz Philipp Semmelweis’ work on puerperal sepsis. Eur J Epidemiol (2022). https://doi.org/10.1007/s10654-022-00871-8
+
 ## Cross sectional studies
 
 - David A Savitz, Gregory A Wellenius, [Can Cross-Sectional Studies Contribute to Causal Inference? It Depends](https://academic.oup.com/aje/advance-article-abstract/doi/10.1093/aje/kwac037/6539984), American Journal of Epidemiology, 2022.      
@@ -34,6 +40,10 @@ output:
 
 Ashley I Naimi, PhD, Stephen R Cole, PhD, Edward H Kennedy, PhD, [An introduction to g methods](https://academic.oup.com/ije/article/46/2/756/2760169), International Journal of Epidemiology, 46(2), 2017, 756–762
 
+
+## Causal graphs
+
+Tennant et al. Use of directed acyclic graphs (DAGs) to identify confounders in applied health research: review and recommendations, International Journal of Epidemiology, Volume 50, Issue 2, April 2021, Pages 620–632, https://doi.org/10.1093/ije/dyaa213
 
 
 ## Bias analysis
