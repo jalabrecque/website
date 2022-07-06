@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The characteristics of an ideal causal paper"
-date: 2022-02-24T01:13:14-05:00
+date: 2022-07-6T01:13:14-05:00
 published: true
 ---
 

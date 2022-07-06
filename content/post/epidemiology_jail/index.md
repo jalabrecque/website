@@ -17,7 +17,7 @@ My first rule about epidemiology jail is that students are never eligible for it
 
 Here are some examples of things I think make someone eligible for epidemiology jail:
 
-- **Misinterpretation of a statistical significance test:** People use tests everyday and it's integral to their research (even though I think it shouldn't be). And yet so many people misinterpret significance tests almost every time they use them. Technically, I guess, this would be under the jurisdiction but, as far as I know, they don't have a jail. 
+- **Misinterpretation of a statistical significance test:** People use tests everyday and it's integral to their research (even though I think it shouldn't be). And yet so many people misinterpret significance tests almost every time they use them. Technically, I guess, this would be under the jurisdiction of statistics but, as far as I know, they don't have a jail. 
 
 - **Adjusting for mediators when estimating the total effect:** This usually happens because people think that adjusting for more things is always better.
 
