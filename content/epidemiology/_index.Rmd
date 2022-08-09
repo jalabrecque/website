@@ -22,6 +22,8 @@ output:
   >"We make only one point in this article. Every quantitative study must be able to answer the question: what is your estimand?"
 
 - Hernán, Miguel A. "[The C-word: scientific euphemisms do not improve causal inference from observational data.](https://ajph.aphapublications.org/doi/10.2105/AJPH.2018.304392)" American journal of public health 108.5 (2018): 616-619.
+
+- T[witter thread by Paul Zivich on Robin's 1986 landmark paper](https://twitter.com/PausalZ/status/1328153586983981061)
   
 ## General epidemiology 
 
@@ -61,12 +63,16 @@ Tennant et al. Use of directed acyclic graphs (DAGs) to identify confounders in 
 
 - [Jamie Robins: Causal Inference without randomized experiments: How do we know we are right?](https://www.youtube.com/watch?v=Joma9vbstsA) 
 
+- [Charles Manski: Communicating Uncertainty in Policy Analysis](https://www.youtube.com/watch?v=VSxOsR9-qwQ)
+
 
 ## Books
 
-- _Causal Inference: What If_ by Hernan and Robins. [Website](https://www.youtube.com/channel/UCiiOj5GSES6uw21kfXnxj3A/videos)
+- [_Causal Inference: What If_](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/) by Hernan and Robins.
 
-- _The Effect_ by Nick Huntington-Klein [Website](https://theeffectbook.net/)
+- [_The Effect_](https://theeffectbook.net/) by Nick Huntington-Klein
+
+- [_Epidemiology by Design_](https://global.oup.com/academic/product/epidemiology-by-design-9780190665760?cc=us&lang=en&) by Daniel Westreich 
 
 ## Hypothesis testing/p-values
 
