@@ -14,8 +14,8 @@ output:
 </br>
 
 ## Next session
-**Date:** May 27, 2022 at 13h (CET) (sign up below to receive a link to the meeting)      
-**Paper to be discussed:** [One statistical analysis must not rule them all](https://www.nature.com/articles/d41586-022-01332-8)
+**Date:** September 2, 2022 at 13h (CET) (sign up below to receive a link to the meeting)      
+**Paper to be discussed:** [The unreasonable effectiveness of mathematics in the natural sciences](https://www.maths.ed.ac.uk/~v1ranick/papers/wigner.pdf)
 
 </br>
 </br>
@@ -34,16 +34,15 @@ output:
 
 |Date|Reference|Paper|
 |:--- |:--- |:---------- |
-|January 21|Kronmal 1993|[Spurious Correlation and the Fallacy of the Ratio Standard Revisited](https://www.jstor.org/stable/2983064?seq=1#metadata_info_tab_contents)|
-|February 4| Van Calster et al 2021|[Methodology over metrics: current scientific standards are a disservice to patients and society](https://www.jclinepi.com/article/S0895-4356(21)00170-0/fulltext)|
-|February 18| Ackley et al 2022|[Dynamical Modeling as a Tool for Inferring Causation](https://academic.oup.com/aje/article-abstract/191/1/1/6358337)|
-|March 4|Medden et al 2022|[Inverse probability weighting to handle attrition in cohort studies: some guidance and a call for caution](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-022-01533-9)|
-|March 18|Epidemiology X||
-|April 1| Jim Smit | Causal Infernece and the ICU|
-|April 15| Haushofer|[CV of failure](https://www.uni-goettingen.de/de/document/download/bed2706fd34e29822004dbe29cd00bb5.pdf/Johannes_Haushofer_CV_of_Failures[1].pdf) |
-|April 29| ||
-|May 13|Savitz and Wellenius 2022|[Can Cross-Sectional Studies Contribute to Causal Inference? It Depends](https://academic.oup.com/aje/advance-article-abstract/doi/10.1093/aje/kwac037/6539984)|
-|May 27|Wagenmakers et al 2022|[One statistical analysis must not rule them all](https://www.nature.com/articles/d41586-022-01332-8)|
+|September 2|Wigner|[The unreasonable effectiveness of mathematics in the natural sciences](https://www.maths.ed.ac.uk/~v1ranick/papers/wigner.pdf)|
+|September 16| ||
+|September 30| ||
+|October 14| ||
+|October 28| ||
+|November 11| ||
+|November 25| ||
+|December 9| ||
+
 
 [Previous sessions](https://www.jeremylabrecque.org/journal_club/previous_sessions)
    
