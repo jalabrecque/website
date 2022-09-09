@@ -11,7 +11,7 @@ output:
     css: style.css
 ---
 
-![](rhl.jpeg)
+![](rhl.jpeg){width=50%}
 
 [Rules](https://www.jeremylabrecque.org/rhl/rules/)     
 [Keeper lists](https://www.jeremylabrecque.org/rhl/keepers/)
