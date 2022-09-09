@@ -19,16 +19,25 @@ output:
 <p style="font-weight:600; font-size:50px">Rigged Hockey League</p> 
 
 </br>
-**Important dates:**     
+
+*The thing about rigging is, you can learn it if you become a master rigger but there's no book on rigging.*     
+<p align="right"> Richard Serra </p>
+</br>
+*We will never be able to fix a rigged system if we count on those who rigged it in the first place.*     
+<p align="right"> Donald Trump </p>
+
+
+## What is the RHL?
+In a world where a good rig goes unappreciated, the Rigged Hockey League, henceforth RHL, was developed to let rigging shine. The only honourable thing is to quietly do something sketchy and hope no one notices.
+
+</br>
+</br>
+
+## Important dates    
 
 - **Sept 24:** All keeper lists must be set   
 - **Oct 2, 4pm:** Draft
-</br>
-</br>
-
-## What is the RHL?
-In a world where a good rig goes unappreciated, the Rigged Hockey League, henceforth RHL, was developed to let rigging shine. Honour only comes from quietly doing something sketchy and hoping no one notices.
-
+- **Oct 7:** First day of season
 </br>
 </br>
 
