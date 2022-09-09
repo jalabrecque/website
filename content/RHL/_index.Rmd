@@ -11,7 +11,7 @@ output:
     css: style.css
 ---
 
-<p align="center">
+<p align="left">
   <img height="400" src="rhl2.png">
 </p>
 
