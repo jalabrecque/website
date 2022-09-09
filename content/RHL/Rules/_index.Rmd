@@ -1,19 +1,22 @@
 ---
-title: RIGGED HOCKEY LEAGUE
+title: Rules
 summary: Here we describe how to add a page to your site.
-date: "2018-06-28T00:00:00Z"
+
 
 output:
   html_document:
     keep_md: true
+    toc: true
+    toc_float: true
+    css: style.css
 ---
 
 
-## RULES
 
 
 
-### Team Composition
+
+## Team Composition
 
 Weekly active roster of:    
 
@@ -26,26 +29,26 @@ Non-active:
 - 4 bench players     
 - 5 Farm Team players (Farm Team description below)
 
-### Scoring
+## Scoring
 
 Goals = 1 point       
 Assists = 1 point       
 Wins = 2 points     
 Shutouts = 2 points
 
-### Roster Change Timelines
+## Roster Change Timelines
 
 Weekly head-to-head matchups run Monday to Sunday
 Inter-roster moves can be made until puck-drop in first Monday game
 Add/drops and trades must be executed on Sunday to have effect for next week
 
-### Cost & Prizes
+## Cost & Prizes
 
 Cost is $20 per year
 Pooled money will be used to purchase a cryptocurrency at the start of season
 First place wins 88% of season-end pot. Second place wins 12%.
 
-### Farm Team
+## Farm Team
 
 Consists of 5 players (F, D or G)
 Farm Team players do NOT count towards a team’s Keeper Years Limit
@@ -56,7 +59,7 @@ Farm players are NOT eligible to play in your Active Roster
 Players eligible for the Farm Team obtained by trade during the season CAN be assigned to a team’s Farm Team, even if they have been part of another team’s Active Roster.
 An Updated list of Farm Teams maintained in the Google Document tabs
 
-### Draft
+## Draft
 
 Active Rosters and Farm Teams are filled in the same Draft
 Every draft will consist of 19 rounds (to fill 14 Active Roster and 5 Farm Team spots)
@@ -79,7 +82,7 @@ Updated Farm Team lists must be submitted immediately after the draft.
      - If you do not have 5 eligible Farm Team players immediately after the draft, you must drop a player and pick up a player through Waivers/Free Agency to submit a legal roster.
 New players to the Yahoo Players List can only be acquired via the draft. College players and others signing contracts at the end of the season are not eligible to be picked up via Waivers/Free Agency.
 
-### Keeping Players
+## Keeping Players
 
 Number of available Keeper Years are:
      - 10 in the first season
@@ -90,7 +93,7 @@ Every consecutive year a player is kept increases his Keeper Year cost.
 Farm Team players do NOT count towards the Keeper Year Limit  when kept
 You do not have to keep all your Farm Team players
 
-### Playoffs
+## Playoffs
 
 The top 6 regular season teams make the playoffs
 Playoffs take place over 3 weeks, ending the week before the end of the NHL’s regular season
@@ -98,7 +101,7 @@ Top 2 regular season teams get a Round 1 bye
 Semi-final (Round 2) matchups are re-seeded
 Rigged Cup (Championships) and Sucker’s Delight (2 non-playoff teams) take place during the same week
 
-### Trades
+## Trades
 
 Trades DO NOT reset Keeper Years
 Trade deadline will be the last Wednesday of the league’s regular season
@@ -106,13 +109,13 @@ Off-season trades are allowed - trading will re-open after Rigged Cup has been a
 There will be another trading hiatus between submission of Keeper Lists and the Draft
 Equal number of picks from each team have to be included in a trade
 
-### Injured Reserve
+## Injured Reserve
 
 There are 4 IR+ spots you can use
 You CANNOT put Farm Team players in IR spots
 Injured players CANNOT be picked up directly to an IR+ spot
 
-### Penalties
+## Penalties
 
 Failure to follow any of the rules above (setting incorrect keepers, failure to submit farm team, etc.) will result in losing a draft pick.
 For a first infraction you lose a 4th round pick. For each additional infraction that pick moves up a round. So after 4 infractions you'd lose your first round pick.
