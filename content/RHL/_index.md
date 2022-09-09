@@ -26,6 +26,11 @@ output:
 [Rules](https://www.jeremylabrecque.org/rhl/rules/)     
 [Keeper lists](https://www.jeremylabrecque.org/rhl/keepers/)
 
+</br>
+</br>
+
+## What is the Rigged Hockey League?
+In a world where rigging is something that must be hidden. The Rigged Hockey League, henceforth RHL, was developed to let rigging shine. Honour only comes from quietly doing something sketchy and hoping no one notices.
 
 </br>
 </br>
