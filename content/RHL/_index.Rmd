@@ -6,12 +6,32 @@ summary: Here we describe how to add a page to your site.
 output:
   html_document:
     keep_md: true
+    toc: true
+    toc_float: true
     css: style.css
 ---
 
-![](rhl2.png){width=35%}
+<p align="center">
+  <img height="400" src="rhl2.png">
+</p>
 
-# Rigged Hockey League
 
+<p style="font-weight:600; font-size:50px">Rigged Hockey League</p> 
+
+
+</br>
+</br>
+
+## Useful Links
 [Rules](https://www.jeremylabrecque.org/rhl/rules/)     
 [Keeper lists](https://www.jeremylabrecque.org/rhl/keepers/)
+
+
+</br>
+</br>
+
+## Hall of Champions
+
+- 2020: No champion (COVID)
+- 2021: Suzuki Jimney
+- 2022: Suzuki Jimney
