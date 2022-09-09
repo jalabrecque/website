@@ -11,6 +11,7 @@ output:
     css: style.css
 ---
 
+![](rhl.jpeg)
 
 [Rules](https://www.jeremylabrecque.org/rhl/rules/)     
 [Keeper lists](https://www.jeremylabrecque.org/rhl/keepers/)
