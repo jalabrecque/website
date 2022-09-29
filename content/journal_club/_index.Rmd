@@ -55,7 +55,7 @@ output:
 
 ## Subscribe to the mailing list
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfmPs63vbKAKEgcVmI2QKos-9hSQ2qQMdMqHe6n3FeE9I6Crg/viewform?embedded=true" width="640" height="499" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+[Here you will find a form to subscribe to the mailing list.](https://forms.gle/764GgYN3bPek9c5S8) 
 
 </br>
 </br>
