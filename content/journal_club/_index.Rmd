@@ -14,15 +14,15 @@ output:
 </br>
 
 ## Next session
-**Date:** September 30, 2022 at 13h (CET) (sign up below to receive a link to the meeting)      
-**Paper to be discussed:** [Epidemiology Faces Its Limits](https://www.mcgill.ca/cancerepi/files/cancerepi/TaubesScience269-164-Letters.pdf)
+**Date:** October 28, 2022 at 13h (CET) (sign up below to receive a link to the meeting)      
+**Paper to be discussed:** [The Earth is Round (p<.05)](http://www.iro.umontreal.ca/~dift3913/cours/papers/cohen1994_The_earth_is_round.pdf)
 
 </br>
 </br>
 </br>
 
 
-[![](paper_screenshot.png)](https://www.mcgill.ca/cancerepi/files/cancerepi/TaubesScience269-164-Letters.pdf)
+[![](paper_screenshot.png)](http://www.iro.umontreal.ca/~dift3913/cours/papers/cohen1994_The_earth_is_round.pdf)
 </br>
 </br>
 </br>
@@ -35,10 +35,10 @@ output:
 |Date|Reference|Paper|
 |:--- |:--- |:---------- |
 |September 2|Wigner|[The unreasonable effectiveness of mathematics in the natural sciences](https://www.maths.ed.ac.uk/~v1ranick/papers/wigner.pdf)|
-|September 16|Greenland |[Induction versus Popper: substance versus semantics](https://watermark.silverchair.com/27-4-543.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAtwwggLYBgkqhkiG9w0BBwagggLJMIICxQIBADCCAr4GCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMDAvbQzQCMKN3h6bUAgEQgIICj5fBzwfdXMdNbmlHoNIJyAV1phO0QsugQCMTU1wXIxevaCYGfIKb2pElFb3TlnzeokbFjD8BAPm74hC6RI4tC0fFAjrnsDERe0GvZ-piAXjm8gTD4ZESmKGKHne5bPPINkbJ3xoFeno9vipHE4Owfm8NpfjqLAFR5KSPVxP8qirqJWTz7cX6rfCPMPtjYm2PW1sfDJuYWed6n6oY2vHEdYVxXkSRH37RrfX9m0PVCzy836vGTeM9-AMG7cVF8E8LwqfanSn998A_3qM_8P_pbLu3VAyThdRlERkx74NtuQgNS7wLYoKXVa5KE_yW0wt3UIv1SN-aCW2LhdeyG1lotFIT0TNKWmLb0AxG-BnBq3_kRrQIt-kSr4kgh8YXk-qyhNGJ5_CXPgD1ixsR9M5kVdj_t3oLb2-5jdsXRZkWf0Rdl1XQIi3ARkSMZUV_YK0RQ3AMfIMV_hfnZwI0pQDZDO73o_PzfhWgzsvSVDb-jfSHLfa8kx6xmW8KjWP9t6_zbhL-iHqogMeBqMYany3irGGYrgDBSdUOK9RMx0yqpKXPCfiUc7Sb9Lw6qAI-7eeaty9ezvROax7OQkTL5g1YPA4_ju73QyHNpTvIOGmJqzfQezNsWCpSAgqdrkFleAREiLh-7N-xF4uuIb2S5x502DrIcijn1qEXq4TJIExhjehrKN17V7_m7tsDg7zxIMfWyalaohr62CFQSzgGisV76mS9F7XHLWQgNgG6EVY6f33PilvHDOFoSd2jLQLoK8R9wmjWLd7LPrnnlZQWg3dt_bm7Y-XgIkelFUYXwdzeGVqXAAKxZfIco3ETUyCMl1daQkjV5B4kNQMEW9a6UBbk-r9e4iDR9K3cHoOdK9THBXE)|
+|September 16|Greenland |[Induction versus Popper: substance versus semantics](https://pubmed.ncbi.nlm.nih.gov/9758105/)|
 |September 30|Taubes |[Epidemiology faces its limits](https://www.mcgill.ca/cancerepi/files/cancerepi/TaubesScience269-164-Letters.pdf)|
-|October 14| ||
-|October 28| ||
+|October 14|Bashir |[A precious case from Middle Earth](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC535969/)|
+|October 28|Cohen |[The Earth is Round (p<.05)](http://www.iro.umontreal.ca/~dift3913/cours/papers/cohen1994_The_earth_is_round.pdf)|
 |November 11| ||
 |November 25| ||
 |December 9| ||
