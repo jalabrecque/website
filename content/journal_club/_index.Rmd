@@ -14,15 +14,16 @@ output:
 </br>
 
 ## Next session
-**Date:** November 11, 2022 at 13h (CET) (sign up below to receive a link to the meeting)      
-**Paper to be discussed:** [Strategy of prevention: lessons from cardiovascular disease](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1506445/pdf/bmjcred00661-0031.pdf)
+**Date:** November 25, 2022 at 13h (CET) (sign up below to receive a link to the meeting)      
+**Paper to be discussed:** [“Oriental Plague” or Epidemiological Orientalism?
+Revisiting the Plague Episteme of the early modern Mediterranean](https://www.degruyter.com/document/doi/10.1515/9781942401162-005/pdf)
 
 </br>
 </br>
 </br>
 
 
-[![](paper_screenshot.png)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1506445/pdf/bmjcred00661-0031.pdf)
+[![](paper_screenshot.png)](https://www.degruyter.com/document/doi/10.1515/9781942401162-005/pdf)
 </br>
 </br>
 </br>
@@ -40,7 +41,7 @@ output:
 |October 14|Bashir |[A precious case from Middle Earth](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC535969/)|
 |October 28|Cohen |[The Earth is Round (p<.05)](http://www.iro.umontreal.ca/~dift3913/cours/papers/cohen1994_The_earth_is_round.pdf)|
 |November 11| Rose|[Strategy of prevention: lessons from cardiovascular disease](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1506445/pdf/bmjcred00661-0031.pdf)|
-|November 25| ||
+|November 25|Varlik |[“Oriental Plague” or Epidemiological Orientalism? Revisiting the Plague Episteme of the early modern Mediterranean](https://www.degruyter.com/document/doi/10.1515/9781942401162-005/pdf) |
 |December 9| ||
 
 
