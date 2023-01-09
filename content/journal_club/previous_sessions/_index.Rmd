@@ -13,6 +13,26 @@ output:
 </br>
 </br>
 
+
+## Fall 2022 Schedule
+
+|Date|Reference|Paper|
+|:--- |:--- |:---------- |
+|September 2|Wigner|[The unreasonable effectiveness of mathematics in the natural sciences](https://www.maths.ed.ac.uk/~v1ranick/papers/wigner.pdf)|
+|September 16|Greenland |[Induction versus Popper: substance versus semantics](https://pubmed.ncbi.nlm.nih.gov/9758105/)|
+|September 30|Taubes |[Epidemiology faces its limits](https://www.mcgill.ca/cancerepi/files/cancerepi/TaubesScience269-164-Letters.pdf)|
+|October 14|Bashir |[A precious case from Middle Earth](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC535969/)|
+|October 28|Cohen |[The Earth is Round (p<.05)](http://www.iro.umontreal.ca/~dift3913/cours/papers/cohen1994_The_earth_is_round.pdf)|
+|November 11| Rose|[Strategy of prevention: lessons from cardiovascular disease](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1506445/pdf/bmjcred00661-0031.pdf)|
+|November 25|Varlik |[“Oriental Plague” or Epidemiological Orientalism? Revisiting the Plague Episteme of the early modern Mediterranean](https://www.degruyter.com/document/doi/10.1515/9781942401162-005/pdf) |
+|December 9|[Nick Binney](https://www.mpiwg-berlin.mpg.de/users/nbinney) |Philosophy at Erasmus MC|
+
+</br>
+</br>
+</br>
+</br>
+
+
 ## Winter 2022 Schedule
 
 |Date|Reference|Paper|
