@@ -14,19 +14,20 @@ output:
 </br>
 
 ## Next session
-**Date:** Janaury 6, 2023 at 13h (CET) (sign up below to receive a link to the meeting)      
-**Paper to be discussed:** We will have an "Epidemiology X" session which invites all attendees to bring their own questions which we discuss together.
+**Date:** Janaury 27, 2023 at 13h (CET) (sign up below to receive a link to the meeting)      
+**Paper to be discussed:** [Statistics, Adjusted Statistics and Maladjusted Statistics](https://pubmed.ncbi.nlm.nih.gov/29254468/)
 
 </br>
 </br>
 </br>
 
 
-![](epidemiology x.png)
+<!-- ![](epidemiology x.png) -->
+[![](paper_screenshot.png)](https://pubmed.ncbi.nlm.nih.gov/29254468/)
 </br>
 </br>
 </br>
-<!-- [![](epidemiology x.png)](https://www.degruyter.com/document/doi/10.1515/9781942401162-005/pdf) -->
+
 
 
 
@@ -34,17 +35,17 @@ output:
 
 |Date|Reference|Paper|
 |:--- |:--- |:---------- |
-|January 6|Epidemiology X||
-|January 20|||
-|February 3|||
-|February 17|||
-|March 3|||
-|March 17|||
-|March 31|||
-|April 14|||
-|April 28|||
-|May 12|||
-|May 26|||
+|January 13|Epidemiology X||
+|January 27|Kaufman 2017|[Statistics, Adjusted Statistics and Maladjusted Statistics](https://pubmed.ncbi.nlm.nih.gov/29254468/)|
+|February 10|||
+|February 24|||
+|March 10|||
+|March 24|||
+|April 7|||
+|April 21|||
+|May 5|||
+|May 19|||
+
 
 
 [Previous sessions](https://www.jeremylabrecque.org/journal_club/previous_sessions)
