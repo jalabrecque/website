@@ -15,7 +15,7 @@ output:
 
 ## Next session
 **Date:** Janaury 27, 2023 at 13h (CET) (sign up below to receive a link to the meeting)      
-**Paper to be discussed:** [Statistics, Adjusted Statistics and Maladjusted Statistics](https://pubmed.ncbi.nlm.nih.gov/29254468/)
+**Paper to be discussed:** [Statistics, Adjusted Statistics and Maladjusted Statistics](files/Kaufman_2017_Statistics_Adjusted Statistics_Maladjusted Statistics.pdf)
 
 </br>
 </br>
