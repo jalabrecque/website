@@ -14,8 +14,8 @@ output:
 </br>
 
 ## Next session
-**Date:** February 24, 2023 at 13h (CET) (sign up below to receive a link to the meeting)      
-**Paper to be discussed:** [Causes](https://academic.oup.com/aje/article/104/6/587/139202)
+**Date:** March 10, 2023 at 13h (CET) (sign up below to receive a link to the meeting)      
+**Paper to be discussed:** [Is caviar a risk factor for being a millionaire?](https://www.bmj.com/bmj/section-pdf/935674?path=/bmj/355/8086/Food_for_thought.full.pdf)
 
 </br>
 </br>
@@ -23,7 +23,7 @@ output:
 
 
 <!-- ![](epidemiology x.png) -->
-[![](paper_screenshot.png)](https://academic.oup.com/aje/article/104/6/587/139202)
+[![](paper_screenshot.png)](https://www.bmj.com/bmj/section-pdf/935674?path=/bmj/355/8086/Food_for_thought.full.pdf)
 </br>
 </br>
 </br>
@@ -39,7 +39,7 @@ output:
 |January 27|Kaufman 2017|[Statistics, Adjusted Statistics and Maladjusted Statistics](https://pubmed.ncbi.nlm.nih.gov/29254468/)|
 |February 10||Discussion about statistical testing|
 |February 24|Rothman 1976|[Causes](https://academic.oup.com/aje/article/104/6/587/139202)|
-|March 10|||
+|March 10|Huitfeldt 2016|[Is caviar a risk factor for being a millionaire?](https://www.bmj.com/bmj/section-pdf/935674?path=/bmj/355/8086/Food_for_thought.full.pdf)|
 |March 24|||
 |April 7|||
 |April 21|||
