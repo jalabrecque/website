@@ -2,7 +2,7 @@
 layout: post
 title: "Message from a causal inference Luddite"
 date: 2023-03-09T01:13:14-05:00
-published: false
+published: true
 ---
 
 I've been calling myself a causal inference Luddite recently and it only just occurred to me now to look up what it means. Thankfully, I think it captures what I want to say.
