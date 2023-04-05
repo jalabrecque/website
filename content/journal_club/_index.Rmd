@@ -14,8 +14,8 @@ output:
 </br>
 
 ## Next session
-**Date:** March 10, 2023 at 13h (CET) (sign up below to receive a link to the meeting)      
-**Paper to be discussed:** [Is caviar a risk factor for being a millionaire?](https://www.bmj.com/bmj/section-pdf/935674?path=/bmj/355/8086/Food_for_thought.full.pdf)
+**Date:** April 7, 2023 at 13h (CET) (sign up below to receive a link to the meeting)      
+**Paper to be discussed:** [From Patients to Policy: Population Intervention Effect in Epidemiology](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5453818/pdf/ede-28-525.pdf)
 
 </br>
 </br>
@@ -23,7 +23,7 @@ output:
 
 
 <!-- ![](epidemiology x.png) -->
-[![](paper_screenshot.png)](https://www.bmj.com/bmj/section-pdf/935674?path=/bmj/355/8086/Food_for_thought.full.pdf)
+[![](paper_screenshot.png)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5453818/pdf/ede-28-525.pdf)
 </br>
 </br>
 </br>
@@ -40,8 +40,8 @@ output:
 |February 10||Discussion about statistical testing|
 |February 24|Rothman 1976|[Causes](https://academic.oup.com/aje/article/104/6/587/139202)|
 |March 10|Huitfeldt 2016|[Is caviar a risk factor for being a millionaire?](https://www.bmj.com/bmj/section-pdf/935674?path=/bmj/355/8086/Food_for_thought.full.pdf)|
-|March 24|||
-|April 7|||
+|March 24|Flexner 1939|[The Usefulness of Useless Knowledge](https://www.ias.edu/sites/default/files/library/UsefulnessHarpers.pdf)|
+|April 7|Westreich 2017|[From Patients to Policy: Population Intervention Effects in Epidemiology](https://pubmed.ncbi.nlm.nih.gov/28282339/)|
 |April 21|||
 |May 5|||
 |May 19|||
