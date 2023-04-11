@@ -43,3 +43,5 @@ After making this list I tried to think about what proportion of a randomly sele
 This post might be somewhat similar to my [Epidemiology
 Jail](https://www.jeremylabrecque.org/post/epidemiology_jail/) post but
 framed in a more positive way.
+
+Feel free to hit me up with feedback if there's something you think should or shouldn't be on this list. 
