@@ -23,10 +23,6 @@ name = "Talks"
 url = "#talks"
 weight = 20
 
-[[main]]
-name = "What I'm reading"
-url = "https://www.jeremylabrecque.org/reading"
-weight = 30
 
 #[[main]]
 #  name = "Courses"
@@ -44,3 +40,8 @@ weight = 30
   name = "CV"
   url = "files/CV.pdf"
   weight = 70
+
+[[main]]
+name = "What I'm reading"
+url = "https://www.jeremylabrecque.org/reading"
+weight = 30
