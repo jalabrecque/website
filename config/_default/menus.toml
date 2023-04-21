@@ -41,7 +41,7 @@ weight = 20
   url = "files/CV.pdf"
   weight = 70
 
-[[main]]
-name = "What I'm reading"
-url = "https://www.jeremylabrecque.org/reading"
-weight = 80
+#[[main]]
+# name = "What I'm reading"
+# url = "https://www.jeremylabrecque.org/reading"
+# weight = 80
