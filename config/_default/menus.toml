@@ -24,8 +24,8 @@ url = "#talks"
 weight = 20
 
 #[[main]]
-#  name = "Projects"
-#  url = "#projects"
+#  name = "What I'm reading"
+#  url = "https://www.jeremylabrecque.org/reading"
 #  weight = 30
 
 #[[main]]
