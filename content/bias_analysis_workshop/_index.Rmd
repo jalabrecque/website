@@ -1,0 +1,104 @@
+---
+title: "What to do when you have unmeasured confounding (which is always)"
+summary: Journal club
+output:
+  html_document:
+    keep_md: false
+    toc: true
+    toc_float: true
+    css: style.css
+
+---
+
+</br>
+</br>
+Science is all about trying to make arguments to support statements about reality. But we never usually teach it that way. We usually teach students a recipe that they need to follow in order to get published. For example, in epidemiology or public health, this usually involves some form of looking at the relationship between two variables after you've adjusted for a bunch of other variables and if the p-value is less than 0.05 we say we've found an "association". Of course, part of this ritual dance is also to say somewhere in the discussion that there is always the possibility that the results are due to unmeasured confounding.
+
+I have something I like to call Pete Holmes Moments. Pete Holmes is a comedian who has an [explicitly-worded rant](https://www.youtube.com/watch?v=OyDpS-GftCk) about how some of the basic facts of reality, in his words, "make no sense". In other words, reality has some aspects of it that are so mind-bogglingly weird but we've just become blind to this weirdness and craziness. 
+
+I have Pete Holmes Moments all the time in research. For example, people use null hypothesis testing all the time but how many people can actually tell you anything about how they work (other than p<0.05 is significant). That makes no sense. Another Pete Holmes Moment, and the topic of this workshop, is that we always just casually say that one of the most important assumptions of a causal analysis, no unmeasured confounding, might be violated. If we weren't so used to reading that sentence, our reaction should be:
+
+> "Wait, what? Uh, how much am I supposed to believe your results if there's a possibility of unmeasured confounding? Can you give me some sort of estimate for how likely unmeasured is to explain your results? How much bias could there plausibly be?"
+
+Without answer to these questions, how do we know how much to believe a result? The answer is that we don't know. In this workshop we'll be talking about partial identification, triangulation and bias analysis, which are all methods you can use if you want to go deeper than just saying, "maybe there's unmeasured confounding." None of these methods is a slam-dunk method that will say for certain whether there is or isn't unmeasured confounding and they can require some thinking to use, but they can give a reader a much better feeling for how much unmeasured confounding might affect a result.
+</br>
+</br>
+
+## Outline
+
+- [Introduction](#intro)
+- [Causal assumptions](#assumptions)
+- [Partial identification](#partial)
+- [Triangulation](#triangulation)
+- [Bias analysis](#bias_analysis)
+
+
+</br>
+</br>
+</br>
+
+
+
+
+
+
+
+## Introduction{#intro}
+
+- [Life doesn't make sense!](https://www.youtube.com/watch?v=OyDpS-GftCk)
+
+
+   
+</br>
+</br>
+</br>
+     
+
+
+
+## Causal Assumptions{#assumptions}
+
+Before I begin talking about fancier things, I need to make sure we're all on the same page with regards to causal inference and causal assumptions. 
+
+- Inventing causal assumptions (20 minute group exercise)
+
+
+</br>
+</br>
+</br>
+
+## Partial Identification{#partial}
+
+</br>
+
+**The basic idea:** We can make weaker but more believable assumptions than "no uncontrolled confounding" to end up with a bound rather than a point estimate. In other words, we get limits on what the true effect could be (given the assumptions we make are true, of course) instead of one point estimate.
+
+Readings:
+
+- [Communicating uncertainty in policy analysis.](https://www.pnas.org/doi/pdf/10.1073/pnas.1722389115) Manski, 2019.
+
+</br>
+</br>
+</br>
+
+
+## Triangulation {#triangulation}
+
+</br>
+
+**The basic idea:** Sometimes we can get two answers to the same question that rely on different causal assumptions. If two estimates the rely on different assumptions agree, _sometimes_ we can be more confident that the estimates are unbiased.
+
+Readings:  
+
+- [Triangulation in aetiological epidemiology](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5841843/). Lawlor, Tilling and Davey Smith, 2016.
+- [Alternative causal inference methods in population health research: Evaluating tradeoffs and triangulating evidence](https://www.sciencedirect.com/science/article/pii/S2352827319301545). Matthay et al, 2020.
+
+</br>
+</br>
+</br>
+
+## Bias analysis{#bias_analysis}
+
+</br>
+
+**The basic idea:** Sometimes we know something about a confounder that we were not able to measured. Bias analysis can help estimate what answer you would have been if you had adjusted for that confounder. Bias analysis can also be used to find out how strong an unmeasured confounder would have to be to completely explain away your results. 

@@ -14,8 +14,8 @@ output:
 </br>
 
 ## Next session
-**Date:** April 7, 2023 at 13h (CET) (sign up below to receive a link to the meeting)      
-**Paper to be discussed:** [From Patients to Policy: Population Intervention Effect in Epidemiology](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5453818/pdf/ede-28-525.pdf)
+**Date:** June 16, 2023 at 13h (CET) (sign up below to receive a link to the meeting)      
+**Paper to be discussed:** [Primary, Secondary, and Meta-Analysis of Research](https://faculty.ucmerced.edu/jvevea/classes/290_21/readings/week%2010/Glass%201978.pdf)
 
 </br>
 </br>
@@ -42,9 +42,12 @@ output:
 |March 10|Huitfeldt 2016|[Is caviar a risk factor for being a millionaire?](https://www.bmj.com/bmj/section-pdf/935674?path=/bmj/355/8086/Food_for_thought.full.pdf)|
 |March 24|Flexner 1939|[The Usefulness of Useless Knowledge](https://www.ias.edu/sites/default/files/library/UsefulnessHarpers.pdf)|
 |April 7|Westreich 2017|[From Patients to Policy: Population Intervention Effects in Epidemiology](https://pubmed.ncbi.nlm.nih.gov/28282339/)|
-|April 21|||
-|May 5|||
-|May 19|||
+|April 21||What does an epidemiologist need to know?|
+|May 5||What motivates scientists to do research?|
+|May 19||Should basic methodological errors have consequences?|
+|June 2||Explaning causal assumptions to non-experts|
+|June 16|Glass 1976|[Primary, Secondary, and Meta-Aanlysis of Research](https://faculty.ucmerced.edu/jvevea/classes/290_21/readings/week%2010/Glass%201978.pdf)|
+|June 30||Westkop @ 16h|
 
 
 
