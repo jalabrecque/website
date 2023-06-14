@@ -48,7 +48,6 @@ Without answer to these questions, how do we know how much to believe a result? 
 - [Life doesn't make sense!](https://www.youtube.com/watch?v=OyDpS-GftCk)
 
 
-   
 </br>
 </br>
 </br>
@@ -62,6 +61,15 @@ Before I begin talking about fancier things, I need to make sure we're all on th
 
 - Inventing causal assumptions (20 minute group exercise)
 
+**Consistency:**
+
+- Section 3.4 in [What If? (Hernan and Robins 2023)](https://www.hsph.harvard.edu/miguel-hernan/wp-content/uploads/sites/1268/2023/05/hernanrobins_WhatIf_14may23.pdf)
+- [Concerning the consistency assumption in causal inference, (Vanderweele, 2009)](https://pubmed.ncbi.nlm.nih.gov/19829187/)
+- [Race and Sex are Causes (Glymour and Glymour 2014)](https://journals.lww.com/epidem/Fulltext/2014/07000/Commentary__Race_and_Sex_Are_Causes.3.aspx)
+- [Causal identification: a charge of epidemiology in danger of marginalization (Schwartz et al 2016) )](https://pubmed.ncbi.nlm.nih.gov/27237595/)
+- [There is no virtue in Vagueness (Kaufman 2016)](https://pubmed.ncbi.nlm.nih.gov/27641315/)
+   
+
 
 </br>
 </br>
@@ -73,10 +81,12 @@ Before I begin talking about fancier things, I need to make sure we're all on th
 
 **The basic idea:** We can make weaker but more believable assumptions than "no uncontrolled confounding" to end up with a bound rather than a point estimate. In other words, we get limits on what the true effect could be (given the assumptions we make are true, of course) instead of one point estimate.
 
-Readings:
+**Readings:**
 
 - [Communicating uncertainty in policy analysis.](https://www.pnas.org/doi/pdf/10.1073/pnas.1722389115) Manski, 2019.
-
+- [Patient Care Under Uncertainty (Manski 2019)](https://press.princeton.edu/books/hardcover/9780691194738/patient-care-under-uncertainty)
+- [Nonparametric Bounds on Treatment Effects (Manski 1990)](https://www.jstor.org/stable/2006592)
+- [Bounding the per-protocol effect in randomized trials: an application to colorectal cancer screening (Swanson et al 2015)](https://pubmed.ncbi.nlm.nih.gov/26620120/)
 </br>
 </br>
 </br>
@@ -92,6 +102,7 @@ Readings:
 
 - [Triangulation in aetiological epidemiology](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5841843/). Lawlor, Tilling and Davey Smith, 2016.
 - [Alternative causal inference methods in population health research: Evaluating tradeoffs and triangulating evidence](https://www.sciencedirect.com/science/article/pii/S2352827319301545). Matthay et al, 2020.
+- [Triangulating Evidence through the Inclusion of Genetically Informed Designs (Munafò et al 2021)](https://pubmed.ncbi.nlm.nih.gov/33355252/)
 
 </br>
 </br>
@@ -102,3 +113,10 @@ Readings:
 </br>
 
 **The basic idea:** Sometimes we know something about a confounder that we were not able to measured. Bias analysis can help estimate what answer you would have been if you had adjusted for that confounder. Bias analysis can also be used to find out how strong an unmeasured confounder would have to be to completely explain away your results. 
+
+**Readings:**
+
+- [Applying Quantitative Bias Analysis to Epidemiologic Data (Fox et al)](https://link.springer.com/book/10.1007/978-3-030-82673-4)
+- [Bias analysis gone bad (Lash et al 2021)](https://academic.oup.com/aje/article/190/8/1604/6189735)
+- [Sensitivity analysis in observational research (Vanderweele and Ding 2017)](https://pubmed.ncbi.nlm.nih.gov/28693043/)
+- [The importance of making assumptions in bias analysis (MacLehose et al 2021)](https://pubmed.ncbi.nlm.nih.gov/34224472/)
