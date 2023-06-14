@@ -46,11 +46,12 @@ Without answer to these questions, how do we know how much to believe a result? 
 
 ## Introduction{#intro}
 
-- [Life doesn't make sense!](https://www.youtube.com/watch?v=OyDpS-GftCk)
+Before I begin talking about fancier things, I need to make sure we're all on the same page with regards to causal inference and causal assumptions. This part of the workshop will also motivate the rest of the workshop. 
 
-Before I begin talking about fancier things, I need to make sure we're all on the same page with regards to causal inference and causal assumptions. Here are the slides
+**Slides**
 
-- Inventing causal assumptions (20 minute group exercise)
+
+- [Exercise]()
 
 
 
@@ -60,7 +61,7 @@ Before I begin talking about fancier things, I need to make sure we're all on th
 - Section 3.4 in [What If? (Hernan and Robins 2023)](https://www.hsph.harvard.edu/miguel-hernan/wp-content/uploads/sites/1268/2023/05/hernanrobins_WhatIf_14may23.pdf)
 - [Concerning the consistency assumption in causal inference, (Vanderweele, 2009)](https://pubmed.ncbi.nlm.nih.gov/19829187/)
 - [Race and Sex are Causes (Glymour and Glymour 2014)](https://journals.lww.com/epidem/Fulltext/2014/07000/Commentary__Race_and_Sex_Are_Causes.3.aspx)
-- [Causal identification: a charge of epidemiology in danger of marginalization (Schwartz et al 2016) )](https://pubmed.ncbi.nlm.nih.gov/27237595/)
+- [Causal identification: a charge of epidemiology in danger of marginalization (Schwartz et al 2016)](https://pubmed.ncbi.nlm.nih.gov/27237595/)
 - [There is no virtue in Vagueness (Kaufman 2016)](https://pubmed.ncbi.nlm.nih.gov/27641315/)
    
 
