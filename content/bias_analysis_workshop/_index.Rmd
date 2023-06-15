@@ -1,5 +1,5 @@
 ---
-title: "What to do when you have unmeasured confounding (which is always)"
+title: "Workshop: What to do when you have unmeasured confounding (which is always)"
 summary: Journal club
 output:
   html_document:
@@ -9,6 +9,9 @@ output:
     css: style.css
 
 ---
+
+**Date:** 9am, June 21   
+**Location:** FF321 [(Map of Erasmus MC)](https://generationr.nl/wp-content/uploads/2017/07/plattegrond-Erasmus.jpg)
 
 </br>
 </br>
@@ -48,10 +51,10 @@ Without answer to these questions, how do we know how much to believe a result? 
 
 Before I begin talking about fancier things, I need to make sure we're all on the same page with regards to causal inference and causal assumptions. This part of the workshop will also motivate the rest of the workshop. 
 
-**Slides**
+<!-- **Slides** -->
 
 
-- [Exercise]()
+<!-- - Exercise -->
 
 
 
@@ -82,6 +85,7 @@ Before I begin talking about fancier things, I need to make sure we're all on th
 - [Patient Care Under Uncertainty (Manski 2019)](https://press.princeton.edu/books/hardcover/9780691194738/patient-care-under-uncertainty)
 - [Nonparametric Bounds on Treatment Effects (Manski 1990)](https://www.jstor.org/stable/2006592)
 - [Bounding the per-protocol effect in randomized trials: an application to colorectal cancer screening (Swanson et al 2015)](https://pubmed.ncbi.nlm.nih.gov/26620120/)
+- [The analysis of randomized and non-randomized AIDS treatment trials using a new approach to causal inference in longitudinal studies (Robins 1989)](https://www.hsph.harvard.edu/wp-content/uploads/sites/343/2013/03/nchsr.pdf)
 </br>
 </br>
 </br>
@@ -93,10 +97,10 @@ Before I begin talking about fancier things, I need to make sure we're all on th
 
 **The basic idea:** Sometimes we can get two answers to the same question that rely on different causal assumptions. If two estimates the rely on different assumptions agree, _sometimes_ we can be more confident that the estimates are unbiased.
 
-Readings:  
+**Readings:**  
 
-- [Triangulation in aetiological epidemiology](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5841843/). Lawlor, Tilling and Davey Smith, 2016.
-- [Alternative causal inference methods in population health research: Evaluating tradeoffs and triangulating evidence](https://www.sciencedirect.com/science/article/pii/S2352827319301545). Matthay et al, 2020.
+- [Triangulation in aetiological epidemiology (lawlor et al 2016)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5841843/)
+- [Alternative causal inference methods in population health research: Evaluating tradeoffs and triangulating evidence (Matthay et al 2020)](https://www.sciencedirect.com/science/article/pii/S2352827319301545)
 - [Triangulating Evidence through the Inclusion of Genetically Informed Designs (Munafò et al 2021)](https://pubmed.ncbi.nlm.nih.gov/33355252/)
 
 </br>
