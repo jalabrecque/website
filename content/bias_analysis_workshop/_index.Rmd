@@ -10,7 +10,7 @@ output:
 
 ---
 
-**Date:** 9am, June 21   
+**Date:** 9-13h, June 21   
 **Location:** FF321 [(Map of Erasmus MC)](https://generationr.nl/wp-content/uploads/2017/07/plattegrond-Erasmus.jpg)
 
 </br>
@@ -31,7 +31,6 @@ Without answer to these questions, how do we know how much to believe a result? 
 ## Outline
 
 - [Introduction](#intro)
-- [Causal assumptions](#assumptions)
 - [Partial identification](#partial)
 - [Triangulation](#triangulation)
 - [Bias analysis](#bias_analysis)
