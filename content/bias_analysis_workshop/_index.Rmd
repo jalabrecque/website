@@ -14,6 +14,8 @@ output:
 **Date:** 9-13h, June 21   
 **Location:** FF321 [(Map of Erasmus MC)](https://generationr.nl/wp-content/uploads/2017/07/plattegrond-Erasmus.jpg)
 
+Note: No preparation required for the workshop. The references below are for your own knowledge.
+
 </br>
 </br>
 Science is all about trying to make arguments to support statements about reality. But we never usually teach it that way. We usually teach students a recipe that they need to follow in order to get published. For example, in epidemiology or public health, this usually involves some form of looking at the relationship between two variables after you've adjusted for a bunch of other variables and if the p-value is less than 0.05 we say we've found an "association". Of course, part of this ritual dance is also to say somewhere in the discussion that there is always the possibility that the results are due to unmeasured confounding.
@@ -91,21 +93,6 @@ Before I begin talking about fancier things, I need to make sure we're all on th
 </br>
 
 
-## Triangulation {#triangulation}
-
-</br>
-
-**The basic idea:** Sometimes we can get two answers to the same question that rely on different causal assumptions. If two estimates the rely on different assumptions agree, _sometimes_ we can be more confident that the estimates are unbiased.
-
-**Readings:**  
-
-- [Triangulation in aetiological epidemiology (lawlor et al 2016)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5841843/)
-- [Alternative causal inference methods in population health research: Evaluating tradeoffs and triangulating evidence (Matthay et al 2020)](https://www.sciencedirect.com/science/article/pii/S2352827319301545)
-- [Triangulating Evidence through the Inclusion of Genetically Informed Designs (Munafò et al 2021)](https://pubmed.ncbi.nlm.nih.gov/33355252/)
-
-</br>
-</br>
-</br>
 
 ## Bias analysis{#bias_analysis}
 
@@ -119,3 +106,21 @@ Before I begin talking about fancier things, I need to make sure we're all on th
 - [Bias analysis gone bad (Lash et al 2021)](https://academic.oup.com/aje/article/190/8/1604/6189735)
 - [Sensitivity analysis in observational research (Vanderweele and Ding 2017)](https://pubmed.ncbi.nlm.nih.gov/28693043/)
 - [The importance of making assumptions in bias analysis (MacLehose et al 2021)](https://pubmed.ncbi.nlm.nih.gov/34224472/)
+
+</br>
+</br>
+</br>
+
+## Triangulation {#triangulation}
+
+</br>
+
+**The basic idea:** Sometimes we can get two answers to the same question that rely on different causal assumptions. If two estimates the rely on different assumptions agree, _sometimes_ we can be more confident that the estimates are unbiased.
+
+**Readings:**  
+
+- [Triangulation in aetiological epidemiology (lawlor et al 2016)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5841843/)
+- [Alternative causal inference methods in population health research: Evaluating tradeoffs and triangulating evidence (Matthay et al 2020)](https://www.sciencedirect.com/science/article/pii/S2352827319301545)
+- [Triangulating Evidence through the Inclusion of Genetically Informed Designs (Munafò et al 2021)](https://pubmed.ncbi.nlm.nih.gov/33355252/)
+
+
