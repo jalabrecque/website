@@ -127,6 +127,9 @@ Before I begin talking about fancier things, I need to make sure we're all on th
 - [Alternative causal inference methods in population health research: Evaluating tradeoffs and triangulating evidence (Matthay et al 2020)](https://www.sciencedirect.com/science/article/pii/S2352827319301545)
 - [Triangulating Evidence through the Inclusion of Genetically Informed Designs (Munafò et al 2021)](https://pubmed.ncbi.nlm.nih.gov/33355252/)
 
+</br>
+</br>
+</br>
 
 ## Feedback {#feedback}
 
