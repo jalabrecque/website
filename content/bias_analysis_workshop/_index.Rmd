@@ -33,10 +33,13 @@ Without answer to these questions, how do we know how much to believe a result? 
 
 ## Outline
 
+[All the slides and the exercise can be found by clicking here.](https://drive.google.com/drive/folders/1M-XmL51IqNJkVpy0ChVSHR8-wUDbApX3?usp=sharing) 
+
 - [Introduction](#intro)
 - [Partial identification](#partial)
 - [Triangulation](#triangulation)
 - [Bias analysis](#bias_analysis)
+- [Feedback](#feedback)
 
 
 </br>
@@ -103,6 +106,7 @@ Before I begin talking about fancier things, I need to make sure we're all on th
 **Readings:**
 
 - [Applying Quantitative Bias Analysis to Epidemiologic Data (Fox et al)](https://link.springer.com/book/10.1007/978-3-030-82673-4)
+- [Sensitivity Analyses for Unmeasured Confounders](https://link.springer.com/article/10.1007/s40471-022-00308-6)
 - [Bias analysis gone bad (Lash et al 2021)](https://academic.oup.com/aje/article/190/8/1604/6189735)
 - [Sensitivity analysis in observational research (Vanderweele and Ding 2017)](https://pubmed.ncbi.nlm.nih.gov/28693043/)
 - [The importance of making assumptions in bias analysis (MacLehose et al 2021)](https://pubmed.ncbi.nlm.nih.gov/34224472/)
@@ -123,4 +127,8 @@ Before I begin talking about fancier things, I need to make sure we're all on th
 - [Alternative causal inference methods in population health research: Evaluating tradeoffs and triangulating evidence (Matthay et al 2020)](https://www.sciencedirect.com/science/article/pii/S2352827319301545)
 - [Triangulating Evidence through the Inclusion of Genetically Informed Designs (Munafò et al 2021)](https://pubmed.ncbi.nlm.nih.gov/33355252/)
 
+
+## Feedback {#feedback}
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd_mt8nOwOKDRrGpkZfR_bvowLinGCq2-J_KI1QG_GQANJLoQ/viewform?embedded=true" width="640" height="558" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
