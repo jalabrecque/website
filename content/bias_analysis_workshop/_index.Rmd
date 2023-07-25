@@ -106,10 +106,14 @@ Before I begin talking about fancier things, I need to make sure we're all on th
 **Readings:**
 
 - [Applying Quantitative Bias Analysis to Epidemiologic Data (Fox et al)](https://link.springer.com/book/10.1007/978-3-030-82673-4)
-- [Sensitivity Analyses for Unmeasured Confounders](https://link.springer.com/article/10.1007/s40471-022-00308-6)
+- [Sensitivity Analyses for Unmeasured Confounders (D’Agostino McGowan 2022)](https://link.springer.com/article/10.1007/s40471-022-00308-6)
 - [Bias analysis gone bad (Lash et al 2021)](https://academic.oup.com/aje/article/190/8/1604/6189735)
 - [Sensitivity analysis in observational research (Vanderweele and Ding 2017)](https://pubmed.ncbi.nlm.nih.gov/28693043/)
 - [The importance of making assumptions in bias analysis (MacLehose et al 2021)](https://pubmed.ncbi.nlm.nih.gov/34224472/)
+- [Sensitivity analysis for unmeasured confounding in the estimation of marginal causal effects (Ciocănea-Teodorescu 2022)](https://academic.oup.com/biomet/article/109/4/1101/6547041)
+- [Ignorance and uncertainty regions as inferential tools in a sensitivity analysis (Vansteelandt 2006)](https://www.jstor.org/stable/24307583)
+- [To Bound or Not to Bound, Is That the Question? (Gustafson 2021)](https://journals.lww.com/epidem/Fulltext/2021/09000/To_Bound_or_Not_to_Bound__Is_That_the_Question_.3.aspx)
+- [Invited Commentary: Dealing With the Inevitable Deficiencies of Bias Analysis—and All Analyses (Greenland 2021)](https://academic.oup.com/aje/article/190/8/1617/6189732)
 
 </br>
 </br>
