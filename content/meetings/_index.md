@@ -8,11 +8,11 @@ output:
 
 ---
 
-</br>
-</br>
 
 
-We meet every second Wednesday in NA2803 at ErasmusMC and through Teams. You can also email me if you would like to join our meeting: j.labrecque@erasmusmc.nl.
+We meet every second Wednesday in NA2803 at ErasmusMC and through Teams if you're not in Rotterdam.
+
+You can also email me if you are interested in causal inference and would like to join our meetings: j.labrecque@erasmusmc.nl.
 
 ## Fall 2023-Spring 2024 schedule
 
