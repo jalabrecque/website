@@ -43,5 +43,5 @@ weight = 20
 
 [[main]]
   name = "Group meetings"
-# url = "https://www.jeremylabrecque.org/meetings"
-# weight = 80
+  url = "https://www.jeremylabrecque.org/meetings"
+  weight = 80
