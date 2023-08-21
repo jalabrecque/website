@@ -7,6 +7,7 @@ published: true
 
 Whenever someone asks me for advice and they tell me their research question is an association, I launch into some form of the conversation below. I cannot help anyone with their methods if they tell me they're interested in estimating an association because that's not a proper research question. And it's kind of interesting that often enough when I push them a bit, their question isn't necessarily causal either.
 
+
 **Epidemiologist:** I want to estimate the association between exposure to antibiotics during pregnancy and asthma at age 5. 
 
 **Me:** Ok. If all you want to know is that association you can just compare the risk of the asthma at age 5 in children whose mothers took antibiotics to mothers did not take antibiotics. If the risk isn't the same in each group you know they're associated.
