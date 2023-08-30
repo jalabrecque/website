@@ -18,7 +18,7 @@ interests:
 - Social epidemiology
 - Asking more interesting research questions
 - Instrumental variable analysis
-name: Jeremy A. Labrecque
+name: Maurice Korf
 organizations:
 - name: Erasmus MC
   url: ""
