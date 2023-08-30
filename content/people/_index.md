@@ -1,7 +1,4 @@
 ---
-title: "Erasmus MC Causal Inference Group"
-summary: Causal Inference Group
-
 widget: people
 headless: true  # This file represents a page section.
 
@@ -27,11 +24,6 @@ design:
   # Show user's organizations/affiliations?
   show_organizations: true
 
-
-output:
-  html_document:
-    keep_md: true
-    css: style.css
 
 ---
 
