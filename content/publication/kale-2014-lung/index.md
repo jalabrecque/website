@@ -6,10 +6,10 @@ subtitle: ''
 summary: ''
 authors:
 - M Kale
-- e̊lax AE Clarke
+- AE Clarke
 - R Ramsey-Goldman
 - M Urowitz
-- \l̊ax PR Fortin
+- PR Fortin
 - S Manzi
 - M Petri
 - E Ginzler

@@ -5,14 +5,14 @@ title: Prognosis of Various Atrial Fibrillation Patterns in the General Populati
 subtitle: ''
 summary: ''
 authors:
-- e̊lax MJ Tilly
+- MJ Tilly
 - Z Lu
 - S Geurts
-- \l̊ax BH Stricker
-- \råx JA Labrecque
-- \rex̊ MK Ikram
-- \rel ̊MPM De Maat
-- \relaN̊MS De Groot
+-  BH Stricker
+- JA Labrecque
+- MK Ikram
+- MPM De Maat
+- MS De Groot
 - M Kavousi
 tags: []
 categories: []
