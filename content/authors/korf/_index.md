@@ -1,6 +1,5 @@
 ---
 authors:
-- Maurice Korf
 - korf
 bio: 
 education:
