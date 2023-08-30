@@ -1,8 +1,6 @@
 ---
 title: People
 date: 2022-10-24
-active:true
-
 type: landing
 
 sections:
