@@ -35,7 +35,7 @@ output:
 
 |Date|Reference|Paper|
 |:--- |:--- |:---------- |
-|September 8|Epidemiology X||
+|September 8|Epidemiology X|[Submit a question](https://forms.gle/isgDdfZ6cTaRjwET6)|
 |September 22|||
 |October 6|||
 |October 20|||
