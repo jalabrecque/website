@@ -10,6 +10,26 @@ output:
 
 ---
 
+## Winter/Spring 2023 Schedule
+
+|Date|Reference|Paper|
+|:--- |:--- |:---------- |
+|January 13|Epidemiology X||
+|January 27|Kaufman 2017|[Statistics, Adjusted Statistics and Maladjusted Statistics](https://pubmed.ncbi.nlm.nih.gov/29254468/)|
+|February 10||Discussion about statistical testing|
+|February 24|Rothman 1976|[Causes](https://academic.oup.com/aje/article/104/6/587/139202)|
+|March 10|Huitfeldt 2016|[Is caviar a risk factor for being a millionaire?](https://www.bmj.com/bmj/section-pdf/935674?path=/bmj/355/8086/Food_for_thought.full.pdf)|
+|March 24|Flexner 1939|[The Usefulness of Useless Knowledge](https://www.ias.edu/sites/default/files/library/UsefulnessHarpers.pdf)|
+|April 7|Westreich 2017|[From Patients to Policy: Population Intervention Effects in Epidemiology](https://pubmed.ncbi.nlm.nih.gov/28282339/)|
+|April 21||What does an epidemiologist need to know?|
+|May 5||What motivates scientists to do research?|
+|May 19||Should basic methodological errors have consequences?|
+|June 2||Explaning causal assumptions to non-experts|
+|June 16|Glass 1976|[Primary, Secondary, and Meta-Aanlysis of Research](https://faculty.ucmerced.edu/jvevea/classes/290_21/readings/week%2010/Glass%201978.pdf)|
+|June 30||Westkop @ 16h|
+
+
+
 </br>
 </br>
 
