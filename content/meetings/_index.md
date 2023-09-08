@@ -19,8 +19,8 @@ You can also email me if you are interested in causal inference and would like t
 |Date|Topic|
 |:------ |:------ |
 |September 6|[What if, Chapter 9: Measurement Bias](https://www.hsph.harvard.edu/miguel-hernan/wp-content/uploads/sites/1268/2023/07/hernanrobins_WhatIf_19jul23.pdf)|
-|September 20||
-|October 4||
+|September 20|Cancelled|
+|October 4|[What if, Chapter 10: Random variability](https://www.hsph.harvard.edu/miguel-hernan/wp-content/uploads/sites/1268/2023/07/hernanrobins_WhatIf_19jul23.pdf)|
 |October 18||
 |November 1||
 |November 15||
