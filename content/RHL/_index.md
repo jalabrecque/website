@@ -385,3 +385,4 @@ Because Yahoo doesn't allow us to just take a draft pick away, your draft pick w
 - 2020: No champion (COVID)
 - 2021: Suzuki Jimney
 - 2022: Suzuki Jimney
+- 2023: Connor Dioxide Emissions

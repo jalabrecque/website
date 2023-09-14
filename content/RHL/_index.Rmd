@@ -229,3 +229,4 @@ kable(cbind(c(rep("Main",16),rep("Farm",5)),ds[-1,15:16]), col.names = c("Main/f
 - 2020: No champion (COVID)
 - 2021: Suzuki Jimney
 - 2022: Suzuki Jimney
+- 2023: Connor Dioxide Emissions
