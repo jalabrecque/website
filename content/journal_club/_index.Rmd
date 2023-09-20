@@ -14,16 +14,16 @@ output:
 </br>
 
 ## Next session
-**Date:** September 8, 2023 at 13h (CET) (sign up below to receive a link to the meeting)      
-**Paper to be discussed:** Epidemiology X
+**Date:** September 22, 2023 at 13h (CET) (sign up below to receive a link to the meeting)      
+**Paper to be discussed:** [Target Validity and the Hierarchy of Study Designs](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6357801/)
 
 </br>
 </br>
 </br>
 
 
-![](epidemiology x.png)
-<!--[![](paper_screenshot.png)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5453818/pdf/ede-28-525.pdf)-->
+<!-- ![](epidemiology x.png) -->
+[![](paper_screenshot.png)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6357801/)
 </br>
 </br>
 </br>
@@ -36,7 +36,7 @@ output:
 |Date|Reference|Paper|
 |:--- |:--- |:---------- |
 |September 8|Epidemiology X|[Submit a question](https://forms.gle/isgDdfZ6cTaRjwET6)|
-|September 22|||
+|September 22|Wesrtreich et al 2023|[Target Validity and the Hierarchy of Study Designs](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6357801/)|
 |October 6|||
 |October 20|||
 |November 3|||
