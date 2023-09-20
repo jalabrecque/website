@@ -20,7 +20,8 @@ output:
 
 # Main meals
 - Pollo arvejado
-- Pate Chinois
+- [Pate Chinois](https://www.ricardocuisine.com/en/recipes/5541-pate-chinois-shepherd-s-pie)
 - Salmon, asparagus, potatoes
 - Chili
-- 
+- [Jambalaya](https://www.jeremylabrecque.org/recipes/jambalaya)
+- Roasted hunk of meat 
