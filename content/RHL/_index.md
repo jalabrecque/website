@@ -1,5 +1,5 @@
 ---
-title:
+title: Rigged Hockey League
 summary: Here we describe how to add a page to your site.
 
 
