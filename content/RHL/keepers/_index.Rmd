@@ -15,7 +15,9 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ```{r}
-ds <- read.table("/Users/jeremylabrecque/Google Drive/Personal/rhl/keeper.csv", sep=";")
+library(readr)
+ds <- suppressMessages(read_csv("~/Google Drive/Personal/rhl/keeper_2324.csv"))
+
 ```
 
 
@@ -24,7 +26,10 @@ ds <- read.table("/Users/jeremylabrecque/Google Drive/Personal/rhl/keeper.csv", 
 
 ```{r}
 library(knitr)
-kable(cbind(c(rep("Main",16),rep("Farm",5)),ds[-1,1:2]), col.names = c("Main/farm","Player","Keeper cost"),row.names = F )
+ds_ <- ds[,1:2]
+ds_ <- ds_[!is.na(ds_[,1]),]
+label <- ifelse(ds_[,2]>0,"Main","Farm")
+kable(cbind(label,ds_), col.names = c("Main/farm","Player","Keeper cost"),row.names = F )
 ```
 
 
@@ -32,7 +37,10 @@ kable(cbind(c(rep("Main",16),rep("Farm",5)),ds[-1,1:2]), col.names = c("Main/far
 
 ```{r}
 library(knitr)
-kable(cbind(c(rep("Main",16),rep("Farm",5)),ds[-1,3:4]), col.names = c("Main/farm","Player","Keeper cost"),row.names = F )
+ds_ <- ds[,3:4]
+ds_ <- ds_[!is.na(ds_[,1]),]
+label <- ifelse(ds_[,2]>0,"Main","Farm")
+kable(cbind(label,ds_), col.names = c("Main/farm","Player","Keeper cost"),row.names = F )
 ```
 
 
@@ -40,14 +48,20 @@ kable(cbind(c(rep("Main",16),rep("Farm",5)),ds[-1,3:4]), col.names = c("Main/far
 
 ```{r}
 library(knitr)
-kable(cbind(c(rep("Main",16),rep("Farm",5)),ds[-1,5:6]), col.names = c("Main/farm","Player","Keeper cost"),row.names = F )
+ds_ <- ds[,5:6]
+ds_ <- ds_[!is.na(ds_[,1]),]
+label <- ifelse(ds_[,2]>0,"Main","Farm")
+kable(cbind(label,ds_), col.names = c("Main/farm","Player","Keeper cost"),row.names = F )
 ```
 
 ## Little Jarry
 
 ```{r}
 library(knitr)
-kable(cbind(c(rep("Main",16),rep("Farm",5)),ds[-1,7:8]), col.names = c("Main/farm","Player","Keeper cost"),row.names = F )
+ds_ <- ds[,7:8]
+ds_ <- ds_[!is.na(ds_[,1]),]
+label <- ifelse(ds_[,2]>0,"Main","Farm")
+kable(cbind(label,ds_), col.names = c("Main/farm","Player","Keeper cost"),row.names = F )
 ```
 
 
@@ -55,7 +69,10 @@ kable(cbind(c(rep("Main",16),rep("Farm",5)),ds[-1,7:8]), col.names = c("Main/far
 
 ```{r}
 library(knitr)
-kable(cbind(c(rep("Main",16),rep("Farm",5)),ds[-1,9:10]), col.names = c("Main/farm","Player","Keeper cost"),row.names = F )
+ds_ <- ds[,9:10]
+ds_ <- ds_[!is.na(ds_[,1]),]
+label <- ifelse(ds_[,2]>0,"Main","Farm")
+kable(cbind(label,ds_), col.names = c("Main/farm","Player","Keeper cost"),row.names = F )
 ```
 
 
@@ -63,7 +80,10 @@ kable(cbind(c(rep("Main",16),rep("Farm",5)),ds[-1,9:10]), col.names = c("Main/fa
 
 ```{r}
 library(knitr)
-kable(cbind(c(rep("Main",16),rep("Farm",5)),ds[-1,11:12]), col.names = c("Main/farm","Player","Keeper cost"),row.names = F )
+ds_ <- ds[,11:12]
+ds_ <- ds_[!is.na(ds_[,1]),]
+label <- ifelse(ds_[,2]>0,"Main","Farm")
+kable(cbind(label,ds_), col.names = c("Main/farm","Player","Keeper cost"),row.names = F )
 ```
 
 
@@ -71,7 +91,10 @@ kable(cbind(c(rep("Main",16),rep("Farm",5)),ds[-1,11:12]), col.names = c("Main/f
 
 ```{r}
 library(knitr)
-kable(cbind(c(rep("Main",16),rep("Farm",5)),ds[-1,13:14]), col.names = c("Main/farm","Player","Keeper cost"),row.names = F )
+ds_ <- ds[,13:14]
+ds_ <- ds_[!is.na(ds_[,1]),]
+label <- ifelse(ds_[,2]>0,"Main","Farm")
+kable(cbind(label,ds_), col.names = c("Main/farm","Player","Keeper cost"),row.names = F )
 ```
 
 
@@ -79,5 +102,8 @@ kable(cbind(c(rep("Main",16),rep("Farm",5)),ds[-1,13:14]), col.names = c("Main/f
 
 ```{r}
 library(knitr)
-kable(cbind(c(rep("Main",16),rep("Farm",5)),ds[-1,15:16]), col.names = c("Main/farm","Player","Keeper cost"),row.names = F )
+ds_ <- ds[,15:16]
+ds_ <- ds_[!is.na(ds_[,1]),]
+label <- ifelse(ds_[,2]>0,"Main","Farm")
+kable(cbind(label,ds_), col.names = c("Main/farm","Player","Keeper cost"),row.names = F )
 ```
