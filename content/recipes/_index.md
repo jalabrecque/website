@@ -14,7 +14,7 @@ output:
 
 
 # Soups
-- Pantrucas
+- [Pantrucas](https://www.jeremylabrecque.org/recipes/pantrucas)
 - Pumpkin soup
 
 
