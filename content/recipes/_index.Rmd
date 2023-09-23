@@ -1,24 +1,27 @@
 ---
 title: "Recipes"
 summary: To make food
+
 output:
   html_document:
     keep_md: true
+    toc: true
+    toc_float: true
     css: style.css
 
 ---
 
-# Salads
+### Salads
 - Ensalada a la Chilena
 - Carrots and lemon juice
 
 
-# Soups
+### Soups
 - [Pantrucas](https://www.jeremylabrecque.org/recipes/pantrucas)
 - Pumpkin soup
 
 
-# Main meals
+###  Main meals
 - Pollo arvejado
 - [Pate Chinois](https://www.ricardocuisine.com/en/recipes/5541-pate-chinois-shepherd-s-pie)
 - Salmon, asparagus, potatoes
@@ -27,8 +30,8 @@ output:
 - Roasted hunk of meat 
 
 
-# Dessert     
+### Dessert     
 - [Chocolate chip oatmeal cookies](https://www.jeremylabrecque.org/recipes/chocolate_chip_oatmeal_cookies)
 
-## Baking
+### Baking
 - [Sourdough Crackers](https://www.jeremylabrecque.org/recipes/sourdough_crackers)
