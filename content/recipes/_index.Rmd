@@ -25,3 +25,7 @@ output:
 - Chili
 - [Jambalaya](https://www.jeremylabrecque.org/recipes/jambalaya)
 - Roasted hunk of meat 
+
+
+# Dessert     
+- [Chocolate chip oatmeal cookies](https://www.jeremylabrecque.org/recipes/chocolate_chip_oatmeal_cookies)
