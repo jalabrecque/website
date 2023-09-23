@@ -9,7 +9,7 @@ output:
 ---
 
 
-Ingredients
+### Ingredients
 
 - 1 cup butter, softened
 - 1 cup packed light brown sugar
@@ -26,7 +26,7 @@ Ingredients
 
 
 
-Instructions
+### Instructions
  
 @. Preheat the oven to 325 degrees F (165 degrees C).
 @. Combine flour, baking soda, and salt in a medium bowl. Set aside.
