@@ -35,9 +35,9 @@ In a world where a good rig goes unappreciated, the Rigged Hockey League, hencef
 
 ## Important dates    
 
-- **Sept 24:** All keeper lists must be set   
-- **Oct 2, 4pm:** Draft
-- **Oct 7:** First day of season
+- **TBA:** All keeper lists must be set   
+- **TBA:** Draft
+- **Oct 10:** First day of season
 </br>
 </br>
 
@@ -160,7 +160,7 @@ Because Yahoo doesn't allow us to just take a draft pick away, your draft pick w
 
 
 
-## Keeper Lists
+## Keeper Lists {.tabset}
 ### Connor Dioxide Emissions
 
 ```{r}
