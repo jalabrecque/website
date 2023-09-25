@@ -82,4 +82,6 @@ Tennant et al. Use of directed acyclic graphs (DAGs) to identify confounders in 
 
 ## Hypothesis testing/p-values
 
-- Berner, D., & Amrhein, V. (2022). [Why and how we should join the shift from significance testing to estimation.](https://doi.org/10.1111/jeb.14009) Journal of Evolutionary Biology, 00, 1– 11.
+- Berner and Arnheim, 2022. [Why and how we should join the shift from significance testing to estimation.](https://doi.org/10.1111/jeb.14009) Journal of Evolutionary Biology, 00, 1– 11.
+
+- Stang and Poole, 2013. [The researcher and the consultant: a dialogue on null hypothesis significance testing](https://pubmed.ncbi.nlm.nih.gov/24233192/)
