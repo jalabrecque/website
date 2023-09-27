@@ -35,7 +35,7 @@ In a world where a good rig goes unappreciated, the Rigged Hockey League, hencef
 
 ## Important dates    
 
-- **TBA:** All keeper lists must be set   
+- **Saturday, September 30:** Keeper deadline date   
 - **TBA:** Draft
 - **Oct 10:** First day of season
 </br>
@@ -44,6 +44,28 @@ In a world where a good rig goes unappreciated, the Rigged Hockey League, hencef
 
 
 
+
+## Beginning of season FAQ
+
+- You can only select keepers on the website version, not in the app version. When you log into yahoo and click on your team, there will be a link at the top asking you to select your keepers
+- When selection your keepers, also select your farm team as keeper players
+- Any players who is 24 or older on October 1st (i.e., born after Oct 1, 1999) must be brought up to your team for the beginning of the season, they cost 0 player years this year
+- Trades can still be completed before you submit your keepers
+- You can tell how many round of draft picks you'll have by subtracting the number of players you have kept (including farm team) from 19. For example, I have kept 12 players so I will draft up to an including round 7 (19-12). This doesn't take into account any previous trades of draft picks
+- Draft Order:
+  1. Suzuki Jimney
+  2. Silken Cape
+  3. Fracas
+  4. Jeffa Petersburg
+  5. Стивен Прекрасный
+  6. Lance D'Rundell
+  7. Deluge of Gardseur
+  8. Connor Dioxide Emissions
+- Draft pick trades:
+  - Connor 3rd to Silken
+  - Silken 7th to Connor
+  - Connor 7th to Стивен
+  - Стивен 6th to Connor
 
 ## Rules
 
