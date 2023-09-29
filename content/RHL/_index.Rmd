@@ -55,7 +55,7 @@ ds <- suppressMessages(read_csv("~/Google Drive/Personal/rhl/keeper_2324.csv"))
 
 - You can only select keepers on the website version, not in the app version. When you log into yahoo and click on your team, there will be a link at the top asking you to select your keepers
 - When selecting your keepers, also select your farm team as keeper players
-- Any player who is 23 or younger on October 1st (i.e., born after Sept 30, 2000) must be brought up to your team for the beginning of the season, they cost 0 player years this year
+- Any player who is 23 or older on October 1st (i.e., born after Sept 30, 2000) must be brought up to your team for the beginning of the season, they cost 0 player years this year
 - Trades can still be completed before you submit your keepers
 - You can tell how many round of draft picks you'll have by subtracting the number of players you have kept (including farm team) from 19. For example, I have kept 12 players so I will draft up to an including round 7 (19-12). This doesn't take into account any previous trades of draft picks
 - Draft Order:
