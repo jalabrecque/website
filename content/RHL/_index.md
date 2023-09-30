@@ -234,7 +234,7 @@ Because Yahoo doesn't allow us to just take a draft pick away, your draft pick w
 |Farm      |Rasmus Dahlin      |           0|
 
 
-### Honey Badger DntCare
+### Jeffa Petersburg
 
 
 |Main/farm |Player            | Keeper cost|
@@ -260,7 +260,7 @@ Because Yahoo doesn't allow us to just take a draft pick away, your draft pick w
 |Farm      |Trevor Zegras     |           0|
 |Farm      |Spencer Knight    |           0|
 
-### Little Jarry
+### Silken Cape
 
 
 |Main/farm |Player            | Keeper cost|
@@ -286,7 +286,7 @@ Because Yahoo doesn't allow us to just take a draft pick away, your draft pick w
 |Farm      |Vasily Podkolzin  |           0|
 
 
-### Necas Fracas
+### Fracas
 
 
 |Main/farm |Player              | Keeper cost|
@@ -338,7 +338,7 @@ Because Yahoo doesn't allow us to just take a draft pick away, your draft pick w
 |Farm      |Cole Caufield     |           0|
 
 
-### Mon Hockey
+### Lance D’Rundell
 
 
 |Main/farm |Player             | Keeper cost|

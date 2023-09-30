@@ -205,7 +205,7 @@ kable(cbind(label,ds_), col.names = c("Main/farm","Player","Keeper cost"),row.na
 ```
 
 
-### Honey Badger DntCare
+### Jeffa Petersburg
 
 ```{r}
 library(knitr)
@@ -215,7 +215,7 @@ label <- ifelse(ds_[,2]>0,"Main","Farm")
 kable(cbind(label,ds_), col.names = c("Main/farm","Player","Keeper cost"),row.names = F )
 ```
 
-### Little Jarry
+### Silken Cape
 
 ```{r}
 library(knitr)
@@ -226,7 +226,7 @@ kable(cbind(label,ds_), col.names = c("Main/farm","Player","Keeper cost"),row.na
 ```
 
 
-### Necas Fracas
+### Fracas
 
 ```{r}
 library(knitr)
@@ -248,7 +248,7 @@ kable(cbind(label,ds_), col.names = c("Main/farm","Player","Keeper cost"),row.na
 ```
 
 
-### Mon Hockey
+### Lance D’Rundell
 
 ```{r}
 library(knitr)
