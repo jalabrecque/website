@@ -14,8 +14,8 @@ output:
 </br>
 
 ## Next session
-**Date:** September 22, 2023 at 13h (CET) (sign up below to receive a link to the meeting)      
-**Paper to be discussed:** [Target Validity and the Hierarchy of Study Designs](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6357801/)
+**Date:** October 6, 2023 at 13h (CET) (sign up below to receive a link to the meeting)      
+**Paper to be discussed:** [Are Target Trial Emulations the Gold Standard for Observational Studies?](https://pubmed.ncbi.nlm.nih.gov/37255243/)
 
 </br>
 </br>
@@ -23,7 +23,7 @@ output:
 
 
 <!-- ![](epidemiology x.png) -->
-[![](paper_screenshot.png)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6357801/)
+[![](paper_screenshot.png)](https://pubmed.ncbi.nlm.nih.gov/37255243/)
 </br>
 </br>
 </br>
@@ -37,7 +37,7 @@ output:
 |:--- |:--- |:---------- |
 |September 8|Epidemiology X|[Submit a question](https://forms.gle/isgDdfZ6cTaRjwET6)|
 |September 22|Wesrtreich et al 2023|[Target Validity and the Hierarchy of Study Designs](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6357801/)|
-|October 6|||
+|October 6|Pearce and Vandenbroucke 2023|[Are Target Trial Emulations the Gold Standard for Observational Studies?](https://pubmed.ncbi.nlm.nih.gov/37255243/)|
 |October 20|||
 |November 3|||
 |November 17|||
