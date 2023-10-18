@@ -28,6 +28,7 @@ output:
 - Chili
 - [Jambalaya](https://www.jeremylabrecque.org/recipes/jambalaya)
 - Roasted hunk of meat 
+- [Beef stew in instant pot](https://www.jeremylabrecque.org/recipes/beef_stew)
 
 
 ### Dessert     

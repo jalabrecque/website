@@ -1,0 +1,30 @@
+---
+title: "Pushing epidemiology forward"
+summary: Pushing epidemiology forward
+output:
+  html_document:
+    keep_md: false
+    toc: true
+    toc_float: true
+    css: style.css
+
+---
+
+</br>
+</br>
+
+## Clear questions
+
+Reading:
+- [A Second Chance to Get Causal Inference Right: A Classification of Data Science Tasks](https://www.hsph.harvard.edu/wp-content/uploads/sites/1268/2019/04/hernan_chance19.pdf)
+- [Target Trial Emulation: A Framework for Causal Inference From Observational Data](https://jamanetwork.com/journals/jama/fullarticle/2799678)
+
+## When asking causal questiosn, use causal language
+
+- [The C-Word: Scientific Euphemisms Do Not Improve Causal Inference From Observational Data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5888052/)
+- [What If](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)
+
+## Avoid common methodological errors
+
+- Hypothesis testing
+- Adjust for mediators
