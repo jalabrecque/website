@@ -38,7 +38,7 @@ output:
 |September 8|Epidemiology X|[Submit a question](https://forms.gle/isgDdfZ6cTaRjwET6)|
 |September 22|Westreich et al 2023|[Target Validity and the Hierarchy of Study Designs](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6357801/)|
 |October 6|Pearce and Vandenbroucke 2023|[Are Target Trial Emulations the Gold Standard for Observational Studies?](https://pubmed.ncbi.nlm.nih.gov/37255243/)|
-|October 20||[Discuss practical importance of results based on interval estimates and p-value functions, not only on point estimates and null p-values](https://journals.sagepub.com/doi/full/10.1177/02683962221105904)|
+|October 20|Amrhein and Greeland 2022|[Discuss practical importance of results based on interval estimates and p-value functions, not only on point estimates and null p-values](https://journals.sagepub.com/doi/full/10.1177/02683962221105904)|
 |November 3|||
 |November 17|||
 |December 1|||
