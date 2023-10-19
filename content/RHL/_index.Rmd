@@ -33,6 +33,13 @@ In a world where a good rig goes unappreciated, the Rigged Hockey League, hencef
 </br>
 </br>
 
+## News
+
+- October 15, 2023: Connor Dioxide Emissions is penalized, as per the [Penalties](#penalties) section of the Rules, a 4th round pick for failing to reach the basic standard of setting a proper lineup. 
+
+</br>
+</br>
+
 ## Important dates    
 
 - **Saturday, September 30:** Keeper deadline date   
