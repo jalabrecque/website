@@ -14,8 +14,8 @@ output:
 </br>
 
 ## Next session
-**Date:** October 20, 2023 at 13h (CET) (sign up below to receive a link to the meeting)      
-**Paper to be discussed:** [Discuss practical importance of results based on interval estimates and p-value functions, not only on point estimates and null p-values](https://journals.sagepub.com/doi/full/10.1177/02683962221105904)
+**Date:** November 3, 2023 at 13h (CET) (sign up below to receive a link to the meeting)      
+**Paper to be discussed:** [Confirmation Bias and Organized Skepticism](https://lakens.github.io/statistical_inferences/16-confirmationbias.html)
 
 </br>
 </br>
@@ -23,7 +23,7 @@ output:
 
 
 <!-- ![](epidemiology x.png) -->
-[![](paper_screenshot.png)](https://journals.sagepub.com/doi/full/10.1177/02683962221105904)
+[![](paper_screenshot.png)](https://lakens.github.io/statistical_inferences/16-confirmationbias.html)
 </br>
 </br>
 </br>
@@ -39,7 +39,7 @@ output:
 |September 22|Westreich et al 2023|[Target Validity and the Hierarchy of Study Designs](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6357801/)|
 |October 6|Pearce and Vandenbroucke 2023|[Are Target Trial Emulations the Gold Standard for Observational Studies?](https://pubmed.ncbi.nlm.nih.gov/37255243/)|
 |October 20|Amrhein and Greeland 2022|[Discuss practical importance of results based on interval estimates and p-value functions, not only on point estimates and null p-values](https://journals.sagepub.com/doi/full/10.1177/02683962221105904)|
-|November 3|||
+|November 3|Lakens|[Confirmation Bias and Organized Skepticism](https://lakens.github.io/statistical_inferences/16-confirmationbias.html)|
 |November 17|||
 |December 1|||
 |December 15|||
