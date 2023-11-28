@@ -14,8 +14,8 @@ output:
 </br>
 
 ## Next session
-**Date:** November 3, 2023 at 13h (CET) (sign up below to receive a link to the meeting)      
-**Paper to be discussed:** [Confirmation Bias and Organized Skepticism](https://lakens.github.io/statistical_inferences/16-confirmationbias.html)
+**Date:** December 1, 2023 at 13h (CET) (sign up below to receive a link to the meeting)      
+**Paper to be discussed:** Part II of "Medical Publishing in Dynamic Times" video & [The C-Word: Scientific Euphemisms Do Not Improve Causal Inference From Observational Data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5888052/)
 
 </br>
 </br>
@@ -23,10 +23,10 @@ output:
 
 
 <!-- ![](epidemiology x.png) -->
-[![](paper_screenshot.png)](https://lakens.github.io/statistical_inferences/16-confirmationbias.html)
-</br>
-</br>
-</br>
+<!-- [![](paper_screenshot.png)](https://lakens.github.io/statistical_inferences/16-confirmationbias.html) -->
+<!-- </br> -->
+<!-- </br> -->
+<!-- </br> -->
 
 
 
@@ -40,8 +40,8 @@ output:
 |October 6|Pearce and Vandenbroucke 2023|[Are Target Trial Emulations the Gold Standard for Observational Studies?](https://pubmed.ncbi.nlm.nih.gov/37255243/)|
 |October 20|Amrhein and Greeland 2022|[Discuss practical importance of results based on interval estimates and p-value functions, not only on point estimates and null p-values](https://journals.sagepub.com/doi/full/10.1177/02683962221105904)|
 |November 3|Lakens|[Confirmation Bias and Organized Skepticism](https://lakens.github.io/statistical_inferences/16-confirmationbias.html)|
-|November 17|||
-|December 1|||
+|November 17||Medical Publishing in Dynamic Times (Part I)|
+|December 1||Medical Publishing in Dynamic Times (Part II) & [the C-Word paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5888052/) |
 |December 15|||
 
 
