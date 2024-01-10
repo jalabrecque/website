@@ -14,18 +14,23 @@ We meet every second Wednesday in NA2803 at ErasmusMC and through Teams if you'r
 
 You can also email me if you are interested in causal inference and would like to join our meetings: j [dot] labrecque [at] erasmusmc [dot] nl.
 
-## Fall 2023-Spring 2024 schedule
+## 2024 Schedule
 
 |Date|Topic|
 |:------ |:------ |
-|September 6|[What if, Chapter 9: Measurement Bias](https://www.hsph.harvard.edu/miguel-hernan/wp-content/uploads/sites/1268/2023/07/hernanrobins_WhatIf_19jul23.pdf)|
-|September 20|Cancelled|
-|October 4|[What if, Chapter 10: Random variability](https://www.hsph.harvard.edu/miguel-hernan/wp-content/uploads/sites/1268/2023/07/hernanrobins_WhatIf_19jul23.pdf)|
-|October 18||
-|November 1||
-|November 15||
-|November 29||
-|December 13||
+|January 10| IPTW and outcome regression|
+|January 24|Sjoerd midterm presentation|
+|February 7||
+|Februrary 21||
+|March 6||
+|March 20||
+|April 3||
+|April 17||
+|May 1||
+|May 15||
+|May 29||
+|June 12||
+|June 26||
 
 
 
