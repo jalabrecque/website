@@ -14,8 +14,8 @@ output:
 </br>
 
 ## Next session
-**Date:** December 1, 2023 at 13h (CET) (sign up below to receive a link to the meeting)      
-**Paper to be discussed:** Part II of "Medical Publishing in Dynamic Times" video & [The C-Word: Scientific Euphemisms Do Not Improve Causal Inference From Observational Data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5888052/)
+**Date:** January 26 at 13h (CET) (sign up below to receive a link to the meeting)      
+**Paper to be discussed:** [When is baseline adjustment useful in analyses of change? An example with education and cognitive change](https://pubmed.ncbi.nlm.nih.gov/15987729/)
 
 </br>
 </br>
@@ -23,7 +23,7 @@ output:
 
 
 <!-- ![](epidemiology x.png) -->
-<!-- [![](paper_screenshot.png)](https://lakens.github.io/statistical_inferences/16-confirmationbias.html) -->
+[![](paper_screenshot.png)](https://pubmed.ncbi.nlm.nih.gov/15987729/) 
 <!-- </br> -->
 <!-- </br> -->
 <!-- </br> -->
@@ -42,7 +42,9 @@ output:
 |November 3|Lakens|[Confirmation Bias and Organized Skepticism](https://lakens.github.io/statistical_inferences/16-confirmationbias.html)|
 |November 17|Dr. Kirsten Bibbens-Domingo|Medical Publishing in Dynamic Times (Part I)|
 |December 1|Dr. Kirsten Bibbens-Domingo|Medical Publishing in Dynamic Times (Part II) & [the C-Word paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5888052/) |
-|December 15|||
+|2024|||
+|January 12|Manski |[Communicating uncertainty in policy analysis](https://www.pnas.org/doi/abs/10.1073/pnas.1722389115)|
+|January 26|Glymour et al|[When is baseline adjustment useful in analyses of change? An example with education and cognitive change](https://pubmed.ncbi.nlm.nih.gov/15987729/)|
 
 
 
