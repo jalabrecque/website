@@ -10,6 +10,23 @@ output:
 
 ---
 
+[Back to main page](https://www.jeremylabrecque.org/journal_club/)
+
+
+## Fall 2023 Schedule
+
+|Date|Reference|Paper|
+|:--- |:--- |:---------- |
+|September 8|Epidemiology X|[Submit a question](https://forms.gle/isgDdfZ6cTaRjwET6)|
+|September 22|Westreich et al 2023|[Target Validity and the Hierarchy of Study Designs](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6357801/)|
+|October 6|Pearce and Vandenbroucke 2023|[Are Target Trial Emulations the Gold Standard for Observational Studies?](https://pubmed.ncbi.nlm.nih.gov/37255243/)|
+|October 20|Amrhein and Greeland 2022|[Discuss practical importance of results based on interval estimates and p-value functions, not only on point estimates and null p-values](https://journals.sagepub.com/doi/full/10.1177/02683962221105904)|
+|November 3|Lakens|[Confirmation Bias and Organized Skepticism](https://lakens.github.io/statistical_inferences/16-confirmationbias.html)|
+|November 17|Dr. Kirsten Bibbens-Domingo|Medical Publishing in Dynamic Times (Part I)|
+|December 1|Dr. Kirsten Bibbens-Domingo|Medical Publishing in Dynamic Times (Part II) & [the C-Word paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5888052/) |
+
+
+
 ## Winter/Spring 2023 Schedule
 
 |Date|Reference|Paper|

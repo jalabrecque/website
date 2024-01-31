@@ -23,11 +23,11 @@ output:
 
 - Hernán, Miguel A. "[The C-word: scientific euphemisms do not improve causal inference from observational data.](https://ajph.aphapublications.org/doi/10.2105/AJPH.2018.304392)" American journal of public health 108.5 (2018): 616-619.
 
-- T[witter thread by Paul Zivich on Robin's 1986 landmark paper](https://twitter.com/PausalZ/status/1328153586983981061)
+- [Twitter thread by Paul Zivich on Robin's 1986 landmark paper](https://twitter.com/PausalZ/status/1328153586983981061)
   
 ## General epidemiology 
 
-- Stang, A., Standl, F. & Poole, C. A twenty-first century perspective on concepts of modern epidemiology in Ignaz Philipp Semmelweis’ work on puerperal sepsis. Eur J Epidemiol (2022). https://doi.org/10.1007/s10654-022-00871-8
+- Stang, A., Standl, F. & Poole, C. [A twenty-first century perspective on concepts of modern epidemiology in Ignaz Philipp Semmelweis’ work on puerperal sepsis.](https://doi.org/10.1007/s10654-022-00871-8) Eur J Epidemiol (2022). 
 
 ## Cross sectional studies
 
@@ -45,7 +45,7 @@ Ashley I Naimi, PhD, Stephen R Cole, PhD, Edward H Kennedy, PhD, [An introductio
 
 ## Causal graphs
 
-Tennant et al. Use of directed acyclic graphs (DAGs) to identify confounders in applied health research: review and recommendations, International Journal of Epidemiology, Volume 50, Issue 2, April 2021, Pages 620–632, https://doi.org/10.1093/ije/dyaa213
+Tennant et al. [Use of directed acyclic graphs (DAGs) to identify confounders in applied health research: review and recommendations](https://doi.org/10.1093/ije/dyaa213), International Journal of Epidemiology, Volume 50, Issue 2, April 2021, Pages 620–632, 
 
 
 ## Dealing with unmeasured confounding
@@ -79,6 +79,8 @@ Tennant et al. Use of directed acyclic graphs (DAGs) to identify confounders in 
 - [_The Effect_](https://theeffectbook.net/) by Nick Huntington-Klein
 
 - [_Epidemiology by Design_](https://global.oup.com/academic/product/epidemiology-by-design-9780190665760?cc=us&lang=en&) by Daniel Westreich 
+
+- [_Telling Stories with Data_](https://tellingstorieswithdata.com/)
 
 ## Hypothesis testing/p-values
 

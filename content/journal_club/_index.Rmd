@@ -14,8 +14,8 @@ output:
 </br>
 
 ## Next session
-**Date:** January 26 at 13h (CET) (sign up below to receive a link to the meeting)      
-**Paper to be discussed:** [When is baseline adjustment useful in analyses of change? An example with education and cognitive change](https://pubmed.ncbi.nlm.nih.gov/15987729/)
+**Date:** February 9 at 13h (CET) (sign up below to receive a link to the meeting)      
+**Paper to be discussed:** [Code Review as a Simple Trick to Enhance Reproducibility, Accelerate Learning, and Improve the Quality of Your Team’s Research](https://academic.oup.com/aje/article/190/10/2172/6218064)
 
 </br>
 </br>
@@ -31,20 +31,21 @@ output:
 
 
 
-## 2023-24 Schedule
+## Winter/Spring 2024 Schedule
 
 |Date|Reference|Paper|
 |:--- |:--- |:---------- |
-|September 8|Epidemiology X|[Submit a question](https://forms.gle/isgDdfZ6cTaRjwET6)|
-|September 22|Westreich et al 2023|[Target Validity and the Hierarchy of Study Designs](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6357801/)|
-|October 6|Pearce and Vandenbroucke 2023|[Are Target Trial Emulations the Gold Standard for Observational Studies?](https://pubmed.ncbi.nlm.nih.gov/37255243/)|
-|October 20|Amrhein and Greeland 2022|[Discuss practical importance of results based on interval estimates and p-value functions, not only on point estimates and null p-values](https://journals.sagepub.com/doi/full/10.1177/02683962221105904)|
-|November 3|Lakens|[Confirmation Bias and Organized Skepticism](https://lakens.github.io/statistical_inferences/16-confirmationbias.html)|
-|November 17|Dr. Kirsten Bibbens-Domingo|Medical Publishing in Dynamic Times (Part I)|
-|December 1|Dr. Kirsten Bibbens-Domingo|Medical Publishing in Dynamic Times (Part II) & [the C-Word paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5888052/) |
-|2024|||
 |January 12|Manski |[Communicating uncertainty in policy analysis](https://www.pnas.org/doi/abs/10.1073/pnas.1722389115)|
 |January 26|Glymour et al|[When is baseline adjustment useful in analyses of change? An example with education and cognitive change](https://pubmed.ncbi.nlm.nih.gov/15987729/)|
+|February 9|Vable et al 2021|[Code Review as a Simple Trick to Enhance Reproducibility, Accelerate Learning, and Improve the Quality of Your Team’s Research](https://academic.oup.com/aje/article/190/10/2172/6218064)|
+|February 23|||
+|March 8|||
+|March 22|||
+|April 5|||
+|April 19|||
+|May 3|||
+|May 17|||
+|May 31|||
 
 
 
