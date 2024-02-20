@@ -1,0 +1,34 @@
+---
+title: "What the Health?"
+summary: A podcast where we explain concepts in health research to anyone who cares. 
+output:
+  html_document:
+    keep_md: false
+    toc: true
+    toc_float: true
+    css: style.css
+
+---
+
+</br>
+</br>
+
+## Why are we doing this? 
+
+There is a lot of health research out there that is of questionable quality. And a lot of it gets reported on in the media! We're convinced that there are very few, if any, concepts in health that cannot be explained 
+
+## How are we doing this?
+
+Every episode we cover one topic and we try and explain to two guests who have no background in health research. 
+
+## Who are the hosts?
+
+- Jeremy Labrecque: I'm an assistant professor at the Erasmus Medical Center in Rotterdam, the Netherlands. I'm Quebecois and, you won't believe this, I love ice hockey and maple syrup. 
+- Lizbeth Burgos Ochoa: 
+
+## Format
+
+- Introductions: We introduce the guests and learn a bit about them
+- Two takes: a segment where each of us attempts to explain the concept
+- An example: 
+- Don't take our word for it
