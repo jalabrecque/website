@@ -14,8 +14,8 @@ output:
 </br>
 
 ## Next session
-**Date:** February 23 at 13h (CET) (sign up below to receive a link to the meeting)      
-**Paper to be discussed:** [Associations are not effects (Pettiti)](https://academic.oup.com/aje/article/133/2/101/118425) and [RE:Associations are not effects (Savitz)](https://academic.oup.com/aje/article/134/4/442/121958)
+**Date:** March 8 at 13h (CET) (sign up below to receive a link to the meeting)      
+**Paper to be discussed:** [Why Stating Hypotheses in Grant Applications Is Unnecessary](https://jamanetwork.com/journals/jama/article-abstract/2813846)
 
 </br>
 </br>
@@ -23,7 +23,7 @@ output:
 
 
 <!-- ![](epidemiology x.png) -->
-[![](paper_screenshot.png)](https://academic.oup.com/aje/article/133/2/101/118425) 
+[![](paper_screenshot.png)](https://jamanetwork.com/journals/jama/article-abstract/2813846) 
 <!-- </br> -->
 <!-- </br> -->
 <!-- </br> -->
@@ -39,7 +39,7 @@ output:
 |January 26|Glymour et al|[When is baseline adjustment useful in analyses of change? An example with education and cognitive change](https://pubmed.ncbi.nlm.nih.gov/15987729/)|
 |February 9|Vable et al 2021|[Code Review as a Simple Trick to Enhance Reproducibility, Accelerate Learning, and Improve the Quality of Your Team’s Research](https://academic.oup.com/aje/article/190/10/2172/6218064)|
 |February 23|Petitti 1991 & Savitz 1991|[Associations are not effects (Pettiti)](https://academic.oup.com/aje/article/133/2/101/118425) and [RE:Associations are not effects (Savitz)](https://academic.oup.com/aje/article/134/4/442/121958)|
-|March 8|||
+|March 8|Hernan and Greenland|[Why Stating Hypotheses in Grant Applications Is Unnecessary](https://jamanetwork.com/journals/jama/article-abstract/2813846)|
 |March 22|||
 |April 5|||
 |April 19|||

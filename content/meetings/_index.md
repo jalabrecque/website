@@ -22,8 +22,8 @@ You can also email me if you are interested in causal inference and would like t
 |January 24|Sjoerd midterm presentation|
 |February 7||
 |Februrary 21||
-|March 6||
-|March 20||
+|March 6|Nina on TMLE|
+|March 20|Maurice estimands in decision models|
 |April 3||
 |April 17||
 |May 1||
