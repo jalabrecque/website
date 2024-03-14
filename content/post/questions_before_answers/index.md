@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Questions before answers"
-date: 2020-08-11T01:13:14-05:00
-published: false
+date: 2024-03-14T01:13:14-05:00
+published: true
 ---
 
 Think about all the courses you took as part of your training. How many of them were about how to get good answers to research questions? And how many were about how to formulate good research questions? As was nicely said by Kaufman and Hernan:
