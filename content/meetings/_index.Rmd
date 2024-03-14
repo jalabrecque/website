@@ -24,8 +24,8 @@ You can also email me if you are interested in causal inference and would like t
 |Februrary 21||
 |March 6|Nina on TMLE|
 |March 20|Maurice estimands in decision models|
-|April 3||
-|April 17||
+|April 3|Chapter from What If|
+|April 17|Chang about consistency|
 |May 1||
 |May 15||
 |May 29||
