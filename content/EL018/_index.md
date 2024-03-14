@@ -30,7 +30,7 @@ output:
 ### Causal assumptions
 
 - Labrecque and Swanson 2018. [Understanding the Assumptions Underlying Instrumental Variable Analyses: a Brief Review of Falsification Strategies and Related Tools](https://pubmed.ncbi.nlm.nih.gov/30148040/)
-- Labrecque 2024. [A Whirlwind Tour of Causal Assumptions]("files/whirlwind.pdf")
+- Labrecque 2024. [A Whirlwind Tour of Causal Assumptions](files/whirlwind.pdf)
 - Matthay et al 2020. [Alternative causal inference methods in population health research: Evaluating tradeoffs and triangulating evidence](https://pubmed.ncbi.nlm.nih.gov/31890846/)
 
 
