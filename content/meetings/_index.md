@@ -22,10 +22,10 @@ You can also email me if you are interested in causal inference and would like t
 |January 24|Sjoerd midterm presentation|
 |February 7||
 |Februrary 21||
-|March 6|Nina on TMLE|
-|March 20|Maurice estimands in decision models|
+|March 6|Nina: TMLE|
+|March 20|Maurice: estimands in decision models|
 |April 3|Chapter from What If|
-|April 17|Chang about consistency|
+|April 17|Chang: consistency|
 |May 1||
 |May 15||
 |May 29||
