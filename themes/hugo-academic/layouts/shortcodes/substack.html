@@ -1,0 +1,24 @@
+{{ if .Get "url" }}
+{{ $url := .Get "url" }}
+{{ $limit := .Get "limit" }}
+
+<div class="py-8">
+    {{ with resources.GetRemote $url | transform.Unmarshal }}
+    {{ range first $limit .channel.item }}
+    <div class="grid grid-cols-1 md:grid-cols-2 bg-white shadow-lg border border-gray-200 rounded-lg p-4 cursor-pointer mb-6 md:mb-10" onclick="window.location='{{ .link }}'">
+        <div class="flex flex-col p-4">
+            <h2 class="text-xl font-semibold">{{ .title | htmlUnescape }}</h2>
+            <p class="text-slate-400 muted text-sm">{{ dateFormat "January 2, 2006" .pubDate }}</p>
+            <p class="text-gray-800 mb-4">{{ .encoded | safeHTML | truncate 300 }}</p>
+        </div>
+        <div class="flex justify-center items-center">
+            {{ with .enclosure }}
+            {{ $url := index . "-url" }}
+            <img src="{{ $url }}" alt="{{ .title | htmlUnescape }}" class="object-contain max-h-72 rounded-xl" style="border-radius: 20px;">
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+    {{ end }}
+</div>
+{{ end }}
