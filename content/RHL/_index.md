@@ -35,19 +35,23 @@ In a world where a good rig goes unappreciated, the Rigged Hockey League, hencef
 
 ## News
 
+### 2024-2025 season
+- See the [Beginning of the season FAQ](https://www.jeremylabrecque.org/rhl/#Beginning_of_season_FAQ) before you ask Gards or I any dumb questions
+- Important dates: 
+  - **Sunday, September 22:** Keeper deadline date   
+  - **Sunday, September 29:** Draft
+  - **Friday, October 4:** First day of the NHL season
+
+
+### 2023-24 season
 - Lance D'Rundell steals victory from Deluge to claim the 2023-2024 season
+- First overall pick goes to Jeffa with a single point win over Flex
 - October 15, 2023: Connor Dioxide Emissions is penalized, as per the [Penalties](#penalties) section of the Rules, a 4th round pick for failing to reach the basic standard of setting a proper lineup. 
 
 </br>
 </br>
 
-## Important dates    
 
-- **Sunday, September 22:** Keeper deadline date   
-- **Sunday, September 29:** Draft
-- **Oct 4, 2024:** First day of season
-</br>
-</br>
 
 
 
@@ -57,7 +61,7 @@ In a world where a good rig goes unappreciated, the Rigged Hockey League, hencef
 
 - You can only select keepers on the website version, not in the app version. When you log into yahoo and click on your team, there will be a link at the top asking you to select your keepers
 - When selecting your keepers, also select your farm team as keeper players
-- Any player who is 23 or older on October 1st (i.e., born after Sept 30, 2000) must be brought up to your team for the beginning of the season, they cost 0 player years this year
+- Any player who is 23 or older on October 1st (i.e., born after Sept 30, 2001) must be brought up to your team for the beginning of the season, they cost 0 player years this year
 - Trades can still be completed before you submit your keepers
 - You can tell how many round of draft picks you'll have by subtracting the number of players you have kept (including farm team) from 19. For example, I have kept 12 players so I will draft up to an including round 7 (19-12). This doesn't take into account any previous trades of draft picks
 - Draft Order:
