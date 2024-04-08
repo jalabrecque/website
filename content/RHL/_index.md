@@ -35,6 +35,7 @@ In a world where a good rig goes unappreciated, the Rigged Hockey League, hencef
 
 ## News
 
+- Lance D'Rundell steals victory from Deluge to claim the 2023-2024 season
 - October 15, 2023: Connor Dioxide Emissions is penalized, as per the [Penalties](#penalties) section of the Rules, a 4th round pick for failing to reach the basic standard of setting a proper lineup. 
 
 </br>
@@ -42,9 +43,9 @@ In a world where a good rig goes unappreciated, the Rigged Hockey League, hencef
 
 ## Important dates    
 
-- **Saturday, September 30:** Keeper deadline date   
-- **TBA:** Draft
-- **Oct 10:** First day of season
+- **Sunday, September 22:** Keeper deadline date   
+- **Sunday, September 29:** Draft
+- **Oct 4, 2024:** First day of season
 </br>
 </br>
 
