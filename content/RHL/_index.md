@@ -60,19 +60,21 @@ In a world where a good rig goes unappreciated, the Rigged Hockey League, hencef
 - Trades can still be completed before you submit your keepers
 - You can tell how many round of draft picks you'll have by subtracting the number of players you have kept (including farm team) from 19. For example, I have kept 12 players so I will draft up to an including round 7 (19-12). This doesn't take into account any previous trades of draft picks
 - Draft Order:
-  1. Suzuki Jimney
-  2. Silken Cape
-  3. Fracas
-  4. Jeffa Petersburg
-  5. Стивен Прекрасный
-  6. Lance D'Rundell
+  1. Jeffa Petersburg
+  2. Flex Labreck
+  3. Стивен Прекрасный
+  4. Silken Cape
+  5. Suzuki Jimney
+  6. Leafs Totality Suck
   7. Deluge of Gardseur
-  8. Connor Dioxide Emissions
+  8. Lance D'Rundell
 - Draft pick trades:
-  - Connor 3rd to Silken
-  - Silken 7th to Connor
-  - Connor 7th to Стивен
-  - Стивен 6th to Connor
+  - Silken 6th round pick to Стивен
+  - Стивен 3rd round pick to Silken
+  - Silken 5th round pick to Deluge
+  - Deluge 4th round pick to Silken
+  - Jeffa 5th round pick to Deluge
+  - Deluge 2nd round pick to Jeffa
 
 ## Rules
 
@@ -132,7 +134,8 @@ Draft order:
 
 1. Winner of Sucker’s Delight (non-playoff team matchup)     
 2. Loser of Sucker’s Delight (non-playoff team matchup)     
-3. 5th Place Matchup Winner     
+3. 5th Place Matchup Winner
+4. 5th Place Matchup Loser
 5. 3rd Place Matchup Winner           
 6. 3rd Place Matchup Loser            
 7. Rigged Cup runner-up           
@@ -144,10 +147,7 @@ New players to the Yahoo Players List can only be acquired via the draft. Colleg
 
 ### Keeping Players
 
-Number of available Keeper Years are:
-     - 10 in the first season
-     - 12 in the second season
-     - 14 in the third season and beyond.
+Each season you are allowed to keep 14 Keeper Years.
 Every consecutive year a player is kept increases his Keeper Year cost.
      - For example, if you've had a player for 2 years and want to keep him for a third, he will cost 2 Keeper Years. A player you drafted that season or picked up via Free Agency would cost 1 Keeper Year to keep.
 Farm Team players do NOT count towards the Keeper Year Limit  when kept
@@ -404,9 +404,10 @@ Because Yahoo doesn't allow us to just take a draft pick away, your draft pick w
 <br>
 <br>
 
-## Hall of Champions
+## Hall of Champions Virtual Plaque
 
 - 2020: No champion (COVID)
 - 2021: Suzuki Jimney
 - 2022: Suzuki Jimney
 - 2023: Connor Dioxide Emissions
+- [2024: Lance D'Rundell](https://www.jeremylabrecque.org/rhl/2024_playoffs)
