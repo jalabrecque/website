@@ -16,17 +16,19 @@ You can also email me if you are interested in causal inference and would like t
 
 ## 2024 Schedule
 
+Link to [Causal Inference: What if?](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)
+
 |Date|Topic|
 |:------ |:------ |
-|January 10| IPTW and outcome regression|
+|January 10| Chatper 12 from What if: IPTW and outcome regression|
 |January 24|Sjoerd midterm presentation|
 |February 7||
 |Februrary 21||
 |March 6|Nina: TMLE|
-|March 20|Maurice: estimands in decision models|
-|April 3|Chapter from What If|
-|April 17|Chang: consistency|
-|May 1||
+|March 20|Maurice: Estimands in decision models|
+|April 3|Chapter 14 from What If: G-estimation of structural nested models|
+|April 17|Chang presenting about consistency|
+|May 1|Chapter 13 from What If: Standardization and the parametric g-formula|
 |May 15||
 |May 29||
 |June 12||

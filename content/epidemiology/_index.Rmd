@@ -87,3 +87,5 @@ Tennant et al. [Use of directed acyclic graphs (DAGs) to identify confounders in
 - Berner and Arnheim, 2022. [Why and how we should join the shift from significance testing to estimation.](https://doi.org/10.1111/jeb.14009) Journal of Evolutionary Biology, 00, 1– 11.
 
 - Stang and Poole, 2013. [The researcher and the consultant: a dialogue on null hypothesis significance testing](https://pubmed.ncbi.nlm.nih.gov/24233192/)
+
+- Poole, 2001. [Low P-Values or Narrow Confidence Intervals: Which Are More Durable?](https://journals.lww.com/epidem/fulltext/2001/05000/low_p_values_or_narrow_confidence_intervals__which.5.aspx)
