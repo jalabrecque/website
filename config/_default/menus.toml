@@ -45,3 +45,8 @@ weight = 20
   name = "Group meetings"
   url = "meetings/"
   weight = 80
+
+[[main]]
+  name = "Journal Club"
+  url = "journal_club/"
+  weight = 80

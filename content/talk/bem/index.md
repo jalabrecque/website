@@ -32,7 +32,7 @@ links:
 - icon: twitter
   icon_pack: fab
   name: Follow
-  url: https://twitter.com/ja_labrecque_
+  url: https://bsky.app/profile/jeremylabrecque.bsky.social
 url_code: ""
 url_pdf: ""
 url_slides: "files/BEM_talk.pdf"

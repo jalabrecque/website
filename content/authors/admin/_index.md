@@ -27,9 +27,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: '#contact'
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/ja_labrecque_
+- icon: bluesky
+  icon_pack: brands
+  link: https://bsky.app/profile/jeremylabrecque.bsky.social
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=9lwkp_sAAAAJ&hl=en
