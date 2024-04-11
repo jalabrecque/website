@@ -28,10 +28,16 @@ output:
 <!-- </br> -->
 <!-- </br> -->
 
-
+</br>
+</br>
+</br>
 
 
 ## Winter/Spring 2024 Schedule
+
+
+</br>
+
 
 |Date|Reference|Paper|
 |:--- |:--- |:---------- |
@@ -55,7 +61,20 @@ output:
 </br>
 </br>
 </br>
-     
+
+## Zotero library
+
+
+
+
+All papers can be found in [this public Zotero library](https://www.zotero.org/groups/5487300/emc_journal_club). You can view the library through a browser. If you have a Zotero account, you can add the library to your own Zotero by clicking "Join".
+
+</br>
+</br>
+</br>
+
+
+  
 
 
 
