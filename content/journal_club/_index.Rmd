@@ -67,7 +67,7 @@ output:
 
 
 
-All papers can be found in [this public Zotero library](https://www.zotero.org/groups/5487300/emc_journal_club). You can view the library through a browser. If you have a Zotero account, you can add the library to your own Zotero by clicking "Join".
+All papers can be found in [this public Zotero library](https://www.zotero.org/groups/5487300/emc_journal_club/collections/5G9UYTEYhttps://www.zotero.org/groups/5487300/emc_journal_club). You can view the library through a browser. If you have a Zotero account, [you can add the library to your own Zotero by clicking "Join" here](https://www.zotero.org/groups/5487300/emc_journal_club).
 
 </br>
 </br>
