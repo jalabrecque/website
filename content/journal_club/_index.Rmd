@@ -14,8 +14,8 @@ output:
 </br>
 
 ## Next session
-**Date:** April 5 at 13h (CET) (sign up below to receive a link to the meeting)      
-**Paper to be discussed:** [Is the Way Forward to Step Back? Documenting the Frequency With Which Study Goals Are Misaligned With Study Methods and Interpretations in the Epidemiologic Literature](https://pubmed.ncbi.nlm.nih.gov/34535799/)|
+**Date:** April 19 at 13h (CET) (sign up below to receive a link to the meeting)      
+**Paper to be discussed:** [A Second Chance to Get Causal Inference Right: A Classification of Data Science Tasks](https://www.hsph.harvard.edu/wp-content/uploads/sites/1268/2019/04/hernan_chance19.pdf)|
 
 </br>
 </br>
@@ -23,7 +23,7 @@ output:
 
 
 <!-- ![](epidemiology x.png) -->
-[![](paper_screenshot.png)](https://pubmed.ncbi.nlm.nih.gov/34535799/) 
+[![](paper_screenshot.png)](https://www.hsph.harvard.edu/wp-content/uploads/sites/1268/2019/04/hernan_chance19.pdf) 
 <!-- </br> -->
 <!-- </br> -->
 <!-- </br> -->
@@ -42,8 +42,8 @@ output:
 |March 8|Hernan and Greenland|[Why Stating Hypotheses in Grant Applications Is Unnecessary](https://jamanetwork.com/journals/jama/article-abstract/2813846)|
 |March 22|Sarvet and Stensrud 2023|[Perspective on ‘Harm’ in Personalized Medicine](https://academic.oup.com/aje/advance-article/doi/10.1093/aje/kwad162/7226668)|
 |April 5|Kezios 2021|[Is the Way Forward to Step Back? Documenting the Frequency With Which Study Goals Are Misaligned With Study Methods and Interpretations in the Epidemiologic Literature](https://pubmed.ncbi.nlm.nih.gov/34535799/)|
-|April 19|||
-|May 3|||
+|April 19|Hernan 2019|[A Second Chance to Get Causal Inference Right: A Classification of Data Science Tasks](https://www.hsph.harvard.edu/wp-content/uploads/sites/1268/2019/04/hernan_chance19.pdf)|
+|May 3|Ferguson 2019|[Evidence synthesis for constructing directed acyclic graphs (ESC-DAGs)](https://academic.oup.com/ije/article/49/1/322/5536330)|
 |May 17|||
 |May 31|||
 
