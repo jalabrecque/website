@@ -59,7 +59,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```{r}
 library(readr)
-ds <- suppressMessages(read_csv("~/Google Drive/Personal/rhl/keeper_2324.csv"))
+ds <- suppressMessages(read_csv("~/Google Drive/Personal/rhl/keeper_2425.csv"))
 
 ```
 
@@ -195,7 +195,7 @@ Because Yahoo doesn't allow us to just take a draft pick away, your draft pick w
 
 
 ## Keeper Lists {.tabset}
-### Connor Dioxide Emissions
+### Flex Labreck
 
 ```{r}
 library(knitr)
@@ -238,7 +238,7 @@ kable(cbind(label,ds_), col.names = c("Main/farm","Player","Keeper cost"),row.na
 ```
 
 
-### Fracas
+### Leafs Suck
 
 ```{r}
 library(knitr)
