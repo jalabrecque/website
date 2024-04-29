@@ -14,8 +14,8 @@ output:
 </br>
 
 ## Next session
-**Date:** April 19 at 13h (CET) (sign up below to receive a link to the meeting)      
-**Paper to be discussed:** [A Second Chance to Get Causal Inference Right: A Classification of Data Science Tasks](https://www.hsph.harvard.edu/wp-content/uploads/sites/1268/2019/04/hernan_chance19.pdf)|
+**Date:** May 3 at 13h (CET) (sign up below to receive a link to the meeting)      
+**Paper to be discussed:** [Evidence synthesis for constructing directed acyclic graphs (ESC-DAGs)](https://academic.oup.com/ije/article/49/1/322/5536330)|
 
 </br>
 </br>
@@ -23,7 +23,7 @@ output:
 
 
 <!-- ![](epidemiology x.png) -->
-[![](paper_screenshot.png)](https://www.hsph.harvard.edu/wp-content/uploads/sites/1268/2019/04/hernan_chance19.pdf) 
+[![](paper_screenshot.png)](https://academic.oup.com/ije/article/49/1/322/5536330) 
 <!-- </br> -->
 <!-- </br> -->
 <!-- </br> -->
