@@ -14,8 +14,8 @@ output:
 </br>
 
 ## Next session
-**Date:** May 3 at 13h (CET) (sign up below to receive a link to the meeting)      
-**Paper to be discussed:** [Evidence synthesis for constructing directed acyclic graphs (ESC-DAGs)](https://academic.oup.com/ije/article/49/1/322/5536330)|
+**Date:** May 17 at 13h (CET) (sign up below to receive a link to the meeting)      
+**Paper to be discussed:** [Directed acyclic graph for epidemiological studies in childhood food allergy: Construction, user's guide, and application](https://onlinelibrary.wiley.com/doi/full/10.1111/all.16025)
 
 </br>
 </br>
@@ -23,7 +23,7 @@ output:
 
 
 <!-- ![](epidemiology x.png) -->
-[![](paper_screenshot.png)](https://academic.oup.com/ije/article/49/1/322/5536330) 
+[![](paper_screenshot.png)](https://onlinelibrary.wiley.com/doi/full/10.1111/all.16025) 
 <!-- </br> -->
 <!-- </br> -->
 <!-- </br> -->
@@ -50,7 +50,7 @@ output:
 |April 5|Kezios 2021|[Is the Way Forward to Step Back? Documenting the Frequency With Which Study Goals Are Misaligned With Study Methods and Interpretations in the Epidemiologic Literature](https://pubmed.ncbi.nlm.nih.gov/34535799/)|
 |April 19|Hernan 2019|[A Second Chance to Get Causal Inference Right: A Classification of Data Science Tasks](https://www.hsph.harvard.edu/wp-content/uploads/sites/1268/2019/04/hernan_chance19.pdf)|
 |May 3|Ferguson 2019|[Evidence synthesis for constructing directed acyclic graphs (ESC-DAGs)](https://academic.oup.com/ije/article/49/1/322/5536330)|
-|May 17|||
+|May 17|Peng et al 2024|[Directed acyclic graph for epidemiological studies in childhood food allergy](https://onlinelibrary.wiley.com/doi/full/10.1111/all.16025)|
 |May 31|||
 
 
