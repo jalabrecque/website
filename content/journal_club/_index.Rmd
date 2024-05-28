@@ -14,8 +14,8 @@ output:
 </br>
 
 ## Next session
-**Date:** May 17 at 13h (CET) (sign up below to receive a link to the meeting)      
-**Paper to be discussed:** [Directed acyclic graph for epidemiological studies in childhood food allergy: Construction, user's guide, and application](https://onlinelibrary.wiley.com/doi/full/10.1111/all.16025)
+**Date:** May 31 at 13h (CET) (sign up below to receive a link to the meeting)      
+**Paper to be discussed:** [Causal machine learning for predicting treatment outcomes](https://www.nature.com/articles/s41591-024-02902-1)
 
 </br>
 </br>
@@ -23,7 +23,7 @@ output:
 
 
 <!-- ![](epidemiology x.png) -->
-[![](paper_screenshot.png)](https://onlinelibrary.wiley.com/doi/full/10.1111/all.16025) 
+[![](paper_screenshot.png)](https://www.nature.com/articles/s41591-024-02902-1) 
 <!-- </br> -->
 <!-- </br> -->
 <!-- </br> -->
@@ -51,8 +51,9 @@ output:
 |April 19|Hernan 2019|[A Second Chance to Get Causal Inference Right: A Classification of Data Science Tasks](https://www.hsph.harvard.edu/wp-content/uploads/sites/1268/2019/04/hernan_chance19.pdf)|
 |May 3|Ferguson 2019|[Evidence synthesis for constructing directed acyclic graphs (ESC-DAGs)](https://academic.oup.com/ije/article/49/1/322/5536330)|
 |May 17|Peng et al 2024|[Directed acyclic graph for epidemiological studies in childhood food allergy](https://onlinelibrary.wiley.com/doi/full/10.1111/all.16025)|
-|May 31|||
-
+|May 31|Feuerriegel et al 2024|[Causal machine learning for predicting treatment outcomes](https://www.nature.com/articles/s41591-024-02902-1)|
+|June 14|Dahabreh and Bibbins-Domingo 2024|[Causal Inference About the Effects of Interventions From Observational Studies in Medical Journals](https://jamanetwork.com/journals/jama/fullarticle/2818746)|
+|June 28||End of year at Westkop 16h|
 
 
 
