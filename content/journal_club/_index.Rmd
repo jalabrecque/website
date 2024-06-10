@@ -14,8 +14,8 @@ output:
 </br>
 
 ## Next session
-**Date:** May 31 at 13h (CET) (sign up below to receive a link to the meeting)      
-**Paper to be discussed:** [Causal machine learning for predicting treatment outcomes](https://www.nature.com/articles/s41591-024-02902-1)
+**Date:** June 14 at 13h (CET) (sign up below to receive a link to the meeting)      
+**Paper to be discussed:** [Causal Inference About the Effects of Interventions From Observational Studies in Medical Journals](https://jamanetwork.com/journals/jama/fullarticle/2818746)
 
 </br>
 </br>
@@ -23,7 +23,7 @@ output:
 
 
 <!-- ![](epidemiology x.png) -->
-[![](paper_screenshot.png)](https://www.nature.com/articles/s41591-024-02902-1) 
+[![](paper_screenshot.png)](https://jamanetwork.com/journals/jama/fullarticle/2818746) 
 <!-- </br> -->
 <!-- </br> -->
 <!-- </br> -->
