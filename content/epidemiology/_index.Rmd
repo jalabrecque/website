@@ -13,6 +13,10 @@ output:
 </br>
 </br>
 
+## Intro to causal inference
+
+- [Peter Tennant on Causal Inference [VIDEO]](https://youtu.be/SbrX3YEMj_0?si=XQG41Aj2mFwwOpCN)
+
 ## General causal inference
 
 - Pearl J. [The Foundations of Causal Inference](https://ftp.cs.ucla.edu/pub/stat_ser/r355-reprint.pdf). 2010.

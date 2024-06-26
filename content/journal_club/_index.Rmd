@@ -14,8 +14,8 @@ output:
 </br>
 
 ## Next session
-**Date:** June 14 at 13h (CET) (sign up below to receive a link to the meeting)      
-**Paper to be discussed:** [Causal Inference About the Effects of Interventions From Observational Studies in Medical Journals](https://jamanetwork.com/journals/jama/fullarticle/2818746)
+**Date:** June 28 at 16h (CET) (sign up below to receive a link to the meeting)      
+**Paper to be discussed:** Meeting at [Westkop](https://maps.app.goo.gl/AqnRyXjKpza2Euru6) at 16h
 
 </br>
 </br>
@@ -23,7 +23,7 @@ output:
 
 
 <!-- ![](epidemiology x.png) -->
-[![](paper_screenshot.png)](https://jamanetwork.com/journals/jama/fullarticle/2818746) 
+<!-- [![](paper_screenshot.png)](https://jamanetwork.com/journals/jama/fullarticle/2818746) -->
 <!-- </br> -->
 <!-- </br> -->
 <!-- </br> -->
