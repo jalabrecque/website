@@ -12,6 +12,24 @@ output:
 
 [Back to main page](https://www.jeremylabrecque.org/journal_club/)
 
+## Winter/Spring 2024 Schedule
+
+|Date|Reference|Paper|
+|:--- |:--- |:---------- |
+|January 12|Manski |[Communicating uncertainty in policy analysis](https://www.pnas.org/doi/abs/10.1073/pnas.1722389115)|
+|January 26|Glymour et al|[When is baseline adjustment useful in analyses of change? An example with education and cognitive change](https://pubmed.ncbi.nlm.nih.gov/15987729/)|
+|February 9|Vable et al 2021|[Code Review as a Simple Trick to Enhance Reproducibility, Accelerate Learning, and Improve the Quality of Your Team’s Research](https://academic.oup.com/aje/article/190/10/2172/6218064)|
+|February 23|Petitti 1991 & Savitz 1991|[Associations are not effects (Pettiti)](https://academic.oup.com/aje/article/133/2/101/118425) and [RE:Associations are not effects (Savitz)](https://academic.oup.com/aje/article/134/4/442/121958)|
+|March 8|Hernan and Greenland|[Why Stating Hypotheses in Grant Applications Is Unnecessary](https://jamanetwork.com/journals/jama/article-abstract/2813846)|
+|March 22|Sarvet and Stensrud 2023|[Perspective on ‘Harm’ in Personalized Medicine](https://academic.oup.com/aje/advance-article/doi/10.1093/aje/kwad162/7226668)|
+|April 5|Kezios 2021|[Is the Way Forward to Step Back? Documenting the Frequency With Which Study Goals Are Misaligned With Study Methods and Interpretations in the Epidemiologic Literature](https://pubmed.ncbi.nlm.nih.gov/34535799/)|
+|April 19|Hernan 2019|[A Second Chance to Get Causal Inference Right: A Classification of Data Science Tasks](https://www.hsph.harvard.edu/wp-content/uploads/sites/1268/2019/04/hernan_chance19.pdf)|
+|May 3|Ferguson 2019|[Evidence synthesis for constructing directed acyclic graphs (ESC-DAGs)](https://academic.oup.com/ije/article/49/1/322/5536330)|
+|May 17|Peng et al 2024|[Directed acyclic graph for epidemiological studies in childhood food allergy](https://onlinelibrary.wiley.com/doi/full/10.1111/all.16025)|
+|May 31|Feuerriegel et al 2024|[Causal machine learning for predicting treatment outcomes](https://www.nature.com/articles/s41591-024-02902-1)|
+|June 14|Dahabreh and Bibbins-Domingo 2024|[Causal Inference About the Effects of Interventions From Observational Studies in Medical Journals](https://jamanetwork.com/journals/jama/fullarticle/2818746)|
+|June 28||End of year at Westkop 16h|
+
 
 ## Fall 2023 Schedule
 
