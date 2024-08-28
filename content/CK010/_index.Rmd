@@ -17,6 +17,7 @@ output:
 - [The staggering death toll of scientific lies](https://www.vox.com/future-perfect/368350/scientific-research-fraud-crime-jail-time)
 - [The scandal of poor medical research (Altman 1994)](https://www.bmj.com/content/308/6924/283)
 - [Methodology over metrics: current scientific standards are a disservice to patients and society (Van Calster et al 2021)](https://www.sciencedirect.com/science/article/pii/S0895435621001700)
+- 
 
 
 ## Questions before answers
@@ -36,6 +37,7 @@ output:
 - [Data, Design, and Bakground Knowledge in Etiologic Inference (Robins 2001)](https://pubmed.ncbi.nlm.nih.gov/11338312/)
 - [Estimating Causal Effects (Maldonado and Greenland 2002)](https://academic.oup.com/ije/article/31/2/422/2951425)
 - [Causation and Causal Inference in Epidemiology (Rothman and Greenland 2005)](https://ajph.aphapublications.org/doi/full/10.2105/AJPH.2004.059204)
+- [Causality and causal inference in epidemiology: the need for a pluralistic approach (Vandenbroucke et al 2016)](https://academic.oup.com/ije/article/45/6/1776/2617148)
 
 ## Causal assumptions
 
@@ -43,11 +45,31 @@ output:
 - [Understanding the Assumptions Underlying Instrumental Variable Analyses: a Brief Review of Falsification Strategies and Related Tools (Labrecque and Swanson 2018)](https://pubmed.ncbi.nlm.nih.gov/30148040/)
 - [A Whirlwind Tour of Causal Assumptions (Labrecque 2024)](files/whirlwind.pdf)
 - [Alternative causal inference methods in population health research: Evaluating tradeoffs and triangulating evidence (Matthay et al 2020)](https://pubmed.ncbi.nlm.nih.gov/31890846/)
-- [History of the modern epidemiological concept of confounding (Morabia 2010)](https://jech.bmj.com/content/65/4/297)
 - [Heuristic Thinking and Inference From Observational Epidemiology (Lash 2007)](https://journals.lww.com/epidem/fulltext/2007/01000/heuristic_thinking_and_inference_from.13.aspx)
+
+### Confounding
+
+- [History of the modern epidemiological concept of confounding (Morabia 2010)](https://jech.bmj.com/content/65/4/297)
+
+### Collider bias
+
+- [Collider bias undermines our understanding of COVID-19 disease risk and severity (Griffith et al 2020)](https://www.nature.com/articles/s41467-020-19478-2)
+
+### Consistency
+
+- [Is the “well-defined intervention assumption” politically conservative? (Schwartz et al 2016)](https://www.sciencedirect.com/science/article/pii/S0277953615301933)
+- [Causal identification: a charge of epidemiology in danger of marginalization (Schrwartz et al 2016)](https://pubmed.ncbi.nlm.nih.gov/27237595/)
+- [There is no virtue in vagueness (Kaufman 2016)](https://www.sciencedirect.com/science/article/pii/S1047279716302824)
+- [Does obesity shorten life? The importance of well-defined interventions to answer causal questions (Hernan & Taubman 2008)](https://www.nature.com/articles/ijo200882)
+
+### Measurement error
+
+- [All your data are always missing: incorporating bias due to measurement error into the potential outcomes framework (Edwards et al 2015)](https://academic.oup.com/ije/article/44/4/1452/667247)
+
 
 ## Causal diagrams
 
 - [Causal Diagrams for Epidemiologic Research (Greenland, Pearl & Robins 1999)](https://journals.lww.com/epidem/Abstract/1999/01000/Causal_Diagrams_for_Epidemiologic_Research.8.aspx)
 - [Reducing bias through directed acyclic graphs (Shrier & Platt 2008)](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/1471-2288-8-70)
+- [Invited Commentary: Causal Diagrams and Measurement Bias (Hernan & Cole)](https://academic.oup.com/aje/article/170/8/959/145135)
 
