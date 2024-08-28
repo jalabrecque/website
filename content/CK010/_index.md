@@ -17,7 +17,7 @@ output:
 - [The staggering death toll of scientific lies](https://www.vox.com/future-perfect/368350/scientific-research-fraud-crime-jail-time)
 - [The scandal of poor medical research (Altman 1994)](https://www.bmj.com/content/308/6924/283)
 - [Methodology over metrics: current scientific standards are a disservice to patients and society (Van Calster et al 2021)](https://www.sciencedirect.com/science/article/pii/S0895435621001700)
-- 
+
 
 
 ## Questions before answers
@@ -38,6 +38,8 @@ output:
 - [Estimating Causal Effects (Maldonado and Greenland 2002)](https://academic.oup.com/ije/article/31/2/422/2951425)
 - [Causation and Causal Inference in Epidemiology (Rothman and Greenland 2005)](https://ajph.aphapublications.org/doi/full/10.2105/AJPH.2004.059204)
 - [Causality and causal inference in epidemiology: the need for a pluralistic approach (Vandenbroucke et al 2016)](https://academic.oup.com/ije/article/45/6/1776/2617148)
+- [Identifiability, exchangeability, and epidemiological confounding (Greenland & Robins 1986)](https://pubmed.ncbi.nlm.nih.gov/3771081/)
+- [Identifiability, exchangeability and confounding revisited (Greenland & Robins 2009)](https://epi-perspectives.biomedcentral.com/articles/10.1186/1742-5573-6-4)
 
 ## Causal assumptions
 
@@ -50,10 +52,16 @@ output:
 ### Confounding
 
 - [History of the modern epidemiological concept of confounding (Morabia 2010)](https://jech.bmj.com/content/65/4/297)
+- [Causal Knowledge as a Prerequisite for Confounding Evaluation: An Application to Birth Defects Epidemiology (Hernan et al 2002)](https://academic.oup.com/aje/article/155/2/176/108106)
 
-### Collider bias
+### Collider bias/selection bias
 
+- [A Structural Approach to Selection Bias (Hernan et al 2004)](https://journals.lww.com/epidem/fulltext/2004/09000/a_structural_approach_to_selection_bias.20.aspx)
 - [Collider bias undermines our understanding of COVID-19 disease risk and severity (Griffith et al 2020)](https://www.nature.com/articles/s41467-020-19478-2)
+- [Accounting for Bias Due to Selective Attrition The Example of Smoking and Cognitive Decline (Weuve et al 2012)](https://journals.lww.com/epidem/fulltext/2012/01000/accounting_for_bias_due_to_selective_attrition_.18.aspx)
+- [A Robust Example of Collider Bias in a Genetic Association Study (Day et al 2016)](https://www.sciencedirect.com/science/article/pii/S0002929715005145)
+- [Illustrating bias due to conditioning on a collider (Cole et al 2010)](https://academic.oup.com/ije/article/39/2/417/680407)
+- [The obesity paradox: Understanding the effect of obesity on mortality among individuals with cardiovascular disease (Banack & Kaufman)](https://www.sciencedirect.com/science/article/pii/S0091743514000681?via%3Dihub)
 
 ### Consistency
 
@@ -65,6 +73,9 @@ output:
 ### Measurement error
 
 - [All your data are always missing: incorporating bias due to measurement error into the potential outcomes framework (Edwards et al 2015)](https://academic.oup.com/ije/article/44/4/1452/667247)
+- [Proper interpretation of non-differential misclassification effects: expectations vs observations (Jurek et al 2005)](https://academic.oup.com/ije/article/34/3/680/682302)
+- [Exposure-measurement error is frequently ignored when interpreting epidemiologic study results (Jurek et al 2006)](https://link.springer.com/article/10.1007/s10654-006-9083-0)
+- [Reflection on modern methods: five myths about measurement error in epidemiological research (van Smeden et al 2019)](https://academic.oup.com/ije/article/49/1/338/5671729)
 
 
 ## Causal diagrams
