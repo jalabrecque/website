@@ -65,10 +65,15 @@ output:
 
 ### Consistency
 
+- [The Consistency Statement in Causal Inference--A Definition or an Assumption? (Cole and Frangakis 2009)](https://journals.lww.com/epidem/fulltext/2009/01000/The_Consistency_Statement_in_Causal_Inference__A.3.aspx)
+- [Concerning the Consistency Assumption in Causal Inference (VanderWeele 2009)](https://journals.lww.com/epidem/fulltext/2009/11000/concerning_the_consistency_assumption_in_causal.18.aspx)
+- [Does water kill? A call for less casual causal inferences (Hernan 2016)](https://www.sciencedirect.com/science/article/pii/S1047279716302800)
+- [Compound Treatments and Transportability of Causal Inference (Hernan and VanderWeele 2011)](https://journals.lww.com/epidem/fulltext/2011/05000/compound_treatments_and_transportability_of_causal.18.aspx)
 - [Is the “well-defined intervention assumption” politically conservative? (Schwartz et al 2016)](https://www.sciencedirect.com/science/article/pii/S0277953615301933)
 - [Causal identification: a charge of epidemiology in danger of marginalization (Schrwartz et al 2016)](https://pubmed.ncbi.nlm.nih.gov/27237595/)
 - [There is no virtue in vagueness (Kaufman 2016)](https://www.sciencedirect.com/science/article/pii/S1047279716302824)
 - [Does obesity shorten life? The importance of well-defined interventions to answer causal questions (Hernan & Taubman 2008)](https://www.nature.com/articles/ijo200882)
+
 
 ### Measurement error
 
@@ -83,4 +88,11 @@ output:
 - [Causal Diagrams for Epidemiologic Research (Greenland, Pearl & Robins 1999)](https://journals.lww.com/epidem/Abstract/1999/01000/Causal_Diagrams_for_Epidemiologic_Research.8.aspx)
 - [Reducing bias through directed acyclic graphs (Shrier & Platt 2008)](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/1471-2288-8-70)
 - [Invited Commentary: Causal Diagrams and Measurement Bias (Hernan & Cole)](https://academic.oup.com/aje/article/170/8/959/145135)
+
+
+## Science
+
+- [The missing conversation--To the detriment of the public, scientists and historians don’t engage with one another](https://aeon.co/essays/science-and-history-cannot-afford-to-be-indifferent-to-each-other)
+- [How Science Can Reward Cooperation, Not Just Individual Achievement](https://www.psychologicalscience.org/publications/observer/rewarding-cooperation.html)
+- [How to find meaning in your science career--six expert tips](https://www.nature.com/articles/d41586-024-00476-z)
 
