@@ -14,8 +14,8 @@ output:
 </br>
 
 ## Next session
-**Date:** June 28 at 16h (CET) (sign up below to receive a link to the meeting)      
-**Paper to be discussed:** Meeting at [Westkop](https://maps.app.goo.gl/AqnRyXjKpza2Euru6) at 16h
+**Date:** September 6 at 13h (CET) (sign up below to receive a link to the meeting)      
+**Paper to be discussed:** [The scandal of poor medical research](https://www.bmj.com/content/308/6924/283)
 
 </br>
 </br>
@@ -23,7 +23,7 @@ output:
 
 
 <!-- ![](epidemiology x.png) -->
-<!-- [![](paper_screenshot.png)](https://jamanetwork.com/journals/jama/fullarticle/2818746) -->
+[![](paper_screenshot.png)](https://www.bmj.com/content/308/6924/283)
 <!-- </br> -->
 <!-- </br> -->
 <!-- </br> -->
