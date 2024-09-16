@@ -18,6 +18,21 @@ You can also email me if you are interested in causal inference and would like t
 
 Link to [Causal Inference: What if?](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)
 
+### Fall 2024
+
+|Date|Topic|
+|:------ |:------ |
+|September 4|Chapter 23 from What if: Mediation|
+|September 18|Chang presenting about the difference between Rubin and Pearl|
+|October 2||
+|October 16||
+|October 30||
+|November 13||
+|November 27||
+
+
+### Winter/Spring 2024
+
 |Date|Topic|
 |:------ |:------ |
 |January 10| Chatper 12 from What if: IPTW and outcome regression|

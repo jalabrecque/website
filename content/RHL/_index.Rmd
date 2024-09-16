@@ -38,8 +38,8 @@ In a world where a good rig goes unappreciated, the Rigged Hockey League, hencef
 ### 2024-2025 season
 - See the [Beginning of the season FAQ](https://www.jeremylabrecque.org/rhl/#Beginning_of_season_FAQ) before you ask Gards or I any dumb questions
 - Important dates: 
-  - **Sunday, September 22:** Keeper deadline date   
-  - **Sunday, September 29:** Draft
+  - **Sunday, September 24:** Keeper deadline date   
+  - Draft TBD
   - **Friday, October 4:** First day of the NHL season
 
 
