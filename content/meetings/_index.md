@@ -26,8 +26,8 @@ Link to [Causal Inference: What if?](https://www.hsph.harvard.edu/miguel-hernan/
 |September 18|Chang presenting about the difference between Rubin and Pearl|
 |October 2||
 |October 16||
-|October 30||
-|November 13||
+|October 30|Jeremy returns|
+|November 13|[Without Commitment to an Ontology, There Could Be No Causal Inference](https://pubmed.ncbi.nlm.nih.gov/35383645/)|
 |November 27||
 
 
