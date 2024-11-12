@@ -14,8 +14,8 @@ output:
 </br>
 
 ## Next session
-**Date:** October 4 at 13h (CET) (sign up below to receive a link to the meeting)      
-**Paper to be discussed:** [On the Need to Revitalize Descriptive Epidemiology](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9383568/)
+**Date:** November 15 at 13h (CET) (sign up below to receive a link to the meeting)      
+**Paper to be discussed:** [Heuristic Thinking and Inference From Observational Epidemiology](https://journals.lww.com/epidem/fulltext/2007/01000/heuristic_thinking_and_inference_from.13.aspx)
 
 </br>
 </br>
@@ -23,7 +23,7 @@ output:
 
 
 <!-- ![](epidemiology x.png) -->
-[![](paper_screenshot.png)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9383568/)
+[![](paper_screenshot.png)](https://journals.lww.com/epidem/fulltext/2007/01000/heuristic_thinking_and_inference_from.13.aspx)
 <!-- </br> -->
 <!-- </br> -->
 <!-- </br> -->
@@ -46,7 +46,7 @@ output:
 |October 4|Fox et al 2022|[On the Need to Revitalize Descriptive Epidemiology](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9383568/)|
 |October 18|Hernán and Robins 2016|[Using Big Data to Emulate a Target Trial When a Randomized Trial Is Not Available](https://pubmed.ncbi.nlm.nih.gov/26994063/)|
 |November 1|Galea and Hernan 2020|[Win-Win: Reconciling Social Epidemiology and Causal Inference](https://pubmed.ncbi.nlm.nih.gov/31579911/)|
-|November 15|||
+|November 15|Lash 2017|[Heuristic Thinking and Inference From Observational Epidemiology](https://journals.lww.com/epidem/fulltext/2007/01000/heuristic_thinking_and_inference_from.13.aspx)|
 |November 29|||
 |December 13||*New rule: The paper for this session must be from [the BMJ Christmas edition](https://www.bmj.com/about-bmj/resources-authors/article-types/christmas-issue)|
 
