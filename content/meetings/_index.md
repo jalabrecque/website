@@ -28,7 +28,7 @@ Link to [Causal Inference: What if?](https://www.hsph.harvard.edu/miguel-hernan/
 |October 16||
 |October 30|Jeremy returns|
 |November 13|[Without Commitment to an Ontology, There Could Be No Causal Inference](https://pubmed.ncbi.nlm.nih.gov/35383645/)|
-|November 27||
+|November 27|Keling's MSc thesis defense: Causal language use in clinical practice guidelines for diabetes mellitus: evaluation of causality and alignments|
 
 
 ### Winter/Spring 2024
