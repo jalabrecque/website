@@ -14,8 +14,8 @@ output:
 </br>
 
 ## Next session
-**Date:** November 29 at 13h (CET) (sign up below to receive a link to the meeting)      
-**Paper to be discussed:** [Title, abstract, and keyword searching resulted in poor recovery of articles in systematic reviews of epidemiologic practice](https://www.sciencedirect.com/science/article/pii/S0895435619306018)
+**Date:** December 13 at 13h (CET) (sign up below to receive a link to the meeting)      
+**Paper to be discussed:** [Parachute use to prevent death and major trauma when jumping from aircraft: randomized controlled trial](https://www.bmj.com/content/363/bmj.k5094)
 
 </br>
 </br>
@@ -23,7 +23,7 @@ output:
 
 
 <!-- ![](epidemiology x.png) -->
-[![](paper_screenshot.png)](https://www.sciencedirect.com/science/article/pii/S0895435619306018)
+[![](paper_screenshot.png)](https://www.bmj.com/content/363/bmj.k5094)
 <!-- </br> -->
 <!-- </br> -->
 <!-- </br> -->
@@ -48,7 +48,7 @@ output:
 |November 1|Galea and Hernan 2020|[Win-Win: Reconciling Social Epidemiology and Causal Inference](https://pubmed.ncbi.nlm.nih.gov/31579911/)|
 |November 15|Lash 2017|[Heuristic Thinking and Inference From Observational Epidemiology](https://journals.lww.com/epidem/fulltext/2007/01000/heuristic_thinking_and_inference_from.13.aspx)|
 |November 29|Penning de Vries et al 2020|[Title, abstract, and keyword searching resulted in poor recovery of articles in systematic reviews of epidemiologic practice](https://www.sciencedirect.com/science/article/pii/S0895435619306018)|
-|December 13||*New rule: The paper for this session must be from [the BMJ Christmas edition](https://www.bmj.com/about-bmj/resources-authors/article-types/christmas-issue)|
+|December 13| Yeh et al 2018|[Parachute use to prevent death and major trauma when jumping from aircraft: randomized controlled trial](https://www.bmj.com/content/363/bmj.k5094)|
 
 
 
