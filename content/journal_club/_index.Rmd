@@ -14,8 +14,8 @@ output:
 </br>
 
 ## Next session
-**Date:** December 13 at 13h (CET) (sign up below to receive a link to the meeting)      
-**Paper to be discussed:** [Parachute use to prevent death and major trauma when jumping from aircraft: randomized controlled trial](https://www.bmj.com/content/363/bmj.k5094)
+**Date:** January 10 at 13h (CET) (sign up below to receive a link to the meeting)      
+**Paper to be discussed:** [Ideal trials, target trials and actual randomized trials](https://arxiv.org/abs/2405.10026)
 
 </br>
 </br>
@@ -23,7 +23,7 @@ output:
 
 
 <!-- ![](epidemiology x.png) -->
-[![](paper_screenshot.png)](https://www.bmj.com/content/363/bmj.k5094)
+[![](paper_screenshot.png)](https://arxiv.org/abs/2405.10026)
 <!-- </br> -->
 <!-- </br> -->
 <!-- </br> -->
@@ -33,7 +33,7 @@ output:
 </br>
 
 
-## Fall 2024 Schedule
+## Winter/Spring 2025 Schedule
 
 
 </br>
@@ -41,15 +41,19 @@ output:
 
 |Date|Reference|Paper|
 |:--- |:--- |:---------- |
-|September 6|Altman 1994 |[The scandal of poor medical research](https://www.bmj.com/content/308/6924/283)|
-|September 20|Van den Broeck et al 2005 |[Data Cleaning: Detecting, Diagnosing, and Editing Data Abnormalities](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020267)|
-|October 4|Fox et al 2022|[On the Need to Revitalize Descriptive Epidemiology](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9383568/)|
-|October 18|Hernán and Robins 2016|[Using Big Data to Emulate a Target Trial When a Randomized Trial Is Not Available](https://pubmed.ncbi.nlm.nih.gov/26994063/)|
-|November 1|Galea and Hernan 2020|[Win-Win: Reconciling Social Epidemiology and Causal Inference](https://pubmed.ncbi.nlm.nih.gov/31579911/)|
-|November 15|Lash 2017|[Heuristic Thinking and Inference From Observational Epidemiology](https://journals.lww.com/epidem/fulltext/2007/01000/heuristic_thinking_and_inference_from.13.aspx)|
-|November 29|Penning de Vries et al 2020|[Title, abstract, and keyword searching resulted in poor recovery of articles in systematic reviews of epidemiologic practice](https://www.sciencedirect.com/science/article/pii/S0895435619306018)|
-|December 13| Yeh et al 2018|[Parachute use to prevent death and major trauma when jumping from aircraft: randomized controlled trial](https://www.bmj.com/content/363/bmj.k5094)|
-
+|January 10|Moreno-Betancur 2024|[Ideal trials, target trials and actual randomized trials](https://arxiv.org/abs/2405.10026)|
+|January 24|||
+|February 7|||
+|February 21|||
+|March 7|||
+|March 21|||
+|April 4|||
+|April 18|||
+|May 2|||
+|May 16|||
+|May 30|||
+|June 13|||
+|June 27|||
 
 
 [Previous sessions](https://www.jeremylabrecque.org/journal_club/previous_sessions)
