@@ -15,7 +15,7 @@ output:
 
 ## Next session
 **Date:** January 10 at 13h (CET) (sign up below to receive a link to the meeting)      
-**Paper to be discussed:** [Ideal trials, target trials and actual randomized trials](https://arxiv.org/abs/2405.10026)
+**Paper to be discussed:** [The marginality principle revisited: Should “higher-order” terms always be accompanied by “lower-order” terms in regression analyses?](https://onlinelibrary.wiley.com/doi/full/10.1002/bimj.202300069) and [The donkey and the load of marginality](https://theupperquartile.wixsite.com/matteo/post/the-donkey-and-the-load-of-marginality)
 
 </br>
 </br>
@@ -23,7 +23,7 @@ output:
 
 
 <!-- ![](epidemiology x.png) -->
-[![](paper_screenshot.png)](https://arxiv.org/abs/2405.10026)
+[![](paper_screenshot.png)](https://theupperquartile.wixsite.com/matteo/post/the-donkey-and-the-load-of-marginality)
 <!-- </br> -->
 <!-- </br> -->
 <!-- </br> -->
@@ -42,7 +42,7 @@ output:
 |Date|Reference|Paper|
 |:--- |:--- |:---------- |
 |January 10|Moreno-Betancur 2024|[Ideal trials, target trials and actual randomized trials](https://arxiv.org/abs/2405.10026)|
-|January 24|||
+|January 24|Morris et al and Quartango 2023/4|[The marginality principle revisited: Should “higher-order” terms always be accompanied by “lower-order” terms in regression analyses?](https://onlinelibrary.wiley.com/doi/full/10.1002/bimj.202300069) and [The donkey and the load of marginality](https://theupperquartile.wixsite.com/matteo/post/the-donkey-and-the-load-of-marginality)|
 |February 7|||
 |February 21|||
 |March 7|||
