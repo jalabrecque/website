@@ -18,6 +18,17 @@ You can also email me if you are interested in causal inference and would like t
 
 Link to [Causal Inference: What if?](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)
 
+
+### Winter/spring 2025
+
+|Date|Topic|
+|:------ |:------ |
+|January 8||
+|January 22||
+|February 5||
+|Februrary 19| Malte's Midterm Presentation|
+
+
 ### Fall 2024
 
 |Date|Topic|
