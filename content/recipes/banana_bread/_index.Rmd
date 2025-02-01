@@ -1,0 +1,34 @@
+---
+title: "Banana bread"
+summary: To make food
+output:
+  html_document:
+    keep_md: true
+    css: style.css
+
+---
+
+[Recipe](https://breaddad.com/easy-banana-bread-recipe/)
+
+
+Ingredients
+
+- 1 1/2 Cups Mashed Bananas (3 bananas)
+- 113g Unsalted Butter (softened)
+- 2 Eggs (large)
+- 100g white sugar
+- 90g brown sugar
+- 240g All Purpose Flour
+- 1 Teaspoon Vanilla Extract
+- 1 Teaspoon Baking Soda
+- 1 Teaspoon Baking Powder
+- 1/2 Teaspoon Salt
+
+
+
+
+Instructions
+ 
+1. Bake in the oven for 65-70 minutes at 165 degree C or until golden brown.
+2. Take out of oven and let the banana bread cool down in the bread pan for 10 minutes. Do not remove the banana bread from the bread pan during this 10 minute cool down period.
+3. After 10 minutes, remove the banana bread from the bread pan. Place the banana bread on a cooling rack in order to completely cool. This cool down may take 1-2 hours.

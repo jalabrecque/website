@@ -33,6 +33,7 @@ output:
 
 ### Dessert     
 - [Chocolate chip oatmeal cookies](https://www.jeremylabrecque.org/recipes/chocolate_chip_oatmeal_cookies)
+- [Banana bread](https://www.jeremylabrecque.org/recipes/banana_bread)
 
 ### Baking
 - [Sourdough Crackers](https://www.jeremylabrecque.org/recipes/sourdough_crackers)
