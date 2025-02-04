@@ -14,19 +14,29 @@ We meet every second Wednesday in NA2803 at ErasmusMC and through Teams if you'r
 
 You can also email me if you are interested in causal inference and would like to join our meetings: j [dot] labrecque [at] erasmusmc [dot] nl.
 
-## 2024 Schedule
+## 2025 Schedule
 
 Link to [Causal Inference: What if?](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)
+Link to Peng Ding's [A First Course in Causal Inference](https://arxiv.org/abs/2305.18793)
 
 
 ### Winter/spring 2025
 
 |Date|Topic|
 |:------ |:------ |
-|January 8||
+|January 8|What is an ideal trial?|
 |January 22||
-|February 5||
-|Februrary 19| Malte's Midterm Presentation|
+|February 5|[Peng Ding](https://arxiv.org/abs/2305.18793)'s book Chapter 2 and 3|
+|February 19| Malte's Midterm Presentation|
+|March 5| Imputing from the future?|
+|March 19 | |
+|April 2| |
+|April 16| |
+|April 30| |
+|May 8 | |
+|May 22 | |
+|June 5 | |
+| June 19| |
 
 
 ### Fall 2024
