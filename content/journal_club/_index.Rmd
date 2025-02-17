@@ -14,8 +14,8 @@ output:
 </br>
 
 ## Next session
-**Date:** February 7 at 13h (CET) (sign up below to receive a link to the meeting)      
-**Paper to be discussed:** [Traumatic injury mortality in the Gaza Strip from Oct 7, 2023, to June 30, 2024: a capture–recapture analysis](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)02678-3/fulltext)
+**Date:** February 21 at 13h (CET) (sign up below to receive a link to the meeting)      
+**Paper to be discussed:** [Forensic epidemiology: a method for investigating and quantifying specific causation](https://pubmed.ncbi.nlm.nih.gov/24272789/)
 
 </br>
 </br>
@@ -23,7 +23,7 @@ output:
 
 
 <!-- ![](epidemiology x.png) -->
-[![](paper_screenshot.png)](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)02678-3/fulltext)
+[![](paper_screenshot.png)](https://pubmed.ncbi.nlm.nih.gov/24272789/)
 <!-- </br> -->
 <!-- </br> -->
 <!-- </br> -->
@@ -44,7 +44,7 @@ output:
 |January 10|Moreno-Betancur 2024|[Ideal trials, target trials and actual randomized trials](https://arxiv.org/abs/2405.10026)|
 |January 24|Morris et al and Quartango 2023/4|[The marginality principle revisited: Should “higher-order” terms always be accompanied by “lower-order” terms in regression analyses?](https://onlinelibrary.wiley.com/doi/full/10.1002/bimj.202300069) and [The donkey and the load of marginality](https://theupperquartile.wixsite.com/matteo/post/the-donkey-and-the-load-of-marginality)|
 |February 7|Jamaluddine 2025|[Traumatic injury mortality in the Gaza Strip from Oct 7, 2023, to June 30, 2024: a capture–recapture analysis](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)02678-3/fulltext)|
-|February 21|||
+|February 21|Koehler and Freeman 2014|[Forensic epidemiology: a method for investigating and quantifying specific causation](https://pubmed.ncbi.nlm.nih.gov/24272789/)|
 |March 7|||
 |March 21|||
 |April 4|||

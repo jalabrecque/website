@@ -28,8 +28,8 @@ Link to Peng Ding's [A First Course in Causal Inference](https://arxiv.org/abs/2
 |January 22||
 |February 5|[Peng Ding](https://arxiv.org/abs/2305.18793)'s book Chapter 2 and 3|
 |February 19| Malte's Midterm Presentation|
-|March 5| Imputing from the future?|
-|March 19 | |
+|March 5|Peter Socha on interesting perinatal estimands |
+|March 19 |Imputing from the future? |
 |April 2| |
 |April 16| |
 |April 30| |
