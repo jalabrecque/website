@@ -14,8 +14,8 @@ output:
 </br>
 
 ## Next session
-**Date:** March 7 at 13h (CET) (sign up below to receive a link to the meeting)      
-**Paper to be discussed:** [Research Aims in Clinical Medicine: Description, Identification, or Explanation](https://www.sciencedirect.com/science/article/pii/S1878875021017824?via%3Dihub)
+**Date:** CANCELLED March 21 <!--  at 13h (CET) (sign up below to receive a link to the meeting)       -->
+<!-- **Paper to be discussed:** [Research Aims in Clinical Medicine: Description, Identification, or Explanation](https://www.sciencedirect.com/science/article/pii/S1878875021017824?via%3Dihub) -->
 
 </br>
 </br>
@@ -23,7 +23,7 @@ output:
 
 
 <!-- ![](epidemiology x.png) -->
-[![](paper_screenshot.png)](https://www.sciencedirect.com/science/article/pii/S1878875021017824?via%3Dihub)
+<!-- [![](paper_screenshot.png)](https://www.sciencedirect.com/science/article/pii/S1878875021017824?via%3Dihub) -->
 <!-- </br> -->
 <!-- </br> -->
 <!-- </br> -->
@@ -46,7 +46,7 @@ output:
 |February 7|Jamaluddine 2025|[Traumatic injury mortality in the Gaza Strip from Oct 7, 2023, to June 30, 2024: a capture–recapture analysis](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)02678-3/fulltext)|
 |February 21|Koehler and Freeman 2014|[Forensic epidemiology: a method for investigating and quantifying specific causation](https://pubmed.ncbi.nlm.nih.gov/24272789/)|
 |March 7|Bos and Ikram 2022|[Research Aims in Clinical Medicine: Description, Identification, or Explanation](https://www.sciencedirect.com/science/article/pii/S1878875021017824?via%3Dihub)|
-|March 21|||
+|March 21|CANCELLED||
 |April 4|||
 |April 18|||
 |May 2|||
