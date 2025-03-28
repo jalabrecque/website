@@ -18,9 +18,9 @@ Ingredients
 - 1 red pepper
 - 200g sugarsnap peas
 - 400ml cocomilk
-- curry powder
-- curcuma (turmeric)
-- chilipowder
+- curry powder (1 tbsp)
+- curcuma (turmeric) (2 tsp)
+- chilipowder (1 tsp)
 - onion
 
 
