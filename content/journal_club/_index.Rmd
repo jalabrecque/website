@@ -14,8 +14,8 @@ output:
 </br>
 
 ## Next session
-**Date:** CANCELLED March 21 <!--  at 13h (CET) (sign up below to receive a link to the meeting)       -->
-<!-- **Paper to be discussed:** [Research Aims in Clinical Medicine: Description, Identification, or Explanation](https://www.sciencedirect.com/science/article/pii/S1878875021017824?via%3Dihub) -->
+**Date:** April 4 at 13h (CET) (sign up below to receive a link to the meeting) 
+**Paper to be discussed:** [Chaos in the brickyard](https://www.science.org/doi/10.1126/science.142.3590.339.a) 
 
 </br>
 </br>
@@ -23,7 +23,7 @@ output:
 
 
 <!-- ![](epidemiology x.png) -->
-<!-- [![](paper_screenshot.png)](https://www.sciencedirect.com/science/article/pii/S1878875021017824?via%3Dihub) -->
+[![](paper_screenshot.png)](https://www.science.org/doi/10.1126/science.142.3590.339.a)
 <!-- </br> -->
 <!-- </br> -->
 <!-- </br> -->
@@ -47,7 +47,7 @@ output:
 |February 21|Koehler and Freeman 2014|[Forensic epidemiology: a method for investigating and quantifying specific causation](https://pubmed.ncbi.nlm.nih.gov/24272789/)|
 |March 7|Bos and Ikram 2022|[Research Aims in Clinical Medicine: Description, Identification, or Explanation](https://www.sciencedirect.com/science/article/pii/S1878875021017824?via%3Dihub)|
 |March 21|CANCELLED||
-|April 4|||
+|April 4|Forscher 1963|[Chaos in the brickyard](https://www.science.org/doi/10.1126/science.142.3590.339.a) |
 |April 18|||
 |May 2|||
 |May 16|||

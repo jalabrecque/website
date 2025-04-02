@@ -10,7 +10,6 @@ output:
 
 ---
 
-# Day 2
 
 ## Morning (9am-12:30pm): The crucial difference between associations and causation
 
