@@ -15,7 +15,9 @@ editor: visual
 - 9-10: What is an association? Is it a good research question?
   - [Let's look at the word association in the wild.](https://docs.google.com/forms/d/e/1FAIpQLSeCroltgJ04wRpkZnw3-KeC0q2TDLk9HQqprr3kz36HF72oGQ/viewform?pli=1)
   - What is an association?
-- 10-11:
+- 10-11: Causal inference
+  - Gaining intuition for causal questions
+  - 
 
 
 
