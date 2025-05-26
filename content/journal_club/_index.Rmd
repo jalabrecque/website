@@ -14,8 +14,9 @@ output:
 </br>
 
 ## Next session
-**Date:** May 16 at 13h (CET) (sign up below to receive a link to the meeting) 
-**Paper to be discussed:** [Integrating exposomics into biomedicine](https://www.science.org/doi/10.1126/science.adr0544) 
+**Date:** May 30 at 13h (CET) (sign up below to receive a link to the meeting) 
+
+**Paper to be discussed:** [Strategic and scientific contributions of human challenge trials for vaccine development: facts versus fantasy](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(23)00294-3/fulltext) 
 
 </br>
 </br>
@@ -23,7 +24,7 @@ output:
 
 
 <!-- ![](epidemiology x.png) -->
-[![](paper_screenshot.png)](https://www.science.org/doi/10.1126/science.adr0544) 
+[![](paper_screenshot.png)](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(23)00294-3/fulltext) 
 <!-- </br> -->
 <!-- </br> -->
 <!-- </br> -->
@@ -51,7 +52,7 @@ output:
 |April 18|CANCELLED||
 |May 2|Epidemiology X||
 |May 16|Mill23 2025|[Integrating exposomics into biomedicine](https://www.science.org/doi/10.1126/science.adr0544) |
-|May 30|||
+|May 30|Abo et al 2023|[Strategic and scientific contributions of human challenge trials for vaccine development: facts versus fantasy](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(23)00294-3/fulltext)|
 |June 13|||
 |June 27|||
 
