@@ -1,0 +1,45 @@
+---
+title: "Why the word 'association' should not be in your research question"
+summary: Weon poster
+output:
+  html_document:
+    keep_md: false
+    toc: true
+    toc_float: true
+    css: style.css
+
+---
+
+</br>
+</br>
+
+JA Labrecque (j.labrecque@erasmusmc.nl), KL Kezios
+
+</br>
+</br>
+
+### There are many associations you can estimate
+Often people say they are interested in 'the' or 'an' association between an exposure and outcome. But which association are they talking about? There are many, many different associations you can estimate between two variables: a crude association, an association adjusted for some variables, an association adjusted for other variables, a non-linear association. When people say things like they're interested in 'the' association, they are not telling you which of these they are interested in.
+
+You might say, "well what we mean is the association adjusted for as many confounders as possible." If that's what is meant, why not just say one is interested in the causal effect because there's no reason to try to eliminate all confounding unless you're targeting a causal effect.
+
+### You likely don't know which association you're interested in ahead of time
+This is especially apparent when people do variable selection, via a directed acyclic graph maybe. They cannot tell you ahead of time which variables they will be adjusting for and, therefore, not even they know which variables they will be adjusting for. You might say, "Ok. I see your point but what if we chose the adjustment variables and then said that was the association we were interested in?" First it is strange that you would apply variable selection, something which belongs in the methods section of a paper, to define the question. Second, I can ask you why you chose the kind of variable selection you did. What was the motivation behind choosing as many confounders as possible? The answer will almost always be that the true underlying question is a causal one. To which, we say, just say your research question is causal!
+
+If you did define your adjustment variables beforehand, you run into another problem: how do you talk about bias? If you say I was to estimate the association between X and Y adjusted for A, B and C and you've measured A, B and C, is there then no uncontrolled confounding? You've adjusted for all the same variables that appear in your research question. So where would uncontrolled or unmeasured confounding come from?
+
+### The way out
+
+Let's just call things what they are. If you are interested in knowing the causal effect of X on Y, just say so. Just remember that the true causal effect is unknowable. The best we can do is try to estimate it with data and causal assumptions. For example, one valid research goal might be to estimate the causal effect of taking vitamin B supplements on 5-year dementia risk. The number I get from my analysis won't be the causal effect but it is nonetheless what my research aim is.
+
+When you're talking about the numbers your analyses give you, those are associations. They are describing specific relationships between variables. For example, you could say that the association between taking vitamin B supplements and 5-year dementia risk after adjusting for ten variables you have measured is a risk ratio of 0.8. You are not making any claim beyond saying that this is the numerical relationship between these variables. 
+
+If you want to interpret those associations while simultaneously making causal assumptions (e.g., exchangeability, positivity and consistency), now what you have are estimated causal effects. For example, assuming exchangeability, positivity and consistency, the estimated causal effect of taking vitamin B supplements on 5-year dementia risk is a risk ratio of 0.8. 
+
+### A way ahead for journal editors
+
+It can be assumed that journals already have an explicit or implicit policy of having clear research questions. Here, we show that when the word association appears in the research question, the question is almost automatically not clear. If journal editors, upon reading an article title or research question such as, "the association between X and Y," they can simply respond, "which association is 'the' association." The authors will quickly find it is not possible to say which association is 'the' association without making reference to choices they will make in the methods section of their paper. 
+
+### Descriptive questions
+
+If the underlying question is truly descriptive, then using the word association in the research question may be possible. We prefer to reserve the word association for describing numerical relationships between variables, i.e. the means to end rather than an end in itself. We also think that any descriptive question phrased as an association can be more clearly posed without the word association. For example, someone might want to know the association between gender and the incidence of pancreatic cancer. Would the question not be clearer by asking about the difference in the incidence of pancreatic between different genders?
