@@ -1,0 +1,40 @@
+---
+title: "Tomato curry"
+summary: To make food
+output:
+  html_document:
+    keep_md: true
+    css: style.css
+
+---
+
+
+Ingredients
+
+- 1 tbs. butter or oil
+- 1 1/2 cups finely chopped or grated onion
+- 1 tsp. salt
+- 1 small bell pepper, minced
+- 6 medium tomatoes, peeled and seeded (see below)
+- 2 cups tomato puree
+- 2 tsp cumin
+- 2 tsp mustard seeds (but not yellow mustard seeds)
+- 3-4 garlic cloves, minced
+- 1/4 tsp cayenna, more to taste
+- 1/2 tsp garam masala (optional)
+- 1/2 tsp dried coriander (optional)
+
+
+
+
+Instructions
+ 
+-  Melt butter or heat oil in a dutch oven (or large pot if you don't have a dutch oven).
+- Add onion, salt, and mustard seeks. Saute over medium heat for 8-10 minutes or until the onions soften and the mustard seeds begin to pop
+- Add ginger, garlic, and bell pepper, cook another 5 minutes.  
+- Add remaning ingredients and mix well.  
+- Heat until boiling, stirring frequently.  
+- Turn the heat to low and simmer covered for 15-20 minutes.  
+- Taste and adjust seasonings as needed.
+
+[Source](https://ruminationsonfood.blogspot.com/2011/03/tomato-curry.html)

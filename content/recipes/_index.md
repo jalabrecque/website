@@ -30,6 +30,7 @@ output:
 - Roasted hunk of meat 
 - [Beef stew in instant pot](https://www.jeremylabrecque.org/recipes/beef_stew)
 - [Pineapple curry](https://www.jeremylabrecque.org/recipes/pineapple_curry)
+- [Tomato curry](https://www.jeremylabrecque.org/recipes/tomato_curry)
 
 
 ### Dessert     
