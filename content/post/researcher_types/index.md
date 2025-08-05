@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Types of researchers"
-date: 2025-08-2T01:13:14-05:00
+date: 2025-08-04T01:13:14-05:00
 published: false
 ---
 

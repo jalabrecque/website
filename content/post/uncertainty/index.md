@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Maybe I'm wrong"
-date: 2025-08-5T01:13:14-05:00
+date: 2025-08-04T01:13:14-05:00
 published: true
 ---
 
