@@ -11,6 +11,9 @@ output:
 
 ---
 
+### Breakfast
+- [Buttermilk waffles](https://www.jeremylabrecque.org/recipes/buttermilk_waffles)
+
 ### Salads
 - Ensalada a la Chilena
 - Carrots and lemon juice
