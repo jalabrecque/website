@@ -35,12 +35,16 @@ In a world where a good rig goes unappreciated, the Rigged Hockey League, hencef
 
 ## News
 
-### 2024-2025 season
+### 2025-2026 season
 - See the [Beginning of the season FAQ](https://www.jeremylabrecque.org/rhl/#Beginning_of_season_FAQ) before you ask Gards or I any dumb questions
 - Important dates: 
-  - **Sunday, September 24:** Keeper deadline date   
-  - Draft TBD
-  - **Friday, October 4:** First day of the NHL season
+  - **Proposed Keeper deadline date:** September 24   
+  - **Proposed draft dates:** September 26-27
+  - **Friday, October 7:** First day of the NHL season
+
+### 2024-2025
+- Jeffa takes it all!
+- First overall pick to Protect Ya Necas
 
 
 ### 2023-24 season
@@ -59,7 +63,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```{r}
 library(readr)
-ds <- suppressMessages(read_csv("~/Google Drive/Personal/rhl/keeper_2425.csv"))
+ds <- suppressMessages(read_csv("/Users/jeremylabrecque/kDrive/Personal/rhl/keeper_2425.csv"))
 
 ```
 
@@ -71,14 +75,14 @@ ds <- suppressMessages(read_csv("~/Google Drive/Personal/rhl/keeper_2425.csv"))
 - Trades can still be completed before you submit your keepers
 - You can tell how many round of draft picks you'll have by subtracting the number of players you have kept (including farm team) from 19. For example, I have kept 12 players so I will draft up to an including round 7 (19-12). This doesn't take into account any previous trades or draft picks
 - Draft Order:
-  1. Bag/Protect Ya Necas
-  2. Bag/Protect Ya Necas
+  1. Protect Ya Necas
+  2. Bag
   3. Suzuki Jimney
   4. Flex Labreck
-  5. Lance D'Rundell/Стивен Прекрасный
-  6. Lance D'Rundell/Стивен Прекрасный
-  7. Jeffa Petersburg/Deluge of Gardseur
-  8. Jeffa Petersburg/Deluge of Gardseur
+  5. Стивен Прекрасный
+  6. Lance D'Rundell
+  7. Deluge of Gardseur
+  8. Jeffa Petersburg
 - Draft pick trades:
   - Bag 1st and 2nd round picks to Flex
   - Flex 5th and 6th round picks to Bag
