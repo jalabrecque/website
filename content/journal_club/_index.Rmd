@@ -34,7 +34,7 @@ output:
 </br>
 
 
-## Winter/Spring 2025 Schedule
+## Fall 2025 Schedule
 
 
 </br>
@@ -42,19 +42,13 @@ output:
 
 |Date|Reference|Paper|
 |:--- |:--- |:---------- |
-|January 10|Moreno-Betancur 2024|[Ideal trials, target trials and actual randomized trials](https://arxiv.org/abs/2405.10026)|
-|January 24|Morris et al and Quartango 2023/4|[The marginality principle revisited: Should “higher-order” terms always be accompanied by “lower-order” terms in regression analyses?](https://onlinelibrary.wiley.com/doi/full/10.1002/bimj.202300069) and [The donkey and the load of marginality](https://theupperquartile.wixsite.com/matteo/post/the-donkey-and-the-load-of-marginality)|
-|February 7|Jamaluddine 2025|[Traumatic injury mortality in the Gaza Strip from Oct 7, 2023, to June 30, 2024: a capture–recapture analysis](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)02678-3/fulltext)|
-|February 21|Koehler and Freeman 2014|[Forensic epidemiology: a method for investigating and quantifying specific causation](https://pubmed.ncbi.nlm.nih.gov/24272789/)|
-|March 7|Bos and Ikram 2022|[Research Aims in Clinical Medicine: Description, Identification, or Explanation](https://www.sciencedirect.com/science/article/pii/S1878875021017824?via%3Dihub)|
-|March 21|CANCELLED||
-|April 4|Forscher 1963|[Chaos in the brickyard](https://www.science.org/doi/10.1126/science.142.3590.339.a) |
-|April 18|CANCELLED||
-|May 2|Epidemiology X||
-|May 16|Mill23 2025|[Integrating exposomics into biomedicine](https://www.science.org/doi/10.1126/science.adr0544) |
-|May 30|Abo et al 2023|[Strategic and scientific contributions of human challenge trials for vaccine development: facts versus fantasy](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(23)00294-3/fulltext)|
-|June 13|||
-|June 27|||
+|Sept 19|Poole et al 2003|[Commentary: This study failed?](https://pubmed.ncbi.nlm.nih.gov/12913024/)|
+|Oct 3|||
+|Oct 17|Robert Goulden||
+|Oct 31|||
+|Nov 14|||
+|Nov 28|||
+|Dec 12|||
 
 
 [Previous sessions](https://www.jeremylabrecque.org/journal_club/previous_sessions)
