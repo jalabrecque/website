@@ -63,7 +63,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```{r}
 library(readr)
-ds <- suppressMessages(read_csv("/Users/jeremylabrecque/kDrive/Personal/rhl/keeper_2425.csv"))
+ds <- suppressMessages(read_csv("/Users/jeremylabrecque/kDrive/Personal/rhl/keeper_start2025.csv"))
 
 ```
 
@@ -291,7 +291,8 @@ kable(cbind(label,ds_), col.names = c("Main/farm","Player","Keeper cost"),row.na
 ## Hall of Champions Virtual Plaque
 
 - 2020: No champion (COVID)
-- 2021: Suzuki Jimney
-- 2022: Suzuki Jimney
-- 2023: Connor Dioxide Emissions
+- [2021: Suzuki Jimney](https://www.jeremylabrecque.org/rhl/2021_playoffs)
+- [2022: Suzuki Jimney](https://www.jeremylabrecque.org/rhl/2022_playoffs)
+- [2023: Connor Dioxide Emissions](https://www.jeremylabrecque.org/rhl/2023_playoffs)
 - [2024: Lance D'Rundell](https://www.jeremylabrecque.org/rhl/2024_playoffs)
+- [2025: Jeffa Petersburg](https://www.jeremylabrecque.org/rhl/2025_playoffs)
