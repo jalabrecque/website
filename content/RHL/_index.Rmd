@@ -23,8 +23,8 @@ output:
 *The thing about rigging is, you can learn it if you become a master rigger but there's no book on rigging.*     
 <p align="right"> Richard Serra </p>
 </br>
-*We will never be able to fix a rigged system if we count on those who rigged it in the first place.*     
-<p align="right"> Donald Trump </p>
+*People feel like the system is rigged against them, and here is the painful part, they're right. The system is rigged.*     
+<p align="right"> Elizabeth Warren </p>
 
 
 ## What is the RHL?
@@ -38,8 +38,8 @@ In a world where a good rig goes unappreciated, the Rigged Hockey League, hencef
 ### 2025-2026 season
 - See the [Beginning of the season FAQ](https://www.jeremylabrecque.org/rhl/#Beginning_of_season_FAQ) before you ask Gards or I any dumb questions
 - Important dates: 
-  - **Proposed Keeper deadline date:** September 24   
-  - **Proposed draft dates:** September 26-27
+  - **Proposed Keeper deadline date:** TBD   
+  - **Proposed draft dates:** TBD
   - **Friday, October 7:** First day of the NHL season
 
 ### 2024-2025
@@ -78,14 +78,14 @@ ds <- suppressMessages(read_csv("/Users/jeremylabrecque/kDrive/Personal/rhl/keep
   1. Protect Ya Necas
   2. Bag
   3. Suzuki Jimney
-  4. Flex Labreck
+  4. Näslund of the Wind
   5. Стивен Прекрасный
   6. Lance D'Rundell
   7. Deluge of Gardseur
   8. Jeffa Petersburg
 - Draft pick trades:
-  - Bag 1st and 2nd round picks to Flex
-  - Flex 5th and 6th round picks to Bag
+  - Bag 1st and 2nd round picks to Wind
+  - Wind 5th and 6th round picks to Bag
   - Стивен 1st round to Deluge
   - Deluge 9th round to Стивен
 
@@ -199,7 +199,7 @@ Because Yahoo doesn't allow us to just take a draft pick away, your draft pick w
 
 
 ## Keeper Lists {.tabset}
-### Flex Labreck
+### Näslund of the Wind
 
 ```{r}
 library(knitr)
