@@ -14,9 +14,9 @@ output:
 </br>
 
 ## Next session
-**Date:** May 30 at 13h (CET) (sign up below to receive a link to the meeting) 
+**Date:** Sept 19 at 13h (CET) (sign up below to receive a link to the meeting) 
 
-**Paper to be discussed:** [Strategic and scientific contributions of human challenge trials for vaccine development: facts versus fantasy](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(23)00294-3/fulltext) 
+**Paper to be discussed:** [Commentary: This study failed?](https://pubmed.ncbi.nlm.nih.gov/12913024/)
 
 </br>
 </br>
@@ -24,7 +24,7 @@ output:
 
 
 <!-- ![](epidemiology x.png) -->
-[![](paper_screenshot.png)](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(23)00294-3/fulltext) 
+[![](paper_screenshot.png)](https://pubmed.ncbi.nlm.nih.gov/12913024/) 
 <!-- </br> -->
 <!-- </br> -->
 <!-- </br> -->
