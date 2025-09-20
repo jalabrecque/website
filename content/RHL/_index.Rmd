@@ -231,7 +231,7 @@ label <- ifelse(ds_[,2]>0,"Main","Farm")
 kable(cbind(label,ds_), col.names = c("Main/farm","Player","Keeper cost"),row.names = F )
 ```
 
-### Silken Cape
+### Roscoe's Ovechkin 'N Wafflesv
 
 ```{r}
 library(knitr)
@@ -242,7 +242,7 @@ kable(cbind(label,ds_), col.names = c("Main/farm","Player","Keeper cost"),row.na
 ```
 
 
-### Leafs Suck
+### Protect Ya Necas
 
 ```{r}
 library(knitr)
@@ -296,3 +296,20 @@ kable(cbind(label,ds_), col.names = c("Main/farm","Player","Keeper cost"),row.na
 - [2023: Connor Dioxide Emissions](https://www.jeremylabrecque.org/rhl/2023_playoffs)
 - [2024: Lance D'Rundell](https://www.jeremylabrecque.org/rhl/2024_playoffs)
 - [2025: Jeffa Petersburg](https://www.jeremylabrecque.org/rhl/2025_playoffs)
+
+## All-time standings
+
+```{r}
+library(knitr)
+library(readr)
+st <- suppressMessages(read_csv("/Users/jeremylabrecque/epidemiology/website/content/RHL/standings/Book1.csv"))
+for (i in 2:9) {
+  a <- st[,i]
+  a[is.na(a)] <- 0
+  st[,i] <- a
+}
+st$Total <- as.matrix(st[,2:9]) %*% as.matrix(c(8:1))
+st <- st[order(st$Total,decreasing = TRUE),]
+
+kable(st, row.names = F )
+```
