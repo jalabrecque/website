@@ -1,0 +1,26 @@
+---
+title: "Cucumber salad"
+summary: To make food
+output:
+  html_document:
+    keep_md: true
+    css: style.css
+
+---
+
+
+
+
+Ingredients
+
+- Plain Greek yogurt
+- Cucumbers
+- Lemon
+- Salt
+
+
+
+
+Instructions
+ 
+About a cup of yogurt. Add juice from two lemons to make it tart. Add salt to taste. Then add a bnuch of sliced cucumber halves.

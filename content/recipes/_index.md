@@ -13,10 +13,12 @@ output:
 
 ### Breakfast
 - [Buttermilk waffles](https://www.jeremylabrecque.org/recipes/buttermilk_waffles)
+- [Bircher muesli](https://www.jeremylabrecque.org/recipes/bircher_muesli)
 
 ### Salads
 - Ensalada a la Chilena
 - Carrots and lemon juice
+- [Cucumber salad](https://www.jeremylabrecque.org/recipes/cucumber_salad)
 
 
 ### Soups
