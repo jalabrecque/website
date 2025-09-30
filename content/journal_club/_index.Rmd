@@ -14,9 +14,9 @@ output:
 </br>
 
 ## Next session
-**Date:** Sept 19 at 13h (CET) (sign up below to receive a link to the meeting) 
+**Date:** Oct 3 at 13h (CET) (sign up below to receive a link to the meeting) 
 
-**Paper to be discussed:** [Commentary: This study failed?](https://pubmed.ncbi.nlm.nih.gov/12913024/)
+**Paper to be discussed:** [Does water kill?](https://pmc.ncbi.nlm.nih.gov/articles/PMC5207342/)
 
 </br>
 </br>
@@ -43,7 +43,7 @@ output:
 |Date|Reference|Paper|
 |:--- |:--- |:---------- |
 |Sept 19|Poole et al 2003|[Commentary: This study failed?](https://pubmed.ncbi.nlm.nih.gov/12913024/)|
-|Oct 3|||
+|Oct 3|Hernan 2016|[Does water kill?](https://pmc.ncbi.nlm.nih.gov/articles/PMC5207342/)|
 |Oct 17|Robert Goulden||
 |Oct 31|||
 |Nov 14|||
