@@ -18,8 +18,6 @@ You can also email me if you are interested in causal inference and would like t
 
 ## 2025 Schedule
 
-Link to [Causal Inference: What if?](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)
-Link to Peng Ding's [A First Course in Causal Inference](https://arxiv.org/abs/2305.18793)
 
 ### Fall 2025
 
@@ -89,6 +87,8 @@ Link to Peng Ding's [A First Course in Causal Inference](https://arxiv.org/abs/2
 - [Bareinboim book](https://causalai-book.net)
 - Robins 1986
 - [Pearl tribute book](https://bayes.cs.ucla.edu/TRIBUTE/festschrift-complete.pdf)
+- [Causal Inference: What if?](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)
+- [A First Course in Causal Inference](https://arxiv.org/abs/2305.18793)
 
 
 
