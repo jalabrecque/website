@@ -3,7 +3,9 @@ title: "Erasmus MC Causal Inference Group"
 summary: Causal Inference Group
 output:
   html_document:
-    keep_md: true
+    keep_md: false
+    toc: true
+    toc_float: true
     css: style.css
 
 ---
@@ -18,6 +20,16 @@ You can also email me if you are interested in causal inference and would like t
 
 Link to [Causal Inference: What if?](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)
 Link to Peng Ding's [A First Course in Causal Inference](https://arxiv.org/abs/2305.18793)
+
+### Fall 2025
+
+|Date|Topic|
+|:------ |:------ |
+|October 29|Sections 6.1.1 and 6.1.2 from [Bareinboim book](https://causalai-book.net) |
+|November 12|Sections 6.1.3 from [Bareinboim book](https://causalai-book.net)|
+|November 26|Sections 6.1.4 from [Bareinboim book](https://causalai-book.net)|
+|December 10|Sections 6.1.5 from [Bareinboim book](https://causalai-book.net)|
+
 
 
 ### Winter/spring 2025
@@ -57,7 +69,7 @@ Link to Peng Ding's [A First Course in Causal Inference](https://arxiv.org/abs/2
 
 |Date|Topic|
 |:------ |:------ |
-|January 10| Chatper 12 from What if: IPTW and outcome regression|
+|January 10| Chapter 12 from What if: IPTW and outcome regression|
 |January 24|Sjoerd midterm presentation|
 |February 7||
 |Februrary 21||
@@ -70,6 +82,13 @@ Link to Peng Ding's [A First Course in Causal Inference](https://arxiv.org/abs/2
 |May 29||
 |June 12||
 |June 26||
+
+## Books/topics
+
+- Pearl Causality
+- [Bareinboim book](https://causalai-book.net)
+- Robins 1986
+- [Pearl tribute book](https://bayes.cs.ucla.edu/TRIBUTE/festschrift-complete.pdf)
 
 
 
