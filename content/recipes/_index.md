@@ -44,3 +44,7 @@ output:
 ### Baking
 - [Sourdough Crackers](https://www.jeremylabrecque.org/recipes/sourdough_crackers)
 - [Sourdough miche](https://docs.google.com/spreadsheets/d/1yb-5Zq36HE50GGXyTz32piH-a77dev0GmCV95H-Tmx4/edit#gid=1965387700)
+
+### Thanksgiving
+- [Stuffing](https://www.jeremylabrecque.org/recipes/stuffing)
+- [Coleslaw](https://www.jeremylabrecque.org/recipes/coleslaw)
