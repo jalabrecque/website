@@ -40,6 +40,7 @@ output:
 ### Dessert     
 - [Chocolate chip oatmeal cookies](https://www.jeremylabrecque.org/recipes/chocolate_chip_oatmeal_cookies)
 - [Banana bread](https://www.jeremylabrecque.org/recipes/banana_bread)
+- [Pouding Chômeur](https://www.jeremylabrecque.org/recipes/pouding)
 
 ### Baking
 - [Sourdough Crackers](https://www.jeremylabrecque.org/recipes/sourdough_crackers)
@@ -48,3 +49,4 @@ output:
 ### Thanksgiving
 - [Stuffing](https://www.jeremylabrecque.org/recipes/stuffing)
 - [Coleslaw](https://www.jeremylabrecque.org/recipes/coleslaw)
+- [Roasting a turkey](https://www.canadianturkey.ca/wholebird/roasting-a-whole-turkey/)
