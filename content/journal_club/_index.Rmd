@@ -14,9 +14,9 @@ output:
 </br>
 
 ## Next session
-**Date:** Oct 31 at 13h (CET) (sign up below to receive a link to the meeting) 
+**Date:** Nov 14 at 13h (CET) (sign up below to receive a link to the meeting) 
 
-**Papers to be discussed:** [How hazard ratios can mislead and why it matters in practice](https://link.springer.com/article/10.1007/s10654-025-01250-9)
+**Papers to be discussed:** [Does One Size Fit All?](https://lareviewofbooks.org/article/does-one-size-fit-all/)
 
 
 </br>
@@ -25,7 +25,7 @@ output:
 
 
 <!-- ![](epidemiology x.png) -->
-[![](paper_screenshot.png)](https://link.springer.com/article/10.1007/s10654-025-01250-9) 
+[![](paper_screenshot.png)](https://lareviewofbooks.org/article/does-one-size-fit-all/) 
 <!-- </br> -->
 <!-- </br> -->
 <!-- </br> -->
@@ -47,7 +47,7 @@ output:
 |Oct 3|Hernan 2016|[Does water kill?](https://pmc.ncbi.nlm.nih.gov/articles/PMC5207342/)|
 |Oct 17|Goulden 2025 and Labrecque 2025|[Time for evidence-based methodology in epidemiology](https://academic.oup.com/ije/article/54/3/dyaf052/8128362) and [What would we learn from empirical evaluations of epidemiologic methods?](https://academic.oup.com/ije/article/54/5/dyaf155/8240901)|
 |Oct 31|Dumas and Stensrud 2025|[How hazard ratios can mislead and why it matters in practice](https://link.springer.com/article/10.1007/s10654-025-01250-9)|
-|Nov 14|||
+|Nov 14|Kaufman 2025|[Does One Size Fit All?](https://lareviewofbooks.org/article/does-one-size-fit-all/)|
 |Nov 28|||
 |Dec 12|||
 
