@@ -94,4 +94,5 @@ output:
 
 - [The missing conversation--To the detriment of the public, scientists and historians don’t engage with one another](https://aeon.co/essays/science-and-history-cannot-afford-to-be-indifferent-to-each-other)
 - [How Science Can Reward Cooperation, Not Just Individual Achievement](https://www.psychologicalscience.org/publications/observer/rewarding-cooperation.html)
+- [How to find meaning in your science career--six expert tips](https://www.nature.com/articles/d41586-024-00476-z)
 
