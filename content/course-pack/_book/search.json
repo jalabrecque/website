@@ -1,0 +1,394 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "CK010  Course pack ",
+    "section": "",
+    "text": "Preface\nThere’s not enough time during the course to give each topic the space it deserves. So I’ve created this site which you will hopefully help you understand the topics covered in class a bit more deeply. Or help you review topics you might not have understood perfectly in class."
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "02-confounding.html#intro",
+    "href": "02-confounding.html#intro",
+    "title": "3  Confounding and confounders",
+    "section": "3.1 Intro",
+    "text": "3.1 Intro\nConfounding is just an old English word that is a synonym for confusing. Confounding is something that will confuse the answer you get to a causal question. For example, if the true RR is 1.4, if there is confounding present, the estimate you get will be something else than 1.4."
+  },
+  {
+    "objectID": "02-confounding.html#confound-ing",
+    "href": "02-confounding.html#confound-ing",
+    "title": "3  Confounding and confounders",
+    "section": "3.2 Confound-ING",
+    "text": "3.2 Confound-ING\nConfounding is present when you have a common cause of an exposure and an outcome and you haven’t adjusted for any variables."
+  },
+  {
+    "objectID": "02-confounding.html#confound-er",
+    "href": "02-confounding.html#confound-er",
+    "title": "3  Confounding and confounders",
+    "section": "3.3 Confound-ER",
+    "text": "3.3 Confound-ER\nIf you’ve heard of a confounder before, you were likely taught that a confounder is a common cause of the exposure and the outcome. But it’s easy to show that that\n*Note (this is not essential to your knowledge): I often like to think about words literally mean. A confounder, if you were very literal, should be the variable that is doing the confounding. In other words, a confounder should be a common cause. But if we decided to use this language we’d be stuck in a place where we’d have to admit that you could control for confounder by adjusting for a non-confounder. So really, there’s no really satisfying way to use the language here."
+  },
+  {
+    "objectID": "02-confounding.html#other-things",
+    "href": "02-confounding.html#other-things",
+    "title": "3  Confounding and confounders",
+    "section": "3.4 Other things",
+    "text": "3.4 Other things\nIt’s very common for people to talk about unmeasured confounding in their discussion section, often to remind you of its possible existence. As if we didn’t know that. Anyway, unmeasured confounding is really the wrong way to say it. Sure an unmeasured confounder will bias your result. But so will a confounder that is poorly measured (e.g., controlling for obesity when the confounder is really BMI) or poorly modeled (e.g., failing to include age-squared when it was necessary). What we’re really worried about is uncontrolled confounding."
+  },
+  {
+    "objectID": "02-confounding.html#resources",
+    "href": "02-confounding.html#resources",
+    "title": "3  Confounding and confounders",
+    "section": "3.5 Resources",
+    "text": "3.5 Resources"
+  },
+  {
+    "objectID": "01-why.html",
+    "href": "01-why.html",
+    "title": "1  Why bother learning this stuff?",
+    "section": "",
+    "text": "Most of you will find my content in this course difficult. I remember, it was difficult for me too. But there are many reasons I hope you’ll be motivated to learn this material.\n\n2 It really matters\nI have a pet peeve statistical error that, honestly, I see committed everyday: claiming that the null hypothesis is true if a significance test is not significant. The most famous paper on this topic is Andrew Gelmans’ The difference between “significant” and “not significant” is not itself statistical significant”"
+  },
+  {
+    "objectID": "01-why.html#it-really-matters",
+    "href": "01-why.html#it-really-matters",
+    "title": "1  Why bother learning this stuff?",
+    "section": "1.1 It really matters",
+    "text": "1.1 It really matters\nI have a pet peeve statistical error that, honestly, I see committed everyday: claiming that the null hypothesis is true if a significance test is not significant. The most famous paper on this topic is Andrew Gelmans’ The difference between “significant” and “not significant” is not itself statistical significant”. It’s a surprisingly common error.\nI remember once I was attending a talk by someone who was presenting research done with a cohort of children. Many thousands of children. The presenter showed a result that had a very wide confidence interval, something like \\(\\textrm{RR}=1.5 (95\\% \\textrm{ CI:} 0.8-2.7)\\). So just a very noisy, inconclusive result. The best you can say with this result (assuming there’s no bias and there always is) is that the exposure doesn’t look to be either very protective or very harmful. But the presenter said that they had found that the exposure had no effect on the outcome. Again, I’m not trying to be too hard on this presenter because, as I said, this is a very very common error.\nBut then I think about it this way. They were using data on thousands of children which required those children and their thousands of parents to take time to go to the recruitment center and do the many things that are asked of participants when they’re joining a cohort. This can involve measuring or asking very sensitive questions. All this very sensitive data is stored in a place that could leak (though this is rare). These thousands of parents and children give so much of themselves hoping that the researchers who use their data are also giving the same if not more effort to make the best use of their data possible. To extract every piece of information that can get out of it so the research can benefit untold numbers of children in the future. I always wonder what they would think about this and many other researchers that, too often, make a stats 101 error. That, for one reason or another, rely on significance testing for all of their work but don’t seem to understand how it works at all.\nAnd my point extends to every other aspect of a study.\nNow, you will make mistakes in your career. I have. Everyone does. Even when you’re doing your aboslute best."
+  },
+  {
+    "objectID": "02-q-before a.html#it-really-matters",
+    "href": "02-q-before a.html#it-really-matters",
+    "title": "2  Questions before answers",
+    "section": "2.1 It really matters",
+    "text": "2.1 It really matters\nI have a pet peeve statistical error that, honestly, I see committed everyday: claiming that the null hypothesis is true if a significance test is not significant. The most famous paper on this topic is Andrew Gelmans’ The difference between “significant” and “not significant” is not itself statistical significant”. It’s a surprisingly common error.\nI remember once I was attending a talk by someone who was presenting research done with a cohort of children. Many thousands of children. The presenter showed a result that had a very wide confidence interval, something like \\(\\textrm{RR}=1.5 (95\\% \\textrm{ CI:} 0.8-2.7)\\). So just a very noisy, inconclusive result. The best you can say with this result (assuming there’s no bias and there always is) is that the exposure doesn’t look to be either very protective or very harmful. But the presenter said that they had found that the exposure had no effect on the outcome. Again, I’m not trying to be too hard on this presenter because, as I said, this is a very very common error.\nBut then I think about it this way. They were using data on thousands of children which required those children and their thousands of parents to take time to go to the recruitment center and do the many things that are asked of participants when they’re joining a cohort. This can involve measuring or asking very sensitive questions. All this very sensitive data is stored in a place that could leak (though this is rare). These thousands of parents and children give so much of themselves and this researcher could not even be bothered to learn how to properly interpret a significance test. I think it shows a total lack or respect for everything these people are giving to the cohort.\nAnd my point extends to every other aspect of a study.\nNow, you will make mistakes in your career. I have. Everyone does. Even when you’re doing your aboslute best."
+  },
+  {
+    "objectID": "03-confounding.html#intro",
+    "href": "03-confounding.html#intro",
+    "title": "4  Confounding and confounders",
+    "section": "4.1 Intro",
+    "text": "4.1 Intro\nConfounding is just an old English word that is a synonym for confusing. Confounding is something that will confuse the answer you get to a causal question. For example, if the true RR is 1.4, if there is confounding present, the estimate you get will be something else than 1.4."
+  },
+  {
+    "objectID": "03-confounding.html#confound-ing",
+    "href": "03-confounding.html#confound-ing",
+    "title": "4  Confounding and confounders (Exchangeability part 1)",
+    "section": "4.1 Confound-ING",
+    "text": "4.1 Confound-ING\nWe’ll begin by defining the phenomenon of confounding and in the next section define confounders. Confounding is present when you have a common cause of an exposure and an outcome and you haven’t adjusted for any variables that could adjust for that confounding (more on this in the directed acyclic graph chapter)."
+  },
+  {
+    "objectID": "03-confounding.html#confound-er",
+    "href": "03-confounding.html#confound-er",
+    "title": "4  Confounding and confounders (Exchangeability part 1)",
+    "section": "4.2 Confound-ER",
+    "text": "4.2 Confound-ER\nIf you’ve heard of a confounder before, you were likely taught that a confounder is a common cause of the exposure and the outcome.2 But it’s easy to show that that2 I often like to think about words literally mean. A confounder, if you were very literal, should be the variable that is doing the confounding. In other words, a confounder should be a common cause. But if we decided to use this language we’d be stuck in a place where we’d have to admit that you could control for confounder by adjusting for a non-confounder. So really, there’s no really satisfying way to use the language here."
+  },
+  {
+    "objectID": "03-confounding.html#other-things",
+    "href": "03-confounding.html#other-things",
+    "title": "4  Confounding and confounders (Exchangeability part 1)",
+    "section": "4.3 Other things",
+    "text": "4.3 Other things\nIt’s very common for people to talk about unmeasured confounding in their discussion section, often to remind you of its possible existence. As if we didn’t know that. Anyway, unmeasured confounding is really the wrong way to say it. Sure an unmeasured confounder will bias your result. But so will a confounder that is poorly measured (e.g., controlling for obesity when the confounder is really BMI) or poorly modeled (e.g., failing to include age-squared when it was necessary). What we’re really worried about is uncontrolled confounding."
+  },
+  {
+    "objectID": "03-confounding.html#resources",
+    "href": "03-confounding.html#resources",
+    "title": "4  Confounding and confounders (Exchangeability part 1)",
+    "section": "4.4 Resources",
+    "text": "4.4 Resources"
+  },
+  {
+    "objectID": "02-q-before a.html#descriptive-questions",
+    "href": "02-q-before a.html#descriptive-questions",
+    "title": "3  Questions before answers",
+    "section": "3.1 Descriptive questions",
+    "text": "3.1 Descriptive questions\nMy expertise is in causal inference but I’m always telling people that descriptive questions are crucially important and understudied. Descriptive questions are basically describing the state of the world now or in the past. It might be easiest to list some examples:\n\nWhat is the incidence of diabetes in Finland?\nWhat is the prevalence of diabetes in Sweden?\nWhat is the the geographic distribution of measles cases in the Canadian provine of Alberta?\nHow is the number of broken teeth among hockey players changing over time?\nDo people earning a minimum wage salary do less exercise than people earning more than minimum wage?\n\nThese are questions about the prevalence or incidence of disease or its spatial distribution. Or about about how common certain health behaviours are. Or how patterns change over time. Or comparing these descriptive values between groups.\nDescriptive questions will mostly look very simple:\n\\[ \\Pr[\\textrm{Diabetes}_{t=1}|\\textrm{Diabetes}_{t=0}=0] \\]\nThis can read as the probability of getting diabetes at time 1 among people who did not have diabetes at time 0. If we wanted to just know the prevalence we could write:\n\\[ \\Pr[\\textrm{Diabetes}_{t=1}] \\] This is the probability of having diabetes at time 1 among everyone.\nExamples of descriptive questions:\n\nWhat is the incidence of diabetes in the Netherlands?\nIs the incidence of diabetes in the Netherlands increasing with time?"
+  },
+  {
+    "objectID": "02-q-before a.html#predictive-questions",
+    "href": "02-q-before a.html#predictive-questions",
+    "title": "3  Questions before answers",
+    "section": "3.2 Predictive questions",
+    "text": "3.2 Predictive questions\nA predictive question is one in which one wants to get the best guess possible at the value of a variable or event that will happen in the future or is otherwise difficult to measure. For example, if I’m a clinician, I would like to know which of my patients is at highest risk of a bad outcome so I can focus\nExamples of predictive questions:\n\nWhat is a person’s 10 year risk of cardiovascular disease?\nWhat is a person’s 10 year risk of cardiovascular disease?"
+  },
+  {
+    "objectID": "02-q-before a.html#causal-questions",
+    "href": "02-q-before a.html#causal-questions",
+    "title": "3  Questions before answers",
+    "section": "3.3 Causal questions",
+    "text": "3.3 Causal questions\nI have a pet p"
+  },
+  {
+    "objectID": "02-q-before a.html#youre-studying-at-time-when-things-are-changing",
+    "href": "02-q-before a.html#youre-studying-at-time-when-things-are-changing",
+    "title": "2  Questions before answers",
+    "section": "2.4 You’re studying at time when things are changing",
+    "text": "2.4 You’re studying at time when things are changing\nI sometimes hear back from Masters students that their supervisor thinks causal language should never be in a scientific article and that everything in the article, from the research question to the final result, should be called an association.\nThe rationale for doing this can be either: we are always worried that our estimate may be biased in some way so"
+  },
+  {
+    "objectID": "02-q-before a.html#my-supervisor-says-i-cant-use-causal-language",
+    "href": "02-q-before a.html#my-supervisor-says-i-cant-use-causal-language",
+    "title": "3  Questions before answers",
+    "section": "3.4 “My supervisor says I can’t use causal language”",
+    "text": "3.4 “My supervisor says I can’t use causal language”\nI sometimes hear back from Masters students that their supervisor thinks causal language should never be in a scientific article and that everything in the article, from the research question to the final result, should be called an association.\nFor a very long time now, the field of health sciences has insisted it’s not interested in causal effects but only in associations. Some of the reasons for doing this come from motivations that are intended to improve the science. I have been having these conversations for years now putting forth my arguments for why it really makes no sense pretend we’re not trying to answer a causal answer and I have received objections, but no answer to my arguments. In the next sections I’ll go through some of these arguments. If you think you have an argument for using the word association in your research question, I’d love to hear it!\n\n“The” association\nArticles often claim that their research question is wanting to know “the” association between an exposure and outcome. I have asked people which association they are talking about when they say “the” association. No one has been able to answer me yet (unless they admit that it’s just a euphemism for a causal effect). In this paper you can see argument for why, if your underlying question is causal, it is actually impossible to frame your question as an association.\n\n\n3.4.1 But we never know whether our answer really is causal\nIn your daily life, do you feel you can only ask a question when you’re guaranteed to get a correct answer? Is it okay to ask someone, “is it going to rain today?” if we’re unsure they’ll accurately report to us the precipitation forecast? To some, this is how we should approach causal questions. Unless you can guarantee that the answer will be unbiased, you’re not allowed to ask the question. Dude, this is science, we’re constantly asking questions that we don’t know the answer to and that our study will not give a definitive answer of.\nWe also don’t require this when people are trying to answer descriptive or predictive models. It’s known that many prediction models are either not validated or are found to be terrible. But we don’t tell people they should rephrase their question without the word prediction. Or if someone wants to know the incidence of diabetes, they can only guarantee their estimate is unbiased if it comes from a random sample of their target population. But many descriptive studies are not from random samples and we allow them nonetheless to go around saying they’re trying to answer a descriptive question!\n\n\n3.4.2 Association for everything\nIn research, it’s crucially important to be able to distinguish your question from your answer. If you use the word association for your question and for your answer, you’re making the lines between question and answer blurry. You saw for causal questions that we have a causal estimand which we cannot know the answer to perfectly. Later you will see what role the word association plays in causal inference. Briefly, it’s just a stepping stone between your research question and the interpretation of your results. In other words, causal inference has a clear role for associations whereas it is common in epidemiology to just see it used for everything.\n\n\n3.4.3 Biased away from what?\n\n\n3.4.4 Research questions that tell us nothing\nIf a research question says something like, “Our objective is to estimate the association between education and colorectal cancer.” It is not possible to tell whether the question is descriptive or causal. As we saw earlier and as we’ll see throughout this book, the methods you use to answer descriptive and causal questions are vastly different. But this research question cannot tell us whether the article is going to be about a descriptive question where we compare colorectal incidence between education group or whether it’s going to be a causal study where we trying to control for confounding to isolate the causal effect of education on colorectal incidence. What good is a research question if it tells us almost nothing regarding what the study will be about.\n\n\n3.4.5 Do “associational” research questions exist?\nIf an associational research question is a legitimate type of research question distinct from descriptive, predictive and causal, what methods should we use to answer it? If it’s a distinct question, it must use methods that are different. If it used exactly the same methods, how could it be a different question?\nBut there are no courses on “associational inference” that parallel “causal inference” courses. There is no one out there doing target association emulation."
+  },
+  {
+    "objectID": "04-a whirlwind tour.html#intro",
+    "href": "04-a whirlwind tour.html#intro",
+    "title": "5  Confounding and confounders",
+    "section": "5.1 Intro",
+    "text": "5.1 Intro\nConfounding is just an old English word that is a synonym for confusing. Confounding is something that will confuse the answer you get to a causal question. For example, if the true RR is 1.4, if there is confounding present, the estimate you get will be something else than 1.4."
+  },
+  {
+    "objectID": "04-a whirlwind tour.html#confound-ing",
+    "href": "04-a whirlwind tour.html#confound-ing",
+    "title": "5  A whirlwind tour of causal assumptions",
+    "section": "5.1 Confound-ING",
+    "text": "5.1 Confound-ING\nConfounding is present when you have a common cause of an exposure and an outcome and you haven’t adjusted for any variables."
+  },
+  {
+    "objectID": "04-a whirlwind tour.html#confound-er",
+    "href": "04-a whirlwind tour.html#confound-er",
+    "title": "5  A whirlwind tour of causal assumptions",
+    "section": "5.2 Confound-ER",
+    "text": "5.2 Confound-ER\nIf you’ve heard of a confounder before, you were likely taught that a confounder is a common cause of the exposure and the outcome. But it’s easy to show that that\n*Note (this is not essential to your knowledge): I often like to think about words literally mean. A confounder, if you were very literal, should be the variable that is doing the confounding. In other words, a confounder should be a common cause. But if we decided to use this language we’d be stuck in a place where we’d have to admit that you could control for confounder by adjusting for a non-confounder. So really, there’s no really satisfying way to use the language here."
+  },
+  {
+    "objectID": "04-a whirlwind tour.html#other-things",
+    "href": "04-a whirlwind tour.html#other-things",
+    "title": "5  A whirlwind tour of causal assumptions",
+    "section": "5.3 Other things",
+    "text": "5.3 Other things\nIt’s very common for people to talk about unmeasured confounding in their discussion section, often to remind you of its possible existence. As if we didn’t know that. Anyway, unmeasured confounding is really the wrong way to say it. Sure an unmeasured confounder will bias your result. But so will a confounder that is poorly measured (e.g., controlling for obesity when the confounder is really BMI) or poorly modeled (e.g., failing to include age-squared when it was necessary). What we’re really worried about is uncontrolled confounding."
+  },
+  {
+    "objectID": "04-a whirlwind tour.html#resources",
+    "href": "04-a whirlwind tour.html#resources",
+    "title": "5  A whirlwind tour of causal assumptions",
+    "section": "5.4 Resources",
+    "text": "5.4 Resources"
+  },
+  {
+    "objectID": "05-statistical significance is useless.html#intro",
+    "href": "05-statistical significance is useless.html#intro",
+    "title": "6  Statistical signficance is useless",
+    "section": "6.1 Intro",
+    "text": "6.1 Intro\nGreat. Now that I’ve got your attention I’m going to tell you why, I think, statistical significance is mostly useless. The main reason is because it gives me very little information about what I want to know."
+  },
+  {
+    "objectID": "05-statistical significance is useless.html#confound-ing",
+    "href": "05-statistical significance is useless.html#confound-ing",
+    "title": "5  Confounding and confounders",
+    "section": "5.2 Confound-ING",
+    "text": "5.2 Confound-ING\nConfounding is present when you have a common cause of an exposure and an outcome and you haven’t adjusted for any variables."
+  },
+  {
+    "objectID": "05-statistical significance is useless.html#confound-er",
+    "href": "05-statistical significance is useless.html#confound-er",
+    "title": "5  Confounding and confounders",
+    "section": "5.3 Confound-ER",
+    "text": "5.3 Confound-ER\nIf you’ve heard of a confounder before, you were likely taught that a confounder is a common cause of the exposure and the outcome. But it’s easy to show that that\n*Note (this is not essential to your knowledge): I often like to think about words literally mean. A confounder, if you were very literal, should be the variable that is doing the confounding. In other words, a confounder should be a common cause. But if we decided to use this language we’d be stuck in a place where we’d have to admit that you could control for confounder by adjusting for a non-confounder. So really, there’s no really satisfying way to use the language here."
+  },
+  {
+    "objectID": "05-statistical significance is useless.html#other-things",
+    "href": "05-statistical significance is useless.html#other-things",
+    "title": "6  Statistical signficance is useless",
+    "section": "6.4 Other things",
+    "text": "6.4 Other things\nIt’s very common for people to talk about unmeasured confounding in their discussion section, often to remind you of its possible existence. As if we didn’t know that. Anyway, unmeasured confounding is really the wrong way to say it. Sure an unmeasured confounder will bias your result. But so will a confounder that is poorly measured (e.g., controlling for obesity when the confounder is really BMI) or poorly modeled (e.g., failing to include age-squared when it was necessary). What we’re really worried about is uncontrolled confounding."
+  },
+  {
+    "objectID": "05-statistical significance is useless.html#resources",
+    "href": "05-statistical significance is useless.html#resources",
+    "title": "6  Statistical signficance is useless",
+    "section": "6.6 Resources",
+    "text": "6.6 Resources"
+  },
+  {
+    "objectID": "06-Regression is only the beginning.html#conditional-regression",
+    "href": "06-Regression is only the beginning.html#conditional-regression",
+    "title": "7  “Regression is only the beginning",
+    "section": "7.1 Conditional regression",
+    "text": "7.1 Conditional regression\nThe most common way to estimate an association1 is to use a regression model to regress your outcome on your exposure and all your covariates. The statistical software you’re using will spit out a coefficient which is how the variables in your model are associated with the outcome. Then you take the coefficient for the exposure and use that as the association between the exposure and the outcome.1 Remembering that we estimate an association before we then interpret it along with causal assumptions to get an estimated causal effect."
+  },
+  {
+    "objectID": "06-Regression is only the beginning.html#outcome-regression",
+    "href": "06-Regression is only the beginning.html#outcome-regression",
+    "title": "7  “Regression is only the beginning",
+    "section": "7.2 Outcome regression",
+    "text": "7.2 Outcome regression\nConfounding is present when you have a common cause of an exposure and an outcome and you haven’t adjusted for any variables."
+  },
+  {
+    "objectID": "06-Regression is only the beginning.html#standardization",
+    "href": "06-Regression is only the beginning.html#standardization",
+    "title": "7  “Regression is only the beginning",
+    "section": "7.3 Standardization",
+    "text": "7.3 Standardization\nIf you’ve heard of a confounder before, you were likely taught that a confounder is a common cause of the exposure and the outcome. But it’s easy to show that that\n*Note (this is not essential to your knowledge): I often like to think about words literally mean. A confounder, if you were very literal, should be the variable that is doing the confounding. In other words, a confounder should be a common cause. But if we decided to use this language we’d be stuck in a place where we’d have to admit that you could control for confounder by adjusting for a non-confounder. So really, there’s no really satisfying way to use the language here."
+  },
+  {
+    "objectID": "06-Regression is only the beginning.html#inverse-probability-of-treatment-weighting",
+    "href": "06-Regression is only the beginning.html#inverse-probability-of-treatment-weighting",
+    "title": "7  “Regression is only the beginning",
+    "section": "7.4 Inverse probability of treatment weighting",
+    "text": "7.4 Inverse probability of treatment weighting\nIt’s very common for people to talk about unmeasured confounding in their discussion section, often to remind you of its possible existence. As if we didn’t know that. Anyway, unmeasured confounding is really the wrong way to say it. Sure an unmeasured confounder will bias your result. But so will a confounder that is poorly measured (e.g., controlling for obesity when the confounder is really BMI) or poorly modeled (e.g., failing to include age-squared when it was necessary). What we’re really worried about is uncontrolled confounding."
+  },
+  {
+    "objectID": "06-Regression is only the beginning.html#tmle",
+    "href": "06-Regression is only the beginning.html#tmle",
+    "title": "7  “Regression is only the beginning",
+    "section": "7.5 TMLE",
+    "text": "7.5 TMLE\nBla bla"
+  },
+  {
+    "objectID": "06-Regression is only the beginning.html#when-these-will-be-the-same-and-when-they-will-differ",
+    "href": "06-Regression is only the beginning.html#when-these-will-be-the-same-and-when-they-will-differ",
+    "title": "7  “Regression is only the beginning",
+    "section": "7.6 When these will be the same and when they will differ",
+    "text": "7.6 When these will be the same and when they will differ"
+  },
+  {
+    "objectID": "06-Regression is only the beginning.html#carefully-causal",
+    "href": "06-Regression is only the beginning.html#carefully-causal",
+    "title": "7  “Regression is only the beginning",
+    "section": "7.7 Carefully Causal",
+    "text": "7.7 Carefully Causal"
+  },
+  {
+    "objectID": "05-statistical significance is useless.html#why-dichotomize-a-perfectly-good-continuous-p-value",
+    "href": "05-statistical significance is useless.html#why-dichotomize-a-perfectly-good-continuous-p-value",
+    "title": "6  Statistical signficance is useless",
+    "section": "6.1 Why dichotomize a perfectly good, continuous p-value?",
+    "text": "6.1 Why dichotomize a perfectly good, continuous p-value?\nConfounding is present when you have a common cause of an exposure and an outcome and you haven’t adjusted for any variables."
+  },
+  {
+    "objectID": "05-statistical significance is useless.html#significance-tests-do-not-help-you-make-decisions",
+    "href": "05-statistical significance is useless.html#significance-tests-do-not-help-you-make-decisions",
+    "title": "6  Statistical signficance is useless",
+    "section": "6.2 Significance tests do not help you make decisions",
+    "text": "6.2 Significance tests do not help you make decisions\nIf you’ve heard of a confounder before, you were likely taught that a confounder is a common cause of the exposure and the outcome. But it’s easy to show that that\n*Note (this is not essential to your knowledge): I often like to think about words literally mean. A confounder, if you were very literal, should be the variable that is doing the confounding. In other words, a confounder should be a common cause. But if we decided to use this language we’d be stuck in a place where we’d have to admit that you could control for confounder by adjusting for a non-confounder. So really, there’s no really satisfying way to use the language here.\nWe should pick different alpha values depending on what we think our costs or priors are. That means a signifincant p-value to one person could be not significant to another."
+  },
+  {
+    "objectID": "02-notation.html#probability",
+    "href": "02-notation.html#probability",
+    "title": "2  Notation",
+    "section": "2.3 Probability",
+    "text": "2.3 Probability\nWhen we talk about categorical or binary variable we’re going to be talking about probabilities. Let’s start with a binary variable. Say we have ten people, two of them are fans of the Montreal Canadiens3 and I don’t know what’s wrong with the rest of them. Let’s say we have variable \\(C\\) which is 1 for Canadiens fans and 0 for the others. The probability someone is a Canadiens is \\(\\Pr[C=1]=0.2\\).3 The best ice hockey team."
+  },
+  {
+    "objectID": "02-notation.html#variables",
+    "href": "02-notation.html#variables",
+    "title": "2  Notation",
+    "section": "2.1 Variables",
+    "text": "2.1 Variables\nWe use letters to represent variables. For example, in causal inference, we often use an \\(A\\) to indicate the exposure1 and a \\(Y\\) for the outcome. But these are just conventions. You are free to use whichever letter you’d like. You can use \\(Y\\) for exposure and \\(A\\) for the outcome if you want. There are no rules. Well, maybe one rule that you should always be clear about what a variable means.1 The reason why \\(A\\) is commonly used is because a lot of James Robins’ work on causal inference in the 1980’s focused on antiretroviral therapy as the treatment.\nUppercase letters used to indicate a random variable.2 A random variable can be thought of as the product of a stochastic process. In contrast,lowercase letters indicate a specific value of that variable. So \\(A\\) might represent a binary variable with \\(0\\)’s representing untreated participants and \\(1\\)’s representing treated participants. Lowercase \\(a\\) can then take the value \\(0\\) or \\(1\\). For example, if I write \\(a=1\\) I’m referring to treatment and if I write \\(a=0\\) I’m referring to the untreated condition. Sometimes we’ll use \\(A=a=1\\) (or \\(A=1\\) for short) to refer to treated people. Or sometimes we’ll use \\(a=1\\) to indicate that we want to set a person’s or a group of people’s treatment to \\(1\\). If this is feeling quite abstract at this point, it’ll become clearer as you get through this chapter and, hopefully, even clearer when you start seeing how they’re applied.2 See this Khan Academy video for a more in depth explanation of random variables."
+  },
+  {
+    "objectID": "02-notation.html#expectations-and-probabilities",
+    "href": "02-notation.html#expectations-and-probabilities",
+    "title": "2  Notation",
+    "section": "2.2 Expectations and probabilities",
+    "text": "2.2 Expectations and probabilities\nYou’re going to see this letter \\(\\textrm{E}\\). It means the expected value of a series of numbers. For example, if I have measured the height of 10 people, the expected value of the height of those ten people is the average of their ten heights. We would write this like this \\(\\textrm{E}[H]\\) where \\(H\\) is a vector of the people’s heights. If the average height was 1.8m we could write \\(\\textrm{E}[H]=1.8m\\). When we talk about continuous variables we’ll be using \\(\\textrm{E}\\) to talk about the average.\nWhen we take the expectation of a binary or categorical variable we end up with a probability. If\nof a I remember once I was attending a talk by someone who was presenting research done with a cohort of children. Many thousands of children. The presenter showed a result that had a very wide confidence interval, something like \\(\\textrm{RR}=1.5 (95\\% \\textrm{ CI:} 0.8-2.7)\\). So just a very noisy, inconclusive result. The best you can say with this result (assuming there’s no bias and there always is) is that the exposure doesn’t look to be either very protective or very harmful. But the presenter said that they had found that the exposure had no effect on the outcome. Again, I’m not trying to be too hard on this presenter because, as I said, this is a very very common error.\nBut then I think about it this way. They were using data on thousands of children which required those children and their thousands of parents to take time to go to the recruitment center and do the many things that are asked of participants when they’re joining a cohort. This can involve measuring or asking very sensitive questions. All this very sensitive data is stored in a place that could leak (though this is rare). These thousands of parents and children give so much of themselves and this researcher could not even be bothered to learn how to properly interpret a significance test. I think it shows a total lack or respect for everything these people are giving to the cohort.\nAnd my point extends to every other aspect of a study.\nNow, you will make mistakes in your career. I have. Everyone does. Even when you’re doing your aboslute best."
+  },
+  {
+    "objectID": "02-notation.html#expected-value",
+    "href": "02-notation.html#expected-value",
+    "title": "2  Notation",
+    "section": "2.2 Expected value",
+    "text": "2.2 Expected value\nYou’re going to see this letter \\(\\textrm{E}\\). It means the expected value of a series of numbers. For example, if I have measured the height of 10 people, the expected value of the height of those ten people is the average of their ten heights. We would write this like this \\(\\textrm{E}[H]\\) where \\(H\\) is a vector of the people’s heights. If the average height was 1.8m we could write \\(\\textrm{E}[H]=1.8m\\). When we talk about continuous variables we’ll be using \\(\\textrm{E}\\) to talk about the average."
+  },
+  {
+    "objectID": "02-notation.html#conditioning",
+    "href": "02-notation.html#conditioning",
+    "title": "2  Notation",
+    "section": "2.4 Conditioning",
+    "text": "2.4 Conditioning\nof a I remember once I was attending a talk by someone who was presenting research done with a cohort of children. Many thousands of children. The presenter showed a result that had a very wide confidence interval, something like \\(\\textrm{RR}=1.5 (95\\% \\textrm{ CI:} 0.8-2.7)\\). So just a very noisy, inconclusive result. The best you can say with this result (assuming there’s no bias and there always is) is that the exposure doesn’t look to be either very protective or very harmful. But the presenter said that they had found that the exposure had no effect on the outcome. Again, I’m not trying to be too hard on this presenter because, as I said, this is a very very common error.\nBut then I think about it this way. They were using data on thousands of children which required those children and their thousands of parents to take time to go to the recruitment center and do the many things that are asked of participants when they’re joining a cohort. This can involve measuring or asking very sensitive questions. All this very sensitive data is stored in a place that could leak (though this is rare). These thousands of parents and children give so much of themselves and this researcher could not even be bothered to learn how to properly interpret a significance test. I think it shows a total lack or respect for everything these people are giving to the cohort.\nAnd my point extends to every other aspect of a study.\nNow, you will make mistakes in your career. I have. Everyone does. Even when you’re doing your aboslute best."
+  },
+  {
+    "objectID": "05-statistical significance is useless.html#auxiliary-hypotheses",
+    "href": "05-statistical significance is useless.html#auxiliary-hypotheses",
+    "title": "6  Statistical signficance is useless",
+    "section": "6.3 Auxiliary hypotheses",
+    "text": "6.3 Auxiliary hypotheses\nYou may have heard of Karl Popper, famous Austrian philosopher of science. Put simply, he argued that you can’t prove things in science, you can only disprove them. So essentially, we should always 1 be trying to do the strongest possible test to prove our hypothesis wrong. In other words, to reject the null hypothesis. But others came along and pointed out that when you’re testing the null hypothesis, you’re not actually testing only the null hypothesis because your analysis relies on many other auxiliary hypotheses. In causal inference, the causal assumptions (like the assumption of no uncontrolled confounding) are auxiliary hypotheses and we know that those assumptions are never satisfied (the best we can do is convince ourselves that they’re close enough to satisfied). So if you tell me that your statistical test is testing both your main null hypothesis that the exposure has no effect on the outcome and auxiliary hypotheses, including no uncontrolled confounding, I learn nothing from this test because I already don’t believe your auxiliary hypothesis.1 Dutch psychologist Daniel Lakens has an excellent, free book about statistical inference that includes some background on the philosophy. I disagree with his view on hypothesis testing in general in part, I think, because our fields of research are very different (though agree with him on other things), but I still think he’s worth reading.\nYou might say"
+  },
+  {
+    "objectID": "05-statistical significance is useless.html#being-realistic",
+    "href": "05-statistical significance is useless.html#being-realistic",
+    "title": "6  Statistical signficance is useless",
+    "section": "6.5 Being realistic",
+    "text": "6.5 Being realistic\nYou might say, ok, but doesn’t estimation and corresponding confidence intervals also suffer from many of the flaws you point out above.\nI know, it isn’t as satisfying to do science this way."
+  },
+  {
+    "objectID": "07-uncertainty.html#outcome-regression",
+    "href": "07-uncertainty.html#outcome-regression",
+    "title": "8  Uncertainty",
+    "section": "8.1 Outcome regression",
+    "text": "8.1 Outcome regression\nConfounding is present when you have a common cause of an exposure and an outcome and you haven’t adjusted for any variables."
+  },
+  {
+    "objectID": "07-uncertainty.html#standardization",
+    "href": "07-uncertainty.html#standardization",
+    "title": "8  Uncertainty",
+    "section": "8.2 Standardization",
+    "text": "8.2 Standardization\nIf you’ve heard of a confounder before, you were likely taught that a confounder is a common cause of the exposure and the outcome. But it’s easy to show that that\n*Note (this is not essential to your knowledge): I often like to think about words literally mean. A confounder, if you were very literal, should be the variable that is doing the confounding. In other words, a confounder should be a common cause. But if we decided to use this language we’d be stuck in a place where we’d have to admit that you could control for confounder by adjusting for a non-confounder. So really, there’s no really satisfying way to use the language here."
+  },
+  {
+    "objectID": "07-uncertainty.html#inverse-probability-of-treatment-weighting",
+    "href": "07-uncertainty.html#inverse-probability-of-treatment-weighting",
+    "title": "8  Uncertainty",
+    "section": "8.3 Inverse probability of treatment weighting",
+    "text": "8.3 Inverse probability of treatment weighting\nIt’s very common for people to talk about unmeasured confounding in their discussion section, often to remind you of its possible existence. As if we didn’t know that. Anyway, unmeasured confounding is really the wrong way to say it. Sure an unmeasured confounder will bias your result. But so will a confounder that is poorly measured (e.g., controlling for obesity when the confounder is really BMI) or poorly modeled (e.g., failing to include age-squared when it was necessary). What we’re really worried about is uncontrolled confounding."
+  },
+  {
+    "objectID": "07-uncertainty.html#tmle",
+    "href": "07-uncertainty.html#tmle",
+    "title": "8  Uncertainty",
+    "section": "8.4 TMLE",
+    "text": "8.4 TMLE\nBla bla"
+  },
+  {
+    "objectID": "07-uncertainty.html#when-these-will-be-the-same-and-when-they-will-differ",
+    "href": "07-uncertainty.html#when-these-will-be-the-same-and-when-they-will-differ",
+    "title": "8  Uncertainty",
+    "section": "8.5 When these will be the same and when they will differ",
+    "text": "8.5 When these will be the same and when they will differ"
+  },
+  {
+    "objectID": "07-uncertainty.html#carefully-causal",
+    "href": "07-uncertainty.html#carefully-causal",
+    "title": "8  Uncertainty",
+    "section": "8.6 Carefully Causal",
+    "text": "8.6 Carefully Causal"
+  },
+  {
+    "objectID": "01-why.html#what-i-hope-youll-get-out-of-the-course",
+    "href": "01-why.html#what-i-hope-youll-get-out-of-the-course",
+    "title": "1  Why bother learning this stuff?",
+    "section": "1.2 What I hope you’ll get out of the course",
+    "text": "1.2 What I hope you’ll get out of the course\nI spent a lot of time wondering what I need to teach in this course. The methods side of epidemiology is so expansive that I could teach you every day for the whole semester and you wouldn’t be done yet. I can’t do that and, actually, I don’t think it’s how our community should do research. What we want if for every paper to have the required experts on it."
+  },
+  {
+    "objectID": "02-q-before a.html#exercises",
+    "href": "02-q-before a.html#exercises",
+    "title": "3  Questions before answers",
+    "section": "3.5 Exercises",
+    "text": "3.5 Exercises\n\nWhich of the following questions is causal:"
+  }
+]

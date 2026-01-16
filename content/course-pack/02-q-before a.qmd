@@ -1,0 +1,90 @@
+# Questions before answers 
+
+Researchers are bad at asking research questions. Mainly because, for some reason, our field spends most of its time teaching how to answer questions rather than how to ask them.[@kaufman2012] Look through any epidemiology textbook. Do they have a chapter on asking questions?
+
+I'd say that I wasn't really taught much about how to ask a research questions. But after having encountered one or two situations where knowing the underlying question really clarified a lot of thinking about which methods to use and how to interpret the answer, I became more interested in how to think about good, valid and impactful research questions. And having spent a lot of time thinking about research questions, I can say that it is a common occurrence to read a paper or hear a presentation where the author/presenter says something that demonstrates that they haven't really through their question through. 
+
+A 2019 paper focused the fields of epidemiology and public health (and many others) stating that there are only three types of research questions: descriptive, predictive and causal [@Hernan2019_CHANCE]. If your first reaction is, "c'mon, there must be more," that was mine too. Six years later, I have yet to find a research question that doesn't fit into at least one of these categories.[^1] There are many frameworks out there [e.g. @bos2022] but all of them, in some way, map onto these three concepts. For example, some people consider etiology and treatment effects to be two different question types.
+
+[^1]: I say at least because some questions combines question types as you'll see later in this chapter. 
+
+I'll take you through each of the study types but the rest of the book will focus on causal questions.
+
+
+## Descriptive questions
+
+My expertise is in causal inference but I'm always telling people that descriptive questions are crucially important and understudied. Descriptive questions are basically describing the state of the world now or in the past. It might be easiest to list some examples:
+
+- What is the incidence of diabetes in Finland?
+- What is the prevalence of diabetes in Sweden?
+- What is the the geographic distribution of measles cases in the Canadian provine of Alberta?
+- How is the number of broken teeth among hockey players changing over time?
+- Do people earning a minimum wage salary do less exercise than people earning more than minimum wage?
+
+These are questions about the prevalence or incidence of disease or its spatial distribution. Or about about how common certain health behaviours are. Or how patterns change over time. Or comparing these descriptive values between groups. 
+
+Descriptive questions will mostly look very simple:
+
+$$ \Pr[\textrm{Diabetes}_{t=1}|\textrm{Diabetes}_{t=0}=0] $$
+
+This can read as the probability of getting diabetes at time 1 among people who did not have diabetes at time 0. If we wanted to just know the prevalence we could write:
+
+$$ \Pr[\textrm{Diabetes}_{t=1}] $$
+This is the probability of having diabetes at time 1 among everyone. 
+
+Examples of descriptive questions:
+
+- What is the incidence of diabetes in the Netherlands?
+- Is the incidence of diabetes in the Netherlands increasing with time? 
+
+## Predictive questions
+
+A predictive question is one in which one wants to get the best guess possible at the value of a variable or event that will happen in the future or is otherwise difficult to measure. For example, if I'm a clinician, I would like to know which of my patients is at highest risk of a bad outcome so I can focus 
+
+Examples of predictive questions:
+
+- What is a person's 10 year risk of cardiovascular disease?
+- What is a person's 10 year risk of cardiovascular disease?
+
+
+## Causal questions
+
+I have a pet p
+
+
+## "My supervisor says I can't use causal language"
+
+I sometimes hear back from Masters students that their supervisor thinks causal language should never be in a scientific article and that everything in the article, from the research question to the final result, should be called an association.
+
+For a very long time now, the field of health sciences has insisted it's not interested in causal effects but only in associations. Some of the reasons for doing this come from motivations that are intended to improve the science. I have been having these conversations for years now putting forth my arguments for why it really makes no sense pretend we're not trying to answer a causal answer and I have received objections, but no answer to my arguments. In the next sections I'll go through some of these arguments. If you think you have an argument for using the word association in your research question, I'd love to hear it!
+
+#### "The" association {-}
+
+Articles often claim that their research question is wanting to know "the" association between an exposure and outcome. I have asked people which association they are talking about when they say "the" association. No one has been able to answer me yet (unless they admit that it's just a euphemism for a causal effect). In this paper you can see argument for why, if your underlying question is causal, it is actually impossible to frame your question as an association.
+
+### But we never know whether our answer really is causal
+
+In your daily life, do you feel you can only ask a question when you're guaranteed to get a correct answer? Is it okay to ask someone, "is it going to rain today?" if we're unsure they'll accurately report to us the precipitation forecast? To some, this is how we should approach causal questions. Unless you can guarantee that the answer will be unbiased, you're not allowed to ask the question. Dude, this is science, we're constantly asking questions that we don't know the answer to and that our study will not give a definitive answer of. 
+
+We also don't require this when people are trying to answer descriptive or predictive models. It's known that many prediction models are either not validated or are found to be terrible. But we don't tell people they should rephrase their question without the word prediction. Or if someone wants to know the incidence of diabetes, they can only guarantee their estimate is unbiased if it comes from a random sample of their target population. But many descriptive studies are not from random samples and we allow them nonetheless to go around saying they're trying to answer a descriptive question!
+
+### Association for everything
+
+In research, it's crucially important to be able to distinguish your question from your answer. If you use the word association for your question and for your answer, you're making the lines between question and answer blurry. You saw for causal questions that we have a causal estimand which we cannot know the answer to perfectly. Later you will see what role the word association plays in causal inference. Briefly, it's just a stepping stone between your research question and the interpretation of your results. In other words, causal inference has a clear role for associations whereas it is common in epidemiology to just see it used for everything. 
+
+### Biased away from what?
+
+### Research questions that tell us nothing
+
+If a research question says something like, "Our objective is to estimate the association between education and colorectal cancer." It is not possible to tell whether the question is descriptive or causal. As we saw earlier and as we'll see throughout this book, the methods you use to answer descriptive and causal questions are vastly different. But this research question cannot tell us whether the article is going to be about a descriptive question where we compare colorectal incidence between education group or whether it's going to be a causal study where we trying to control for confounding to isolate the causal effect of education on colorectal incidence. What good is a research question if it tells us almost nothing regarding what the study will be about. 
+
+### Do "associational" research questions exist?
+
+If an associational research question is a legitimate type of research question distinct from descriptive, predictive and causal, what methods should we use to answer it? If it's a distinct question, it must use methods that are different. If it used exactly the same methods, how could it be a different question? 
+
+But there are no courses on "associational inference" that parallel "causal inference" courses. There is no one out there doing target association emulation. 
+
+
+## Exercises
+
+1. Which of the following questions is causal: 

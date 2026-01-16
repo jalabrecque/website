@@ -1,0 +1,21 @@
+# Why bother learning this stuff?
+
+Most of you will find my content in this course difficult. I remember, it was difficult for me too. But there are many reasons I hope you'll be motivated to learn this material.
+
+## It really matters
+
+I have a pet peeve statistical error that, honestly, I see committed everyday: claiming that the null hypothesis is true if a significance test is not significant. The most famous paper on this topic is Andrew Gelmans' [The difference between "significant" and "not significant" is not itself statistical significant"](https://sites.stat.columbia.edu/gelman/research/published/signif4.pdf). It's a surprisingly common error. 
+
+I remember once I was attending a talk by someone who was presenting research done with a cohort of children. Many thousands of children. The presenter showed a result that had a very wide confidence interval, something like $\textrm{RR}=1.5 (95\% \textrm{ CI:} 0.8-2.7)$. So just a very noisy, inconclusive result. The best you can say with this result (assuming there's no bias and there always is) is that the exposure doesn't look to be either very protective or very harmful. But the presenter said that they had found that the exposure had no effect on the outcome. Again, I'm not trying to be too hard on this presenter because, as I said, this is a very very common error.
+
+But then I think about it this way. They were using data on thousands of children which required those children and their thousands of parents to take time to go to the recruitment center and do the many things that are asked of participants when they're joining a cohort. This can involve measuring or asking very sensitive questions. All this very sensitive data is stored in a place that could leak (though this is rare). These thousands of parents and children give so much of themselves hoping that the researchers who use their data are also giving the same if not more effort to make the best use of their data possible. To extract every piece of information that can get out of it so the research can benefit untold numbers of children in the future. I always wonder what they would think about this and many other researchers that, too often, make a stats 101 error. That, for one reason or another, rely on significance testing for all of their work but don't seem to understand how it works at all. 
+
+And my point extends to every other aspect of a study. 
+
+
+
+Now, you will make mistakes in your career. I have. Everyone does. Even when you're doing your aboslute best. 
+
+## What I hope you'll get out of the course
+
+I spent a lot of time wondering what I need to teach in this course. The methods side of epidemiology is so expansive that I could teach you every day for the whole semester and you wouldn't be done yet. I can't do that and, actually, I don't think it's how our community should do research. What we want if for every paper to have the required experts on it. 

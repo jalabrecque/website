@@ -1,0 +1,33 @@
+# "Regression is only the beginning
+
+You will learn in your statistics courses, as I did in my time, how to use regression. To say that regression is a useful tool is an understatement. But we should always remember that it's a tool among many others. For causal inference, we have many, many tools at our disposal, most of which rely on regression but approach estimation from a different angle.
+
+## Conditional regression
+
+The most common way to estimate an association[^1] is to use a regression model to regress your outcome on your exposure and all your covariates. The statistical software you're using will spit out a coefficient which is how the variables in your model are associated with the outcome. Then you take the coefficient for the exposure and use that as the association between the exposure and the outcome. 
+
+[^1]: Remembering that we estimate an association before we then interpret it along with causal assumptions to get an estimated causal effect.  
+
+## Outcome regression
+
+Confounding is present when you have a common cause of an exposure and an outcome and you haven't adjusted for any variables.
+
+## Standardization
+
+If you've heard of a confounder before, you were likely taught that a confounder is a common cause of the exposure and the outcome. But it's easy to show that that
+
+\*Note (this is not essential to your knowledge): I often like to think about words literally mean. A confounder, if you were very literal, should be the variable that is doing the confounding. In other words, a confounder should be a common cause. But if we decided to use this language we'd be stuck in a place where we'd have to admit that you could control for confounder by adjusting for a non-confounder. So really, there's no really satisfying way to use the language here.
+
+## Inverse probability of treatment weighting
+
+It's very common for people to talk about unmeasured confounding in their discussion section, often to remind you of its possible existence. As if we didn't know that. Anyway, unmeasured confounding is really the wrong way to say it. Sure an unmeasured confounder will bias your result. But so will a confounder that is poorly measured (e.g., controlling for obesity when the confounder is really BMI) or poorly modeled (e.g., failing to include age-squared when it was necessary). What we're really worried about is uncontrolled confounding.
+
+
+## TMLE
+
+Bla bla 
+
+## When these will be the same and when they will differ
+
+
+## Carefully Causal

@@ -1,0 +1,3 @@
+# Preface {.unnumbered}
+
+There's not enough time during the course to give each topic the space it deserves. So I've created this site which you will hopefully help you understand the topics covered in class a bit more deeply. Or help you review topics you might not have understood perfectly in class. 

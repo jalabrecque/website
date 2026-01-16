@@ -1,0 +1,35 @@
+# Statistical signficance is useless
+
+Great. Now that I've got your attention I'm going to tell you why, I think, statistical significance is mostly useless. The main reason is because it gives me very little information about what I want to know.
+
+## Why dichotomize a perfectly good, continuous p-value?
+
+Confounding is present when you have a common cause of an exposure and an outcome and you haven't adjusted for any variables.
+
+## Significance tests do not help you make decisions
+
+If you've heard of a confounder before, you were likely taught that a confounder is a common cause of the exposure and the outcome. But it's easy to show that that
+
+\*Note (this is not essential to your knowledge): I often like to think about words literally mean. A confounder, if you were very literal, should be the variable that is doing the confounding. In other words, a confounder should be a common cause. But if we decided to use this language we'd be stuck in a place where we'd have to admit that you could control for confounder by adjusting for a non-confounder. So really, there's no really satisfying way to use the language here.
+
+We should pick different alpha values depending on what we think our costs or priors are. That means a signifincant p-value to one person could be not significant to another.
+
+## Auxiliary hypotheses
+
+You may have heard of Karl Popper, famous Austrian philosopher of science. Put simply, he argued that you can't prove things in science, you can only disprove them. So essentially, we should always [^05-statistical-significance-is-useless-1] be trying to do the strongest possible test to prove our hypothesis wrong. In other words, to reject the null hypothesis. But others came along and pointed out that when you're testing the null hypothesis, you're not actually testing only the null hypothesis because your analysis relies on many other *auxiliary hypotheses*. In causal inference, the causal assumptions (like the assumption of no uncontrolled confounding) are auxiliary hypotheses and we know that those assumptions are never satisfied (the best we can do is convince ourselves that they're close enough to satisfied). So if you tell me that your statistical test is testing both your main null hypothesis that the exposure has no effect on the outcome and auxiliary hypotheses, including no uncontrolled confounding, I learn nothing from this test because I already don't believe your auxiliary hypothesis.
+
+[^05-statistical-significance-is-useless-1]: Dutch psychologist Daniel Lakens has an [excellent, free book about statistical inference](https://lakens.github.io/statistical_inferences/05-questions.html#sec-falsification) that includes some background on the philosophy. I disagree with his view on hypothesis testing in general in part, I think, because our fields of research are very different (though agree with him on other things), but I still think he's worth reading.
+
+You might say
+
+## Other things
+
+It's very common for people to talk about unmeasured confounding in their discussion section, often to remind you of its possible existence. As if we didn't know that. Anyway, unmeasured confounding is really the wrong way to say it. Sure an unmeasured confounder will bias your result. But so will a confounder that is poorly measured (e.g., controlling for obesity when the confounder is really BMI) or poorly modeled (e.g., failing to include age-squared when it was necessary). What we're really worried about is uncontrolled confounding.
+
+## Being realistic
+
+You might say, ok, but doesn't estimation and corresponding confidence intervals also suffer from many of the flaws you point out above.
+
+I know, it isn't as satisfying to do science this way.
+
+## Resources

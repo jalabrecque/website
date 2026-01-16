@@ -1,0 +1,41 @@
+{
+  "index.qmd": {
+    "index.html": "33df944c"
+  },
+  "intro.qmd": {
+    "intro.html": "249f3212"
+  },
+  "summary.qmd": {
+    "summary.html": "0b4f4f23"
+  },
+  "references.qmd": {
+    "references.html": "e27d3e4a"
+  },
+  "02-confounding.qmd": {
+    "02-confounding.html": "d9380d42"
+  },
+  "01-why.qmd": {
+    "01-why.html": "94da00ea"
+  },
+  "02-q-before a.qmd": {
+    "02-q-before a.html": "2af26cd5"
+  },
+  "03-confounding.qmd": {
+    "03-confounding.html": "e1c98199"
+  },
+  "04-a whirlwind tour.qmd": {
+    "04-a whirlwind tour.html": "96801816"
+  },
+  "05-statistical significance is useless.qmd": {
+    "05-statistical significance is useless.html": "be6759f6"
+  },
+  "06-Regression is only the beginning.qmd": {
+    "06-Regression is only the beginning.html": "39fd3689"
+  },
+  "02-notation.qmd": {
+    "02-notation.html": "d4ed406d"
+  },
+  "07-uncertainty.qmd": {
+    "07-uncertainty.html": "4eed03ea"
+  }
+}
