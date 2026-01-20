@@ -1,0 +1,23 @@
+---
+title: "Causal Thinking syllabus"
+format: html
+editor: visual
+---
+
+## Day 1
+
+### Reasoning
+
+Morning:
+
+\- Deduction
+\- Induction
+\- Abduction
+
+Afternoon:
+
+\- How these concepts fit into causal inference:
+
+## Day 2
+
+## Day 3

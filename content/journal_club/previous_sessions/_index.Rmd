@@ -12,6 +12,24 @@ output:
 
 [Back to main page](https://www.jeremylabrecque.org/journal_club/)
 
+
+
+## Fall 2025 Schedule
+
+
+</br>
+
+
+|Date|Reference|Paper|
+|:--- |:--- |:---------- |
+|Sept 19|Poole et al 2003|[Commentary: This study failed?](https://pubmed.ncbi.nlm.nih.gov/12913024/)|
+|Oct 3|Hernan 2016|[Does water kill?](https://pmc.ncbi.nlm.nih.gov/articles/PMC5207342/)|
+|Oct 17|Goulden 2025 and Labrecque 2025|[Time for evidence-based methodology in epidemiology](https://academic.oup.com/ije/article/54/3/dyaf052/8128362) and [What would we learn from empirical evaluations of epidemiologic methods?](https://academic.oup.com/ije/article/54/5/dyaf155/8240901)|
+|Oct 31|Dumas and Stensrud 2025|[How hazard ratios can mislead and why it matters in practice](https://link.springer.com/article/10.1007/s10654-025-01250-9)|
+|Nov 14|Kaufman 2025|[Does One Size Fit All?](https://lareviewofbooks.org/article/does-one-size-fit-all/)|
+|Nov 28|Savitz 1993|[Is statistical significance testing useful in interpreting data?](https://www.sciencedirect.com/science/article/abs/pii/089062389390242Y)|
+|Dec 12|Huifelt 2016|[Is caviar a risk factor for being a millionaire?](https://www.bmj.com/content/355/bmj.i6536)|
+
 ## Winter/Spring 2025 Schedule
 
 
