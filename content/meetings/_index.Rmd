@@ -16,7 +16,15 @@ We meet every second Wednesday in NA2803 at ErasmusMC and through Teams if you'r
 
 You can also email me if you are interested in causal inference and would like to join our meetings: j [dot] labrecque [at] erasmusmc [dot] nl.
 
-## 2025 Schedule
+## 2026 Schedule
+
+
+### Winter/spring 2026
+
+|Date|Topic|
+|:------ |:------ |
+|
+|February 4|Biological clocks|
 
 
 ### Fall 2025
