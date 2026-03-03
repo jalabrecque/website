@@ -14,9 +14,9 @@ output:
 </br>
 
 ## Next session
-**Date:** February 6 at 13h (CET) (sign up below to receive a link to the meeting) 
+**Date:** March 6 at 13h (CET) (sign up below to receive a link to the meeting) 
 
-**Papers to be discussed:** [From patients to policy](https://pmc.ncbi.nlm.nih.gov/articles/PMC5453818/)
+**Papers to be discussed:** Investigating IgG N-glycosylation changes in relation to cancer development
 
 
 </br>
@@ -25,7 +25,7 @@ output:
 
 
 <!-- ![](epidemiology x.png) -->
-[![](paper_screenshot.png)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5453818/)
+<!-- [![](paper_screenshot.png)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5453818/) -->
 <!-- </br> -->
 <!-- </br> -->
 
@@ -44,8 +44,8 @@ output:
 |:--- |:--- |:---------- |
 |January 23| Discussion | Are association questions just causal questions in disguise?|
 |February 6|Westreich 2017|[From patients to policy](https://pmc.ncbi.nlm.nih.gov/articles/PMC5453818/)|
-|February 20|||
-|March 6|||
+|February 20|van den Broek|Does SES affect long term health-related quality of life in patients with traumatic rib fractures? |
+|March 6|Azizi|Investigating IgG N-glycosylation changes in relation to cancer development|
 |March 20|||
 |April 17|||
 |May 1|||
