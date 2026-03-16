@@ -14,9 +14,9 @@ output:
 </br>
 
 ## Next session
-**Date:** March 6 at 13h (CET) (sign up below to receive a link to the meeting) 
+**Date:** March 20 at 13h (CET) (sign up below to receive a link to the meeting) 
 
-**Papers to be discussed:** Investigating IgG N-glycosylation changes in relation to cancer development
+**Papers to be discussed:** [Descriptive estimands, causal estimands, and avoiding the jungle of adjusted associations ‘in between’](https://jech.bmj.com/content/80/4/205#ref-12)
 
 
 </br>
@@ -25,7 +25,7 @@ output:
 
 
 <!-- ![](epidemiology x.png) -->
-<!-- [![](paper_screenshot.png)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5453818/) -->
+[![](paper_screenshot.png)](https://jech.bmj.com/content/80/4/205#ref-12)
 <!-- </br> -->
 <!-- </br> -->
 
@@ -46,7 +46,7 @@ output:
 |February 6|Westreich 2017|[From patients to policy](https://pmc.ncbi.nlm.nih.gov/articles/PMC5453818/)|
 |February 20|van den Broek|Does SES affect long term health-related quality of life in patients with traumatic rib fractures? |
 |March 6|Azizi|Investigating IgG N-glycosylation changes in relation to cancer development|
-|March 20|||
+|March 20|Oberndorfer et al 2026|[Descriptive estimands, causal estimands, and avoiding the jungle of adjusted associations ‘in between’](https://jech.bmj.com/content/80/4/205#ref-12)|
 |April 3|||
 |April 17|||
 |May 1|||
