@@ -1,0 +1,179 @@
+---
+title: "Epidemiology & Health Sciences Journal Club"
+summary: Here we describe how to add a page to your site.
+output:
+  html_document:
+    keep_md: false
+    toc: true
+    toc_float: true
+    css: style.css
+
+---
+
+[Back to main page](https://www.jeremylabrecque.org/journal_club/)
+
+
+
+## Fall 2025 Schedule
+
+
+</br>
+
+
+|Date|Reference|Paper|
+|:--- |:--- |:---------- |
+|Sept 19|Poole et al 2003|[Commentary: This study failed?](https://pubmed.ncbi.nlm.nih.gov/12913024/)|
+|Oct 3|Hernan 2016|[Does water kill?](https://pmc.ncbi.nlm.nih.gov/articles/PMC5207342/)|
+|Oct 17|Goulden 2025 and Labrecque 2025|[Time for evidence-based methodology in epidemiology](https://academic.oup.com/ije/article/54/3/dyaf052/8128362) and [What would we learn from empirical evaluations of epidemiologic methods?](https://academic.oup.com/ije/article/54/5/dyaf155/8240901)|
+|Oct 31|Dumas and Stensrud 2025|[How hazard ratios can mislead and why it matters in practice](https://link.springer.com/article/10.1007/s10654-025-01250-9)|
+|Nov 14|Kaufman 2025|[Does One Size Fit All?](https://lareviewofbooks.org/article/does-one-size-fit-all/)|
+|Nov 28|Savitz 1993|[Is statistical significance testing useful in interpreting data?](https://www.sciencedirect.com/science/article/abs/pii/089062389390242Y)|
+|Dec 12|Huifelt 2016|[Is caviar a risk factor for being a millionaire?](https://www.bmj.com/content/355/bmj.i6536)|
+
+## Winter/Spring 2025 Schedule
+
+
+</br>
+
+
+|Date|Reference|Paper|
+|:--- |:--- |:---------- |
+|January 10|Moreno-Betancur 2024|[Ideal trials, target trials and actual randomized trials](https://arxiv.org/abs/2405.10026)|
+|January 24|Morris et al and Quartango 2023/4|[The marginality principle revisited: Should “higher-order” terms always be accompanied by “lower-order” terms in regression analyses?](https://onlinelibrary.wiley.com/doi/full/10.1002/bimj.202300069) and [The donkey and the load of marginality](https://theupperquartile.wixsite.com/matteo/post/the-donkey-and-the-load-of-marginality)|
+|February 7|Jamaluddine 2025|[Traumatic injury mortality in the Gaza Strip from Oct 7, 2023, to June 30, 2024: a capture–recapture analysis](https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)02678-3/fulltext)|
+|February 21|Koehler and Freeman 2014|[Forensic epidemiology: a method for investigating and quantifying specific causation](https://pubmed.ncbi.nlm.nih.gov/24272789/)|
+|March 7|Bos and Ikram 2022|[Research Aims in Clinical Medicine: Description, Identification, or Explanation](https://www.sciencedirect.com/science/article/pii/S1878875021017824?via%3Dihub)|
+|March 21|CANCELLED||
+|April 4|Forscher 1963|[Chaos in the brickyard](https://www.science.org/doi/10.1126/science.142.3590.339.a) |
+|April 18|CANCELLED||
+|May 2|Epidemiology X||
+|May 16|Mill23 2025|[Integrating exposomics into biomedicine](https://www.science.org/doi/10.1126/science.adr0544) |
+|May 30|Abo et al 2023|[Strategic and scientific contributions of human challenge trials for vaccine development: facts versus fantasy](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(23)00294-3/fulltext)|
+|June 13|Beard 2006|[DDT and human health](https://pubmed.ncbi.nlm.nih.gov/15894351/)|
+|June 27|Westkop end-of-year||
+
+## Fall 2024 Schedule
+
+
+
+
+|Date|Reference|Paper|
+|:--- |:--- |:---------- |
+|September 6|Altman 1994 |[The scandal of poor medical research](https://www.bmj.com/content/308/6924/283)|
+|September 20|Van den Broeck et al 2005 |[Data Cleaning: Detecting, Diagnosing, and Editing Data Abnormalities](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020267)|
+|October 4|Fox et al 2022|[On the Need to Revitalize Descriptive Epidemiology](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9383568/)|
+|October 18|Hernán and Robins 2016|[Using Big Data to Emulate a Target Trial When a Randomized Trial Is Not Available](https://pubmed.ncbi.nlm.nih.gov/26994063/)|
+|November 1|Galea and Hernan 2020|[Win-Win: Reconciling Social Epidemiology and Causal Inference](https://pubmed.ncbi.nlm.nih.gov/31579911/)|
+|November 15|Lash 2017|[Heuristic Thinking and Inference From Observational Epidemiology](https://journals.lww.com/epidem/fulltext/2007/01000/heuristic_thinking_and_inference_from.13.aspx)|
+|November 29|Penning de Vries et al 2020|[Title, abstract, and keyword searching resulted in poor recovery of articles in systematic reviews of epidemiologic practice](https://www.sciencedirect.com/science/article/pii/S0895435619306018)|
+|December 13| Yeh et al 2018|[Parachute use to prevent death and major trauma when jumping from aircraft: randomized controlled trial](https://www.bmj.com/content/363/bmj.k5094)|
+
+
+## Winter/Spring 2024 Schedule
+
+|Date|Reference|Paper|
+|:--- |:--- |:---------- |
+|January 12|Manski |[Communicating uncertainty in policy analysis](https://www.pnas.org/doi/abs/10.1073/pnas.1722389115)|
+|January 26|Glymour et al|[When is baseline adjustment useful in analyses of change? An example with education and cognitive change](https://pubmed.ncbi.nlm.nih.gov/15987729/)|
+|February 9|Vable et al 2021|[Code Review as a Simple Trick to Enhance Reproducibility, Accelerate Learning, and Improve the Quality of Your Team’s Research](https://academic.oup.com/aje/article/190/10/2172/6218064)|
+|February 23|Petitti 1991 & Savitz 1991|[Associations are not effects (Pettiti)](https://academic.oup.com/aje/article/133/2/101/118425) and [RE:Associations are not effects (Savitz)](https://academic.oup.com/aje/article/134/4/442/121958)|
+|March 8|Hernan and Greenland|[Why Stating Hypotheses in Grant Applications Is Unnecessary](https://jamanetwork.com/journals/jama/article-abstract/2813846)|
+|March 22|Sarvet and Stensrud 2023|[Perspective on ‘Harm’ in Personalized Medicine](https://academic.oup.com/aje/advance-article/doi/10.1093/aje/kwad162/7226668)|
+|April 5|Kezios 2021|[Is the Way Forward to Step Back? Documenting the Frequency With Which Study Goals Are Misaligned With Study Methods and Interpretations in the Epidemiologic Literature](https://pubmed.ncbi.nlm.nih.gov/34535799/)|
+|April 19|Hernan 2019|[A Second Chance to Get Causal Inference Right: A Classification of Data Science Tasks](https://www.hsph.harvard.edu/wp-content/uploads/sites/1268/2019/04/hernan_chance19.pdf)|
+|May 3|Ferguson 2019|[Evidence synthesis for constructing directed acyclic graphs (ESC-DAGs)](https://academic.oup.com/ije/article/49/1/322/5536330)|
+|May 17|Peng et al 2024|[Directed acyclic graph for epidemiological studies in childhood food allergy](https://onlinelibrary.wiley.com/doi/full/10.1111/all.16025)|
+|May 31|Feuerriegel et al 2024|[Causal machine learning for predicting treatment outcomes](https://www.nature.com/articles/s41591-024-02902-1)|
+|June 14|Dahabreh and Bibbins-Domingo 2024|[Causal Inference About the Effects of Interventions From Observational Studies in Medical Journals](https://jamanetwork.com/journals/jama/fullarticle/2818746)|
+|June 28||End of year at Westkop 16h|
+
+
+## Fall 2023 Schedule
+
+|Date|Reference|Paper|
+|:--- |:--- |:---------- |
+|September 8|Epidemiology X|[Submit a question](https://forms.gle/isgDdfZ6cTaRjwET6)|
+|September 22|Westreich et al 2023|[Target Validity and the Hierarchy of Study Designs](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6357801/)|
+|October 6|Pearce and Vandenbroucke 2023|[Are Target Trial Emulations the Gold Standard for Observational Studies?](https://pubmed.ncbi.nlm.nih.gov/37255243/)|
+|October 20|Amrhein and Greeland 2022|[Discuss practical importance of results based on interval estimates and p-value functions, not only on point estimates and null p-values](https://journals.sagepub.com/doi/full/10.1177/02683962221105904)|
+|November 3|Lakens|[Confirmation Bias and Organized Skepticism](https://lakens.github.io/statistical_inferences/16-confirmationbias.html)|
+|November 17|Dr. Kirsten Bibbens-Domingo|Medical Publishing in Dynamic Times (Part I)|
+|December 1|Dr. Kirsten Bibbens-Domingo|Medical Publishing in Dynamic Times (Part II) & [the C-Word paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5888052/) |
+
+
+
+## Winter/Spring 2023 Schedule
+
+|Date|Reference|Paper|
+|:--- |:--- |:---------- |
+|January 13|Epidemiology X||
+|January 27|Kaufman 2017|[Statistics, Adjusted Statistics and Maladjusted Statistics](https://pubmed.ncbi.nlm.nih.gov/29254468/)|
+|February 10||Discussion about statistical testing|
+|February 24|Rothman 1976|[Causes](https://academic.oup.com/aje/article/104/6/587/139202)|
+|March 10|Huitfeldt 2016|[Is caviar a risk factor for being a millionaire?](https://www.bmj.com/bmj/section-pdf/935674?path=/bmj/355/8086/Food_for_thought.full.pdf)|
+|March 24|Flexner 1939|[The Usefulness of Useless Knowledge](https://www.ias.edu/sites/default/files/library/UsefulnessHarpers.pdf)|
+|April 7|Westreich 2017|[From Patients to Policy: Population Intervention Effects in Epidemiology](https://pubmed.ncbi.nlm.nih.gov/28282339/)|
+|April 21||What does an epidemiologist need to know?|
+|May 5||What motivates scientists to do research?|
+|May 19||Should basic methodological errors have consequences?|
+|June 2||Explaning causal assumptions to non-experts|
+|June 16|Glass 1976|[Primary, Secondary, and Meta-Aanlysis of Research](https://faculty.ucmerced.edu/jvevea/classes/290_21/readings/week%2010/Glass%201978.pdf)|
+|June 30||Westkop @ 16h|
+
+
+
+</br>
+</br>
+
+
+## Fall 2022 Schedule
+
+|Date|Reference|Paper|
+|:--- |:--- |:---------- |
+|September 2|Wigner|[The unreasonable effectiveness of mathematics in the natural sciences](https://www.maths.ed.ac.uk/~v1ranick/papers/wigner.pdf)|
+|September 16|Greenland |[Induction versus Popper: substance versus semantics](https://pubmed.ncbi.nlm.nih.gov/9758105/)|
+|September 30|Taubes |[Epidemiology faces its limits](https://www.mcgill.ca/cancerepi/files/cancerepi/TaubesScience269-164-Letters.pdf)|
+|October 14|Bashir |[A precious case from Middle Earth](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC535969/)|
+|October 28|Cohen |[The Earth is Round (p<.05)](http://www.iro.umontreal.ca/~dift3913/cours/papers/cohen1994_The_earth_is_round.pdf)|
+|November 11| Rose|[Strategy of prevention: lessons from cardiovascular disease](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1506445/pdf/bmjcred00661-0031.pdf)|
+|November 25|Varlik |[“Oriental Plague” or Epidemiological Orientalism? Revisiting the Plague Episteme of the early modern Mediterranean](https://www.degruyter.com/document/doi/10.1515/9781942401162-005/pdf) |
+|December 9|[Nick Binney](https://www.mpiwg-berlin.mpg.de/users/nbinney) |Philosophy at Erasmus MC|
+
+</br>
+</br>
+</br>
+</br>
+
+
+## Winter 2022 Schedule
+
+|Date|Reference|Paper|
+|:--- |:--- |:---------- |
+|January 21|Kronmal 1993|[Spurious Correlation and the Fallacy of the Ratio Standard Revisited](https://www.jstor.org/stable/2983064?seq=1#metadata_info_tab_contents)|
+|February 4| Van Calster et al 2021|[Methodology over metrics: current scientific standards are a disservice to patients and society](https://www.jclinepi.com/article/S0895-4356(21)00170-0/fulltext)|
+|February 18| Ackley et al 2022|[Dynamical Modeling as a Tool for Inferring Causation](https://academic.oup.com/aje/article-abstract/191/1/1/6358337)|
+|March 4|Medden et al 2022|[Inverse probability weighting to handle attrition in cohort studies: some guidance and a call for caution](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-022-01533-9)|
+|March 18|Epidemiology X||
+|April 1| Jim Smit | Causal Infernece and the ICU|
+|April 15| Haushofer|[CV of failure](https://www.uni-goettingen.de/de/document/download/bed2706fd34e29822004dbe29cd00bb5.pdf/Johannes_Haushofer_CV_of_Failures[1].pdf) |
+|April 29| ||
+|May 13|Savitz and Wellenius 2022|[Can Cross-Sectional Studies Contribute to Causal Inference? It Depends](https://academic.oup.com/aje/advance-article-abstract/doi/10.1093/aje/kwac037/6539984)|
+|May 27|Wagenmakers et al 2022|[One statistical analysis must not rule them all](https://www.nature.com/articles/d41586-022-01332-8)|
+
+</br>
+</br>
+</br>
+</br>
+
+## Fall 2021 Schedule
+
+|Date|Reference|Paper|
+|:--- |:--- |:---------- |
+|November 26|Nimdet et al 2015|[A Systematic Review of Studies Eliciting Willingness-to-Pay per Quality-Adjusted Life Year: Does It Justify CE Threshold?](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0122760)|
+|November 12|Haber et al 2021|[Causal and Associational Language in Observational Health Research\: A systematic evaluation](https://www.medrxiv.org/content/10.1101/2021.08.25.21262631v4.full.pdf)|
+|October 29|Greenland 2021|[Dealing With the Inevitable Deficiencies of Bias Analysis-and All Analyses](https://pubmed.ncbi.nlm.nih.gov/33778862/)|
+|October 15|MacLehose et al 2021|[The Importance of Making Assumptions in Bias Analysis](https://pubmed.ncbi.nlm.nih.gov/34224472/)|
+|October 1| | CANCELLED |
+|September 17| | CANCELLED |
+|September 3| | Epidemiology X |
+   
