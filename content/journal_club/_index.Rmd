@@ -18,7 +18,7 @@ output:
 
 **Paper:** [Descriptive estimands, causal estimands, and avoiding the jungle of adjusted associations 'in between'](https://jech.bmj.com/content/80/4/205#ref-12)
 
-<br>
+
 
 <!-- ![](epidemiology x.png) -->
 [![](paper_screenshot.png)](https://jech.bmj.com/content/80/4/205#ref-12)
