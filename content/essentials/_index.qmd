@@ -4,6 +4,7 @@ author: "Jeremy Labrecque"
 format:
   html:
     theme: cosmo
+    mbed-resources: true
 editor: visual
 ---
 
