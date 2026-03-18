@@ -1,5 +1,5 @@
 ---
-title: "Essentials of Epidemiology"
+title: "Essentials of Epidemiology (Causal inference)"
 author: "Jeremy Labrecque"
 format:
   html:
@@ -7,35 +7,42 @@ format:
 editor: visual
 ---
 
-# Day 2
+You can find the slides here.
 
-## Morning (9am-12:30pm): The crucial difference between associations and causation
+# 1. **Recognize** unclear research questions
 
--   9-10: What is an association? Is it a good research question?
-    -   [Let's look at the word association in the wild.](https://docs.google.com/forms/d/e/1FAIpQLSeCroltgJ04wRpkZnw3-KeC0q2TDLk9HQqprr3kz36HF72oGQ/viewform?pli=1)
-    -   What is an association?
--   10-11: Causal inference
-    -   Gaining intuition for causal questions
-    -   
+-   [How and when to use causal and associational language](https://www.bmj.com/content/392/bmj-2025-085749.full) (Labrecque and Kezios 2026)
+    - We felt that much of the writing criticizing the use of the word association didn't far enough. Here we make the argument that it's not up to people avocating for causal language to convince people using associational language to change. The onus is on people using associational language to *explain what they mean* by the word association in their research question. We also provide guideliens for how to use causal and non causal language.   
+- [Descriptive estimands, causal estimands, and avoiding the jungle of adjusted associations ‘in between’](https://jech.bmj.com/content/80/4/205) (Oberndorfer et al 2026)
+    - The "jungle of adjusted associations" here points out that when answering descriptive questions we sometimes choose to adjust for other variables. That means our questions doesn't completely map onto a real world description anymore. 
+- [The distinction between causal, predictive, and descriptive research—there is still room for improvement](https://www.jclinepi.com/article/S0895-4356(25)00293-8/fulltext) (Dyer 2026)
+- [Distinguishing Description, Prediction, and Causal Inference](https://www.neurology.org/doi/10.1212/WNL.0000000000210171) (Ito et al 2025)
+- [Guidelines for reporting observational research in urology: the importance of clear reference to causality](https://bjui-journals.onlinelibrary.wiley.com/doi/full/10.1111/bju.16028) (Vickers et al 2023)
+- [Is the Way Forward to Step Back? Documenting the Frequency With Which Study Goals Are Misaligned With Study Methods and Interpretations in the Epidemiologic Literature](https://academic.oup.com/epirev/article/43/1/4/6372079) (Kezios et al 2021)
+    - This paper had a huge impact on me. The idea that over 2/3 of epidemiology articles in the top general epidemiology journals fell into a category called "seemingly causal" was a huge wake up call. We are scientists, if there is one thing there is no excuse to be unclear about it's our research questions. We need to do better than this. 
+- [A Second Chance to Get Causal Inference Right: A Classification of Data Science Tasks](https://www.tandfonline.com/doi/full/10.1080/09332480.2019.1579578) (Hernán, Hsu & Healy 2019)
+    - **Important paper:** This paper had a HUGE impact on many different fields. It made it clear that all research tasks fall into the descriptive, predictive and causal categories. If you can't figure out which category your paper falls into, then, I would argue, you don't understand your questions well-enough yet. I have been teaching and presenting this 3 task frameworks since this paper came out and I have yet to encounter a question that doesn't fall into one of these three categories.
+- [The C-Word: Scientific Euphemisms Do Not Improve Causal Inference From Observational Data](https://pubmed.ncbi.nlm.nih.gov/29565659/) (Hernán 2018)
+    - This paper really got people thinking when it came out. It's the inspiration for the BMJ paper I wrote wiht Katrina Kesios at the top of this list though we tried to make his arguments, along with a few others, in an even stronger way. 
+- [Response to: “ASSOCIATIONS ARE NOT EFFECTS”](https://academic.oup.com/aje/article-abstract/134/4/442/121958?redirectedFrom=fulltext) (Savitz 1991)
+    - The American Journal of Epidemiology used to cite a commentary written by [Petitti](https://pubmed.ncbi.nlm.nih.gov/1985440/) in 1991 to motivate their opposition to the use of causal language in their journal. But Savitz wrote a response to that article that makes many of the points people make today regarding the use of associational and causal language. If the AJE would have just used Savitz's paper as their reference instead of Petitti's, they would have been way ahead of their time!
 
-Important points
+# 2. **Construct** clear causal questions
 
--   We use the word association in research questions for historical reasons, not for good reasons.
--   It is not clear which association is 'the' association when people ask the question: "what is the association between X and Y". And, in fact, there's no way to be clear about which association is 'the' association.
--   There are 3 types of questions in health research:
-    -   Descriptive: what is the state of the world?
-    -   Predictive: can I take a guess at something I don't know using data?
-    -   Causal: how would the world change if I intervened on it?
+**Target trial emulation:**
 
-## Afternoon: How to know what to adjust for
+- [Using Big Data to Emulate a Target Trial When a Randomized Trial Is Not Available](https://pubmed.ncbi.nlm.nih.gov/26994063/) (Hernán & Robins 2016)
+- [Observational studies analyzed like randomized experiments: an application to postmenopausal hormone therapy and coronary heart disease](https://pubmed.ncbi.nlm.nih.gov/18854702/) (Hernán et al 2008)
 
-Important points:
 
--   Directed acyclic graphs (DAGs) have two components:
-    -   Variables: these are nodes that represent the variables related to your causal research question
-    -   Arrows: these demonstrate the flow of causation from one variable to another (sometimes also called edges)
--   Directed acyclic graphs :
-    -   **Directed**: the arrows must have only one arrow head. Undirected arrows don't give us the information we need and double-headed arrows violate the laws of physics
-    -   **Acyclic**: there cannot be cycles in the DAG. In other words, there can be place on the graph where you can start at one variable, follow a path along the direction of the arrows, and arrive back at the same variable.
-    -   **Graph**: DAGs use graph theory. But fortunately, by learning the simple rules, you don't have to.
--   
+# 3. **Understand** the process of inferrinf causation from data
+
+# 4. **Be aware of** popular tools for causal inference
+
+- DAGs
+
+Other sets of assumptions you can use: 
+- Instrumental variable analysis
+- Regression discontinuity
+- Difference-in-differences
+
