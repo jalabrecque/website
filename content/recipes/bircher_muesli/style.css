@@ -1,0 +1,250 @@
+/* ============================================================
+   Classic Cookbook Style — jeremylabrecque.org/recipes
+   Covers: index page (section cards) + recipe pages
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap');
+
+/* ----- Variables ----- */
+:root {
+  --cream:     #faf7f2;
+  --paper:     #f3ede3;
+  --card-bg:   #fffdf9;
+  --rule:      #d6cabb;
+  --ink:       #2c2416;
+  --ink-light: #6b5e4a;
+  --accent:    #8b3a2a;
+  --link:      #7a3225;
+  --link-hover:#4d1e14;
+  --serif:     'Playfair Display', Georgia, serif;
+  --body:      'EB Garamond', Georgia, serif;
+  --size-body: 1.15rem;
+  --lh:        1.75;
+  --radius:    4px;
+  --shadow:    0 1px 4px rgba(44,36,22,0.08), 0 0 0 1px rgba(214,202,187,0.5);
+}
+
+/* ----- Base ----- */
+body {
+  background-color: var(--cream);
+  color: var(--ink);
+  font-family: var(--body);
+  font-size: var(--size-body);
+  line-height: var(--lh);
+  margin: 0;
+  padding: 0;
+}
+
+/* ----- Main container ----- */
+.main-container,
+div[role="main"],
+.container-fluid.main-container {
+  max-width: 740px;
+}
+
+/* ----- Page title (h1) ----- */
+h1.title {
+  font-family: var(--serif);
+  font-size: 2.4rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: var(--ink);
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* ----- TOC sidebar ----- */
+#TOC {
+  font-family: var(--body);
+  font-size: 0.95rem;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  padding: 1rem 1.25rem;
+}
+
+#TOC ul {
+  list-style: none;
+  padding-left: 0.5rem;
+  margin: 0;
+}
+
+#TOC li { margin: 0.3rem 0; }
+
+#TOC a {
+  color: var(--link);
+  text-decoration: none;
+  font-style: italic;
+}
+
+#TOC a:hover {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+/* =============================================================
+   INDEX PAGE — section cards (h3 + following ul)
+   ============================================================= */
+
+h3 {
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--accent);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-top: 2rem;
+  margin-bottom: 0;
+  padding: 0.75rem 1.25rem 0.6rem;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-bottom: none;
+  border-radius: var(--radius) var(--radius) 0 0;
+  box-shadow: var(--shadow);
+}
+
+h3 + ul {
+  background: var(--card-bg);
+  border: 1px solid var(--rule);
+  border-radius: 0 0 var(--radius) var(--radius);
+  box-shadow: var(--shadow);
+  padding: 0.6rem 1.25rem 0.9rem 2.5rem;
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+  list-style: none;
+}
+
+h3 + ul li {
+  padding: 0.2rem 0;
+  position: relative;
+}
+
+h3 + ul li::before {
+  content: "–";
+  position: absolute;
+  left: -1.25rem;
+  color: var(--rule);
+}
+
+/* Unlinked items = not yet a recipe page */
+h3 + ul li:not(:has(a)) {
+  color: var(--ink-light);
+  font-style: italic;
+}
+
+h3 + ul li a {
+  color: var(--link);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+h3 + ul li a:hover {
+  color: var(--link-hover);
+  border-bottom-color: var(--link-hover);
+}
+
+/* =============================================================
+   RECIPE PAGES — plain-paragraph section labels + lists
+   "Ingredients" and "Instructions" are bare <p> tags in the Rmd,
+   followed immediately by a <ul> or <ol>.
+   ============================================================= */
+
+/* A paragraph whose text is a known section label */
+p:is([data-section-label]) {
+  /* fallback — see general rule below */
+}
+
+/* Style any <p> that is immediately followed by a <ul> or <ol>
+   as a section heading */
+p + ul,
+p + ol {
+  margin-top: 0.25rem;
+}
+
+/* The paragraph acting as a label */
+p:has(+ ul),
+p:has(+ ol) {
+  font-family: var(--serif);
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--ink);
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 0.2rem;
+  margin-bottom: 0.4rem;
+  margin-top: 2rem;
+}
+
+/* Recipe ingredient / step lists */
+.main-container ul,
+.main-container ol {
+  font-family: var(--body);
+  font-size: var(--size-body);
+  line-height: var(--lh);
+  padding-left: 1.75rem;
+  color: var(--ink);
+}
+
+.main-container li {
+  margin-bottom: 0.3rem;
+}
+
+/* Source link at top of recipe page */
+.main-container > p:first-of-type a {
+  font-family: var(--body);
+  font-size: 0.95rem;
+  font-style: italic;
+  color: var(--ink-light);
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule);
+}
+
+.main-container > p:first-of-type a:hover {
+  color: var(--link);
+  border-bottom-color: var(--link);
+}
+
+/* =============================================================
+   SHARED
+   ============================================================= */
+
+h2 {
+  font-family: var(--serif);
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: var(--ink);
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 0.3rem;
+  margin-top: 2rem;
+}
+
+p {
+  font-family: var(--body);
+  font-size: var(--size-body);
+  line-height: var(--lh);
+  color: var(--ink);
+  max-width: 62ch;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--rule);
+  margin: 2rem 0;
+}
+
+/* ----- Navbar ----- */
+.navbar {
+  background-color: var(--paper) !important;
+  border-bottom: 1px solid var(--rule);
+  font-family: var(--serif);
+}
+
+.navbar-brand,
+.navbar-nav > li > a {
+  color: var(--ink) !important;
+}
+
+.navbar-nav > li > a:hover {
+  color: var(--accent) !important;
+}

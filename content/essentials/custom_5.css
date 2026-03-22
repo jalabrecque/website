@@ -1,0 +1,168 @@
+/* ── Fonts ── */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;1,8..60,300&family=JetBrains+Mono:wght@400&display=swap');
+
+/* ── Variables ── */
+:root {
+  --bg:      #0f1117;
+  --surface: #181c26;
+  --border:  #252a38;
+  --accent:  #c9933a;
+  --accent2: #5b9bd5;
+  --text:    #e8e2d9;
+  --muted:   #8a8f9e;
+}
+
+/* ── Base ── */
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 1.75;
+  margin: 0 auto;
+  padding: 0 2rem 6rem;
+  max-width: 680px;
+}
+
+/* ── Title block ── */
+#title-block-header {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  margin: 0 -2rem 3rem;
+  padding: 4rem 2rem 3rem;
+}
+
+#title-block-header h1.title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--text);
+  margin: 0 0 .75rem;
+  border: none;
+  padding: 0;
+}
+
+.quarto-title-meta {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: .72rem;
+  letter-spacing: .08em;
+  color: var(--muted);
+  text-transform: uppercase;
+}
+
+.quarto-title-meta-heading { display: none; }
+.quarto-title-meta-contents p { margin: 0; color: var(--muted); }
+
+/* ── Section headings ── */
+h1 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: var(--text);
+  border-top: 1px solid var(--border);
+  margin: 3rem 0 1.5rem;
+  padding-top: 1.5rem;
+  line-height: 1.35;
+}
+
+h1 strong {
+  font-weight: 700;
+  font-style: italic;
+  color: var(--accent);
+}
+
+/* ── Body text ── */
+p {
+  margin: 0 0 1rem;
+  color: var(--text);
+}
+
+/* ── Lists ── */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+}
+
+ul > li {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid transparent;
+  border-radius: 4px;
+  padding: .9rem 1.1rem;
+  transition: border-left-color .2s, background .2s;
+  line-height: 1.5;
+}
+
+ul > li:hover {
+  border-left-color: var(--accent);
+  background: #1c2030;
+}
+
+/* Nested notes */
+ul > li > ul {
+  gap: 0;
+  margin-top: .6rem;
+  padding-top: .6rem;
+  border-top: 1px solid var(--border);
+}
+
+ul > li > ul > li {
+  background: none;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  font-size: .88rem;
+  color: #b0aaa0;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+ul > li > ul > li:hover { background: none; border-left-color: transparent; }
+ul > li > ul > li strong { font-style: normal; color: var(--text); font-weight: 600; }
+ul > li > ul > li em { font-style: normal; border-bottom: 1px dotted var(--accent); color: var(--text); }
+
+/* ── Links ── */
+a {
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(201,147,58,.3);
+  transition: color .2s, border-color .2s;
+}
+a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+/* ── Sub-labels ── */
+p > strong {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: .72rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--accent2);
+  font-weight: 400;
+}
+
+/* ── Animations ── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+section.level1 { animation: fadeUp .45s ease both; }
+section.level1:nth-child(1) { animation-delay: .05s; }
+section.level1:nth-child(2) { animation-delay: .12s; }
+section.level1:nth-child(3) { animation-delay: .19s; }
+section.level1:nth-child(4) { animation-delay: .26s; }
+
+/* ── Mobile ── */
+@media (max-width: 600px) {
+  body { padding: 0 1.2rem 4rem; }
+  #title-block-header { margin: 0 -1.2rem 2rem; padding: 2.5rem 1.2rem 2rem; }
+  #title-block-header h1.title { font-size: 1.6rem; }
+}

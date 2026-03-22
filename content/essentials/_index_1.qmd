@@ -1,0 +1,62 @@
+---
+title: "Essentials of Epidemiology (Causal Inference)"
+author: "Jeremy Labrecque"
+format:
+  html:
+    theme: none
+    css: custom_5.css
+    toc: true
+    embed-resources: true
+editor: visual
+---
+
+You can find the slides here.
+
+# 1. **Recognize** unclear research questions
+
+-   [How and when to use causal and associational language](https://www.bmj.com/content/392/bmj-2025-085749.full) — Labrecque and Kezios 2026
+
+    -   We felt that much of the writing criticizing the use of the word association didn't go far enough. Here we make the argument that it's not up to people advocating for causal language to convince people using associational language to change. The onus is on people using associational language to *explain what they mean* by the word association in their research question. We also provide guidelines for how to use causal and non-causal language.
+
+-   [Descriptive estimands, causal estimands, and avoiding the jungle of adjusted associations 'in between'](https://jech.bmj.com/content/80/4/205) — Oberndorfer et al 2026
+
+    -   The "jungle of adjusted associations" points out that when answering descriptive questions we sometimes choose to adjust for other variables. That means our question doesn't completely map onto a real-world description anymore.
+
+-   [The distinction between causal, predictive, and descriptive research—there is still room for improvement](https://www.jclinepi.com/article/S0895-4356(25)00293-8/fulltext) — Dyer 2026
+
+-   [Distinguishing Description, Prediction, and Causal Inference](https://www.neurology.org/doi/10.1212/WNL.0000000000210171) — Ito et al 2025
+
+-   [Guidelines for reporting observational research in urology: the importance of clear reference to causality](https://bjui-journals.onlinelibrary.wiley.com/doi/full/10.1111/bju.16028) — Vickers et al 2023
+
+-   [Is the Way Forward to Step Back? Documenting the Frequency With Which Study Goals Are Misaligned With Study Methods and Interpretations in the Epidemiologic Literature](https://academic.oup.com/epirev/article/43/1/4/6372079) — Kezios et al 2021
+
+    -   This paper had a huge impact on me. The idea that over 2/3 of epidemiology articles in the top general epidemiology journals fell into a category called "seemingly causal" was a huge wake-up call. We are scientists — if there is one thing there is no excuse to be unclear about, it's our research questions. We need to do better.
+
+-   [A Second Chance to Get Causal Inference Right: A Classification of Data Science Tasks](https://www.tandfonline.com/doi/full/10.1080/09332480.2019.1579578) — Hernán, Hsu & Healy 2019
+
+    -   **Important paper:** This paper had a HUGE impact on many different fields. It made clear that all research tasks fall into the descriptive, predictive, and causal categories. If you can't figure out which category your paper falls into, then, I would argue, you don't understand your question well enough yet. I have been teaching this 3-task framework since this paper came out and have yet to encounter a question that doesn't fit.
+
+-   [The C-Word: Scientific Euphemisms Do Not Improve Causal Inference From Observational Data](https://pubmed.ncbi.nlm.nih.gov/29565659/) — Hernán 2018
+
+    -   This paper really got people thinking when it came out. It's the inspiration for the BMJ paper I wrote with Katrina Kezios at the top of this list, though we tried to make his arguments, along with a few others, in an even stronger way.
+
+-   [Response to: "Associations Are Not Effects"](https://academic.oup.com/aje/article-abstract/134/4/442/121958?redirectedFrom=fulltext) — Savitz 1991
+
+    -   The American Journal of Epidemiology used to cite a commentary written by [Petitti](https://pubmed.ncbi.nlm.nih.gov/1985440/) in 1991 to motivate their opposition to the use of causal language in their journal. But Savitz wrote a response to that article that makes many of the points people make today. If the AJE had used Savitz's paper as their reference instead of Petitti's, they would have been way ahead of their time!
+
+# 2. **Construct** clear causal questions
+
+**Target trial emulation:**
+
+-   [Using Big Data to Emulate a Target Trial When a Randomized Trial Is Not Available](https://pubmed.ncbi.nlm.nih.gov/26994063/) — Hernán & Robins 2016
+
+-   [Observational studies analyzed like randomized experiments: an application to postmenopausal hormone therapy and coronary heart disease](https://pubmed.ncbi.nlm.nih.gov/18854702/) — Hernán et al 2008
+
+# 3. **Understand** the process of inferring causation from data
+
+# 4. **Be aware of** popular tools for causal inference
+
+-   DAGs
+-   Instrumental variable analysis
+-   Regression discontinuity
+-   Difference-in-differences

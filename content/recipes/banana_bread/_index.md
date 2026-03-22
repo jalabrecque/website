@@ -4,7 +4,7 @@ summary: To make food
 output:
   html_document:
     keep_md: true
-    css: style.css
+    css: style_recipe.css
 
 ---
 

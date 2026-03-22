@@ -3,9 +3,9 @@ title: "Essentials of Epidemiology (Causal inference)"
 author: "Jeremy Labrecque"
 format:
   html:
-    theme: cosmo
+    theme: none
     embed-resources: true
-editor: visual
+    css: custom.css
 ---
 
 You can find the slides here.
