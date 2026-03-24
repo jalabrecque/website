@@ -67,11 +67,17 @@ editor: visual
 
 -   [An introduction to instrumental variables for epidemiologists](https://academic.oup.com/ije/article-abstract/29/4/722/765560?redirectedFrom=fulltext) - Greenland 2000
 -   [Chapter 16 in "What If?": Instrumental variable estimation](https://miguelhernan.org/whatifbook) - Hernán & Robins 2025
+- [A Gentle Introduction to Instrumental Variables](https://www.sciencedirect.com/science/article/pii/S0895435622001731) - Widding-Havneraas & Zachrisson 2022
 
 ### Regression discontinuity
 
--   [Regression Discontinuity Designs in Epidemiology](https://pmc.ncbi.nlm.nih.gov/articles/PMC4162343/) - Bor et al 2014
+- [Regression Discontinuity Designs in Epidemiology: A Practical Guide](https://pmc.ncbi.nlm.nih.gov/articles/PMC12581866/) - O'Keeffe & Petersen 2025   
+- [Regression Discontinuity Designs in Epidemiology](https://pmc.ncbi.nlm.nih.gov/articles/PMC4162343/) - Bor et al 2014
+- [An Introduction to Regression Discontinuity Design and Potential for Application in Neurology](https://www.neurology.org/doi/10.1212/WNL.0000000000214503) - Ahmed et al 2026
+- [Regression Discontinuity for Causal Effect Estimation in Epidemiology](https://link.springer.com/article/10.1007/s40471-016-0080-x) - Oldenburg, Moscoe & Bärnighausen 2016
 
 ### Negative controls
 
 -   [A Selective Review of Negative Control Methods in Epidemiology](https://pubmed.ncbi.nlm.nih.gov/33996381/) - Shi, Miao & Tchetgen Tchetgen 2020
+- [Using Negative Control Populations to Assess Unmeasured Confounding and Direct Effects](https://journals.lww.com/epidem/abstract/2024/05000/using_negative_control_populations_to_assess.6.aspx) - Piccinini & Stensrud 2024
+- [Negative Controls: A Tool for Detecting Confounding and Bias in Observational Studies](https://pmc.ncbi.nlm.nih.gov/articles/PMC3053408/) - Lipsitch, Tchetgen Tchetgen & Cohen 2011
