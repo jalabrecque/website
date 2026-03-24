@@ -54,25 +54,24 @@ editor: visual
 
 # 3. **Understand** the process of inferring causation from data
 
--   [Intuition for what causal assumptions do when adjusting for confounders (unpublished, do not distribute)](<https://kdrive.infomaniak.com/app/share/1502063/1f0fa223-4ee1-41ae-a9c0-332213722422>)
+-   [Intuition for what causal assumptions do when adjusting for confounders (unpublished, do not distribute)](https://kdrive.infomaniak.com/app/share/1502063/1f0fa223-4ee1-41ae-a9c0-332213722422) - Labrecque
 
 # 4. **Be aware of** popular tools for causal inference
 
 ### Directed acyclic graphs
 
 -   [Reducing bias through directed acyclic graphs](https://pubmed.ncbi.nlm.nih.gov/18973665/) - Shrier and Platt 2008
-- [Chapter 6 in "What If?": Graphical representation of causal effects](https://miguelhernan.org/whatifbook) - Hernán & Robins 2025
+-   [Chapter 6 in "What If?": Graphical representation of causal effects](https://miguelhernan.org/whatifbook) - Hernán & Robins 2025
 
 ### Instrumental variable analysis:
 
-- [An introduction to instrumental variables for epidemiologists](https://academic.oup.com/ije/article-abstract/29/4/722/765560?redirectedFrom=fulltext) - Greenland 2000
-- [Chapter 16 in "What If?": Instrumental variable estimation](https://miguelhernan.org/whatifbook) - Hernán & Robins 2025
+-   [An introduction to instrumental variables for epidemiologists](https://academic.oup.com/ije/article-abstract/29/4/722/765560?redirectedFrom=fulltext) - Greenland 2000
+-   [Chapter 16 in "What If?": Instrumental variable estimation](https://miguelhernan.org/whatifbook) - Hernán & Robins 2025
 
 ### Regression discontinuity
 
-- [Regression Discontinuity Designs in Epidemiology](https://pmc.ncbi.nlm.nih.gov/articles/PMC4162343/) Bor et al 2014
+-   [Regression Discontinuity Designs in Epidemiology](https://pmc.ncbi.nlm.nih.gov/articles/PMC4162343/) - Bor et al 2014
 
 ### Negative controls
 
-- [A Selective Review of Negative Control Methods in Epidemiology](https://pubmed.ncbi.nlm.nih.gov/33996381/) Shi, Miao & Tchetgen Tchetgen 2020
-
+-   [A Selective Review of Negative Control Methods in Epidemiology](https://pubmed.ncbi.nlm.nih.gov/33996381/) - Shi, Miao & Tchetgen Tchetgen 2020
