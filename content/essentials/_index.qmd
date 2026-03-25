@@ -47,6 +47,12 @@ Email me at j.labrecque@erasmusmc.nl
 -   [Response to: "Associations Are Not Effects"](https://academic.oup.com/aje/article-abstract/134/4/442/121958?redirectedFrom=fulltext) — Savitz 1991
 
     -   The American Journal of Epidemiology used to cite a commentary written by [Petitti](https://pubmed.ncbi.nlm.nih.gov/1985440/) in 1991 to motivate their opposition to the use of causal language in their journal. But Savitz wrote a response to that article that makes many of the points people make today. If the AJE had used Savitz's paper as their reference instead of Petitti's, they would have been way ahead of their time!
+    
+- [Is caviar a risk factor for being a millionaire?](https://www.bmj.com/content/355/bmj.i6536) - Huitfelt 2016
+
+    - This "fun" covers four possible things people could mean by the word "risk factor".
+    
+- [Factors associated with: problems of using exploratory multivariable regression to identify causal risk factors](https://bmjmedicine.bmj.com/content/4/1/e001375) - Lewer et al 2025
 
 # 2. **Construct** clear causal questions
 
