@@ -14,14 +14,14 @@ output:
 
 ## Next session
 
-**Date:** March 20 at 13h (CET) — [sign up below](#subscribe-to-the-mailing-list) to receive a link to the meeting
+**Date:** May 1 at 13h (CET) — [sign up below](#subscribe-to-the-mailing-list) to receive a link to the meeting
 
-**Paper:** [Descriptive estimands, causal estimands, and avoiding the jungle of adjusted associations 'in between'](https://jech.bmj.com/content/80/4/205#ref-12)
+**Paper:** Mendelian Methodology: Is this the end of the Mendelian era?
 
 
 
 <!-- ![](epidemiology x.png) -->
-[![](paper_screenshot.png)](https://jech.bmj.com/content/80/4/205#ref-12)
+<!-- [![](paper_screenshot.png)](https://jech.bmj.com/content/80/4/205#ref-12) -->
 
 <br>
 
@@ -36,9 +36,8 @@ output:
 | February 20 | van den Broek | Does SES affect long term health-related quality of life in patients with traumatic rib fractures? |
 | March 6 | Azizi | Investigating IgG N-glycosylation changes in relation to cancer development |
 | March 20 | Oberndorfer et al. 2026 | [Descriptive estimands, causal estimands, and avoiding the jungle of adjusted associations 'in between'](https://jech.bmj.com/content/80/4/205#ref-12) |
-| April 3 | | |
-| April 17 | | |
-| May 1 | | |
+| April 17 | Al-kassab-Córdova & Soto-Becerra 2025 | [Causal Inference in Public Health: A Call to Stop Causal Fishing](https://pmc.ncbi.nlm.nih.gov/articles/PMC12237941/) |
+| May 1 | Dagelinckx | Mendelian Methodology: Is this the end of the Mendelian era? |
 | May 15 | | |
 | May 29 | | |
 | June 12 | | |
