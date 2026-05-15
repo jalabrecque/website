@@ -6,8 +6,8 @@ event_url:
 location: Online
 address: []
 
-summary: 
-abstract: [Associational language is very common in health research. But too often it’s used in contexts where associational language is not appropriate or, at worst, nonsensical. I will talk about when and why associational language is not valid and why causal language should be used instead. The important implication of this is that a lot of research that avoids causal language is necessarily causal and should be applying causal inference. Lastly, I will discuss one way, I believe, we can increase the uptake of causal inference. ]
+summary: Associational language is very common in health research. But too often it’s used in contexts where associational language is not appropriate or, at worst, nonsensical. I will talk about when and why associational language is not valid and why causal language should be used instead. The important implication of this is that a lot of research that avoids causal language is necessarily causal and should be applying causal inference. Lastly, I will discuss one way, I believe, we can increase the uptake of causal inference.  
+abstract: []
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
