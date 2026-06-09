@@ -14,15 +14,14 @@ output:
 
 ## Next session
 
-**Date:** May 29 at 13h (CET) — [sign up below](#subscribe-to-the-mailing-list) to receive a link to the meeting
+**Date:** June 12 at 13h (CET) — [sign up below](#subscribe-to-the-mailing-list) to receive a link to the meeting
 
-**Paper:** [BMI and risk of dementia in two million people over two
-decades: a retrospective cohort study](https://www.thelancet.com/journals/landia/article/PIIS2213-8587(15)00033-9/abstract)
+**Paper:** [How independent are “independent” effects? relative risk estimation when correlated exposures are measured imprecisely](https://www.sciencedirect.com/science/article/pii/0895435691901553?via%3Dihub)
 
 
 
 <!-- ![](epidemiology x.png) -->
-[![](paper_screenshot.png)](https://www.thelancet.com/journals/landia/article/PIIS2213-8587(15)00033-9/abstract)
+[![](paper_screenshot.png)](https://www.sciencedirect.com/science/article/pii/0895435691901553?via%3Dihub)
 
 <br>
 
@@ -41,7 +40,7 @@ decades: a retrospective cohort study](https://www.thelancet.com/journals/landia
 | May 1 | Dagelinckx | Mendelian Methodology: Is this the end of the Mendelian era? |
 | May 15 |Conti et al 2024 |Severe prenatal shocks and adolescent health: Evidence from the Dutch Hunger Winter |
 | May 29 |Qizilbash et al 2015| [BMI and risk of dementia in two million people over two decades: a retrospective cohort study](https://www.thelancet.com/journals/landia/article/PIIS2213-8587(15)00033-9/abstract)|
-| June 12 | | |
+| June 12 |Phillips and Davey Smith |[How independent are “independent” effects? relative risk estimation when correlated exposures are measured imprecisely](https://www.sciencedirect.com/science/article/pii/0895435691901553?via%3Dihub) |
 
 [→ Previous sessions](https://www.jeremylabrecque.org/journal_club/previous_sessions)
 
