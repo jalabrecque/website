@@ -28,6 +28,9 @@ A short write-up describing the project and interests.
 This one has no `photo` set, so a neutral grey placeholder shows automatically.
 {{< /member >}}
 
+## MSc students
+
+
 
 ## Former members
 
