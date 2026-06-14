@@ -17,6 +17,11 @@
   name = "Posts"
   url = "#posts"
   weight = 20
+
+[[main]]
+ name = "Group"
+  url = "group/"
+  weight = 50
   
 [[main]]
 name = "Talks"
