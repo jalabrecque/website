@@ -1,0 +1,68 @@
+{{/*
+  member.html — renders one group member row.
+  Usage in markdown (bio goes between the tags, written as normal markdown):
+
+    {{< member name="Jane Smith" photo="jane_smith.jpg" role="PhD candidate" thesis="Thesis title" link="https://..." >}}
+    A sentence or two about what they work on. **Markdown** works here.
+    {{< /member >}}
+
+  All params except name are optional:
+    photo  -> file in  static/img/group/  (omit for a grey placeholder)
+    role   -> e.g. "PhD candidate", "MSc student", "Postdoc"
+    thesis -> working thesis / project title (shown in italics)
+    link   -> wraps the name in a link (LinkedIn, personal site, etc.)
+*/}}
+
+{{- if not (.Page.Scratch.Get "memberCSS") -}}
+{{- .Page.Scratch.Set "memberCSS" true -}}
+<style>
+.member-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.75rem;
+  padding: 1.75rem 0;
+  border-bottom: 1px solid rgba(128,128,128,.25);
+}
+.member-row:last-of-type { border-bottom: none; }
+.member-photo {
+  flex: 0 0 100px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 14px;
+  background: rgba(128,128,128,.2);
+  display: block;
+}
+.member-photo--missing { object-fit: none; }
+.member-body { flex: 1; min-width: 0; }
+.member-name { font-size: 1.05rem; font-weight: 600; margin: 0 0 0.15rem; }
+.member-name a { color: inherit; text-decoration: none; }
+.member-name a:hover { text-decoration: underline; }
+.member-role { font-size: 0.85rem; opacity: .6; margin: 0 0 0.4rem; }
+.member-thesis { font-size: 0.92rem; font-style: italic; opacity: .75; margin: 0 0 0.45rem; line-height: 1.45; }
+.member-bio { font-size: 0.95rem; line-height: 1.65; }
+.member-bio p:last-child { margin-bottom: 0; }
+@media (max-width: 480px) { .member-row { flex-direction: column; gap: 1rem; } }
+</style>
+{{- end -}}
+
+<div class="member-row">
+  {{- with .Get "photo" -}}
+  <img class="member-photo" src="/img/group/{{ . }}" alt="{{ $.Get "name" }}"
+       onerror="this.classList.add('member-photo--missing'); this.removeAttribute('src');">
+  {{- else -}}
+  <span class="member-photo member-photo--missing" aria-hidden="true"></span>
+  {{- end }}
+  <div class="member-body">
+    <p class="member-name">
+      {{- with .Get "link" -}}
+      <a href="{{ . }}" target="_blank" rel="noopener">{{ $.Get "name" }}</a>
+      {{- else -}}
+      {{ $.Get "name" }}
+      {{- end -}}
+    </p>
+    {{- with .Get "role" }}<p class="member-role">{{ . }}</p>{{ end }}
+    {{- with .Get "thesis" }}<p class="member-thesis">{{ . }}</p>{{ end }}
+    <div class="member-bio">{{ .Inner | markdownify }}</div>
+  </div>
+</div>
