@@ -9,7 +9,9 @@ if you are interested in joining.
 
 ## Postdocs
 
-
+{{< member name="Colleen A. Reynolds" photo="colleen.jpg" role="Postdoc" thesis="Causal inference in health equity research" link="https://example.com" >}}
+Colleen’s work focuses on the application of causal inference methods to health equity research. She is particularly interested in appropriate confounder and covariate control, causal mediation analyses, and research questions that combine causal and descriptive components. Colleen’s doctoral research focused on LGBTQ+ populations and reproductive health inequities. Her current postdoctoral research examines how to estimate the causal effects of policies on health disparities when policies change the composition of the populations experiencing those disparities.
+{{< /member >}}
 
 
 ## Phd students
