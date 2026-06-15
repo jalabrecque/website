@@ -7,7 +7,7 @@ type: page
 Members of the group. Feel free to [get in touch](mailto:j.labrecque@erasmusmc.nl)
 if you are interested in joining.
 
-{{< member name="Jeremy Labrecque" photo="jermey.jpg" role="Assistant Professor" thesis="Making causal inference in epidemiology better" link="https://example.com" >}}
+{{< member name="Jeremy Labrecque" photo="jeremy.jpg" role="Assistant Professor" thesis="Making causal inference in epidemiology better" link="https://example.com" >}}
 Jeremy's work is a bit all over the place but the overall focus is improving causal inference in epidemiology. 
 {{< /member >}}
 

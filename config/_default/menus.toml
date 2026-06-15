@@ -19,7 +19,7 @@
   weight = 20
 
 [[main]]
-  name = "Group"
+ name = "Group"
   url = "group/"
   weight = 50
   
