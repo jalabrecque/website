@@ -25,8 +25,8 @@ Colleen’s work focuses on the application of causal inference methods to healt
 Maurice’s work sits at the intersection of health decision science and causal inference, focusing on the formalisation of decision-analytic modelling as a task of causal inference. The work covers the interpretation of such models as causal models, their relationship to causal graphical structures, and the explicit articulation of underlying causal assumptions. He further investigates and applies causal bias analysis within this decision context, demonstrating its value in assessing how violations of internal and external validity may propagate through the decision-analytic model and overturn clinical decisions. More broadly, Maurice’s interests span epidemiological methods, with particular emphasis on statistical software, external validity, and causal bias.
 {{< /member >}}
 
-{{< member name="Chang Wei" photo="member_two.jpg" role="PhD candidate" thesis="The consistency assumption in epidemiology" >}}
-TBD
+{{< member name="Chang Wei" photo="chang.jpg" role="PhD candidate" thesis="The consistency assumption in epidemiology" >}}
+Chang’s work focuses on the consistency assumption in causal inference. Her research aims to identify and characterize settings in which the consistency assumption may be violated. She develops methodological approaches to partial identify the version-specific treatment effects in the presence of multiple versions of treatment. More broadly, her work seeks to translate substantive research questions into rigorous causal questions by defining appropriate estimands and proposing feasible analytical solutions. 
 {{< /member >}}
 
 {{< member name="Muhammed Sambou" photo="member_two.jpg" role="PhD candidate (co-supervised with Frank Wolters)" thesis="Studying modifiable causes of dementia" >}}
