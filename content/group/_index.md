@@ -21,8 +21,8 @@ Colleen’s work focuses on the application of causal inference methods to healt
 
 ## Phd students
 
-{{< member name="Maurice Korf" photo="member_two.jpg" role="PhD candidate" thesis="Decision science through a causal inference lens" >}}
-TBD
+{{< member name="Maurice Korf" photo="maurice.jpg" role="PhD candidate" thesis="Decision-analytical modelling as causal inference" >}}
+Maurice’s work sits at the intersection of health decision science and causal inference, focusing on the formalisation of decision-analytic modelling as a task of causal inference. The work covers the interpretation of such models as causal models, their relationship to causal graphical structures, and the explicit articulation of underlying causal assumptions. He further investigates and applies causal bias analysis within this decision context, demonstrating its value in assessing how violations of internal and external validity may propagate through the decision-analytic model and overturn clinical decisions. More broadly, Maurice’s interests span epidemiological methods, with particular emphasis on statistical software, external validity, and causal bias.
 {{< /member >}}
 
 {{< member name="Chang Wei" photo="member_two.jpg" role="PhD candidate" thesis="The consistency assumption in epidemiology" >}}
