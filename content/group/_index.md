@@ -22,15 +22,15 @@ Colleen’s work focuses on the application of causal inference methods to healt
 ## Phd students
 
 {{< member name="Maurice Korf" photo="member_two.jpg" role="PhD candidate" thesis="Decision science through a causal inference lens" >}}
-
+TBD
 {{< /member >}}
 
 {{< member name="Chang Wei" photo="member_two.jpg" role="PhD candidate" thesis="The consistency assumption in epidemiology" >}}
-
+TBD
 {{< /member >}}
 
 {{< member name="Muhammed Sambou photo="member_two.jpg" role="PhD candidate (co-supervised with Frank Wolters)" thesis="Studying modifiable causes of dementia" >}}
-
+TBD
 {{< /member >}}
 
 {{< member name="Keling Wang " photo="keling.jpg" role="PhD candidate" thesis="Causal triangulation and epidemiologic methods" link="https://example.com" >}}
@@ -41,6 +41,7 @@ Keling is interested in novel causal thinking methods needed “before and after
 ## MSc students
 
 {{< member name="Emma Keizer" role="Research master student" thesis="Incorporating expert knowledge into causal discovery" >}}
+TBD
 {{< /member >}}
 
 ## Former members
