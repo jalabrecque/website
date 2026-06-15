@@ -29,7 +29,7 @@ Colleen’s work focuses on the application of causal inference methods to healt
 
 {{< /member >}}
 
-{{< member name="Muhammed Sambou photo="member_two.jpg" role="PhD candidate" thesis="Studying modifiable causes of dementia" >}}
+{{< member name="Muhammed Sambou photo="member_two.jpg" role="PhD candidate (co-supervised with Frank Wolters)" thesis="Studying modifiable causes of dementia" >}}
 
 {{< /member >}}
 
