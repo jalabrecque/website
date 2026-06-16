@@ -46,10 +46,6 @@ weight = 20
   url = "files/CV.pdf"
   weight = 70
 
-[[main]]
-  name = "Group meetings"
-  url = "meetings/"
-  weight = 80
 
 [[main]]
   name = "Journal Club"

@@ -3,8 +3,9 @@ title: Group
 date: 2024-01-01
 type: page
 ---
+You can find a (probably out of date) schedule for our group meetings [here](https://www.jeremylabrecque.org/meetings/).
 
-Members of the group. Feel free to [get in touch](mailto:j.labrecque@erasmusmc.nl)
+Below you will find all members of the Causal Inference Group. Feel free to [get in touch](mailto:j.labrecque@erasmusmc.nl)
 if you are interested in joining.
 
 {{< member name="Jeremy Labrecque" photo="jeremy.jpg" role="Assistant Professor" thesis="Making causal inference in epidemiology better" link="https://www.jeremylabrecque.org/group/" >}}
