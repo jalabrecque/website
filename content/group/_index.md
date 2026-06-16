@@ -29,8 +29,8 @@ Maurice’s work sits at the intersection of health decision science and causal 
 Chang’s work focuses on the consistency assumption in causal inference. Her research aims to identify and characterize settings in which the consistency assumption may be violated. She develops methodological approaches to partial identify the version-specific treatment effects in the presence of multiple versions of treatment. More broadly, her work seeks to translate substantive research questions into rigorous causal questions by defining appropriate estimands and proposing feasible analytical solutions. 
 {{< /member >}}
 
-{{< member name="Muhammed Sambou" photo="member_two.jpg" role="PhD candidate (co-supervised with Frank Wolters)" thesis="Studying modifiable causes of dementia" >}}
-TBD
+{{< member name="Muhammed Lamin Sambou" photo="muhammed.jpg" role="PhD candidate (co-supervised with Frank Wolters)" thesis="Causal inference in dementia prevention research" >}}
+Muhammed’s PhD thesis focuses on dementia risk reduction and prevention through the application of modern causal inference techniques. In two of his projects, he applies target trial emulation (TTE) within the Rotterdam Cohort Study to investigate the causal effects of medications such as antidiabetics and benzodiazepines on dementia risk. In addition, his published work demonstrates no additive or multiplicative interaction between the MIND diet and physical activity (measured in MET-hours/week) on dementia risk. He has also critically reviewed the existing literature through a systematic review and meta-analysis examining the causal effects of pesticide exposure on dementia risk, a finding he will validate in the Generation R Cohort Study. To help inform policy and public health interventions, he has also investigated knowledge and perceptions of dementia risk and protective factors among the general adult population. This study reveals that dementia awareness remains low, while perceived susceptibility to dementia is heightened.
 {{< /member >}}
 
 {{< member name="Keling Wang " photo="keling.jpg" role="PhD candidate" thesis="Causal triangulation and epidemiologic methods" >}}
