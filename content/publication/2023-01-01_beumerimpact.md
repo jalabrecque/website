@@ -1,9 +1,8 @@
 +++
-title = "Estimating health-selective migration in patients with systemic lupus erythematosus or Sjogren's from administrative data"
-date = "2013-01-01"
+title = "The impact of waiting time on post-transplant survival for patients with Hepatocellular Carcinoma: randomization by blood group"
+date = "2023-01-01"
 publication_types = ["2"]
-authors = ["Labrecque, Jeremy"]
-publication = "In: McGill University"
+authors = ["BEUMER, BR", "POLAK, WG", "DE MAN, RA", "METSELAAR, HJ", "LABRECQUE, J", "IJZERMANS, JNM"]
 abstract = ""
 abstract_short = ""
 image_preview = ""

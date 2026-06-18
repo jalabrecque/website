@@ -1,9 +1,9 @@
 +++
-title = "Cancer in Pediatric-Onset Systemic Lupus: What Is the Role of Disease Duration and Other Factors on Risk?: 2475"
+title = "Cancer in Pediatric-Onset Systemic Lupus: What Is the Role of Disease Duration and Other Factors on Risk?"
 date = "2012-01-01"
 publication_types = ["2"]
-authors = ["Bernatsky, Sasha", "Clarke, Ann", "Labrecque, Jeremy", "Scheven, Emily", "Schanberg, Laura", "Silverman, Earl", "Brunner, Hermine", "Haines, Kathleen", "Cron, Randy", "O'Neil, Kathleen", "et al."]
-publication = "In: Arthritis & Rheumatism, (64)"
+authors = ["bernatsky, Sasha", "Clarke, Ann E", "Labrecque, Jeremy", "von Scheven, Emily", "Schanberg, Laura E", "Silverman, Earl D", "Brunner, Hermine I", "Haines, Kathleen A", "Cron, Randy Q", "O'Neil, Kathleen M", "et al."]
+publication = "In: ARTHRITIS AND RHEUMATISM, (64), 10, _pp. S1043--S1044_"
 abstract = ""
 abstract_short = ""
 image_preview = ""

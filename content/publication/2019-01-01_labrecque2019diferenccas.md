@@ -1,9 +1,9 @@
 +++
-title = "Diferenças No Perfil de Saúde Entre Beneficiŕios e Não-Benefici'íos Do Programa Bolsa Famiá Em Uma Populaçõ de Baixa Renda"
+title = "Diferencas no perfil de saude entre beneficiarios e nao-beneficiarios do programa Bolsa Fam'lia em uma populacao de baixa renda"
 date = "2019-01-01"
 publication_types = ["2"]
 authors = ["Labrecque, Jeremy A", "Kaufman, Jay S"]
-publication = "In: Cadernos de Saúde Plica, (35), _pp. e00141218_"
+publication = "In: Cadernos de Saude Publica, (35), _pp. e00141218_"
 abstract = ""
 abstract_short = ""
 image_preview = ""

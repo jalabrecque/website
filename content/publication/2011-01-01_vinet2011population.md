@@ -1,9 +1,9 @@
 +++
-title = "Estimating health-selective migration in patients with systemic lupus erythematosus or Sjogren's from administrative data"
-date = "2013-01-01"
+title = "A Population-Based Assessment of Live Births in Women with SLE"
+date = "2011-01-01"
 publication_types = ["2"]
-authors = ["Labrecque, Jeremy"]
-publication = "In: McGill University"
+authors = ["Vinet, Evelyne", "Labrecque, Jeremy", "St-Pierre, Yvan", "Pineau, Christian", "Clarke, Ann", "Bernatsky, Sasha"]
+publication = "In: JOURNAL OF RHEUMATOLOGY, (38), 6, _pp. 1141--1141_"
 abstract = ""
 abstract_short = ""
 image_preview = ""

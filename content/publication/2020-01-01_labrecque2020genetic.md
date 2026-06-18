@@ -1,9 +1,9 @@
 +++
-title = "Estimating health-selective migration in patients with systemic lupus erythematosus or Sjogren's from administrative data"
-date = "2013-01-01"
+title = "Genetic instruments with too many strings: acknowledging pleiotropy and population structure in Mendelian randomization studies"
+date = "2020-01-01"
 publication_types = ["2"]
-authors = ["Labrecque, Jeremy"]
-publication = "In: McGill University"
+authors = ["Labrecque, Jeremy A", "Kaufman, Jay S", "Huang, Jonathan Y"]
+publication = "In: European Heart Journal, (41), 7, _pp. 892--893_"
 abstract = ""
 abstract_short = ""
 image_preview = ""

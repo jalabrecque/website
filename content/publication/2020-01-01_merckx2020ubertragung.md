@@ -1,9 +1,9 @@
 +++
-title = "Estimating health-selective migration in patients with systemic lupus erythematosus or Sjogren's from administrative data"
-date = "2013-01-01"
+title = "Ubertragung von SARS-CoV-2 durch Kinder"
+date = "2020-01-01"
 publication_types = ["2"]
-authors = ["Labrecque, Jeremy"]
-publication = "In: McGill University"
+authors = ["Merckx, Joanna", "Labrecque, Jeremy A", "Kaufman, Jay S"]
+publication = "In: Deutsches Arzteblatt International, (117), _pp. 553--560_"
 abstract = ""
 abstract_short = ""
 image_preview = ""

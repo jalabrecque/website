@@ -1,9 +1,9 @@
 +++
-title = "Estimating health-selective migration in patients with systemic lupus erythematosus or Sjogren's from administrative data"
-date = "2013-01-01"
+title = "Dementia and Cancer: Unravelling Methodological Biases in a Population-Based Cohort"
+date = "2025-01-01"
 publication_types = ["2"]
-authors = ["Labrecque, Jeremy"]
-publication = "In: McGill University"
+authors = ["Selie, Amber P", "van der Willik, Kimberly D", "Ikram, M Arfan", "Labrecque, Jeremy A", "Schagen, Sanne B"]
+publication = "In: Neuroepidemiology"
 abstract = ""
 abstract_short = ""
 image_preview = ""

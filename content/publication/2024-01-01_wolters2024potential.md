@@ -1,9 +1,9 @@
 +++
-title = "Estimating health-selective migration in patients with systemic lupus erythematosus or Sjogren's from administrative data"
-date = "2013-01-01"
+title = "Potential impact of unblinding on observed treatment effects in Alzheimer's disease trials"
+date = "2024-01-01"
 publication_types = ["2"]
-authors = ["Labrecque, Jeremy"]
-publication = "In: McGill University"
+authors = ["Wolters, Frank J", "Labrecque, Jeremy A"]
+publication = "In: Alzheimer's & Dementia, (20), 4, _pp. 3119--3125_"
 abstract = ""
 abstract_short = ""
 image_preview = ""

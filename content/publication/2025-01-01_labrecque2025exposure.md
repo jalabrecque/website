@@ -1,9 +1,10 @@
 +++
-title = "Estimating health-selective migration in patients with systemic lupus erythematosus or Sjogren's from administrative data"
-date = "2013-01-01"
+title = "The exposure potential restriction rule revisited"
+date = "2025-01-01"
 publication_types = ["2"]
-authors = ["Labrecque, Jeremy"]
-publication = "In: McGill University"
+authors = ["Labrecque, Jeremy A"Poole, Charles"Stang, Andreas"]
+publication = "In: American Journal of Epidemiology, (194), 12, _pp. 3624--3629_"
+url_source = "https://doi.org/10.1093/aje/kwaf204"
 abstract = ""
 abstract_short = ""
 image_preview = ""

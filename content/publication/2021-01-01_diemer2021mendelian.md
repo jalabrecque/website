@@ -1,9 +1,9 @@
 +++
-title = "Effect of COVID-19 stressors on mental health and quality of life in Parkinson’s disease: 1045"
+title = "Mendelian randomisation approaches to the study of prenatal exposures: A systematic review"
 date = "2021-01-01"
 publication_types = ["2"]
-authors = ["Dommershuijsen, L", "Heide, A", "Berg, E", "Labrecque, J", "Ikram, MK", "Ikram, MA", "Bloem, B", "Helmich, R", "Darweesh, S"]
-publication = "In: Movement Disorders, (36), _pp. S463_"
+authors = ["Diemer, Elizabeth W", "Labrecque, Jeremy A", "Neumann, Alexander", "Tiemeier, Henning", "Swanson, Sonja A"]
+publication = "In: Paediatric and Perinatal Epidemiology, (35), 1, _pp. 130--142_"
 abstract = ""
 abstract_short = ""
 image_preview = ""

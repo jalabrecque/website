@@ -1,9 +1,9 @@
 +++
-title = "Estimating health-selective migration in patients with systemic lupus erythematosus or Sjogren's from administrative data"
-date = "2013-01-01"
+title = "What is Your Ideal Trial?"
+date = "2026-01-01"
 publication_types = ["2"]
-authors = ["Labrecque, Jeremy"]
-publication = "In: McGill University"
+authors = ["Labrecque, Jeremy A", "Wei, Chang", "Post, Richard AJ"]
+publication = "In: Epidemiology, (37), 2, _pp. 163--165_"
 abstract = ""
 abstract_short = ""
 image_preview = ""

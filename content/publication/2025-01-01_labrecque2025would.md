@@ -1,9 +1,9 @@
 +++
-title = "Estimating health-selective migration in patients with systemic lupus erythematosus or Sjogren's from administrative data"
-date = "2013-01-01"
+title = "What would we learn from empirical evaluations of epidemiologic methods?"
+date = "2025-01-01"
 publication_types = ["2"]
-authors = ["Labrecque, Jeremy"]
-publication = "In: McGill University"
+authors = ["Labrecque, Jeremy A"]
+publication = "In: International Journal of Epidemiology, (54), 5, _pp. dyaf155_"
 abstract = ""
 abstract_short = ""
 image_preview = ""

@@ -1,9 +1,9 @@
 +++
-title = "Estimating health-selective migration in patients with systemic lupus erythematosus or Sjogren's from administrative data"
-date = "2013-01-01"
+title = "Begunstigen Biologika die Entwicklung von Neoplasien?"
+date = "2014-01-01"
 publication_types = ["2"]
-authors = ["Labrecque, Jeremy"]
-publication = "In: McGill University"
+authors = ["Specker, Ch"]
+publication = "In: Arthritis und Rheuma, (34), 05, _pp. 289--294_"
 abstract = ""
 abstract_short = ""
 image_preview = ""
