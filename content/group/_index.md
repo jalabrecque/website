@@ -52,6 +52,10 @@ TBD
 | Annalisa Tidona | MSc | 2025 |
 | Malte Henning Bäckmann | MSc | 2025 |
 | Stijntje Dijk | PhD | 2025 |
+| Amber Selie | MSc | 2024 |
+| Melvin Lam | MSc | 2024 |
 | Sjoerd van de Weerd | MSc | 2024 |
 | Chang Wei | MSc | 2023 | 
+
+
 
