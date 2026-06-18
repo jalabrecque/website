@@ -1,9 +1,10 @@
 +++
-title = "Dexamethasone for Preterm Infants at Risk of Bronchopulmonary Dysplasia: Is Timing Everything?"
-date = "2023-01-01"
-publication_types = ["0"]
-authors = ["Jasper V Been", "Sinno HP Simons", "Jeremy A Labrecque"]
-publication = ""
+title = "Editorial"
+date = "2026-01-01"
+publication_types = ["2"]
+authors = ["Labrecque, Jeremy A", "Wei, Chang", "Post, Roel AJ"]
+publication = "In: Epidemiology, (37), 2, _pp. 163--165_"
+url_source = "https://doi.org/10.1097/EDE.0000000000001837"
 abstract = ""
 abstract_short = ""
 image_preview = ""
@@ -18,7 +19,6 @@ url_project = ""
 url_slides = ""
 url_video = ""
 url_poster = ""
-url_source = ""
 math = true
 highlight = true
 [header]
