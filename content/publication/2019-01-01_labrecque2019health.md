@@ -1,9 +1,9 @@
 +++
-title = "Health Profile Differences between Recipients and Non-Recipients of the Brazilian Income Transfer Program in a Low-Income Population"
+title = "Health profile differences between recipients and non-recipients of the Brazilian Income Transfer Program in a low-income population"
 date = "2019-01-01"
 publication_types = ["2"]
 authors = ["Labrecque, Jeremy A", "Kaufman, Jay S"]
-publication = "In: Cadernos de Saúde Plica, (35)"
+publication = "In: Cadernos de Saude Publica, (35), _pp. e00141218_"
 abstract = ""
 abstract_short = ""
 image_preview = ""

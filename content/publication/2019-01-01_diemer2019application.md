@@ -1,9 +1,9 @@
 +++
-title = "Indicator species of soil nutrients and poplar plantation productivity in southeastern Quebec"
-date = "2009-01-01"
+title = "Application of the instrumental inequalities to a Mendelian randomization study with multiple proposed instruments"
+date = "2019-01-01"
 publication_types = ["2"]
-authors = ["Labrecque, Jeremy"]
-publication = "In: McGill University"
+authors = ["Diemer, Elizabeth W", "Labrecque, Jeremy", "Tiemeier, Henning", "Swanson, Sonja A"]
+publication = "In: Epidemiology (Cambridge, Mass.), (31), 1, _pp. 65_"
 abstract = ""
 abstract_short = ""
 image_preview = ""

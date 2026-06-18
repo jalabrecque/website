@@ -1,9 +1,9 @@
 +++
-title = "The Prevalence of Systemic Autoimmune Rheumatic Diseases in Canadian Pediatric Populations: Administrative Database Estimates"
+title = "The prevalence of systemic autoimmune rheumatic diseases in Canadian pediatric populations: Administrative database estimates"
 date = "2011-01-01"
 publication_types = ["2"]
 authors = ["Bernatsky, Sasha", "Oen, Kiem", "Rosenberg, Alan", "Tucker, Lori", "Stringer, Elizabeth", "Duffy, Ciaran", "Labrecque, Jeremy", "Svenson, Larry"]
-publication = "In: Journal of Rheumatology, (38), _pp. 1135--1135_"
+publication = "In: Journal of Rheumatology, (38), 6, _pp. 1135--1135_"
 abstract = ""
 abstract_short = ""
 image_preview = ""

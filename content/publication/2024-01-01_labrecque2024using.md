@@ -1,9 +1,9 @@
 +++
-title = "Indicator species of soil nutrients and poplar plantation productivity in southeastern Quebec"
-date = "2009-01-01"
+title = "Using counterfactual worlds to triangulate evidence in the real world"
+date = "2024-01-01"
 publication_types = ["2"]
-authors = ["Labrecque, Jeremy"]
-publication = "In: McGill University"
+authors = ["Labrecque, Jeremy A", "Swanson, Sonja A"]
+publication = "In: Current Epidemiology Reports, (11), 1, _pp. 44--53_"
 abstract = ""
 abstract_short = ""
 image_preview = ""

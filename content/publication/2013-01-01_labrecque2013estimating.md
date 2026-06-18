@@ -1,9 +1,9 @@
 +++
-title = "Estimating health-selective migration in patients with systemic lupus erythematosus or Sjogren's from administrative data"
+title = "ESTIMATING HEALTH-SELECTIVE MIGRATION IN PATIENTS WITH RHEUMATOID ARTHRITIS USING ADMINISTRATIVE DATA"
 date = "2013-01-01"
 publication_types = ["2"]
-authors = ["Labrecque, Jeremy"]
-publication = "In: McGill University"
+authors = ["Labrecque, Jeremy", "Kyle, Ryan", "Bernatsky, Sasha"]
+publication = "In: AMERICAN JOURNAL OF EPIDEMIOLOGY, (177), _pp. S152--S152_"
 abstract = ""
 abstract_short = ""
 image_preview = ""

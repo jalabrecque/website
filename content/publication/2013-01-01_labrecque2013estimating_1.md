@@ -1,6 +1,6 @@
 +++
-title = "Indicator species of soil nutrients and poplar plantation productivity in southeastern Quebec"
-date = "2009-01-01"
+title = "Estimating health-selective migration in patients with systemic lupus erythematosus or Sjogren's from administrative data"
+date = "2013-01-01"
 publication_types = ["2"]
 authors = ["Labrecque, Jeremy"]
 publication = "In: McGill University"

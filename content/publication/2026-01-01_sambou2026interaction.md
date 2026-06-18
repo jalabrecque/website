@@ -1,10 +1,9 @@
 +++
-title = "Editorial"
+title = "Interaction of diet and physical activity on dementia risk: the Rotterdam study"
 date = "2026-01-01"
 publication_types = ["2"]
-authors = ["Labrecque, Jeremy A", "Wei, Chang", "Post, Roel AJ"]
-publication = "In: Epidemiology, (37), 2, _pp. 163--165_"
-url_source = "https://doi.org/10.1097/EDE.0000000000001837"
+authors = ["Sambou, Muhammed Lamin", "Ikram, M Arfan", "Ikram, M Kamran", "Labrecque, Jeremy A", "Wolters, Frank J"]
+publication = "In: The Journal of Prevention of Alzheimer's Disease, (13), 7, _pp. 100594_"
 abstract = ""
 abstract_short = ""
 image_preview = ""

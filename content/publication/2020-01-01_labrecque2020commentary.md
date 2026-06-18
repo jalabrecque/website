@@ -1,5 +1,5 @@
 +++
-title = "Commentary: Mendelian Randomization with Multiple Exposures: The Importance of Thinking about Time"
+title = "Commentary: Mendelian randomization with multiple exposures: the importance of thinking about time"
 date = "2020-01-01"
 publication_types = ["2"]
 authors = ["Labrecque, Jeremy A", "Swanson, Sonja A"]

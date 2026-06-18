@@ -1,9 +1,8 @@
 +++
-title = "Reducing behavior problems in children born after an unintended pregnancy: the generation R study"
+title = "Reducing behavior problems in children born after an unintended pregnancy: A hypothetical intervention study in the population-based Generation R cohort"
 date = "2024-01-01"
 publication_types = ["2"]
 authors = ["Enthoven, Clair A", "Labrecque, Jeremy A", "Koopman-Verhoeff, M Elisabeth", "Lambregtse-van den Berg, Mijke P", "Hillegers, Manon HJ", "El Marroun, Hanan", "Jansen, Pauline W"]
-publication = "In: Social Psychiatry and Psychiatric Epidemiology, (59), 12, _pp. 2247--2258_"
 abstract = ""
 abstract_short = ""
 image_preview = ""

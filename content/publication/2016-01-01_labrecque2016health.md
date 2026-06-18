@@ -1,8 +1,9 @@
 +++
-title = "The impact of waiting time on post-transplant survival for patients with Hepatocellular Carcinoma: randomization by blood group"
-date = "2023-01-01"
+title = "Health-selective migration among patients with rheumatoid arthritis in Quebec: a cohort study using administrative data"
+date = "2016-01-01"
 publication_types = ["2"]
-authors = ["BEUMER, BR", "POLAK, WG", "DE MAN, RA", "METSELAAR, HJ", "LABRECQUE, J", "IJZERMANS, JNM"]
+authors = ["Labrecque, Jeremy A", "Kyle, Ryan P", "Joseph, Lawrence", "Bernatsky, Sasha"]
+publication = "In: Rheumatology international, (36), 9, _pp. 1275--1279_"
 abstract = ""
 abstract_short = ""
 image_preview = ""

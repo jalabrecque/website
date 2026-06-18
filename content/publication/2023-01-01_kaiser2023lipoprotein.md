@@ -1,5 +1,5 @@
 +++
-title = "Lipoprotein (a) and Progression of Aortic Valve Calcification: A Case of Collider Bias? Reply"
+title = "Lipoprotein (a) and progression of aortic valve calcification: a case of collider bias? Reply"
 date = "2023-01-01"
 publication_types = ["2"]
 authors = ["Kaiser, Yannick", "Labrecque, Jeremy", "Stroes, Erik SG", "Boekholdt, S Matthijs", "Bos, Daniel"]

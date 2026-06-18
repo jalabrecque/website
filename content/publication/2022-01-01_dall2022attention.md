@@ -1,9 +1,9 @@
 +++
-title = "Attention-Deficit Hyperactivity Disorder Symptoms and Brain Morphology: Examining Confounding Bias"
+title = "Attention-deficit hyperactivity disorder symptoms and brain morphology: Examining confounding bias"
 date = "2022-01-01"
 publication_types = ["2"]
 authors = ["Dall'Aglio, Lorenza", "Kim, Hannah H", "Lamballais, Sander", "Labrecque, Jeremy", "Muetzel, Ryan L", "Tiemeier, Henning"]
-publication = "In: ELife, (11), _pp. e78002_"
+publication = "In: Elife, (11), _pp. e78002_"
 abstract = ""
 abstract_short = ""
 image_preview = ""

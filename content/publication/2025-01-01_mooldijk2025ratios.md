@@ -1,9 +1,9 @@
 +++
-title = "Application of the Instrumental Inequalities to a Mendelian Randomization Study with Multiple Proposed Instruments"
-date = "2020-01-01"
+title = "Ratios in regression analyses with causal questions"
+date = "2025-01-01"
 publication_types = ["2"]
-authors = ["Diemer, Elizabeth W", "Labrecque, Jeremy", "Tiemeier, Henning", "Swanson, Sonja A"]
-publication = "In: Epidemiology (Cambridge, Mass.), (31), 1, _pp. 65_"
+authors = ["Mooldijk, Sanne S", "Labrecque, Jeremy A", "Ikram, M Arfan", "Ikram, M Kamran"]
+publication = "In: American Journal of Epidemiology, (194), 1, _pp. 311--313_"
 abstract = ""
 abstract_short = ""
 image_preview = ""

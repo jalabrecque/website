@@ -1,9 +1,9 @@
 +++
-title = "Falsification of the Instrumental Variable Conditions in Mendelian Randomization Studies in the UK Biobank"
+title = "Falsification of the instrumental variable conditions in Mendelian randomization studies in the UK Biobank"
 date = "2023-01-01"
 publication_types = ["2"]
 authors = ["Guo, Kelly", "Diemer, Elizabeth W", "Labrecque, Jeremy A", "Swanson, Sonja A"]
-publication = "In: European Journal of Epidemiology, _pp. 1--7_"
+publication = "In: European Journal of Epidemiology, (38), 9, _pp. 921--927_"
 abstract = ""
 abstract_short = ""
 image_preview = ""

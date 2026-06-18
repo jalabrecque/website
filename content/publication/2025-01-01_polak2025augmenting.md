@@ -1,9 +1,9 @@
 +++
-title = "The exposure potential restriction rule revisited"
+title = "Augmenting Treatment Arms With External Data Through Propensity-Score Weighted Power Priors: An Application in Expanded Access"
 date = "2025-01-01"
 publication_types = ["2"]
-authors = ["Labrecque, Jeremy A", "Poole, Charles", "Stang, Andreas"]
-publication = "In: American Journal of Epidemiology, (194), 12, _pp. 3624--3629_"
+authors = ["Polak, Tobias B", "Labrecque, Jeremy A", "Uyl-de Groot, Carin A", "van Rosmalen, Joost"]
+publication = "In: Statistics in Medicine, (44), 18-19, _pp. e70168_"
 abstract = ""
 abstract_short = ""
 image_preview = ""

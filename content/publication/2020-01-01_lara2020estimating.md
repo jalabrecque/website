@@ -1,10 +1,9 @@
 +++
-title = "Estimating Reductions in Ethnic Inequalities in Child Adiposity from Hypothetical Diet, Screen Time, and Sports Participation Interventions"
+title = "Estimating reductions in ethnic inequalities in child adiposity from hypothetical diet, screen time, and sports participation interventions"
 date = "2020-01-01"
 publication_types = ["2"]
-authors = ["Lara, Macarena", "Labrecque, Jeremy A.", "van Lenthe, Frank J.", "Voortman, Trudy"]
+authors = ["Lara, Macarena", "Labrecque, Jeremy A", "van Lenthe, Frank J", "Voortman, Trudy"]
 publication = "In: Epidemiology, (31), 5, _pp. 736--744_"
-url_source = "https://doi.org/10.1097/EDE.0000000000001221"
 abstract = ""
 abstract_short = ""
 image_preview = ""

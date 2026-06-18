@@ -1,9 +1,9 @@
 +++
-title = "Commentary: Can a Quasi-Experimental Design Be a Better Idea than an Experimental One?"
+title = "Commentary: can a quasi-experimental design be a better idea than an experimental one?"
 date = "2016-01-01"
 publication_types = ["2"]
 authors = ["Labrecque, Jeremy Alexander", "Kaufman, Jay Scott"]
-publication = "In: Epidemiology (Cambridge, Mass.), (27), 4, _pp. 500--502_"
+publication = "In: Epidemiology, (27), 4, _pp. 500--502_"
 abstract = ""
 abstract_short = ""
 image_preview = ""

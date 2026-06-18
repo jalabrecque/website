@@ -1,8 +1,8 @@
 +++
-title = "Analysis of Early and Late Maternal Complications Associated with Delivery Using Propensity Score"
+title = "Analysis of early and late maternal complications associated with delivery using propensity score"
 date = "2021-01-01"
 publication_types = ["2"]
-authors = ["Mascarello, Keila Cristina", "Matijasevich, Alicia", "de Barros, Aluisio Jardim Dornellas", "de Barros, Fernando Celso Lopes Fernandes", "dos Santos, Iná da Silva", "Labrecque, Jeremy Alexander", "Silveira, Mariângela Freitas"]
+authors = ["Mascarello, Keila Cristina", "Matijasevich, Alicia", "Barros, Aluisio Jardim Dornellas de", "Barros, Fernando Celso Lopes Fernandes de", "Santos, Ina da Silva dos", "Labrecque, Jeremy Alexander", "Silveira, Mariangela Freitas"]
 publication = "In: Revista Brasileira de Epidemiologia, (24), _pp. e210027_"
 abstract = ""
 abstract_short = ""

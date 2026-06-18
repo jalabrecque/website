@@ -1,8 +1,8 @@
 +++
-title = "Effect of a Conditional Cash Transfer Program on Length-for-Age and Weight-for-Age in Brazilian Infants at 24 Months Using Doubly-Robust, Targeted Estimation"
+title = "Effect of a conditional cash transfer program on length-for-age and weight-for-age in Brazilian infants at 24 months using doubly-robust, targeted estimation"
 date = "2018-01-01"
 publication_types = ["2"]
-authors = ["Labrecque, Jeremy A.", "Kaufman, Jay S.", "Balzer, Laura B.", "MacLehose, R. F.", "Strumpf, Erin C.", "Matijasevich, Alicia", "Santos, Iná S.", "Schmidt, Kelen H", "Barros, Aluísio J D"]
+authors = ["Labrecque, Jeremy A", "Kaufman, Jay S", "Balzer, Laura B", "Maclehose, Richard F", "Strumpf, Erin C", "Matijasevich, Alicia", "Santos, Ina S", "Schmidt, Kelen H", "Barros, Alu'sio JD"]
 publication = "In: Social Science & Medicine, (211), _pp. 9--15_"
 abstract = ""
 abstract_short = ""

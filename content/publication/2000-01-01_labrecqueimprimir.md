@@ -1,9 +1,8 @@
 +++
-title = "Indicator species of soil nutrients and poplar plantation productivity in southeastern Quebec"
-date = "2009-01-01"
+title = "Imprimir ARTIGO: Diferencas no perfil de saude entre beneficiarios e nao-beneficiarios do programa Bolsa Fam'lia em uma populacao de baixa renda"
+date = "2000-01-01"
 publication_types = ["2"]
-authors = ["Labrecque, Jeremy"]
-publication = "In: McGill University"
+authors = ["Labrecque, Jeremy A", "Kaufman, Jay S"]
 abstract = ""
 abstract_short = ""
 image_preview = ""
