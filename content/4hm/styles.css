@@ -1,0 +1,151 @@
+/* The Four Horsemen in Rotterdam — page styles */
+
+:root {
+  --ink: #2b2621;         /* warm near-black */
+  --muted: #8a7d6d;       /* warm taupe */
+  --accent: #9a3412;      /* terracotta */
+  --link: #b45309;        /* warm amber-brown */
+  --rule: #ece3d7;        /* warm hairline */
+  --bg: #fdfaf5;          /* warm off-white */
+  --tag-bg: #f6ede1;      /* warm cream */
+}
+
+/* Page column + side margins live on <body> so they apply no matter
+   what wrapper RMarkdown emits (with theme: null there is no
+   .main-container/.container-fluid to target). */
+body {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 64px 88px;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Hide RMarkdown's default title block; we use our own */
+.title, h1.title { display: none; }
+
+/* Wrapper (if present) should not re-constrain or double-pad. */
+.main-container, .container-fluid {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* ---- Links ---- */
+a {
+  color: var(--link);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(180, 83, 9, 0.30);
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+a:hover {
+  color: #92400e;
+  border-bottom-color: #92400e;
+}
+
+/* ---- Header ---- */
+.hero {
+  text-align: center;
+  padding: 72px 0 36px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid var(--rule);
+}
+
+.hero h1 {
+  font-size: 2.1rem;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  margin: 0;
+}
+
+.hero .dates {
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-size: 1rem;
+  letter-spacing: 0.03em;
+}
+
+/* ---- Day sections ---- */
+.day {
+  padding: 30px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.day:last-child {
+  border-bottom: none;
+}
+
+.day h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin: 0 0 16px;
+  color: var(--ink);
+}
+
+.day .tag {
+  display: inline-block;
+  margin: -8px 0 14px;
+  padding: 3px 11px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--tag-bg);
+  border-radius: 5px;
+}
+
+/* Each event is a paragraph like: **time** description
+   Hanging indent keeps the time column aligned WITHOUT flex — flex
+   would split every inline piece (links, commas) into separate items
+   and scatter gaps around them. */
+.day p:not(.tag) {
+  margin: 0;
+  padding: 8px 0 8px 110px;
+  text-indent: -110px;
+  color: var(--ink);
+}
+
+.day p:not(.tag) strong {
+  display: inline-block;
+  width: 92px;
+  margin-right: 18px;
+  color: var(--muted);
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---- Bulleted sub-lists (e.g. list of stops) ---- */
+.day ul {
+  margin: 10px 0 4px;
+  padding-left: 20px;
+  list-style: none;
+}
+
+.day ul li {
+  position: relative;
+  padding: 4px 0;
+}
+
+.day ul li::before {
+  content: "";
+  position: absolute;
+  left: -16px;
+  top: 0.85em;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #d9b48f;
+}
+
+@media (max-width: 560px) {
+  body { padding: 0 22px 64px; }
+  .day p:not(.tag) { padding-left: 0; text-indent: 0; }
+  .day p:not(.tag) strong { display: block; width: auto; margin-right: 0; }
+  .hero { padding: 48px 0 28px; }
+  .hero h1 { font-size: 1.8rem; }
+}

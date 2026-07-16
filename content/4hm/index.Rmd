@@ -1,0 +1,105 @@
+---
+title: "The Four Horsemen in Rotterdam"
+output:
+  html_document:
+    theme: null
+    css: styles.css
+    self_contained: true
+---
+
+<!--
+  HOW TO EDIT THIS PAGE
+  ---------------------
+  Everything below is plain text. To change the schedule, just edit the
+  lines under each day. Each event is one line, formatted like:
+
+      **09:00** What we're doing
+
+  The bold time comes first, then a space, then the description.
+  Keep a BLANK LINE between events. Add, remove, or reorder events
+  freely, then re-knit (the Knit button in RStudio, or run
+  rmarkdown::render("index.Rmd")) to rebuild the webpage.
+
+  To label a day (e.g. Arrival / Departure), add a line like:
+      <p class="tag">Arrival</p>
+-->
+
+<div class="hero">
+  <h1>The Four Horsemen in Rotterdam</h1>
+  <p class="dates">28 August – 2 September 2026</p>
+</div>
+
+<div class="day">
+
+### Friday, 28 August
+
+<p class="tag">Arrival</p>
+
+**Morning** Arrivals and drop bags
+
+**Afternoon** [Markthal](https://markthal.nl/en/), [cube houses](https://www.kubuswoning.nl/), old port
+
+</div>
+
+<div class="day">
+
+### Saturday, 29 August
+
+**Morning** [Heiderun](https://www.heiderun.nl/) in Ede (Amalia and I running, you're free to arrive later)
+
+**Afternoon** Walk/bike around [Hoge Veluwe National Park](https://hogeveluwe.nl/en) and go to [Kröller-Müller Museum](https://www.krollermuller.nl/en)
+
+</div>
+
+<div class="day">
+
+### Sunday, 30 August
+
+**Morning** Breakfast at [Nachtegaal](https://www.denachtegaal.com/)
+
+**Afternoon** Cruising around Rotterdam
+
+- Witte de Withstraat
+- [Maritiem Museum](https://maritiemmuseum.nl/en)
+- See my work (nice view on city)
+- [Euromast](https://euromast.nl/en/)
+- [Fenix](https://www.fenix.nl/en/)
+- [Hotel New York](https://hotelnewyork.com/)
+- Meent
+
+</div>
+
+<div class="day">
+
+### Monday, 31 August
+
+Options:
+
+- [Bike ride along coast](https://www.google.com/maps/d/edit?mid=1CWbxbtMsQcsFburmoXfvLQtHzydSeKk&usp=sharing)
+- Amsterdam ([Rijksmuseum](https://www.rijksmuseum.nl/en))
+- Utrecht
+- Delft
+
+</div>
+
+<div class="day">
+
+### Tuesday, 1 September
+
+**Day long** [Relaxed biking up and down the Rotte river with many drinks and food](https://www.google.com/maps/d/edit?mid=1cPH-Ann4Rec_RtiVNPJlM9_DjAiFoTk&usp=sharing)
+
+**Dinner** At home
+
+</div>
+
+<div class="day">
+
+### Wednesday, 2 September
+
+<p class="tag">Departure</p>
+
+**Morning** Breakfast together
+
+**11:00** Departures
+
+</div>
