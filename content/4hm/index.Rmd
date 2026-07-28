@@ -1,5 +1,5 @@
 ---
-title: "The Four Horsemen in Rotterdam"
+title: "The Four Horsemen in Rotterdam (and Lisa)"
 output:
   html_document:
     theme: null
@@ -25,7 +25,7 @@ output:
 -->
 
 <div class="hero">
-  <h1>The Four Horsemen in Rotterdam</h1>
+  <h1>The Four Horsemen in Rotterdam (and Lisa)</h1>
   <p class="dates">28 August – 2 September 2026</p>
 </div>
 
