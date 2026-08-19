@@ -42,6 +42,10 @@ user_groups:
 - Visitors
 ---
 
-I'm the leader of the Causal Inference Group at Erasmus MC here in beautiful Rotterdam. Causal inference, as a field, has come a long way over the past couple decades. But a lot of this additional insight and new methods have yet to make it into common use. There is [a lot of work to be done](https://www.jeremylabrecque.org/post/improving_methods/) in order for research in general to fully benefit from what we know about causal inference. This is what I do. I want people using Mendelian randomization to fully understand the causal assumptions behind their analyses and what causal interpretation MR estimates have. I want to bring causal inference into medical decision making to help make better decisions with imperfect data. And hopefully all of this will help improve the health of those who need it most and reduce health inequalities that plague society.
+I'm the leader of the Causal Inference Group at Erasmus MC here in beautiful Rotterdam. I have two main interests:
+
+1. How to infer causation when the assumptions we rely on are not satisfied. Here I'm talking about [causal triangulation](https://link.springer.com/article/10.1007/s40471-023-00340-0), bias analyses or negative controls. Given that we are always forced to make inferences under these conditions, this, to me, is a very underexplored and underused part of causal infernece.
+
+2. Trying to get the field of epidemiology away from poor research practices such as [unclear research questions](https://www.bmj.com/content/392/bmj-2025-085749.abstract) ("the association"), failure to use causal methods where appropriate or [how results are interpreted](https://academic.oup.com/ije/article/54/4/dyaf136/8210015). 
 
 Feel free to contact me if you're interested in setting up a research visit to learn epidemiologic methods or causal inference in my group. I'm also happy to accommodate students in French, Spanish and Portuguese. English is the default language for science but it doesn't always have to be!
