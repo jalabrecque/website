@@ -24,7 +24,7 @@ You can also email me if you are interested in causal inference and would like t
 |Date|Topic|
 |:------ |:------ |
 | Sept 2 | Time travel |
-| Sept 16 | Chang talks about boudning / Jeremy talks about Epicheck |
+| Sept 16 | Chang talks about bounding / Jeremy talks about Epicheck |
 | Sept 30 | Roger talks about his project    |
 | Oct 14 |    |
 | Oct 28 |     |
