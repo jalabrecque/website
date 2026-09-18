@@ -42,6 +42,7 @@ output:
 - [Chocolate chip oatmeal cookies](https://www.jeremylabrecque.org/recipes/chocolate_chip_oatmeal_cookies)
 - [Banana bread](https://www.jeremylabrecque.org/recipes/banana_bread)
 - [Pouding Chômeur](https://www.jeremylabrecque.org/recipes/pouding)
+- [Apple crisp (no sugar)](https://www.jeremylabrecque.org/recipes/apple_crisp)
 
 ### Baking
 - [Sourdough Crackers](https://www.jeremylabrecque.org/recipes/sourdough_crackers)
