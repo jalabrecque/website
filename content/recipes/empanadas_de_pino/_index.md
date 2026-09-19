@@ -1,0 +1,65 @@
+---
+title: "Empanadas de pino"
+summary: To make food
+output:
+  html_document:
+    keep_md: true
+    css: style.css
+---
+
+
+
+Baked beef empanadas, the Fiestas Patrias standard. Makes about 9.
+
+## Ingredients
+
+### Pino
+
+- 500 g beef chuck or skirt, hand-diced small
+- 700 g onions, finely diced
+- 2 tbsp vegetable oil
+- 10 g ají de color or sweet paprika
+- 4 g ground cumin
+- 1 g dried oregano
+- 12 g flour
+- 180 ml beef stock
+- 9 g salt
+
+### Dough
+
+- 550 g flour
+- 110 g lard or butter, melted
+- 210 ml warm milk
+- 2 eggs (one for the dough, one for the egg wash)
+- Good pinch of salt
+
+### To fill
+
+- 2 eggs, hard-boiled and quartered
+- 9 black olives
+- 55 g raisins
+
+## Instructions
+
+1. Heat the oil in a wide pan and cook the onions over low heat with a pinch of salt until completely soft and translucent, about 25 minutes. Don't rush or brown them.
+1. Add the beef and cook until it loses its raw colour, about 10 minutes. Stir in the paprika, cumin, oregano and salt.
+1. Sprinkle over the flour, stir for a minute, then pour in the stock. Simmer until thick and barely soupy. Taste and salt hard — it dulls once cold.
+1. Spread the pino in a shallow dish and refrigerate until fully cold and set. Overnight if possible, two hours minimum.
+1. Mix the dough flour with a good pinch of salt. Work in the melted lard, then one egg and the warm milk, and knead until smooth and elastic. Rest, covered, 30 minutes.
+1. Roll 3 mm thick and cut discs about 18 cm across. Roll the offcuts once more.
+1. On each disc: a heaped spoon of cold pino, a wedge of egg, an olive, a few raisins. Brush the rim with water, fold over, press out the air, and fold the edge back on itself to seal. Tuck the side corners in to make the square shape.
+1. Heat the oven to 200 °C. Brush the tops with the remaining beaten egg and prick each empanada once with a knife tip. Bake 25 minutes, until deep golden.
+
+## Notes
+
+The pino must be cold before it meets the dough. Warm filling melts the fat into the pastry and the empanadas split and leak in the oven. This is the single thing that separates good ones from bad ones.
+
+Onion outweighing the meat is correct, not a typo — the onion is the body of the filling.
+
+Traditionally the olives go in whole, pit and all.
+
+Freeze them unbaked on a tray, then bag them. Bake from frozen, adding about 10 minutes.
+
+Spice weights are approximate, since ground spices vary by grind. Taste the pino before it goes in the fridge.
+
+Serve with pebre or a good ají.

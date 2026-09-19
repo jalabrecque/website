@@ -1,0 +1,35 @@
+---
+title: "Ponche de duraznos"
+summary: To make food
+output:
+  html_document:
+    keep_md: true
+    css: style.css
+---
+
+
+
+Chilean peach punch with blueberries, without alcohol. Serves 8.
+
+## Ingredients
+
+- 800 g canned peach halves, drained (reserve the syrup)
+- 200 ml syrup from the can
+- 150 g blueberries
+- 1 tbsp lemon juice
+- 1.5 L sparkling white grape juice, well chilled
+
+## Instructions
+
+1. Slice the peaches into wedges and put them in a bowl or pitcher with the reserved syrup, the blueberries and the lemon juice. Chill for an hour.
+1. Spoon fruit and a little syrup into each glass, then top slowly with the sparkling grape juice, pouring down the side of the glass. Serve with a spoon.
+
+## Notes
+
+Freeze the blueberries first and they double as ice without watering anything down.
+
+Fresh peaches work too. Slice them, toss with 2 tbsp sugar, and let them sit 30 minutes to make their own syrup.
+
+Ginger ale instead of grape juice if the canned syrup already makes it sweet enough. The syrup does most of the sweetening, so taste before adding anything else.
+
+The peach version is the Fiestas Patrias one. Ponche a la romana, made with pineapple sorbet, is for New Year's.
