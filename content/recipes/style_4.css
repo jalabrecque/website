@@ -79,6 +79,23 @@ h1.title {
   text-decoration: underline;
 }
 
+/* ----- TOC width fix -----
+   The bundled toc_float CSS sizes the floating sidebar as a percentage
+   of the viewport (up to 25% between 768-991px), but this page's
+   .main-container is capped at 740px. At in-between widths the sidebar
+   grows wider than the column reserved for it and overlaps the recipe
+   text. Pin it to a safe fixed width instead. Scoped to >=769px so the
+   bundled mobile rule (which stacks the TOC above the content below
+   768px) is left alone. */
+@media (min-width: 769px) {
+  #TOC.tocify,
+  div.tocify {
+    width: 200px !important;
+    max-width: 200px !important;
+    margin-left: 1rem !important;
+  }
+}
+
 /* ----- Main container width ----- */
 .main-container,
 div[role="main"],
