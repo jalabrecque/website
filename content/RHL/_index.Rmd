@@ -296,6 +296,7 @@ kable(cbind(label,ds_), col.names = c("Main/farm","Player","Keeper cost"),row.na
 - [2023: Connor Dioxide Emissions](https://www.jeremylabrecque.org/rhl/2023_playoffs)
 - [2024: Lance D'Rundell](https://www.jeremylabrecque.org/rhl/2024_playoffs)
 - [2025: Jeffa Petersburg](https://www.jeremylabrecque.org/rhl/2025_playoffs)
+- [2026: Deluge](https://www.jeremylabrecque.org/rhl/2026_playoffs)
 
 ## All-time standings
 

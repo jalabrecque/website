@@ -418,17 +418,18 @@ Because Yahoo doesn't allow us to just take a draft pick away, your draft pick w
 - [2023: Connor Dioxide Emissions](https://www.jeremylabrecque.org/rhl/2023_playoffs)
 - [2024: Lance D'Rundell](https://www.jeremylabrecque.org/rhl/2024_playoffs)
 - [2025: Jeffa Petersburg](https://www.jeremylabrecque.org/rhl/2025_playoffs)
+- [2026: Deluge](https://www.jeremylabrecque.org/rhl/2026_playoffs)
 
 ## All-time standings
 
 
 |Team                         | 1st| 2nd| 3rd| 4th| 5th| 6th| 7th| 8th| Total|
 |:----------------------------|---:|---:|---:|---:|---:|---:|---:|---:|-----:|
-|Deluge of Gardseur           |   0|   4|   0|   0|   0|   1|   0|   0|    31|
-|Suzuki Jimney                |   2|   0|   1|   0|   1|   0|   1|   0|    28|
-|Стивен Прекрасный            |   0|   0|   2|   1|   2|   0|   0|   0|    25|
-|Näslund of the Wind          |   1|   0|   2|   0|   0|   1|   0|   1|    24|
-|Lance D'Rundell              |   1|   0|   0|   2|   0|   1|   1|   0|    23|
-|Protect Ya Necas             |   0|   1|   0|   1|   2|   0|   1|   0|    22|
-|Jeffa Petersburg             |   1|   0|   0|   1|   0|   1|   1|   1|    19|
-|Roscoe's Ovechkin 'N Waffles |   0|   0|   0|   0|   0|   1|   1|   3|     8|
+|Deluge of Gardseur           |   1|   4|   0|   0|   0|   1|   0|   0|    39|
+|Suzuki Jimney                |   2|   1|   1|   0|   1|   0|   1|   0|    35|
+|Стивен Прекрасный            |   0|   0|   3|   1|   2|   0|   0|   0|    31|
+|Näslund of the Wind          |   1|   0|   2|   1|   0|   1|   0|   1|    29|
+|Lance D'Rundell              |   1|   0|   0|   2|   0|   1|   2|   0|    25|
+|Protect Ya Necas             |   0|   1|   0|   1|   2|   1|   1|   0|    25|
+|Jeffa Petersburg             |   1|   0|   0|   1|   1|   1|   1|   1|    23|
+|Roscoe's Ovechkin 'N Waffles |   0|   0|   0|   0|   0|   1|   1|   4|     9|
