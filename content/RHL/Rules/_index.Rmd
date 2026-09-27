@@ -67,6 +67,7 @@ A kept player will take the place of a Draft Pick at the end of the Draft
      - For example, a team retaining 8 Active Roster players and 5 Farm team players (13 total) will have 6 picks in the Draft. These will represent picks 1 through 6 in the Draft. Picks 7 through 19 will be allocated to the returning players.
 Traded Draft Picks in the Kept Players range will be re-distributed according to each team’s situation.
      - In the above example, if the team had traded it’s 14th pick in a deal for a 2nd round pick, the team would have it’s 6 selections in the first 5 rounds (1, 2, 2, 3, 4, 5). The 6th round pick would go to the other team instead of the 14th.
+     - The first overall pick can't pick a player that he dropped. 
 
 Draft order:
 

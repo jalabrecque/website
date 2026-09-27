@@ -71,23 +71,10 @@ ds <- suppressMessages(read_csv("/Users/jeremylabrecque/kDrive/Personal/rhl/star
 
 - You can only select keepers on the website version, not in the app version. When you log into yahoo and click on your team, there will be a link at the top asking you to select your keepers
 - When selecting your keepers, also select your farm team as keeper players
-- Any player who is 23 or older on October 1st (i.e., born after Sept 30, 2001) must be brought up to your team for the beginning of the season, they cost 0 player years this year
+- Any player who is 24 on October 1st (i.e., born before September 30, 2002) must be brought up to your team for the beginning of the season, they cost 0 player years this year
 - Trades can still be completed before you submit your keepers
 - You can tell how many round of draft picks you'll have by subtracting the number of players you have kept (including farm team) from 19. For example, I have kept 12 players so I will draft up to an including round 7 (19-12). This doesn't take into account any previous trades or draft picks
-- Draft Order:
-  1. Protect Ya Necas
-  2. Bag
-  3. Suzuki Jimney
-  4. Näslund of the Wind
-  5. Стивен Прекрасный
-  6. Lance D'Rundell
-  7. Deluge of Gardseur
-  8. Jeffa Petersburg
-- Draft pick trades:
-  - Bag 1st and 2nd round picks to Wind
-  - Wind 5th and 6th round picks to Bag
-  - Стивен 1st round to Deluge
-  - Deluge 9th round to Стивен
+
 
 
 
@@ -144,6 +131,7 @@ A kept player will take the place of a Draft Pick at the end of the Draft
      - For example, a team retaining 8 Active Roster players and 5 Farm team players (13 total) will have 6 picks in the Draft. These will represent picks 1 through 6 in the Draft. Picks 7 through 19 will be allocated to the returning players.
 Traded Draft Picks in the Kept Players range will be re-distributed according to each team’s situation.
      - In the above example, if the team had traded it’s 14th pick in a deal for a 2nd round pick, the team would have it’s 6 selections in the first 5 rounds (1, 2, 2, 3, 4, 5). The 6th round pick would go to the other team instead of the 14th.
+     - The first overall pick can't pick a player that he dropped
 
 Draft order:
 
