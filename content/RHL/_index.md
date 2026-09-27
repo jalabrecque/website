@@ -186,52 +186,51 @@ Because Yahoo doesn't allow us to just take a draft pick away, your draft pick w
 
 |Main/farm |Player             | Keeper cost|
 |:---------|:------------------|-----------:|
-|Main      |Kirill Kaprizov    |           1|
-|Main      |Jack Hughes        |           5|
-|Main      |Rasmus Dahlin      |           2|
-|Main      |Darren Raddysh     |           1|
-|Main      |Robert Thomas      |           3|
-|Main      |Lucas Raymond      |           1|
-|Main      |Dylan Larkin       |           4|
-|Main      |Drake Batherson    |           1|
-|Main      |Sebastian Aho      |           1|
-|Main      |Tom Wilson         |           1|
-|Main      |John Carlson       |           2|
-|Main      |Ryan O'Reilly      |           1|
+|Main      |Artemi Panarin     |           1|
+|Main      |Kirill Marchenko   |           1|
+|Main      |Ryan O'Reilly      |           2|
+|Main      |Erik Karlsson      |           1|
 |Main      |Josh Morrissey     |           1|
-|Farm      |Alexander Nikishin |           0|
-|Main      |Troy Terry         |           1|
-|Main      |Ilya Sorokin       |           1|
-|Farm      |Leo Carlsson       |           0|
-|Farm      |Ivan Demidov       |           0|
-|Farm      |Anton Frondell     |           0|
+|Main      |Alexander Nikishin |           1|
+|Main      |Ilya Sorokin       |           2|
+|Main      |Sebastian Aho      |           2|
+|Main      |Drake Batherson    |           2|
+|Main      |Lucas Raymond      |           2|
+|Main      |Darren Raddysh     |           2|
+|Main      |Rasmus Dahlin      |           3|
+|Main      |Jack Hughes        |           6|
+|Main      |Kirill Kaprizov    |           2|
+|Farm      |Konsta Helenius    |           0|
 |Farm      |Tij Iginla         |           0|
+|Farm      |Anton Frondell     |           0|
+|Farm      |Ivan Demidov       |           0|
+|Farm      |Leo Carlsson       |           0|
 
 
 ### Deluge of Gardseur
 
 
-|Main/farm |Player            | Keeper cost|
-|:---------|:-----------------|-----------:|
-|Main      |Nikita Kucherov   |           6|
-|Main      |Jason Robertson   |           1|
-|Main      |Mark Scheifele    |           2|
-|Main      |Jake Guentzel     |           3|
-|Main      |Aleksander Barkov |           2|
-|Main      |Brayden Point     |           1|
-|Main      |Adam Fox          |           4|
-|Main      |Jackson LaCombe   |           2|
-|Main      |Roman Josi        |           3|
-|Farm      |Quinton Byfield   |           0|
-|Main      |Jimmy Snuggerud   |           1|
-|Main      |Noah Dobson       |           1|
-|Main      |Pavel Zacha       |           1|
-|Farm      |Seth Jarvis       |           0|
-|Main      |Logan Thompson    |           2|
-|Farm      |Yaroslav Askarov  |           0|
-|Farm      |Juraj Slafkovský  |           0|
-|Farm      |Adam Fantilli     |           0|
-|Farm      |Will Smith        |           0|
+|Main/farm |Player           | Keeper cost|
+|:---------|:----------------|-----------:|
+|Main      |Matthew Knies    |           1|
+|Main      |Roope Hintz      |           1|
+|Main      |Pavel Dorofeyev  |           1|
+|Main      |Nikita Kucherov  |           7|
+|Main      |Jason Robertson  |           2|
+|Main      |Mark Scheifele   |           3|
+|Main      |Jackson LaCombe  |           1|
+|Main      |Noah Dobson      |           1|
+|Main      |Roman Josi       |           4|
+|Main      |Logan Thompson   |           3|
+|Main      |Filip Hronek     |           1|
+|Main      |Roman Kantserov  |           1|
+|Main      |Quinton Byfield  |           1|
+|Main      |Seth Jarvis      |           1|
+|Farm      |Michael Hage     |           0|
+|Farm      |Will Smith       |           0|
+|Farm      |Adam Fantilli    |           0|
+|Farm      |Juraj Slafkovský |           0|
+|Farm      |Jesper Wallstedt |           0|
 
 
 ### Jeffa Petersburg
@@ -239,106 +238,101 @@ Because Yahoo doesn't allow us to just take a draft pick away, your draft pick w
 
 |Main/farm |Player              | Keeper cost|
 |:---------|:-------------------|-----------:|
-|Main      |Cale Makar          |           4|
-|Main      |Nick Suzuki         |           3|
-|Main      |Jack Eichel         |           3|
-|Main      |Matthew Tkachuk     |           2|
-|Main      |Jakob Chychrun      |           2|
-|Main      |J.T. Miller         |           3|
-|Main      |Miro Heiskanen      |           1|
-|Main      |Sam Bennett         |           1|
-|Main      |Andrei Svechnikov   |           1|
-|Main      |Nico Hischier       |           1|
+|Main      |Sidney Crosby       |           1|
+|Main      |Jack Eichel         |           4|
+|Main      |Matthew Tkachuk     |           3|
+|Main      |Nick Suzuki         |           4|
+|Main      |Andrei Svechnikov   |           2|
 |Main      |Nikolaj Ehlers      |           1|
-|Main      |MacKenzie Weegar    |           1|
-|Main      |Seth Jones          |           1|
-|Main      |Frank Nazar         |           1|
-|Main      |Brandon Bussi       |           1|
-|Main      |Mackenzie Blackwood |           2|
-|Farm      |Matvei Michkov      |           0|
+|Main      |Jakob Chychrun      |           1|
+|Main      |Miro Heiskanen      |           2|
+|Main      |Cale Makar          |           5|
+|Main      |Jeremy Swayman      |           1|
+|Main      |Nico Hischier       |           1|
+|Main      |Dylan Holloway      |           1|
+|Main      |Carter Hart         |           1|
 |Farm      |Zeev Buium          |           0|
-|Farm      |Berkly Catton       |           0|
+|Farm      |Ivar Stenberg       |           0|
 |Farm      |Alexander Zharovsky |           0|
-|Farm      |Caleb Desnoyers     |           0|
+|Farm      |Berkly Catton       |           0|
+|Farm      |Matvei Michkov      |           0|
 
 ### Roscoe's Ovechkin 'N Wafflesv
 
 
-|Main/farm |Player              | Keeper cost|
-|:---------|:-------------------|-----------:|
-|Main      |Connor McDavid      |           7|
-|Main      |Alex DeBrincat      |           1|
-|Main      |Artemi Panarin      |           3|
-|Main      |Pavel Dorofeyev     |           1|
-|Main      |Brock Nelson        |           1|
-|Main      |Evgeni Malkin       |           1|
-|Main      |Brad Marchand       |           1|
-|Main      |Shayne Gostisbehere |           1|
-|Main      |Jack Roslovic       |           1|
-|Main      |Tyler Bertuzzi      |           1|
-|Main      |Mike Matheson       |           1|
-|Main      |Mattias Ekholm      |           1|
-|Main      |Connor Hellebuyck   |           3|
-|Main      |Jakub Dobes         |           1|
-|Farm      |Matthew Schaefer    |           0|
-|Farm      |Matty Beniers       |           0|
-|Farm      |Marco Kasper        |           0|
-|Farm      |Zachary Bolduc      |           0|
-|Farm      |Cole Sillinger      |           0|
+|Main/farm |Player             | Keeper cost|
+|:---------|:------------------|-----------:|
+|Main      |Brady Tkachuk      |           1|
+|Main      |Sam Reinhart       |           1|
+|Main      |Jake Sanderson     |           1|
+|Main      |Brock Faber        |           1|
+|Main      |Mattias Ekholm     |           2|
+|Main      |Andrei Vasilevskiy |           1|
+|Main      |Mike Matheson      |           2|
+|Main      |Tyler Bertuzzi     |           2|
+|Main      |Jack Roslovic      |           2|
+|Main      |Brock Nelson       |           2|
+|Main      |Alex DeBrincat     |           2|
+|Main      |Connor McDavid     |           8|
+|Main      |Scott Wedgewood    |           1|
+|Main      |Jakub Dobes        |           2|
+|Farm      |Cole Sillinger     |           0|
+|Farm      |Zachary Bolduc     |           0|
+|Farm      |Marco Kasper       |           0|
+|Farm      |Matty Beniers      |           0|
+|Farm      |Matthew Schaefer   |           0|
 
 
 ### Protect Ya Necas
 
 
-|Main/farm |Player           | Keeper cost|
-|:---------|:----------------|-----------:|
-|Main      |Martin Necas     |           2|
-|Main      |Matt Boldy       |           1|
-|Main      |Brady Tkachuk    |           1|
-|Main      |Mikko Rantanen   |           1|
-|Main      |Brandon Hagel    |           2|
-|Main      |Clayton Keller   |           2|
-|Main      |Tim Stutzle      |           3|
-|Main      |William Nylander |           6|
-|Main      |Mitch Marner     |           2|
-|Main      |Brock Faber      |           1|
-|Main      |Victor Hedman    |           3|
-|Main      |Charlie McAvoy   |           1|
-|Main      |Thomas Chabot    |           1|
-|Main      |Scott Wedgewood  |           1|
-|Main      |Sergei Bobrovsky |           1|
-|Farm      |Wyatt Johnston   |           0|
-|Farm      |Cutter Gauthier  |           0|
-|Farm      |Cole Hutson      |           0|
-|Farm      |Brandt Clarke    |           0|
-|Farm      |Jacob Fowler     |           0|
+|Main/farm |Player          | Keeper cost|
+|:---------|:---------------|-----------:|
+|Main      |Mitch Marner    |           3|
+|Main      |Tim Stutzle     |           4|
+|Main      |Mikko Rantanen  |           2|
+|Main      |Martin Necas    |           3|
+|Main      |Matt Boldy      |           2|
+|Main      |Clayton Keller  |           3|
+|Main      |Adam Fox        |           1|
+|Main      |Victor Hedman   |           1|
+|Main      |Brandt Clarke   |           1|
+|Main      |Brandon Bussi   |           1|
+|Main      |Brandon Hagel   |           3|
+|Main      |Filip Forsberg  |           1|
+|Main      |Jesper Bratt    |           1|
+|Main      |Charlie McAvoy  |           2|
+|Farm      |Chase Reid      |           0|
+|Farm      |Cole Hutson     |           0|
+|Farm      |Cutter Gauthier |           0|
+|Farm      |Wyatt Johnston  |           0|
+|Farm      |Jacob Fowler    |           0|
 
 
 ### Suzuki Jimney
 
 
-|Main/farm |Player             | Keeper cost|
-|:---------|:------------------|-----------:|
-|Main      |Leon Draisaitl     |           7|
-|Main      |Zach Werenski      |           2|
-|Main      |Auston Matthews    |           1|
-|Main      |Cole Caufield      |           2|
-|Main      |Tage Thompson      |           2|
-|Main      |Jake Sanderson     |           2|
-|Main      |Moritz Seider      |           3|
-|Main      |Dylan Holloway     |           1|
-|Main      |Bo Horvat          |           1|
-|Main      |Trevor Zegras      |           1|
-|Main      |Alex Tuch          |           1|
-|Main      |Elias Pettersson   |           4|
-|Main      |Dougie Hamilton    |           1|
-|Main      |Luke Hughes        |           1|
-|Main      |Andrei Vasilevskiy |           2|
-|Main      |Igor Shesterkin    |           1|
-|Farm      |Macklin Celebrini  |           0|
-|Farm      |Lane Hutson        |           0|
-|Farm      |Dylan Guenther     |           0|
-|Farm      |Connor Bedard      |           0|
+|Main/farm |Player            | Keeper cost|
+|:---------|:-----------------|-----------:|
+|Main      |Dylan Guenther    |           1|
+|Main      |Tage Thompson     |           3|
+|Main      |Cole Caufield     |           3|
+|Main      |Auston Matthews   |           2|
+|Main      |Leon Draisaitl    |           8|
+|Main      |Macklin Celebrini |           1|
+|Main      |Moritz Seider     |           1|
+|Main      |Zach Werenski     |           3|
+|Main      |Lane Hutson       |           1|
+|Main      |Jacob Markstrom   |           1|
+|Main      |Alex Tuch         |           1|
+|Main      |Luke Hughes       |           2|
+|Main      |Dylan Larkin      |           1|
+|Main      |Yaroslav Askarov  |           1|
+|Farm      |Connor Bedard     |           0|
+|Farm      |Keaton Verhoeff   |           0|
+|Farm      |Ben Kindel        |           0|
+|Farm      |Viggo Bjorck      |           0|
+|Farm      |Caleb Malhotra    |           0|
 
 
 ### Lance D’Rundell
@@ -346,54 +340,51 @@ Because Yahoo doesn't allow us to just take a draft pick away, your draft pick w
 
 |Main/farm |Player            | Keeper cost|
 |:---------|:-----------------|-----------:|
-|Main      |David Pastrnak    |           4|
-|Main      |Evan Bouchard     |           3|
-|Main      |Kyle Connor       |           2|
-|Main      |Adrian Kempe      |           1|
-|Main      |Filip Forsberg    |           3|
-|Main      |Jesper Bratt      |           3|
-|Main      |Logan Cooley      |           1|
-|Main      |Nick Schmaltz     |           1|
-|Main      |Travis Konecny    |           2|
-|Main      |Mikhail Sergachev |           1|
-|Main      |Shea Theodore     |           1|
-|Main      |Thomas Harley     |           2|
-|Main      |Jake Oettinger    |           3|
-|Main      |Filip Gustavsson  |           1|
-|Farm      |Beckett Sennecke  |           0|
-|Farm      |William Eklund    |           0|
+|Main      |Jake Guentzel     |           1|
+|Main      |Aleksander Barkov |           1|
+|Main      |Travis Konecny    |           1|
+|Main      |Kyle Connor       |           3|
+|Main      |David Pastrnak    |           5|
+|Main      |Logan Cooley      |           2|
+|Main      |John Carlson      |           1|
+|Main      |Evan Bouchard     |           4|
+|Main      |Mikhail Sergachev |           2|
+|Main      |Jake Oettinger    |           4|
+|Main      |Bowen Byram       |           1|
+|Main      |Mason McTavish    |           1|
+|Main      |Connor Hellebuyck |           1|
+|Main      |Igor Shesterkin   |           1|
 |Farm      |Michael Misa      |           0|
-|Farm      |Mason McTavish    |           0|
 |Farm      |Zayne Parekh      |           0|
+|Farm      |Gavin McKenna     |           0|
+|Farm      |William Eklund    |           0|
+|Farm      |Beckett Sennecke  |           0|
 
 
 ### Стивен Прекрасный
 
 
-|Main/farm |Player           | Keeper cost|
-|:---------|:----------------|-----------:|
-|Main      |Nathan MacKinnon |           7|
-|Main      |Quinn Hughes     |           4|
-|Main      |Sam Reinhart     |           2|
-|Main      |Sidney Crosby    |           2|
-|Main      |Kirill Marchenko |           2|
-|Main      |Roope Hintz      |           1|
-|Main      |Mika Zibanejad   |           1|
-|Main      |Erik Karlsson    |           1|
-|Main      |Mark Stone       |           1|
-|Main      |Bryan Rust       |           1|
-|Main      |Matthew Knies    |           1|
-|Main      |Rickard Rakell   |           1|
-|Main      |Morgan Geekie    |           1|
-|Main      |Mathew Barzal    |           1|
-|Main      |Vince Dunn       |           1|
-|Main      |Karel Vejmelka   |           1|
-|Main      |Joel Hofer       |           1|
-|Farm      |Porter Martone   |           0|
-|Farm      |Gabe Perreault   |           0|
-|Farm      |Ryan Leonard     |           0|
-|Farm      |Igor Chernyshov  |           0|
-|Farm      |James Hagens     |           0|
+|Main/farm |Player              | Keeper cost|
+|:---------|:-------------------|-----------:|
+|Main      |William Nylander    |           1|
+|Main      |Adrian Kempe        |           1|
+|Main      |Brayden Point       |           1|
+|Main      |Nathan MacKinnon    |           8|
+|Main      |Mark Stone          |           2|
+|Main      |Mika Zibanejad      |           2|
+|Main      |Rasmus Andersson    |           1|
+|Main      |Shea Theodore       |           1|
+|Main      |Quinn Hughes        |           5|
+|Main      |Karel Vejmelka      |           2|
+|Main      |Robert Thomas       |           1|
+|Main      |Gabriel Vilardi     |           1|
+|Main      |Zach Hyman          |           1|
+|Main      |Shayne Gostisbehere |           1|
+|Farm      |James Hagens        |           0|
+|Farm      |Igor Chernyshov     |           0|
+|Farm      |Ryan Leonard        |           0|
+|Farm      |Gabe Perreault      |           0|
+|Farm      |Porter Martone      |           0|
 
 <br>
 <br>
