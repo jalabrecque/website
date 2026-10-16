@@ -272,15 +272,30 @@ async function fetchJournal(j, force) {
 }
 function revive(x) { return { ...x, created: new Date(x.created) }; }
 
-async function loadAll(force = false) {
+async function loadAll(force = false, only = null) {
   $("#status").textContent = "Updating…";
   $("#refresh").disabled = true;
   render();
-  await Promise.all(JOURNALS.map(async j => {
-    try { await fetchJournal(j, force); delete state.errors[j.id]; }
-    catch (e) { state.errors[j.id] = e instanceof TypeError ? "the browser couldn't reach Crossref; check your connection" : (e.message || "network error"); }
-    render();
-  }));
+  // Crossref's public pool allows only a few concurrent requests per client; excess ones are
+  // refused without CORS headers, which browsers report as a network failure. So: a small
+  // queue, and retries with backoff.
+  const queue = only ? JOURNALS.filter(j => only.includes(j.id)) : [...JOURNALS];
+  const sleep = ms => new Promise(r => setTimeout(r, ms));
+  async function worker() {
+    while (queue.length) {
+      const j = queue.shift();
+      let lastErr;
+      for (let attempt = 0; attempt < 4; attempt++) {
+        if (attempt) await sleep(1500 * 2 ** (attempt - 1));
+        try { await fetchJournal(j, force); lastErr = null; break; }
+        catch (e) { lastErr = e; }
+      }
+      if (lastErr) state.errors[j.id] = lastErr.name === "TypeError" ? "Crossref didn't respond; try again in a minute" : (lastErr.message || "network error");
+      else delete state.errors[j.id];
+      render();
+    }
+  }
+  await Promise.all([worker(), worker()]);
   $("#refresh").disabled = false;
   updateStatus();
 }
@@ -340,9 +355,10 @@ function render() {
   out.replaceChildren();
 
   const errs = $("#errors"); errs.replaceChildren();
-  for (const [id, msg] of Object.entries(state.errors)) {
-    errs.append(el("div", {}, `${J[id].name}: could not load (${msg}).`,
-      el("button", { className: "btn", type: "button", onclick: () => loadAll(true) }, "Try again")));
+  const failed = Object.keys(state.errors).filter(id => shown(J[id]));
+  if (failed.length) {
+    errs.append(el("div", {}, `Could not load ${failed.map(id => J[id].abbr).join(", ")} (${state.errors[failed[0]]}).`,
+      el("button", { className: "btn", type: "button", onclick: () => loadAll(true, failed) }, "Try again")));
   }
 
   const anyData = Object.keys(state.data).length;
