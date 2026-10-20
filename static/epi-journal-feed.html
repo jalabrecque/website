@@ -137,7 +137,7 @@ footer { font-size: 0.75rem; color: var(--muted); padding-block: 0 40px; }
     </div>
   </div>
   <input type="search" id="q" placeholder="Filter titles and authors" aria-label="Filter titles and authors">
-  <label class="check"><input type="checkbox" id="hidefm" checked> Hide corrections, front matter &amp; meeting abstracts</label>
+  <label class="check"><input type="checkbox" id="hidefm" checked> Hide corrections &amp; front matter</label>
   <label class="check"><input type="checkbox" id="newonly"> New since last visit</label>
   <label class="check"><input type="checkbox" id="hideseen"> Hide looked-at <span id="seencount"></span></label>
 </div></div>
@@ -275,13 +275,13 @@ function normalize(item, jid) {
     nAuthors: (item.author || []).length,
     abstract: item.abstract ? cleanAbstract(item.abstract) : "",
     created,
-    fm: !title || FRONT_MATTER.test(title) || isMeetingAbstract(item),
+    fm: !title || FRONT_MATTER.test(title),
   };
 }
 
 // ---------- fetching ----------
 async function fetchJournal(j, force) {
-  const cached = store.get("data3:" + j.id, null);
+  const cached = store.get("data4:" + j.id, null);
   if (!force && cached && Date.now() - cached.at < CACHE_TTL) {
     state.data[j.id] = { at: cached.at, items: cached.items.map(revive) };
     return;
@@ -289,21 +289,32 @@ async function fetchJournal(j, force) {
   if (cached && !state.data[j.id]) state.data[j.id] = { at: cached.at, items: cached.items.map(revive) };
   const from = isoDay(new Date(Date.now() - FETCH_DAYS * 864e5));
   const filter = j.issn.map(i => "issn:" + i).concat(["type:journal-article", "from-created-date:" + from]).join(",");
-  const url = "https://api.crossref.org/works?filter=" + encodeURIComponent(filter) +
-    "&sort=created&order=desc&rows=300&select=DOI,title,author,created,abstract,published,published-online,published-print,issued";
-  const res = await fetch(url);
-  if (!res.ok) throw new Error("Crossref answered " + res.status);
-  const json = await res.json();
+  const base = "https://api.crossref.org/works?filter=" + encodeURIComponent(filter) +
+    "&rows=500&select=DOI,title,author,created,abstract,published,published-online,published-print,issued";
+  // Page through everything in the window: an abstract supplement can add hundreds of
+  // records in one day and would otherwise crowd real articles out of a single page.
+  const raw = [];
+  let cursor = "*";
+  for (let page = 0; page < 8; page++) {
+    const res = await fetch(base + "&cursor=" + encodeURIComponent(cursor));
+    if (!res.ok) throw new Error("Crossref answered " + res.status);
+    const msg = (await res.json()).message;
+    const got = msg.items || [];
+    raw.push(...got);
+    if (!got.length || raw.length >= (msg["total-results"] || 0) || !msg["next-cursor"]) break;
+    cursor = msg["next-cursor"];
+  }
   const seen = new Set();
   const items = [];
-  for (const it of json.message.items || []) {
+  for (const it of raw) {
+    if (isMeetingAbstract(it)) continue;   // dropped outright; they'd bloat the cache
     const n = normalize(it, j.id);
     if (!n.doi || seen.has(n.doi) || !n.created) continue;
     seen.add(n.doi); items.push(n);
   }
   const at = Date.now();
   state.data[j.id] = { at, items };
-  store.set("data3:" + j.id, { at, items: items.map(x => ({ ...x, created: x.created.toISOString() })) });
+  store.set("data4:" + j.id, { at, items: items.map(x => ({ ...x, created: x.created.toISOString() })) });
 }
 function revive(x) { return { ...x, created: new Date(x.created) }; }
 
