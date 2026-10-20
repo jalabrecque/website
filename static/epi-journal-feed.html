@@ -181,7 +181,6 @@ const store = {
 
 const state = {
   off: store.get("off", []),
-  set: store.get("set", "all"),
   days: store.get("days", 30),
   view: store.get("view", "date"),
   hidefm: store.get("hidefm", true),
@@ -371,7 +370,11 @@ function visibleItems() {
   }
   return out.sort((a, b) => b.created - a.created);
 }
-function shown(j) { return (state.set === "all" || !j.extra) && !state.off.includes(j.id); }
+function shown(j) { return !state.off.includes(j.id); }
+const EXTRA_IDS = JOURNALS.filter(j => j.extra).map(j => j.id);
+// Older versions stored an "Original 6" mode separately; fold it into the chip state once.
+if (store.get("set", null) === "core") { state.off = [...new Set([...state.off, ...EXTRA_IDS])]; store.set("off", state.off); }
+store.set("set", null);
 const J = Object.fromEntries(JOURNALS.map(j => [j.id, j]));
 const jc = id => J[id].extra ? "var(--j-extra)" : `var(--j-${id})`;
 
@@ -473,7 +476,7 @@ function buildControls() {
     chips.append(b);
   }
   $("#window").addEventListener("click", e => { const d = e.target.dataset.days; if (!d) return; state.days = +d; store.set("days", state.days); syncControls(); render(); });
-  $("#set").addEventListener("click", e => { const v = e.target.dataset.set; if (!v) return; state.set = v; store.set("set", v); syncControls(); render(); });
+  $("#set").addEventListener("click", e => { const v = e.target.dataset.set; if (!v) return; state.off = v === "core" ? [...EXTRA_IDS] : []; store.set("off", state.off); syncControls(); render(); });
   $("#view").addEventListener("click", e => { const v = e.target.dataset.view; if (!v) return; state.view = v; store.set("view", v); syncControls(); render(); });
   let t; $("#q").addEventListener("input", e => { clearTimeout(t); t = setTimeout(() => { state.q = e.target.value; render(); }, 120); });
   $("#hidefm").addEventListener("change", e => { state.hidefm = e.target.checked; store.set("hidefm", state.hidefm); render(); });
@@ -486,9 +489,10 @@ function buildControls() {
 function syncControls() {
   document.querySelectorAll("#chips .chip").forEach(b => {
     b.setAttribute("aria-pressed", String(!state.off.includes(b.dataset.id)));
-    b.hidden = !!b.dataset.extra && state.set !== "all";
   });
-  document.querySelectorAll("#set button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.set === state.set)));
+  const isCore = state.off.length === EXTRA_IDS.length && EXTRA_IDS.every(id => state.off.includes(id));
+  document.querySelectorAll("#set button").forEach(b => b.setAttribute("aria-pressed",
+    String(b.dataset.set === "core" ? isCore : state.off.length === 0)));
   document.querySelectorAll("#window button").forEach(b => b.setAttribute("aria-pressed", String(+b.dataset.days === state.days)));
   document.querySelectorAll("#view button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.view === state.view)));
   $("#hidefm").checked = state.hidefm;
