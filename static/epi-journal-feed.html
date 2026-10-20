@@ -123,7 +123,7 @@ footer { font-size: 0.75rem; color: var(--muted); padding-block: 0 40px; }
 <div class="bar"><div class="wrap">
   <div class="group"><span class="label">Journals</span>
     <div class="seg" id="set">
-      <button type="button" data-set="core">Original 6</button><button type="button" data-set="all">All 16</button>
+      <button type="button" data-set="core">Original 6</button><button type="button" data-set="all" id="allbtn">All</button>
     </div>
   </div>
   <div class="group" id="chips" aria-label="Journals"></div>
@@ -168,6 +168,7 @@ const JOURNALS = [
   { id: "ae",   abbr: "Ann Epi",  extra: true, name: "Annals of Epidemiology",                    issn: ["1047-2797", "1873-2585"], home: "https://www.sciencedirect.com/journal/annals-of-epidemiology" },
   { id: "pds",  abbr: "PDS",      extra: true, name: "Pharmacoepidemiology and Drug Safety",      issn: ["1053-8569", "1099-1557"], home: "https://onlinelibrary.wiley.com/journal/10991557" },
   { id: "rsm",  abbr: "RSM",      extra: true, name: "Research Synthesis Methods",                issn: ["1759-2879", "1759-2887"], home: "https://www.cambridge.org/core/journals/research-synthesis-methods" },
+  { id: "cer",  abbr: "Curr Epi", extra: true, name: "Current Epidemiology Reports",              issn: ["2196-2995"],              home: "https://link.springer.com/journal/40471" },
   { id: "bmc",  abbr: "BMC MRM",  extra: true, name: "BMC Medical Research Methodology",          issn: ["1471-2288"],              home: "https://bmcmedresmethodol.biomedcentral.com/articles" },
 ];
 const FETCH_DAYS = 90;           // always fetch 90 days; the window filter is client-side
@@ -499,6 +500,7 @@ function syncControls() {
   $("#hideseen").checked = state.hideseen;
 }
 
+$("#allbtn").textContent = "All " + JOURNALS.length;
 buildControls();
 loadAll(false);
 </script>
