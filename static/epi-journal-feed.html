@@ -238,8 +238,26 @@ function authorLine(a) {
   return first + " et al.";
 }
 
+// Date an article by its earliest publication date when the publisher gave one, else by DOI
+// registration. Registration alone misdates batch deposits (back-issues getting DOIs, whole
+// issues registered on one day), which pile up on a single date.
+function pubDate(item, registered) {
+  let best = null;
+  for (const k of ["published-online", "published-print", "published", "issued"]) {
+    const dp = item[k] && item[k]["date-parts"] && item[k]["date-parts"][0];
+    if (!dp || !dp[0]) continue;
+    let d;
+    if (dp[2]) d = new Date(Date.UTC(dp[0], dp[1] - 1, dp[2]));
+    else if (dp[1]) d = new Date(Date.UTC(dp[0], dp[1], 0));      // month only: use month end
+    else d = new Date(Date.UTC(dp[0], 11, 31));                    // year only: use year end
+    if (!best || d < best) best = d;
+  }
+  return best && registered && best < registered ? best : registered;
+}
+
 function normalize(item, jid) {
-  const created = item.created && item.created["date-time"] ? new Date(item.created["date-time"]) : partsToDate(item.created);
+  const registered = item.created && item.created["date-time"] ? new Date(item.created["date-time"]) : partsToDate(item.created);
+  const created = pubDate(item, registered);
   const title = stripTags((item.title || [])[0] || "");
   return {
     jid,
@@ -255,7 +273,7 @@ function normalize(item, jid) {
 
 // ---------- fetching ----------
 async function fetchJournal(j, force) {
-  const cached = store.get("data:" + j.id, null);
+  const cached = store.get("data2:" + j.id, null);
   if (!force && cached && Date.now() - cached.at < CACHE_TTL) {
     state.data[j.id] = { at: cached.at, items: cached.items.map(revive) };
     return;
@@ -264,7 +282,7 @@ async function fetchJournal(j, force) {
   const from = isoDay(new Date(Date.now() - FETCH_DAYS * 864e5));
   const filter = j.issn.map(i => "issn:" + i).concat(["type:journal-article", "from-created-date:" + from]).join(",");
   const url = "https://api.crossref.org/works?filter=" + encodeURIComponent(filter) +
-    "&sort=created&order=desc&rows=300&select=DOI,title,author,created,abstract";
+    "&sort=created&order=desc&rows=300&select=DOI,title,author,created,abstract,published,published-online,published-print,issued";
   const res = await fetch(url);
   if (!res.ok) throw new Error("Crossref answered " + res.status);
   const json = await res.json();
@@ -277,7 +295,7 @@ async function fetchJournal(j, force) {
   }
   const at = Date.now();
   state.data[j.id] = { at, items };
-  store.set("data:" + j.id, { at, items: items.map(x => ({ ...x, created: x.created.toISOString() })) });
+  store.set("data2:" + j.id, { at, items: items.map(x => ({ ...x, created: x.created.toISOString() })) });
 }
 function revive(x) { return { ...x, created: new Date(x.created) }; }
 
