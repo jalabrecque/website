@@ -137,7 +137,7 @@ footer { font-size: 0.75rem; color: var(--muted); padding-block: 0 40px; }
     </div>
   </div>
   <input type="search" id="q" placeholder="Filter titles and authors" aria-label="Filter titles and authors">
-  <label class="check"><input type="checkbox" id="hidefm" checked> Hide corrections &amp; front matter</label>
+  <label class="check"><input type="checkbox" id="hidefm" checked> Hide corrections, front matter &amp; meeting abstracts</label>
   <label class="check"><input type="checkbox" id="newonly"> New since last visit</label>
   <label class="check"><input type="checkbox" id="hideseen"> Hide looked-at <span id="seencount"></span></label>
 </div></div>
@@ -255,6 +255,14 @@ function pubDate(item, registered) {
   return best && registered && best < registered ? best : registered;
 }
 
+// Meeting-abstract supplements (e.g. SER abstracts in Epidemiology) are deposited as
+// journal articles. LWW gives them "10.1097/01.xxx.…" DOIs, and presenting authors carry "*".
+function isMeetingAbstract(item) {
+  const doi = String(item.DOI || "").toLowerCase();
+  if (/^10\.1097\/01\./.test(doi)) return true;
+  return (item.author || []).some(a => /\*\s*$/.test(a.family || a.name || ""));
+}
+
 function normalize(item, jid) {
   const registered = item.created && item.created["date-time"] ? new Date(item.created["date-time"]) : partsToDate(item.created);
   const created = pubDate(item, registered);
@@ -267,13 +275,13 @@ function normalize(item, jid) {
     nAuthors: (item.author || []).length,
     abstract: item.abstract ? cleanAbstract(item.abstract) : "",
     created,
-    fm: !title || FRONT_MATTER.test(title),
+    fm: !title || FRONT_MATTER.test(title) || isMeetingAbstract(item),
   };
 }
 
 // ---------- fetching ----------
 async function fetchJournal(j, force) {
-  const cached = store.get("data2:" + j.id, null);
+  const cached = store.get("data3:" + j.id, null);
   if (!force && cached && Date.now() - cached.at < CACHE_TTL) {
     state.data[j.id] = { at: cached.at, items: cached.items.map(revive) };
     return;
@@ -295,7 +303,7 @@ async function fetchJournal(j, force) {
   }
   const at = Date.now();
   state.data[j.id] = { at, items };
-  store.set("data2:" + j.id, { at, items: items.map(x => ({ ...x, created: x.created.toISOString() })) });
+  store.set("data3:" + j.id, { at, items: items.map(x => ({ ...x, created: x.created.toISOString() })) });
 }
 function revive(x) { return { ...x, created: new Date(x.created) }; }
 
