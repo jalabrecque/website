@@ -14,6 +14,8 @@ output:
 ### Breakfast
 - [Buttermilk waffles](https://www.jeremylabrecque.org/recipes/buttermilk_waffles)
 - [Bircher muesli](https://www.jeremylabrecque.org/recipes/bircher_muesli)
+- [Pumpkin banana oat cookies](https://www.jeremylabrecque.org/recipes/pumpkin-banana-oat-cookies)
+- [Instant Pot skyr](https://www.jeremylabrecque.org/recipes/instant-pot-skyr)
 
 ### Sides
 - [Ensalada a la Chilena](https://www.jeremylabrecque.org/recipes/ensalada_a_la_chilena)
@@ -35,6 +37,8 @@ output:
 - [Beef stew in instant pot](https://www.jeremylabrecque.org/recipes/beef_stew)
 - [Pineapple curry](https://www.jeremylabrecque.org/recipes/pineapple_curry)
 - [Tomato curry](https://www.jeremylabrecque.org/recipes/tomato_curry)
+- [Tajín-lime beef tacos](https://www.jeremylabrecque.org/recipes/tajin-lime-beef-tacos)
+- [Toddler beef & carrot stew (no salt)](https://www.jeremylabrecque.org/recipes/toddler-beef-carrot-stew)
 - [Cream corn](https://www.jeremylabrecque.org/recipes/cream_corn)
 
 
