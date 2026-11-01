@@ -14,7 +14,6 @@ output:
 ### Breakfast
 - [Buttermilk waffles](https://www.jeremylabrecque.org/recipes/buttermilk_waffles)
 - [Bircher muesli](https://www.jeremylabrecque.org/recipes/bircher_muesli)
-- [Pumpkin banana oat cookies](https://www.jeremylabrecque.org/recipes/pumpkin-banana-oat-cookies)
 - [Instant Pot skyr](https://www.jeremylabrecque.org/recipes/instant-pot-skyr)
 
 ### Sides
@@ -48,6 +47,10 @@ output:
 - [Pouding Chômeur](https://www.jeremylabrecque.org/recipes/pouding)
 - [Apple crisp (no sugar)](https://www.jeremylabrecque.org/recipes/apple_crisp)
 - [Apple crumble](https://www.jeremylabrecque.org/recipes/apple_crumble)
+- [Pumpkin banana oat cookies](https://www.jeremylabrecque.org/recipes/pumpkin-banana-oat-cookies)
+
+### Snacks
+- [Stovetop popcorn](https://www.jeremylabrecque.org/recipes/stovetop-popcorn)
 
 ### Baking
 - [Sourdough Crackers](https://www.jeremylabrecque.org/recipes/sourdough_crackers)
