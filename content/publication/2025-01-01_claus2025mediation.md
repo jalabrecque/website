@@ -1,5 +1,5 @@
 +++
-title = "Mediation of the Association Between APOE $arepsilon$4 Genotype, Cognition, and Dementia by Neuropathology Imaging Markers in the Rotterdam Study"
+title = "Mediation of the Association Between APOE ε4 Genotype, Cognition, and Dementia by Neuropathology Imaging Markers in the Rotterdam Study"
 date = "2025-01-01"
 publication_types = ["2"]
 authors = ["Claus, Jacqueline J", "Rosbergen, Mathijs T", "Labrecque, Jeremy A", "Vernooij, Meike W", "Wolters, Frank J", "Ikram, Mohammad Arfan"]

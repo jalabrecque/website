@@ -1,0 +1,26 @@
++++
+title = "Interpretation and potential biases of Mendelian randomization estimates with time-varying exposures"
+date = "2019-01-01"
+publication_types = ["2"]
+authors = ["Labrecque, Jeremy A", "Swanson, Sonja A"]
+publication = "In: American journal of epidemiology, (188), 1, _pp. 231-238_"
+abstract = ""
+abstract_short = ""
+image_preview = ""
+selected = false
+projects = []
+tags = []
+url_pdf = ""
+url_preprint = ""
+url_code = ""
+url_dataset = ""
+url_project = ""
+url_slides = ""
+url_video = ""
+url_poster = ""
+math = true
+highlight = true
+[header]
+image = ""
+caption = ""
++++
