@@ -14,14 +14,14 @@ output:
 
 ## Next session
 
-**Date:** October 30 at 13h (CET) — [sign up below](#subscribe-to-the-mailing-list) to receive a link to the meeting
+**Date:** November 13 at 13h (CET) — [sign up below](#subscribe-to-the-mailing-list) to receive a link to the meeting
 
-**Paper:** [Epistemic cultures, knowledge types, and disciplinary tensions in population health research: An international interview study](https://www.sciencedirect.com/science/article/pii/S0277953626008634)
+**Paper:** [From Claim to Brain: A Public and Patient Involvement and Engagement Project on how Causal Language is interpreted in Healthcare Studies](https://doi.org/10.1093/ajeadv/uuag042)
 
 
 
 <!-- ![](epidemiology x.png) -->
-[![](paper_screenshot.png)](https://www.sciencedirect.com/science/article/pii/S0277953626008634)
+[![](paper_screenshot.png)](https://doi.org/10.1093/ajeadv/uuag042)
 
 <br>
 
@@ -34,7 +34,7 @@ output:
 | September 18 |Tijdink 2026 |[Admitting uncertainty in the real breakthrough](https://www.horizons-mag.ch/2026/09/03/admitting-uncertainty-is-the-real-breakthrough/) |
 | October 16 |Yanai and Lercher 2019 | [Night science](https://pmc.ncbi.nlm.nih.gov/articles/PMC6712672/)|
 | October 30 |Collyer 2026 |[Epistemic cultures, knowledge types, and disciplinary tensions in population health research: An international interview study](https://www.sciencedirect.com/science/article/pii/S0277953626008634) |
-| November 13 | | |
+| November 13 |Bassett et al 2026 |[From Claim to Brain: A Public and Patient Involvement and Engagement Project on how Causal Language is interpreted in Healthcare Studies](https://doi.org/10.1093/ajeadv/uuag042) |
 | November 27 | | |
 | December 11 | | |
 
