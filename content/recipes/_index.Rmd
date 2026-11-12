@@ -37,19 +37,18 @@ output:
 - [Tomato curry](https://www.jeremylabrecque.org/recipes/tomato_curry)
 - [Tajín-lime beef tacos](https://www.jeremylabrecque.org/recipes/tajin-lime-beef-tacos)
 - [Toddler beef & carrot stew (no salt)](https://www.jeremylabrecque.org/recipes/toddler-beef-carrot-stew)
-- [Cream corn](https://www.jeremylabrecque.org/recipes/cream_corn)
 
 
 ### Québécois dishes
 - [Pâté chinois](https://www.jeremylabrecque.org/recipes/pate_chinois)
 - [Quiaude](https://www.jeremylabrecque.org/recipes/quiaude)
 - [Hot chicken](https://www.jeremylabrecque.org/recipes/hot_chicken)
+- [Pouding Chômeur](https://www.jeremylabrecque.org/recipes/pouding)
 
 
 ### Dessert     
 - [Chocolate chip oatmeal cookies](https://www.jeremylabrecque.org/recipes/chocolate_chip_oatmeal_cookies)
 - [Banana bread](https://www.jeremylabrecque.org/recipes/banana_bread)
-- [Pouding Chômeur](https://www.jeremylabrecque.org/recipes/pouding)
 - [Apple crisp (no sugar)](https://www.jeremylabrecque.org/recipes/apple_crisp)
 - [Apple crumble](https://www.jeremylabrecque.org/recipes/apple_crumble)
 - [Pumpkin banana oat cookies](https://www.jeremylabrecque.org/recipes/pumpkin-banana-oat-cookies)
