@@ -30,7 +30,6 @@ output:
 
 ###  Main meals
 - [Pollo arvejado](https://www.jeremylabrecque.org/recipes/pollo_arvejado)
-- [Pate Chinois](https://www.ricardocuisine.com/en/recipes/5541-pate-chinois-shepherd-s-pie)
 - [Salmon, asparagus, potatoes](https://www.jeremylabrecque.org/recipes/salmon_asparagus_potatoes)
 - [Jambalaya](https://www.jeremylabrecque.org/recipes/jambalaya)
 - [Beef stew in instant pot](https://www.jeremylabrecque.org/recipes/beef_stew)
@@ -39,6 +38,12 @@ output:
 - [Tajín-lime beef tacos](https://www.jeremylabrecque.org/recipes/tajin-lime-beef-tacos)
 - [Toddler beef & carrot stew (no salt)](https://www.jeremylabrecque.org/recipes/toddler-beef-carrot-stew)
 - [Cream corn](https://www.jeremylabrecque.org/recipes/cream_corn)
+
+
+### Québécois dishes
+- [Pâté chinois](https://www.jeremylabrecque.org/recipes/pate_chinois)
+- [Quiaude](https://www.jeremylabrecque.org/recipes/quiaude)
+- [Hot chicken](https://www.jeremylabrecque.org/recipes/hot_chicken)
 
 
 ### Dessert     
