@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Association Road</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,600&display=swap" rel="stylesheet">
+<style>
+/* VOICE: a quiet, exact methods plate; wry only where Jeremy's own talks are wry
+   IDEA: a surveyor's map of the territory between "association" and "causation"
+   PICTURE: the full branching map as one large plate; play mode is the same map walked
+   COLOUR and TYPE: white ground, ink, prussian for the road and legitimate endings, carmine for traps; Literata
+   LAYOUT: title, mode switch, map plate with detail panel at right (stacked under 900px) */
+:root{color-scheme:light dark;--bg:light-dark(#ffffff,#0f1217);--ink:light-dark(#10131a,#e7e9ee);--mute:light-dark(#5b6170,#9aa1b0);--line:light-dark(#d5d8de,#2a303b);--pr:light-dark(#0b4f8a,#6fa8dc);--prf:light-dark(#e8f0f8,#152435);--cr:light-dark(#c1121f,#ef6b73);--crf:light-dark(#fbeaeb,#2c1619);--card:light-dark(#fafbfc,#151920)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Literata,Georgia,serif;overflow-x:clip}
+.band{padding:clamp(20px,3vw,40px) max(4vw,16px)}
+header.band{padding-bottom:12px}
+h1{font-size:clamp(30px,4vw,44px);line-height:1.05;font-weight:600;margin:0 0 8px;text-wrap:balance}
+.lede{max-width:70ch;color:var(--mute);margin:0}
+.bar{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;margin-top:18px}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.seg button{font:inherit;font-size:15px;border:0;background:none;color:var(--ink);padding:0 18px;min-height:44px;cursor:pointer}
+.seg button[aria-pressed=true]{background:var(--pr);color:var(--bg)}
+button:focus-visible{outline:2px solid var(--pr);outline-offset:2px}
+.key{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;color:var(--mute)}
+.key i{display:inline-block;width:14px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px;border:1px solid}
+.wrap{display:grid;grid-template-columns:minmax(0,1fr) 380px;gap:24px;align-items:start}
+@media(max-width:900px){.wrap{grid-template-columns:minmax(0,1fr)}}
+.plate{border:1px solid var(--line);border-radius:10px;overflow:auto;background:var(--card);max-height:78vh}
+.plate svg{display:block}
+.node rect{rx:6;stroke-width:1.2}
+.node text{font:13px Literata,Georgia,serif;fill:var(--ink);pointer-events:none}
+.node{cursor:pointer}
+.node:focus{outline:none}.node:focus rect{stroke-width:3}
+.t-gate rect{fill:var(--bg);stroke:var(--pr)}
+.t-lesson rect{fill:var(--bg);stroke:var(--mute);stroke-dasharray:3 3}
+.t-trap rect{fill:var(--crf);stroke:var(--cr)}
+.t-end rect{fill:var(--prf);stroke:var(--pr);stroke-width:2.2}
+.t-mid rect{fill:var(--bg);stroke:var(--ink);stroke-width:1.6}
+.node.sel rect{stroke-width:3.2}
+.node.seen rect{fill:var(--prf)}
+.edge{fill:none;stroke:var(--mute);stroke-width:1.1;opacity:.45}
+.edge.hot{opacity:1}
+.edge.back{stroke-dasharray:4 4}
+.edge.hot{stroke:var(--pr);stroke-width:2.2}
+.lane{font:600 12px Literata,Georgia,serif;fill:var(--mute)}
+.lanebg{fill:var(--bg);opacity:.55}
+aside{border-left:1px solid var(--line);padding-left:22px}
+@media(max-width:900px){aside{border-left:0;padding-left:0;border-top:1px solid var(--line);padding-top:16px}}
+.tag{font-size:13px;color:var(--mute)}
+.tag b{font-weight:600}
+h2{font-size:24px;line-height:1.15;margin:4px 0 10px;font-weight:600;text-wrap:balance}
+.body p{margin:0 0 10px}
+.src{font-size:13px;color:var(--mute);border-top:1px solid var(--line);padding-top:8px;margin-top:12px}
+.choices{display:grid;gap:8px;margin-top:14px}
+.choices button{font:inherit;font-size:15px;text-align:left;background:var(--bg);color:var(--ink);border:1px solid var(--pr);border-radius:8px;padding:10px 14px;min-height:44px;cursor:pointer}
+.choices button:hover{background:var(--prf)}
+.choices button small{display:block;color:var(--mute);font-size:13px}
+.play{max-width:720px}
+.play .card{border:1px solid var(--line);border-radius:10px;padding:clamp(18px,3vw,32px);background:var(--card)}
+.trail{font-size:13px;color:var(--mute);margin-top:14px}
+.ctrl{display:flex;gap:10px;margin-top:14px;flex-wrap:wrap}
+.ctrl button{font:inherit;font-size:14px;min-height:44px;padding:0 14px;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:8px;cursor:pointer}
+.ending{border-left:4px solid var(--pr);padding-left:12px}
+.ending.trap{border-color:var(--cr)}
+code{font-size:14px;overflow-wrap:anywhere}
+.math{font-style:italic;white-space:nowrap}
+.warn{border:1px solid var(--cr);background:var(--crf);border-radius:8px;padding:12px 16px;margin-bottom:16px;font-size:15px}.warn ul{margin:6px 0 0;padding-left:20px}
+[hidden]{display:none!important}
+@media(prefers-reduced-motion:no-preference){.edge.hot{transition:stroke .2s}}
+</style>
+</head>
+<body>
+<header class="band">
+<h1>The Association Road</h1>
+<p class="lede">A choose-your-own-adventure for researchers who ask associational questions. The quest: keep the word “association” in your research question, legitimately. Most roads lead somewhere else.</p>
+<div class="bar">
+<div class="seg" role="group" aria-label="Mode"><button id="mMap" aria-pressed="true">Map</button><button id="mPlay" aria-pressed="false">Play</button></div>
+<div class="key"><span><i style="border-color:var(--ink)"></i>Start / crossroads</span><span><i style="border-color:var(--pr)"></i>Gate</span><span><i style="border-color:var(--mute);border-style:dashed"></i>Lesson (loops back)</span><span><i style="border-color:var(--cr);background:var(--crf)"></i>Trap ending</span><span><i style="border-color:var(--pr);background:var(--prf)"></i>Legitimate ending</span></div>
+</div>
+</header>
+
+<main class="band" style="padding-top:8px">
+<div id="warn" class="warn" hidden></div>
+<section id="mapView" class="wrap">
+<div class="plate" id="plate"></div>
+<aside id="detail"></aside>
+</section>
+<section id="playView" class="play" hidden>
+<div class="card" id="card"></div>
+<div class="ctrl"><button id="bBack">Back one step</button><button id="bRestart">Start over</button><button id="bShow">Show my path on the map</button></div>
+<div class="trail" id="trail"></div>
+</section>
+</main>
+
+<script>
+{
+const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');
+/* Story text lives in story.md next to this file. */
+function parseStory(md){
+  const N=[], errs=[];
+  const blocks = md.replace(/\r/g,'').split(/^## /m).slice(1);
+  for(const blk of blocks){
+    const lines = blk.split('\n');
+    const head = lines.shift().split('|').map(x=>x.trim());
+    const [id,type,cr] = head; const [col,row] = (cr||'').split(',').map(Number);
+    const n = {id,type,col,row,title:'',text:[],src:'',choices:[]};
+    if(!['mid','gate','lesson','trap','end'].includes(type)) errs.push(`Scene “${id}”: unknown type “${type}”`);
+    if(isNaN(col)||isNaN(row)) errs.push(`Scene “${id}”: position should look like 3,2`);
+    let para=[];
+    const flush=()=>{if(para.length){n.text.push(para.join(' '));para=[]}};
+    for(const raw of lines){
+      const l = raw.trim(); let m;
+      if(l.startsWith('### ')){n.title=l.slice(4).trim()}
+      else if(m=l.match(/^[-*] \[(.+)\]\(([^)\s]+)\)$/)){flush();n.choices.push([m[1],m[2]])}
+      else if(m=l.match(/^>\s*Source:\s*(.*)$/i)){flush();n.src=m[1]}
+      else if(!l){flush()}
+      else para.push(l);
+    }
+    flush(); N.push(n);
+  }
+  const ids=new Set(N.map(n=>n.id)), pos=new Set();
+  if(!ids.has('start')) errs.push('There must be a scene with id “start”');
+  for(const n of N){
+    for(const [,t] of n.choices) if(!ids.has(t)) errs.push(`Scene “${n.id}”: a choice points to “${t}”, which does not exist`);
+    const k=n.col+','+n.row; if(pos.has(k)) errs.push(`Scene “${n.id}”: position ${k} is already taken`); pos.add(k);
+  }
+  return {N, errs};
+}
+const fmt = s => esc(s).replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>').replace(/\*(.+?)\*/g,'<em>$1</em>');
+let N=[], byId={};
+const LANES = [[0,'Description and prediction'],[2,'The association road'],[5,'Objections and the causal road']];
+const CW=158, RH=82, BW=136, BH=50, PX=24, PY=34;
+const pos = n => ({x:PX+n.col*CW, y:PY+n.row*RH});
+
+
+function wrapLabel(t){const w=t.split(' ');const L=[];let cur='';for(const x of w){if((cur+' '+x).trim().length>19&&cur){L.push(cur);cur=x}else cur=(cur+' '+x).trim()}L.push(cur);return L.slice(0,3)}
+
+const plate = document.getElementById('plate'), detail = document.getElementById('detail');
+let sel='start', seen=new Set(), hist=['start'];
+
+function drawMap(){
+  const mc=Math.max(...N.map(n=>n.col)), mr=Math.max(...N.map(n=>n.row));
+  const W = PX*2+mc*CW+BW, H = PY*2+mr*RH+BH;
+  let s = `<svg width="${Math.round(W*0.92)}" height="${Math.round(H*0.92)}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Map of the adventure">`;
+  s += `<defs><marker id="ah" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L8 4L0 8z" fill="var(--mute)"/></marker><marker id="ahh" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L8 4L0 8z" fill="var(--pr)"/></marker></defs>`;
+  for(const [a,name] of LANES){const y=PY+a*RH-12;s+=`<text class="lane" x="${PX}" y="${y}">${name}</text>`}
+  const pathHot = new Set(); for(let i=1;i<hist.length;i++) pathHot.add(hist[i-1]+'>'+hist[i]);
+  const edges=[];
+  for(const n of N){const seenT=new Set();for(const [,t] of n.choices){if(seenT.has(t)||!byId[t])continue;seenT.add(t);edges.push([n,byId[t]])}}
+  for(const [a,b] of edges){
+    const p=pos(a),q=pos(b); const back = b.col<a.col || (b.col===a.col && b.row<a.row && b.type!=='lesson' && a.type==='lesson');
+    let x1,y1,x2,y2,d;
+    if(b.col>a.col){x1=p.x+BW;y1=p.y+BH/2;x2=q.x;y2=q.y+BH/2;const m=(x1+x2)/2;d=`M${x1} ${y1}C${m} ${y1} ${m} ${y2} ${x2-2} ${y2}`}
+    else if(b.col===a.col){x1=p.x+BW/2+(back?12:-12);y1=b.row>a.row?p.y+BH:p.y;x2=q.x+BW/2+(back?12:-12);y2=b.row>a.row?q.y:q.y+BH;d=`M${x1} ${y1}L${x2} ${y2+(b.row>a.row?-2:2)}`}
+    else{x1=p.x;y1=p.y+BH/2;x2=q.x+BW;y2=q.y+BH/2;const dy=Math.abs(y2-y1)<4?40:0;d=`M${x1} ${y1}C${x1-40} ${y1+dy} ${x2+40} ${y2+dy} ${x2+2} ${y2}`}
+    const hot = pathHot.has(a.id+'>'+b.id) || (sel===a.id);
+    if((back||b.col<a.col) && !hot) continue;
+    s+=`<path class="edge${back||b.col<a.col?' back':''}${hot?' hot':''}" d="${d}" marker-end="url(#${hot?'ahh':'ah'})"/>`;
+  }
+  for(const n of N){const p=pos(n);const t0=n.title.replace(/^Ending: /,'');const L=wrapLabel(t0[0].toUpperCase()+t0.slice(1));
+    const cls=`node t-${n.type}${n.id===sel?' sel':''}${seen.has(n.id)&&n.type!=='end'&&n.type!=='trap'?' seen':''}`;
+    s+=`<g class="${cls}" data-id="${n.id}" tabindex="0" role="button" aria-label="${esc(n.title)}"><rect x="${p.x}" y="${p.y}" width="${BW}" height="${BH}"/>`;
+    const y0=p.y+BH/2-(L.length-1)*8+4; L.forEach((l,i)=>{s+=`<text x="${p.x+10}" y="${y0+i*16}">${esc(l)}</text>`});
+    s+=`</g>`}
+  plate.innerHTML = s+'</svg>';
+  plate.querySelectorAll('.node').forEach(g=>{const go=()=>{sel=g.dataset.id;drawMap();showDetail()};g.addEventListener('click',go);g.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();go()}})});
+}
+
+const typeName={mid:'Crossroads',gate:'Gate',lesson:'Lesson',trap:'Trap ending',end:'Legitimate ending'};
+function nodeHTML(n,interactive){
+  const ch = n.choices.map(([l,t])=>`<button data-to="${t}"${byId[t]?'':' disabled'}>${fmt(l)}<small>→ ${byId[t]?esc(byId[t].title):'(missing scene)'}</small></button>`).join('');
+  const isEnd=n.type==='end'||n.type==='trap';
+  return `<div class="tag"><b>${typeName[n.type]}</b> · node <code>${n.id}</code></div><h2>${esc(n.title)}</h2>
+  <div class="body${isEnd?' ending'+(n.type==='trap'?' trap':''):''}">${n.text.map(p=>`<p>${fmt(p)}</p>`).join('')}</div>
+  <div class="choices">${ch}</div><div class="src">Source: ${esc(n.src)}</div>`;
+}
+function showDetail(){
+  const n=byId[sel];
+  detail.innerHTML = nodeHTML(n)+`<div class="ctrl"><button id="pf">Play from here</button></div>`;
+  detail.querySelectorAll('.choices button').forEach(b=>b.addEventListener('click',()=>{sel=b.dataset.to;drawMap();showDetail()}));
+  document.getElementById('pf').addEventListener('click',()=>{hist=[sel];seen=new Set([sel]);setMode('play')});
+}
+
+const card=document.getElementById('card'), trail=document.getElementById('trail');
+function renderPlay(){
+  const n=byId[hist[hist.length-1]];
+  card.innerHTML=nodeHTML(n);
+  card.querySelectorAll('.choices button').forEach(b=>b.addEventListener('click',()=>{hist.push(b.dataset.to);seen.add(b.dataset.to);renderPlay();card.scrollIntoView({block:'nearest'})}));
+  const ends=N.filter(x=>x.type==='end'||x.type==='trap');
+  trail.textContent=`Path: ${hist.map(h=>byId[h].title.replace(/^Ending: /,'')).join(' → ')} · Endings found: ${ends.filter(e=>seen.has(e.id)).length} of ${ends.length}`;
+}
+document.getElementById('bBack').addEventListener('click',()=>{if(hist.length>1){hist.pop();renderPlay()}});
+document.getElementById('bRestart').addEventListener('click',()=>{hist=['start'];renderPlay()});
+document.getElementById('bShow').addEventListener('click',()=>{sel=hist[hist.length-1];setMode('map')});
+
+const mMap=document.getElementById('mMap'), mPlay=document.getElementById('mPlay');
+function setMode(m){
+  const map=m==='map';
+  document.getElementById('mapView').hidden=!map; document.getElementById('playView').hidden=map;
+  mMap.setAttribute('aria-pressed',map); mPlay.setAttribute('aria-pressed',!map);
+  if(map){drawMap();showDetail()}else{seen.add(hist[hist.length-1]);renderPlay()}
+}
+mMap.addEventListener('click',()=>setMode('map'));
+mPlay.addEventListener('click',()=>setMode('play'));
+fetch('story.md',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.text()}).then(md=>{
+  const r=parseStory(md); N=r.N; byId=Object.fromEntries(N.map(n=>[n.id,n]));
+  if(r.errs.length){const w=document.getElementById('warn');w.hidden=false;w.innerHTML='<b>Problems in story.md</b><ul>'+r.errs.map(e=>'<li>'+esc(e)+'</li>').join('')+'</ul>'}
+  seen.add('start'); setMode('map');
+}).catch(e=>{const w=document.getElementById('warn');w.hidden=false;w.innerHTML='<b>Could not load story.md.</b> It must sit in the same folder as this page, and the page must be served by a web server (for example <code>hugo server</code>), not opened as a file. ('+esc(e.message)+')'});
+}
+</script>
+</body>
+</html>
