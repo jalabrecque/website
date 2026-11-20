@@ -16,18 +16,37 @@ How this file works (everything above the first `## ` line is ignored by the pag
 ## start | mid | 0,3
 ### The manuscript
 
-You have just written a paper which you are really excited about and would like to submit it to a high impact journal. The only thing you are worried about is that your research question is “to estimate the association between taking vitamin B supplements and dementia risk.” After spending an entire career avoiding causal language and using associational language instead, you've been hearing some people saying that associational language is not appropriate for a reesearch question! Imagine! Your methods describe how you chose covariates with a causal graph: age, sex, baseline cognition, APOE, education.
+You have just written a paper which you are really excited about and would like to submit it to a high impact journal. The only thing you are worried about is that your research question is “to estimate the association between taking vitamin B supplements and dementia risk.” After spending an entire career carefully avoiding causal language and using associational language instead, you've been hearing some people saying that it's associational language that is wrong! You are determined to show that it's perfectly fine to use associational language in your research question!
 
-Your quest: keep the word “association” in the research question, and have it mean something you can defend.
+Your quest, if you choose to accept it, is to find a way keep the word “association” in your research question and have it mean something you can defend.
 
-- [Send the draft to your coauthor](purpose)
+Your challenge begins with an insubordinate coauthor (don't they want an extra publication for their CV?).
+
+- [Read the email from your coauthor](purpose)
 
 > Source: Labrecque & Kezios, BMJ 2026;392:e085749, Box 1
 
 ## purpose | mid | 1,3
-### What is the answer for?
+### What is this research for?
 
-Your coauthor asks a simple question first: imagine the result is in. What action is it supposed to inform?
+```
+Dear first author,
+
+Clearly a lot of work has gone into this paper. But it's not clear to me what the goal of your paper is. in your objective sentence you say it's “to estimate the association between taking vitamin B supplements and dementia risk.” Is this association meant to be something [descriptive, predictive or causal](https://www.tandfonline.com/doi/full/10.1080/09332480.2019.1579578)? Or do you really just want to know an association? 
+
+Dr. Jessica Young has this [nice trick](https://www.ovid.com/jnls/epidem/fulltext/10.1097/ede.0000000000001704~story-led-causal-inference) to help people decide what kind of research questios they have:
+
+> Suppose I gave you R (SAS, STATA) code and guaranteed that running this code provides the optimal analysis for your question. You run it and output a point estimate in the expected direction, the confidence interval is narrow. The P value is less than . How would you explain the implications of your results in the Discussion section? What will you suggest should be done next based on your findings?
+
+So how would you describe what should be done next given the results you've found?
+
+Best,
+
+Middle author
+Institute for Better Research Questions
+
+```
+
 
 - [Tracking how dementia risk differs between users and non-users](desc1)
 - [Deciding who should be screened for dementia](pred1)
@@ -39,7 +58,9 @@ Your coauthor asks a simple question first: imagine the result is in. What actio
 ## which | gate | 2,3
 ### Which association is “the” association?
 
-There are many associations between supplement use and dementia: crude, adjusted for age and sex, adjusted for your five covariates, adjusted for some other set. Each is a different quantity to estimate, whether or not the numbers differ.
+Your coauthor turns to your methods section: you adjusted for five covariates chosen with a causal graph (age, sex, baseline cognition, APOE and education).
+
+There are many associations between supplement use and dementia: crude, adjusted for age and sex, adjusted for those five covariates, adjusted for some other set. Each is a different quantity to estimate, whether or not the numbers differ.
 
 “The association” names none of them. Which one do you mean?
 
