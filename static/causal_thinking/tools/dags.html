@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DAG path checker</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+.grid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:clamp(20px,3vw,40px);align-items:start;margin-top:18px}
+.fig{position:relative;min-height:380px;border:1px solid var(--rule);border-radius:6px}.fig>svg{position:absolute;inset:0;width:100%;height:100%}
+.bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:18px}
+.verdict{padding:12px 14px;background:var(--panel);border-left:3px solid var(--ink);font-size:15px}
+.verdict b{display:block;font-size:17px;margin-bottom:2px}
+.paths{list-style:none;padding:0;margin:14px 0 0}
+.paths li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;padding:9px 4px;border-top:1px solid var(--rule);font-variant-numeric:tabular-nums;cursor:default}
+.paths li:hover,.paths li:focus{background:var(--panel);outline:none}
+.paths .st{font-size:13px;font-weight:600;white-space:nowrap}
+.st.open{color:var(--red)}.st.blocked{color:var(--mute)}.st.causal{color:var(--blue)}
+.kind{font-size:12px;color:var(--mute);display:block}
+.key{font-size:13px;color:var(--mute);margin-top:8px}
+svg text{font:600 16px Inter,sans-serif;fill:var(--ink)}
+svg .node{cursor:pointer}svg .node.u{cursor:default}svg .node.u text{fill:var(--mute)}
+svg .edge{stroke:var(--mute);stroke-width:1.6;fill:none}
+svg .edge.hi{stroke:var(--ink);stroke-width:3}
+textarea{font:14px/1.5 ui-monospace,Menlo,monospace}
+@media(max-width:760px){.grid{grid-template-columns:minmax(0,1fr)}}
+</style>
+</head>
+<body>
+<header class="band">
+  <a class="back" href="../">← Causal Thinking</a>
+  <h1>Which paths does your adjustment set close?</h1>
+  <p class="lede">Click a node to adjust for it (a box means you've conditioned on it). Grey nodes are unmeasured. Hover over a path in the list to trace it on the graph.</p>
+  <div class="bar">
+    <label for="preset" class="num">DAG</label>
+    <select id="preset"></select>
+    <button type="button" id="clear">Clear adjustment</button>
+  </div>
+</header>
+<main class="band" style="padding-top:0">
+  <div class="grid">
+    <div><div class="fig" id="fig"><svg id="svg" role="img" aria-label="Directed acyclic graph"></svg></div>
+      <p class="key" id="note"></p></div>
+    <div>
+      <div class="verdict" id="verdict"></div>
+      <ul class="paths" id="paths"></ul>
+    </div>
+  </div>
+  <details style="margin-top:28px" id="customBox">
+    <summary style="cursor:pointer;font-weight:500;min-height:32px">Write your own DAG</summary>
+    <p class="num">One edge per line (<code>L -&gt; A</code>). Also set <code>exposure A</code>, <code>outcome Y</code>, and <code>unmeasured U</code> as needed.</p>
+    <textarea id="custom" rows="8">exposure A
+outcome Y
+unmeasured U
+L -> A
+L -> Y
+U -> L
+U -> Y
+A -> Y</textarea>
+    <div class="bar"><button type="button" id="draw">Draw</button><span class="num" id="cerr"></span></div>
+  </details>
+</main>
+
+<script>
+{
+const PRESETS={
+ confounding:{name:"Confounding",x:"A",y:"Y",n:{L:[.5,.2],A:[.15,.75],Y:[.85,.75]},e:[["L","A"],["L","Y"],["A","Y"]],note:"Adjusting for L closes the only backdoor path."},
+ mediator:{name:"Confounder and mediator",x:"A",y:"Y",n:{L:[.5,.1],A:[.12,.82],M:[.5,.5],Y:[.88,.82]},e:[["L","A"],["L","Y"],["A","M"],["M","Y"],["A","Y"]],note:"Try adjusting for M: it blocks part of the effect you want to estimate."},
+ mbias:{name:"M-bias",x:"A",y:"Y",u:["U1","U2"],n:{U1:[.15,.15],U2:[.85,.15],C:[.5,.45],A:[.15,.85],Y:[.85,.85]},e:[["U1","A"],["U1","C"],["U2","C"],["U2","Y"],["A","Y"]],note:"C is associated with both A and Y, but adjusting for it opens a path."},
+ collider:{name:"Collider descendant",x:"A",y:"Y",n:{A:[.15,.3],Y:[.85,.3],S:[.5,.62],D:[.5,.9]},e:[["A","Y"],["A","S"],["Y","S"],["S","D"]],note:"Adjusting for D, a descendant of the collider S, partly opens A → S ← Y."},
+ time:{name:"Time-blindness (Lecture 2.2)",x:"A0",y:"Y",u:["Am1"],lab:{Am1:"A₋₁",A0:"A₀"},n:{Am1:[.12,.22],L:[.5,.22],A0:[.5,.78],Y:[.9,.78]},e:[["Am1","A0"],["Am1","Y"],["L","A0"],["L","Y"],["A0","Y"]],note:"Past exposure A₋₁ is unmeasured. No adjustment set of measured variables closes A₀ ← A₋₁ → Y."}
+};
+const $=id=>document.getElementById(id),svg=$('svg');
+let G,Z=new Set();
+const lab=v=>(G.lab&&G.lab[v])||v;
+function load(g){G=g;Z=new Set();render()}
+function parse(txt){
+  const g={name:"Custom",x:"A",y:"Y",u:[],n:{},e:[]},nodes=[];
+  for(const raw of txt.split('\n')){const l=raw.trim();if(!l)continue;let m;
+    if(m=l.match(/^exposure\s+(\S+)$/i))g.x=m[1];else if(m=l.match(/^outcome\s+(\S+)$/i))g.y=m[1];
+    else if(m=l.match(/^unmeasured\s+(.+)$/i))g.u.push(...m[1].split(/[\s,]+/));
+    else if(m=l.match(/^(\S+)\s*->\s*(\S+)$/)){g.e.push([m[1],m[2]]);for(const v of [m[1],m[2]])if(!nodes.includes(v))nodes.push(v)}
+    else throw new Error('Could not read: '+l)}
+  if(!nodes.includes(g.x)||!nodes.includes(g.y))throw new Error('Exposure and outcome must appear in an edge.');
+  if(cyclic(nodes,g.e))throw new Error('The graph has a cycle.');
+  const others=nodes.filter(v=>v!==g.x&&v!==g.y);g.n[g.x]=[.12,.8];g.n[g.y]=[.88,.8];
+  others.forEach((v,i)=>{const t=Math.PI*(1-(i+1)/(others.length+1));g.n[v]=[.5+.4*Math.cos(t),.8-.65*Math.sin(t)]});
+  return g}
+function cyclic(nodes,e){const ch=v=>e.filter(x=>x[0]===v).map(x=>x[1]);const st={};const dfs=v=>{st[v]=1;for(const c of ch(v)){if(st[c]===1||(!st[c]&&dfs(c)))return true}st[v]=2;return false};return nodes.some(v=>!st[v]&&dfs(v))}
+const children=v=>G.e.filter(x=>x[0]===v).map(x=>x[1]);
+function desc(v){const out=new Set(),s=[v];while(s.length)for(const c of children(s.pop()))if(!out.has(c)){out.add(c);s.push(c)}return out}
+function paths(){
+  const adj={};for(const v in G.n)adj[v]=[];
+  for(const [a,b] of G.e){adj[a].push([b,'f']);adj[b].push([a,'b'])}
+  const res=[],walk=(v,seen,steps)=>{if(v===G.y){res.push(steps.slice());return}
+    for(const [w,d] of adj[v])if(!seen.has(w)){seen.add(w);steps.push([v,w,d]);walk(w,seen,steps);steps.pop();seen.delete(w)}};
+  walk(G.x,new Set([G.x]),[]);
+  return res.map(st=>{
+    const causal=st.every(s=>s[2]==='f');let blocked=false,why='';
+    for(let i=0;i<st.length-1;i++){const v=st[i][1],into1=st[i][2]==='f',into2=st[i+1][2]==='b';
+      if(into1&&into2){const opened=Z.has(v)||[...desc(v)].some(d=>Z.has(d));if(!opened){blocked=true;why='collider '+lab(v)}}
+      else if(Z.has(v)){blocked=true;why=lab(v)}}
+    const txt=lab(st[0][0])+st.map(s=>(s[2]==='f'?' → ':' ← ')+lab(s[1])).join('');
+    return {st,causal,blocked,why,txt}})}
+function render(){
+  const P=paths(),dx=desc(G.x),badZ=[...Z].filter(v=>dx.has(v));
+  const ncOpen=P.filter(p=>!p.causal&&!p.blocked),cBlocked=P.filter(p=>p.causal&&p.blocked);
+  const zs=Z.size?'{'+[...Z].map(lab).join(', ')+'}':'no variables';
+  let head,body;
+  if(ncOpen.length){head='Not sufficient';body=`Adjusting for ${zs} leaves ${ncOpen.length} non-causal path${ncOpen.length>1?'s':''} open.`}
+  else if(badZ.length){head='Closes the backdoor, but…';body=`${badZ.map(lab).join(', ')} ${badZ.length>1?'are descendants':'is a descendant'} of ${lab(G.x)}. ${cBlocked.length?'Part of the causal effect is now blocked.':'Adjusting for a descendant of the exposure is risky.'}`}
+  else{head='Sufficient';body=`Adjusting for ${zs} blocks every non-causal path and leaves the causal paths open.`}
+  $('verdict').innerHTML=`<b>${head}</b>${body}`;
+  $('paths').innerHTML=P.map((p,k)=>`<li tabindex="0" data-k="${k}"><span>${p.txt}<span class="kind">${p.causal?'causal path':'non-causal path'}${p.blocked?' · blocked by '+p.why:''}</span></span><span class="st ${p.blocked?'blocked':p.causal?'causal':'open'}">${p.blocked?'blocked':'open'}</span></li>`).join('');
+  $('note').textContent=G.note||'';
+  draw(P);
+}
+function draw(P,hi){
+  const W=svg.clientWidth,H=svg.clientHeight;if(!W)return;const pad=46;
+  const XY=v=>[pad+G.n[v][0]*(W-2*pad),pad+G.n[v][1]*(H-2*pad)];const R=24;
+  const key=(a,b)=>a+'>'+b;const hiSet=new Set(hi?hi.st.map(s=>s[2]==='f'?key(s[0],s[1]):key(s[1],s[0])):[]);
+  const edges=G.e.map(([a,b])=>{const[x1,y1]=XY(a),[x2,y2]=XY(b),d=Math.hypot(x2-x1,y2-y1),ux=(x2-x1)/d,uy=(y2-y1)/d;
+    return `<line class="edge${hiSet.has(key(a,b))?' hi':''}" x1="${x1+ux*R}" y1="${y1+uy*R}" x2="${x2-ux*(R+4)}" y2="${y2-uy*(R+4)}" marker-end="url(#${hiSet.has(key(a,b))?'ah2':'ah'})"/>`}).join('');
+  const u=new Set(G.u||[]);
+  const nodes=Object.keys(G.n).map(v=>{const[x,y]=XY(v),isU=u.has(v),z=Z.has(v),ex=v===G.x||v===G.y;
+    return `<g class="node${isU?' u':''}" data-v="${v}" ${isU?'':'tabindex="0" role="button" aria-pressed="'+z+'"'} aria-label="${lab(v)}${isU?' (unmeasured)':''}">
+    <circle cx="${x}" cy="${y}" r="${R}" fill="var(--bg)" stroke="${isU?'var(--mute)':'transparent'}" stroke-dasharray="${isU?'3 3':''}"/>
+    ${z?`<rect x="${x-R}" y="${y-R}" width="${2*R}" height="${2*R}" fill="none" stroke="var(--ink)" stroke-width="2"/>`:''}
+    <text x="${x}" y="${y+6}" text-anchor="middle" ${ex?'style="text-decoration:underline"':''}>${lab(v)}</text></g>`}).join('');
+  svg.innerHTML=`<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0L10,5L0,10z" fill="var(--mute)"/></marker><marker id="ah2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0L10,5L0,10z" fill="var(--ink)"/></marker></defs>${edges}${nodes}`;
+}
+function toggle(g){const v=g.dataset.v;if((G.u||[]).includes(v)||v===G.x||v===G.y)return;Z.has(v)?Z.delete(v):Z.add(v);render()}
+svg.addEventListener('click',e=>{const g=e.target.closest('.node');if(g)toggle(g)});
+svg.addEventListener('keydown',e=>{const g=e.target.closest('.node');if(g&&(e.key==='Enter'||e.key===' ')){e.preventDefault();toggle(g)}});
+const hov=e=>{const li=e.target.closest('li[data-k]');draw(paths(),li?paths()[+li.dataset.k]:null)};
+$('paths').addEventListener('mouseover',hov);$('paths').addEventListener('focusin',hov);
+$('paths').addEventListener('mouseleave',()=>draw(paths()));
+const sel=$('preset');sel.innerHTML=Object.entries(PRESETS).map(([k,p])=>`<option value="${k}">${p.name}</option>`).join('')+'<option value="custom" disabled>Custom</option>';
+sel.addEventListener('change',()=>load(PRESETS[sel.value]));
+$('clear').addEventListener('click',()=>{Z=new Set();render()});
+$('draw').addEventListener('click',()=>{try{load(parse($('custom').value));$('cerr').textContent='';sel.value='custom'}catch(err){$('cerr').textContent=err.message}});
+const ro=new ResizeObserver(()=>draw(paths()));ro.observe(svg);
+load(PRESETS.confounding);
+}
+</script>
+</body>
+</html>

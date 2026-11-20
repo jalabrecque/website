@@ -1,0 +1,27 @@
+/* Shared style for the Causal Thinking exercises: quiet, clinical, white + ink, one red, one blue */
+:root{color-scheme:light dark;--bg:light-dark(#fcfcfb,#11161a);--ink:light-dark(#121212,#e8eaec);--mute:light-dark(#5b6168,#9aa3ab);--rule:light-dark(#dfe2e5,#2a3238);--panel:light-dark(#f1f4f6,#182026);--red:light-dark(#c8102e,#e85050);--blue:light-dark(#1f6fa8,#4a9ad8);--ok:light-dark(#1d6b3a,#5cc283)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Inter,system-ui,sans-serif;overflow-x:clip}
+.band{padding:clamp(24px,3.5vw,48px) max(5vw,16px);max-width:1100px;margin:0 auto}
+h1,h2,h3{font-family:"Source Serif 4",Georgia,serif;font-weight:600;line-height:1.1;text-wrap:balance;margin:0}
+h1{font-size:clamp(30px,4vw,42px)}h2{font-size:24px}h3{font-size:19px}
+.lede{color:var(--mute);margin:8px 0 0;max-width:68ch}
+.back{font-size:14px;color:var(--mute);text-decoration:none;display:inline-block;margin-bottom:14px}
+.back:hover{color:var(--ink)}
+.card{border-top:1px solid var(--rule);padding:22px 0}
+.q{font-family:"Source Serif 4",Georgia,serif;font-size:21px;line-height:1.35;margin:4px 0 14px;max-width:62ch}
+.num{font-size:13px;color:var(--mute);font-variant-numeric:tabular-nums}
+.opts{display:flex;flex-wrap:wrap;gap:8px}
+button{font:500 15px Inter,sans-serif;min-height:44px;padding:0 14px;border:1px solid var(--rule);border-radius:4px;background:var(--bg);color:var(--ink);cursor:pointer}
+button:hover{border-color:var(--mute)}
+button[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+button.right{border-color:var(--ok);box-shadow:inset 0 0 0 1px var(--ok)}
+button.wrong{border-color:var(--red);box-shadow:inset 0 0 0 1px var(--red)}
+button:focus-visible,textarea:focus-visible,select:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.fb{margin-top:12px;padding:10px 12px;background:var(--panel);border-left:3px solid var(--ink);font-size:15px;max-width:72ch}
+.fb b.y{color:var(--ok)}.fb b.n{color:var(--red)}
+textarea,select{font:16px Inter,sans-serif;width:100%;max-width:640px;padding:10px;border:1px solid var(--rule);border-radius:4px;background:var(--bg);color:var(--ink)}
+select{min-height:44px;width:auto}
+.score{position:sticky;bottom:0;background:var(--bg);border-top:1px solid var(--rule);padding:12px max(5vw,16px);font-size:15px;display:flex;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.sample{font-size:13px;color:var(--mute)}

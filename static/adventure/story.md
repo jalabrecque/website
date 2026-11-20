@@ -22,6 +22,8 @@ Your quest, if you choose to accept it, is to find a way keep the word “associ
 
 Your challenge begins with an insubordinate coauthor (don't they want an extra publication for their CV?).
 
+*Warning: if you undertake this adventure and fail, you will be forced to look at your own papers with associational research questions, and at all the papers you have read with associational research questions. It will fill you with great doubt and possibly grief.*
+
 - [Read the email from your coauthor](purpose)
 
 > Source: Labrecque & Kezios, BMJ 2026;392:e085749, Box 1
@@ -156,6 +158,8 @@ You selected covariates with a causal graph to block confounding, then interpret
 
 In a sample of articles from top epidemiology journals, 69% stated “seemingly causal” goals that fit no task cleanly.
 
+Notes for Jeremy to replace: an association is evidence only relative to a question. Tied to a descriptive estimand it is evidence about a distribution; to a predictive one, about predictive value; read through causal assumptions, about an effect. Tied to no question, there is nothing for it to be right or wrong about, and bias cannot even be defined (EJE commentary, Problem 4).
+
 - [It is hypothesis-generating: it tells us whether a trial is worthwhile](hypgen)
 - [It describes something](desc1)
 - [All right. It is causal.](admit)
@@ -208,9 +212,20 @@ You want to know what would happen to dementia risk if people took vitamin B. Th
 - [Causal language claims more certainty than I have](humility)
 - [My journal will not allow causal language](journal)
 - [There must be an “associational” research task](table2)
+- [My data are observational, and observational data cannot answer causal questions](obsdata)
 - [No objections. Show me the causal road.](c1)
 
 > Source: BMJ 2026, Fig 1
+
+## obsdata | lesson | 3,5
+### My data can't answer that, so it's an association
+
+Notes for Jeremy to replace with his own text. Three replies from your material: the destination on the ticket doesn't change with the train (by this logic no trial is causal until its loss to follow-up is known); the premise is false, because identification theory says when observational data can answer causal questions (Separating research questions from uncertainty, Option 1); and if it were true, nothing could justify the first trial (Prasad et al. 2013; "Can a literature that is not allowed to mention causes be the reason to run an RCT?").
+
+- [Fair. Back to my objections.](admit)
+- [Show me the causal road](c1)
+
+> Source: Separating research questions from uncertainty (draft); Labrecque, AJE 2026 (ticket to nowhere); Prasad et al., J Clin Epidemiol 2013
 
 ## humility | lesson | 3,6
 ### Two dimensions, not one
@@ -282,31 +297,31 @@ The verdict so far: associations are not a fourth research task.
 ## desc1 | gate | 2,0
 ### A descriptive question
 
-For example: “to describe the difference in five-year dementia risk between people who do and do not take vitamin B,” possibly age-standardised.
+If your question is descriptive, would it be more accurate to describe the research question as “to describe the difference in five-year dementia risk between people who do and do not take vitamin B?” 
 
-Check: is any adjustment variable there to remove a nuisance such as confounding?
+In your methods section you mention that you used a DAG to choose your covariates and settled on age, sex, baseline cognition, APOE and education level. If this is your research question, what is the purpose of adjustment?
 
-- [Yes, to remove confounding](confof)
-- [No, it is part of the comparison itself](desc2)
+- [To remove confounding](confof)
+- [I want to see what difference is left after I adjust for these variables](desc2)
 
 > Source: BMJ 2026; Fox et al., AJE 2022; Conroy & Murray, Br J Cancer 2020
 
 ## desc2 | gate | 3,0
 ### The discussion test
 
-Will your discussion suggest mechanisms, say the difference is “explained by” something, or recommend action?
+In your discussion, if you find the risk of dementia is lower in people taking the supplements, would you suggest mechanisms, say the difference is “explained by” something, or recommend people take supplements?
 
-- [Yes: supplements may be protective](dark)
-- [No: describe it, then stop](endDesc)
+- [Yes, I could say that supplements may be protective](dark)
+- [No, I'm just describing the differnce between these groups](endDesc)
 
 > Source: Stolen causal inference (draft)
 
 ## endDesc | end | 4,0
 ### Ending: a legitimate descriptive question
 
-You found the one place association language is allowed: a descriptive comparison between groups. Even here the word is risky, because readers struggle to tell description from causation once adjustment appears.
+You found the one place where it makes sense to use association in your research question! A descriptive contrast can be described as an association. Even here, though, the word is risky because people don't always understand the word association to mean something descrptive. In fact, some poeple seem to think it's a causal word!
 
-The clearest version says describe, differences, distributions or trends, and uses descriptive methods.
+It would be clearest to use language like describe, differences between, distributions or trends instead of the word association.
 
 - [Start over](start)
 

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Valid or sound?</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+.arg{list-style:none;padding:0;margin:0 0 14px;max-width:66ch}
+.arg li{display:grid;grid-template-columns:3.2em 1fr;gap:8px;padding:8px 10px;border-radius:4px}
+.arg li .tag{color:var(--mute);font-size:13px;padding-top:2px}
+.arg li.concl{border-top:1px solid var(--ink);margin-top:4px;font-weight:500}
+.arg li.pick{cursor:pointer;border:1px dashed var(--rule)}
+.arg li.pick:hover{border-color:var(--mute)}
+.arg li.sel{outline:2px solid var(--ink)}
+.arg li.weak{background:var(--panel);box-shadow:inset 3px 0 0 var(--red)}
+.step{font-size:14px;color:var(--mute);margin:12px 0 8px}
+</style>
+</head>
+<body>
+<header class="band">
+  <a class="back" href="../">← Causal Thinking</a>
+  <h1>Valid or sound?</h1>
+  <p class="lede">First decide whether the conclusion follows from the premises. If it does, click the premise you'd challenge first.</p>
+  <p class="sample">Sample arguments for the prototype. Edit the list at the top of the script.</p>
+</header>
+<main class="band" id="list" style="padding-top:0"></main>
+<div class="score"><span id="score"></span><button type="button" id="reset">Start again</button></div>
+
+<script>
+{
+// weak: index of the premise most open to challenge (only for valid arguments)
+const ARGS=[
+ {p:["All humans are mortal.","Hestia is human."],c:"Hestia is mortal.",valid:true,form:"Categorical syllogism.",weak:1,whyWeak:"Hestia is an immortal Greek goddess. The form is fine; the second premise is false."},
+ {p:["If coffee lowers mortality, coffee drinkers will die at a lower rate than non-drinkers.","Coffee drinkers die at a lower rate than non-drinkers."],c:"Coffee lowers mortality.",valid:false,form:"Affirming the consequent. A lower death rate is also what you'd expect if healthier people drink more coffee."},
+ {p:["If conditional exchangeability given L, positivity and consistency hold, the adjusted HR equals the causal HR.","Conditional exchangeability given L, positivity and consistency hold.","The adjusted HR is 0.84."],c:"The causal HR is 0.84.",valid:true,form:"Modus ponens.",weak:1,whyWeak:"Premise 2 carries the weight, especially exchangeability. Saying that 'residual confounding cannot be excluded' is conceding this premise without defending it."},
+ {p:["If there is no unmeasured confounding, coffee will not be associated with death from accidental injury.","Coffee is associated with death from accidental injury."],c:"There is unmeasured confounding.",valid:true,form:"Modus tollens (a negative control outcome).",weak:0,whyWeak:"Premise 1 holds only if coffee can't cause accidental death and the injury outcome shares the main analysis's confounders. Falsification is only as good as that bridge premise."},
+ {p:["If the trial was randomised, the treatment groups are exchangeable.","The trial was randomised.","Loss to follow-up was 30% and differed between arms."],c:"The estimated RR of 1.4 is the causal RR.",valid:false,form:"The conclusion doesn't follow. Exchangeability at baseline says nothing about who stays in the analysis, and premise 3 points the other way. You'd need a premise about the missing data."},
+ {p:["If the instrument affects the outcome only through the exposure, and the other IV conditions hold, the IV estimate is causal.","The genetic variant affects the outcome only through the exposure, and the other IV conditions hold."],c:"The IV estimate is causal.",valid:true,form:"Modus ponens.",weak:1,whyWeak:"The exclusion restriction (in premise 2) is the usual weak point: pleiotropy is often possible and can't be tested directly."}
+];
+const list=document.getElementById('list'),score=document.getElementById('score');
+let st={};
+function render(){
+  list.innerHTML=ARGS.map((a,i)=>{
+    const s=st[i]||{};const done=s.v!==undefined;const pickable=done&&a.valid&&s.w===undefined;
+    return `<div class="card"><div class="num">Argument ${i+1} of ${ARGS.length}</div>
+    <ol class="arg">${a.p.map((t,j)=>`<li class="${pickable?'pick':''} ${s.w===j?'sel':''} ${s.w!==undefined&&a.weak===j?'weak':''}" data-i="${i}" data-j="${j}" ${pickable?'tabindex="0" role="button"':''}><span class="tag">P${j+1}</span><span>${t}</span></li>`).join('')}
+      <li class="concl"><span class="tag">C</span><span>${a.c}</span></li></ol>
+    <div class="opts" role="group" aria-label="Validity">${[[true,'Valid'],[false,'Invalid']].map(([v,l])=>`<button type="button" data-i="${i}" data-v="${v}" aria-pressed="${s.v===v}" class="${done?(v===a.valid?'right':s.v===v?'wrong':''):''}">${l}</button>`).join('')}</div>
+    ${done?`<div class="fb"><b class="${s.v===a.valid?'y':'n'}">${s.v===a.valid?'Yes,':'No, it\'s'} ${a.valid?'valid.':'invalid.'}</b> ${a.form}</div>`:''}
+    ${pickable?`<p class="step">Valid. Now click the premise you'd challenge first.</p>`:''}
+    ${s.w!==undefined?`<div class="fb"><b class="${s.w===a.weak?'y':'n'}">${s.w===a.weak?'Agreed.':'I\'d pick P'+(a.weak+1)+'.'}</b> ${a.whyWeak}</div>`:''}
+    </div>`}).join('');
+  const n=Object.values(st).filter(s=>s.v!==undefined).length,c=Object.entries(st).filter(([i,s])=>s.v===ARGS[i].valid).length;
+  score.textContent=`${n} of ${ARGS.length} judged · ${c} correct on validity`;
+}
+function pick(li){const i=+li.dataset.i;st[i].w=+li.dataset.j;render()}
+list.addEventListener('click',e=>{
+  const b=e.target.closest('button[data-v]');if(b){const i=+b.dataset.i;if(st[i])return;st[i]={v:b.dataset.v==='true'};render();return}
+  const li=e.target.closest('li.pick');if(li)pick(li)});
+list.addEventListener('keydown',e=>{const li=e.target.closest('li.pick');if(li&&(e.key==='Enter'||e.key===' ')){e.preventDefault();pick(li)}});
+document.getElementById('reset').addEventListener('click',()=>{st={};render()});
+render();
+}
+</script>
+</body>
+</html>

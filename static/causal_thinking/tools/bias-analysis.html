@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bias analysis calculator</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* VOICE: clinical, quiet, a methods teaching tool for epidemiologists
+   IDEA: a worked page from a methods handbook — the estimate, then two questions asked of it
+   PICTURE: two live plots, corrected HR across confounder strength, and the explain-away frontier
+   COLOUR and TYPE: white, ink, one red for the estimate, one blue for the CI bound; Source Serif 4 + Inter
+   LAYOUT: estimate strip on top, then two bands, each controls left and plot right, stacked on phones */
+:root{color-scheme:light dark;--bg:light-dark(#fcfcfb,#11161a);--ink:light-dark(#121212,#e8eaec);--mute:light-dark(#5b6168,#9aa3ab);--rule:light-dark(#dfe2e5,#2a3238);--panel:light-dark(#f1f4f6,#182026);--red:light-dark(#c8102e,#e85050);--blue:light-dark(#1f6fa8,#4a9ad8);--band:light-dark(rgba(200,16,46,.12),rgba(232,80,80,.18))}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Inter,system-ui,sans-serif;overflow-x:clip}
+.band{padding:clamp(24px,3.5vw,48px) max(5vw,16px);max-width:1240px;margin:0 auto}
+h1,h2{font-family:"Source Serif 4",Georgia,serif;font-weight:600;line-height:1.08;text-wrap:balance;margin:0}
+h1{font-size:clamp(30px,4vw,44px)}h2{font-size:26px;margin-bottom:4px}
+.lede{color:var(--mute);margin:8px 0 0;max-width:68ch}
+.est{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:end;margin-top:22px;padding:16px;background:var(--panel);border-radius:6px}
+.est label{display:grid;gap:4px;font-size:13px;color:var(--mute)}
+.est input{width:96px}
+input[type=number]{font:16px Inter,sans-serif;padding:9px 10px;border:1px solid var(--rule);border-radius:4px;background:var(--bg);color:var(--ink);min-height:44px}
+input:focus-visible,button:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+button{font:500 15px Inter,sans-serif;min-height:44px;padding:0 14px;border:1px solid var(--rule);border-radius:4px;background:var(--bg);color:var(--ink);cursor:pointer}
+.src{font-size:13px;color:var(--mute);flex-basis:100%}
+.err{color:var(--red);font-size:14px;flex-basis:100%}
+.grid{display:grid;grid-template-columns:minmax(0,340px) minmax(0,1fr);gap:clamp(20px,3vw,40px);margin-top:18px;align-items:start}
+section+section{border-top:1px solid var(--rule)}
+.ctl{display:grid;gap:18px}
+.sl label{display:flex;justify-content:space-between;font-size:14px;gap:8px}
+.sl output{font-variant-numeric:tabular-nums;font-weight:600;white-space:nowrap}
+.sl small{display:block;color:var(--mute);font-size:13px;margin-top:2px}
+input[type=range]{width:100%;height:44px;accent-color:var(--ink);margin:0}
+.big{font-family:"Source Serif 4",Georgia,serif;font-size:clamp(34px,5vw,52px);line-height:1;font-variant-numeric:tabular-nums}
+.res .lab{font-size:13px;color:var(--mute)}
+.res .ci{font-size:17px;font-variant-numeric:tabular-nums;margin-top:4px}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.verdict{font-size:15px;padding:10px 12px;border-left:3px solid var(--ink);background:var(--panel)}
+.fig{position:relative;min-height:360px}.fig>svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.legend{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:13px;color:var(--mute);margin-bottom:6px}
+.legend i{display:inline-block;width:18px;height:2px;vertical-align:middle;margin-right:6px}
+.tip{position:absolute;pointer-events:none;background:var(--ink);color:var(--bg);font-size:13px;padding:5px 8px;border-radius:4px;white-space:nowrap;display:none;font-variant-numeric:tabular-nums}
+details{font-size:14px;color:var(--mute);max-width:80ch}
+details summary{cursor:pointer;color:var(--ink);font-weight:500;min-height:32px}
+svg text{font:12px Inter,sans-serif;fill:var(--mute)}
+@media(max-width:760px){.grid{grid-template-columns:minmax(0,1fr)}.fig{min-height:300px}}
+</style>
+</head>
+<body>
+<header class="band">
+  <a href="../" style="font-size:14px;color:var(--mute);text-decoration:none;display:inline-block;margin-bottom:14px">← Causal Thinking</a>
+  <h1>How far could unmeasured confounding move this estimate?</h1>
+  <p class="lede">Two bias analyses for one binary unmeasured confounder U. Change the estimate to analyse another paper.</p>
+  <form class="est" id="estForm">
+    <label>Observed HR<input type="number" id="e" step="0.01" min="0.01" value="0.84"></label>
+    <label>95% CI lower<input type="number" id="lo" step="0.01" min="0.01" value="0.74"></label>
+    <label>95% CI upper<input type="number" id="hi" step="0.01" min="0.01" value="0.95"></label>
+    <button type="button" id="reset">Reset to Liu et al.</button>
+    <div class="src">Preset: <a href="https://doi.org/10.7326/M21-2977" style="color:inherit">Liu et al. 2022</a>, &gt;1.5 to 2.5 drinks/day of unsweetened coffee vs none, all-cause mortality.</div>
+    <div class="err" id="err" hidden></div>
+  </form>
+</header>
+
+<section class="band" id="what-would-it-do">
+  <h2>What would it do?</h2>
+  <p class="lede">You have a specific confounder in mind. Corrected HR = observed HR / bias factor.</p>
+  <div class="grid">
+    <div class="ctl">
+      <div class="res"><div class="lab">Corrected HR</div><div class="big" id="cHR">–</div><div class="ci" id="cCI"></div></div>
+      <div class="sl"><label for="p1">P(U = 1 | exposed)<output id="p1o"></output></label><input type="range" id="p1" min="0" max="1" step="0.01" value="0.5"></div>
+      <div class="sl"><label for="p0">P(U = 1 | unexposed)<output id="p0o"></output></label><input type="range" id="p0" min="0" max="1" step="0.01" value="0.3"></div>
+      <div class="sl"><label for="ruy">U–outcome RR<output id="ruyo"></output></label><input type="range" id="ruy" min="-2" max="2" step="0.01" value="-0.515"><small>Below 1: U is protective (e.g. a healthier lifestyle).</small></div>
+      <div class="verdict" id="v1"></div>
+    </div>
+    <div>
+      <div class="legend"><span><i style="background:var(--red)"></i>Corrected HR</span><span><i style="background:var(--band);height:10px"></i>Corrected 95% CI</span></div>
+      <div class="fig" id="f1"><svg id="s1" role="img" aria-label="Corrected hazard ratio across U–outcome risk ratios"></svg><div class="tip" id="t1"></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="what-would-it-take">
+  <h2>What would it take?</h2>
+  <p class="lede">How strong would a confounder need to be to explain the estimate away? Click the plot to place a candidate confounder.</p>
+  <div class="grid">
+    <div class="ctl">
+      <div class="pair">
+        <div class="res"><div class="lab">E-value, estimate</div><div class="big" id="evP">–</div></div>
+        <div class="res"><div class="lab">E-value, CI bound</div><div class="big" id="evC">–</div></div>
+      </div>
+      <div class="sl"><label for="rau">Exposure–U RR<output id="rauo"></output></label><input type="range" id="rau" min="1" max="4" step="0.01" value="1.5"></div>
+      <div class="sl"><label for="ruy2">U–outcome RR<output id="ruy2o"></output></label><input type="range" id="ruy2" min="1" max="4" step="0.01" value="1.5"><small>Both as strengths (≥ 1), in the direction that moves the estimate towards the null.</small></div>
+      <div class="verdict" id="v2"></div>
+    </div>
+    <div>
+      <div class="legend"><span><i style="background:var(--red)"></i>Explains away the estimate</span><span><i style="background:var(--blue)"></i>Moves the CI to include 1</span><span>Dots on the diagonal mark the E-values</span></div>
+      <div class="fig" id="f2"><svg id="s2" role="img" aria-label="Combinations of confounder strengths that explain away the estimate"></svg><div class="tip" id="t2"></div></div>
+    </div>
+  </div>
+</section>
+
+<footer class="band">
+  <details>
+    <summary>Assumptions and formulas</summary>
+    <p>Both analyses assume a single binary U that does not modify the effect and is independent of the covariates already adjusted for. HRs are treated as RRs, which is reasonable when the outcome is rare.</p>
+    <p>What would it do (Schlesselman 1978; Lin, Psaty &amp; Kronmal 1998): bias factor = [p₁(RR<sub>UY</sub> − 1) + 1] / [p₀(RR<sub>UY</sub> − 1) + 1], applied to the estimate and both CI limits.</p>
+    <p>What would it take (Ding &amp; VanderWeele 2016; VanderWeele &amp; Ding 2017): the maximum bias is RR<sub>AU</sub>·RR<sub>UY</sub> / (RR<sub>AU</sub> + RR<sub>UY</sub> − 1). E-value = RR + √[RR(RR − 1)], with RR taken as 1/HR when HR &lt; 1. The CI E-value uses the limit closest to 1, or equals 1 if the CI already includes 1.</p>
+  </details>
+</footer>
+
+<script>
+{
+const $=id=>document.getElementById(id);
+const f2=x=>x.toFixed(2);
+const S={e:.84,lo:.74,hi:.95};
+const probe=document.createElement('i');probe.style.display='none';document.body.appendChild(probe);
+const css=n=>{probe.style.color=`var(${n})`;return getComputedStyle(probe).color};
+const ruyOf=()=>2**(+$('ruy').value);
+const bias=(p1,p0,r)=>(p1*(r-1)+1)/(p0*(r-1)+1);
+const toFar=x=>x<1?1/x:x;
+const eval_=r=>r<=1?1:r+Math.sqrt(r*(r-1));
+function ciE(){if(S.lo<=1&&S.hi>=1)return 1;return eval_(toFar(S.e<1?S.hi:S.lo))}
+function readEst(){
+  const e=+$('e').value,lo=+$('lo').value,hi=+$('hi').value,err=$('err');
+  if(!(e>0&&lo>0&&hi>0&&lo<=e&&e<=hi)){err.hidden=false;err.textContent='Enter positive values with lower ≤ HR ≤ upper.';return false}
+  err.hidden=true;Object.assign(S,{e,lo,hi});return true
+}
+// ---- What would it do
+const s1=$('s1'),t1=$('t1');
+function do1(){
+  const p1=+$('p1').value,p0=+$('p0').value,r=ruyOf();
+  $('p1o').textContent=f2(p1);$('p0o').textContent=f2(p0);$('ruyo').textContent=f2(r);
+  const b=bias(p1,p0,r),c=S.e/b,cl=S.lo/b,ch=S.hi/b;
+  $('cHR').textContent=f2(c);$('cCI').textContent=`95% CI ${f2(cl)} to ${f2(ch)} · bias factor ${f2(b)}`;
+  $('v1').textContent=(cl<=1&&ch>=1)?'With this confounder the corrected CI includes 1.':(c<1)===(S.e<1)?'The corrected estimate stays on the same side of 1.':'The corrected estimate crosses to the other side of 1.';
+  draw1()
+}
+function draw1(){
+  const W=s1.clientWidth,H=s1.clientHeight;if(!W)return;
+  const m={l:46,r:16,t:12,b:40},iw=W-m.l-m.r,ih=H-m.t-m.b;
+  const p1=+$('p1').value,p0=+$('p0').value,rc=ruyOf();
+  const xs=[];for(let v=-2;v<=2.0001;v+=.02)xs.push(2**v);
+  const pts=xs.map(r=>{const b=bias(p1,p0,r);return[r,S.e/b,S.lo/b,S.hi/b]});
+  let ymin=Math.min(1,...pts.map(p=>p[2])),ymax=Math.max(1,...pts.map(p=>p[3]));
+  ymin=Math.log(ymin)-.05;ymax=Math.log(ymax)+.05;
+  const X=r=>m.l+(Math.log2(r)+2)/4*iw,Y=y=>m.t+(1-(Math.log(y)-ymin)/(ymax-ymin))*ih;
+  const narrow=W<520,xt=narrow?[.25,1,4]:[.25,.5,1,2,4];
+  const yt=[.25,.33,.5,.67,.75,.8,.9,1,1.1,1.25,1.5,2,3,4].filter(v=>Math.log(v)>ymin&&Math.log(v)<ymax);
+  const ytk=narrow?yt.filter((_,i)=>i%2==0||yt[i]==1):yt;
+  const line=k=>pts.map((p,i)=>(i?'L':'M')+X(p[0]).toFixed(1)+','+Y(p[k]).toFixed(1)).join('');
+  const area=pts.map((p,i)=>(i?'L':'M')+X(p[0]).toFixed(1)+','+Y(p[3]).toFixed(1)).join('')+pts.slice().reverse().map(p=>'L'+X(p[0]).toFixed(1)+','+Y(p[2]).toFixed(1)).join('')+'Z';
+  const cb=bias(p1,p0,rc);
+  s1.innerHTML=
+   ytk.map(v=>`<line x1="${m.l}" x2="${W-m.r}" y1="${Y(v)}" y2="${Y(v)}" stroke="${css('--rule')}"/><text x="${m.l-8}" y="${Y(v)+4}" text-anchor="end">${v}</text>`).join('')+
+   xt.map(v=>`<text x="${X(v)}" y="${H-m.b+18}" text-anchor="middle">${v}</text>`).join('')+
+   `<text x="${m.l+iw/2}" y="${H-4}" text-anchor="middle">U–outcome RR (log scale)</text>`+
+   `<line x1="${m.l}" x2="${W-m.r}" y1="${Y(1)}" y2="${Y(1)}" stroke="${css('--mute')}" stroke-dasharray="4 4"/>`+
+   `<path d="${area}" fill="${css('--band')}"/><path d="${line(1)}" fill="none" stroke="${css('--red')}" stroke-width="2"/>`+
+   `<line x1="${X(rc)}" x2="${X(rc)}" y1="${m.t}" y2="${H-m.b}" stroke="${css('--ink')}" stroke-width="1" opacity=".35"/>`+
+   `<circle cx="${X(rc)}" cy="${Y(S.e/cb)}" r="5" fill="${css('--red')}" stroke="${css('--bg')}" stroke-width="2"/>`+
+   `<rect x="${m.l}" y="${m.t}" width="${iw}" height="${ih}" fill="transparent" id="hit1"/>`;
+  const hit=$('hit1');
+  hit.onmousemove=ev=>{const bx=s1.getBoundingClientRect(),px=ev.clientX-bx.left;const r=2**(((px-m.l)/iw)*4-2);const b=bias(p1,p0,r);
+    t1.style.display='block';t1.textContent=`RR ${f2(r)} → HR ${f2(S.e/b)} (${f2(S.lo/b)}–${f2(S.hi/b)})`;
+    t1.style.left=Math.min(px+12,W-t1.offsetWidth)+'px';t1.style.top=(Y(S.e/b)-34)+'px'};
+  hit.onmouseleave=()=>t1.style.display='none';
+  hit.onclick=ev=>{const bx=s1.getBoundingClientRect();$('ruy').value=(((ev.clientX-bx.left-m.l)/iw)*4-2).toFixed(2);do1()};
+}
+// ---- What would it take
+const s2=$('s2'),t2=$('t2');
+function do2(){
+  const R=toFar(S.e),Rc=S.lo<=1&&S.hi>=1?1:toFar(S.e<1?S.hi:S.lo);
+  const evp=eval_(R),evc=ciE();
+  $('evP').textContent=f2(evp);$('evC').textContent=f2(evc);
+  const a=+$('rau').value,u=+$('ruy2').value;$('rauo').textContent=f2(a);$('ruy2o').textContent=f2(u);
+  const B=a*u/(a+u-1);
+  $('v2').textContent=B>=R?`Maximum bias ${f2(B)}: this confounder could explain away the estimate.`:B>=Rc?`Maximum bias ${f2(B)}: enough to move the CI to include 1, not to explain away the estimate.`:`Maximum bias ${f2(B)}: not strong enough to move the CI to include 1.`;
+  draw2(R,Rc,evp,evc,a,u)
+}
+let last2=[];
+function draw2(R,Rc,evp,evc,a,u){
+  last2=[R,Rc,evp,evc];
+  const W=s2.clientWidth,H=s2.clientHeight;if(!W)return;
+  const m={l:46,r:16,t:12,b:40},iw=W-m.l-m.r,ih=H-m.t-m.b,mx=Math.max(4,Math.ceil(evp*1.6));
+  const X=v=>m.l+(v-1)/(mx-1)*iw,Y=v=>m.t+(1-(v-1)/(mx-1))*ih;
+  const curve=Rv=>{if(Rv<=1)return'';const p=[];for(let x=Rv+.001;x<=mx;x+=(mx-Rv)/160){const y=Rv*(x-1)/(x-Rv);if(y<=mx)p.push([x,y])}return p.map((q,i)=>(i?'L':'M')+X(q[0]).toFixed(1)+','+Y(q[1]).toFixed(1)).join('')};
+  const cP=curve(R),cC=curve(Rc);
+  const x0=R>1?Math.max(R+.001,R*(mx-1)/(mx-R)):0;const shade=cP?cP+`L${X(mx)},${Y(mx)}L${X(x0)},${Y(mx)}Z`:'';
+  const tk=[];for(let v=1;v<=mx;v+=(mx>6?1:.5))tk.push(v);const tks=W<520?tk.filter(v=>v%1==0):tk;
+  s2.innerHTML=
+   tks.map(v=>`<line x1="${m.l}" x2="${W-m.r}" y1="${Y(v)}" y2="${Y(v)}" stroke="${css('--rule')}"/><text x="${m.l-8}" y="${Y(v)+4}" text-anchor="end">${v}</text><text x="${X(v)}" y="${H-m.b+18}" text-anchor="middle">${v}</text>`).join('')+
+   `<text x="${m.l+iw/2}" y="${H-4}" text-anchor="middle">Exposure–U RR</text><text transform="translate(12 ${m.t+ih/2}) rotate(-90)" text-anchor="middle">U–outcome RR</text>`+
+   (shade?`<path d="${shade}" fill="${css('--band')}"/>`:'')+
+   `<line x1="${X(1)}" y1="${Y(1)}" x2="${X(mx)}" y2="${Y(mx)}" stroke="${css('--mute')}" stroke-dasharray="4 4"/>`+
+   (cC?`<path d="${cC}" fill="none" stroke="${css('--blue')}" stroke-width="2"/>`:'')+
+   (cP?`<path d="${cP}" fill="none" stroke="${css('--red')}" stroke-width="2"/>`:'')+
+   (evp>1&&evp<=mx?`<circle cx="${X(evp)}" cy="${Y(evp)}" r="4" fill="${css('--red')}"/>`:'')+
+   (evc>1&&evc<=mx?`<circle cx="${X(evc)}" cy="${Y(evc)}" r="4" fill="${css('--blue')}"/>`:'')+
+   `<circle cx="${X(a)}" cy="${Y(u)}" r="6" fill="${css('--ink')}" stroke="${css('--bg')}" stroke-width="2"/>`+
+   `<rect x="${m.l}" y="${m.t}" width="${iw}" height="${ih}" fill="transparent" id="hit2" style="cursor:crosshair"/>`;
+  const hit=$('hit2'),inv=(ev)=>{const bx=s2.getBoundingClientRect();return[1+(ev.clientX-bx.left-m.l)/iw*(mx-1),1+(1-(ev.clientY-bx.top-m.t)/ih)*(mx-1)]};
+  hit.onmousemove=ev=>{const[x,y]=inv(ev),B=x*y/(x+y-1),bx=s2.getBoundingClientRect();t2.style.display='block';t2.textContent=`${f2(x)} × ${f2(y)} → max bias ${f2(B)}`;t2.style.left=Math.min(ev.clientX-bx.left+12,W-t2.offsetWidth)+'px';t2.style.top=(ev.clientY-bx.top-34)+'px'};
+  hit.onmouseleave=()=>t2.style.display='none';
+  hit.onclick=ev=>{const[x,y]=inv(ev);$('rau').value=Math.min(4,Math.max(1,x)).toFixed(2);$('ruy2').value=Math.min(4,Math.max(1,y)).toFixed(2);do2()};
+}
+function all(){if(readEst()){do1();do2()}}
+['e','lo','hi'].forEach(id=>$(id).addEventListener('input',all));
+['p1','p0','ruy'].forEach(id=>$(id).addEventListener('input',do1));
+['rau','ruy2'].forEach(id=>$(id).addEventListener('input',do2));
+$('reset').addEventListener('click',()=>{$('e').value=.84;$('lo').value=.74;$('hi').value=.95;all()});
+$('estForm').addEventListener('submit',ev=>ev.preventDefault());
+const ro1=new ResizeObserver(draw1);ro1.observe(s1);
+const ro2=new ResizeObserver(()=>do2());ro2.observe(s2);
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change',all);
+new MutationObserver(all).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
+all();
+}
+</script>
+</body>
+</html>

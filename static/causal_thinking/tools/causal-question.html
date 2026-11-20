@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Is this question causal?</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="band">
+  <a class="back" href="../">← Causal Thinking</a>
+  <h1>Is this question causal?</h1>
+  <p class="lede">Classify each research question. If it's associational, rewrite it as the question the authors probably meant.</p>
+  <p class="sample">Sample questions for the prototype. Edit the list at the top of the script.</p>
+</header>
+<main class="band" id="list" style="padding-top:0"></main>
+<div class="score"><span id="score">0 of 0 answered</span><button type="button" id="reset">Start again</button></div>
+
+<script>
+{
+// Edit these. kind: descriptive | predictive | causal | associational
+const ITEMS=[
+ {q:"What is the association between coffee consumption and all-cause mortality?",kind:"associational",why:"Which association: crude, or adjusted for which variables? The question doesn't say. It also doesn't say what the number is for. If the reason to care is that coffee might change mortality, the question is causal.",rewrite:"What would all-cause mortality be if adults drank ~2 cups of coffee a day, compared with if they drank none?"},
+ {q:"What proportion of adults aged 50 and over in Rotterdam had depressive symptoms in 2024?",kind:"descriptive",why:"A quantity in a defined population and period. No intervention or future individuals involved."},
+ {q:"Can age, BMI and HbA1c identify who will develop type 2 diabetes within 5 years?",kind:"predictive",why:"The goal is to forecast outcomes for individuals. Whether the predictors cause diabetes doesn't matter here."},
+ {q:"What would 10-year mortality be if everyone initiated statins at age 60, compared with if no one did?",kind:"causal",why:"Two well-defined interventions compared in the same population. This is a contrast of counterfactual outcomes."},
+ {q:"Is vitamin B12 associated with depression, independent of age and sex?",kind:"associational",why:"'Independent of' suggests adjusting for confounders, which is a causal goal, but the question stops short of saying so. It also doesn't say when B12 is measured relative to depression.",rewrite:"Would raising vitamin B12 levels in older adults reduce the risk of depression over the next 5 years?"},
+ {q:"What are the risk factors for preterm birth?",kind:"associational",why:"There's no single exposure, so no single adjustment set. Putting everything in one regression gives a list of coefficients that each answer a different, unstated question.",rewrite:"Pick one exposure, e.g.: Would stopping smoking before pregnancy reduce the risk of preterm birth?"},
+ {q:"Does initiating metformin reduce the 5-year risk of dementia compared with not initiating it?",kind:"causal",why:"There's a clear intervention, a comparator and a time horizon."},
+ {q:"How does the incidence of type 2 diabetes differ between Rotterdam neighbourhoods?",kind:"descriptive",why:"A description of how the outcome is distributed. It becomes causal only if you ask why the incidence differs, or what would change it."}
+];
+const KINDS=[["descriptive","Descriptive"],["predictive","Predictive"],["causal","Causal"],["associational","Associational / unclear"]];
+const list=document.getElementById('list'),score=document.getElementById('score');
+let ans={};
+function render(){
+  list.innerHTML=ITEMS.map((it,i)=>{
+    const a=ans[i];
+    return `<div class="card"><div class="num">${i+1} of ${ITEMS.length}</div><p class="q">${it.q}</p>
+    <div class="opts" role="group" aria-label="Question type">${KINDS.map(([k,l])=>`<button type="button" data-i="${i}" data-k="${k}" aria-pressed="${a===k}" class="${a?(k===it.kind?'right':a===k?'wrong':''):''}">${l}</button>`).join('')}</div>
+    ${a?`<div class="fb"><b class="${a===it.kind?'y':'n'}">${a===it.kind?'Yes.':'Not quite: '+KINDS.find(x=>x[0]===it.kind)[1].toLowerCase()+'.'}</b> ${it.why}</div>`:''}
+    ${a&&it.rewrite?`<div style="margin-top:14px"><label for="rw${i}" class="num">Your rewrite</label><textarea id="rw${i}" rows="2"></textarea>
+      <details style="margin-top:8px"><summary class="num" style="cursor:pointer">One possible rewrite</summary><p style="margin:6px 0 0">${it.rewrite}</p></details></div>`:''}
+    </div>`}).join('');
+  const n=Object.keys(ans).length,c=Object.entries(ans).filter(([i,k])=>ITEMS[i].kind===k).length;
+  score.textContent=`${n} of ${ITEMS.length} answered · ${c} correct`;
+}
+const drafts={};
+list.addEventListener('input',e=>{if(e.target.id.startsWith('rw'))drafts[e.target.id]=e.target.value});
+list.addEventListener('click',e=>{const b=e.target.closest('button[data-k]');if(!b)return;const i=+b.dataset.i;if(ans[i])return;ans[i]=b.dataset.k;render();for(const id in drafts){const t=document.getElementById(id);if(t)t.value=drafts[id]}});
+document.getElementById('reset').addEventListener('click',()=>{ans={};for(const k in drafts)delete drafts[k];render()});
+render();
+}
+</script>
+</body>
+</html>
